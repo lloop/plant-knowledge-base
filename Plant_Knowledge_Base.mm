@@ -1,6 +1,7 @@
 <map version="freeplane 1.3.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Plants" ID="ID_113067542" CREATED="1382024647023" MODIFIED="1429598480559" LINK="../Sustainable_Resource/Sustainable_Resource_fp1.mm" BACKGROUND_COLOR="#99ccff" MIN_WIDTH="100">
+<attribute_registry SHOW_ATTRIBUTES="hide"/>
+<node TEXT="Plants" ID="ID_113067542" CREATED="1382024647023" MODIFIED="1429685585746" LINK="../Sustainable_Resource/Sustainable_Resource_fp1.mm" BACKGROUND_COLOR="#99ccff" MIN_WIDTH="100">
 <font NAME="SansSerif" SIZE="20" BOLD="true"/>
 <edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
 <hook NAME="MapStyle" background="#b1c2d0" zoom="0.75">
@@ -9,7 +10,7 @@
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node">
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
-<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600" COLOR="#000000" STYLE="as_parent">
+<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="1200" MIN_WIDTH="1" COLOR="#000000" BACKGROUND_COLOR="#b1c2d0" STYLE="as_parent">
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
@@ -20,7 +21,7 @@
 </stylenode>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right">
-<stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
+<stylenode LOCALIZED_TEXT="styles.topic" COLOR="#180a00" BACKGROUND_COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.subtopic" COLOR="#cc3300" STYLE="fork">
@@ -31,6 +32,18 @@
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.important">
 <icon BUILTIN="yes"/>
+</stylenode>
+<stylenode TEXT="Family" COLOR="#000038" BACKGROUND_COLOR="#abcb6b" MAX_WIDTH="500" MIN_WIDTH="500">
+<font NAME="Liberation Sans" SIZE="18" BOLD="true"/>
+</stylenode>
+<stylenode TEXT="Genus" COLOR="#000038" BACKGROUND_COLOR="#90c9bf" MAX_WIDTH="500" MIN_WIDTH="500">
+<font NAME="Liberation Sans" SIZE="17" BOLD="true"/>
+</stylenode>
+<stylenode TEXT="Species" COLOR="#000038" BACKGROUND_COLOR="#e5c995" MAX_WIDTH="500" MIN_WIDTH="500">
+<font NAME="Liberation Sans" SIZE="16" BOLD="true"/>
+</stylenode>
+<stylenode TEXT="Variation" COLOR="#000038" BACKGROUND_COLOR="#eaebae" MAX_WIDTH="500" MIN_WIDTH="500">
+<font NAME="Liberation Sans" SIZE="15" BOLD="true"/>
 </stylenode>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right">
@@ -53,7 +66,19 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="Trees" POSITION="left" ID="ID_1157839922" CREATED="1377757207158" MODIFIED="1429634139893" COLOR="#000000" BACKGROUND_COLOR="#b1c2d0">
+<node TEXT="NOTES ABOUT USAGE" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_41833603" CREATED="1429682926854" MODIFIED="1429687574800" HGAP="8" VSHIFT="496" MAX_WIDTH="1200">
+<font SIZE="13" BOLD="true"/>
+<node TEXT="Node Styles" ID="ID_984241589" CREATED="1429687416775" MODIFIED="1429687578646">
+<font SIZE="14" BOLD="true"/>
+<node TEXT="Family" STYLE_REF="Family" ID="ID_921789066" CREATED="1429687465004" MODIFIED="1429687482512"/>
+<node TEXT="Genus" STYLE_REF="Genus" ID="ID_1824940784" CREATED="1429687494200" MODIFIED="1429687504594"/>
+<node TEXT="Species" STYLE_REF="Species" ID="ID_1170499071" CREATED="1429687508402" MODIFIED="1429687516471"/>
+<node TEXT="Variation" STYLE_REF="Variation" ID="ID_1292823656" CREATED="1429687523180" MODIFIED="1429687533264"/>
+</node>
+</node>
+<node TEXT="Taxonomy/Info" POSITION="left" ID="ID_323859214" CREATED="1429683636152" MODIFIED="1429683649967">
+<font SIZE="19" BOLD="true"/>
+<node TEXT="Trees" ID="ID_1157839922" CREATED="1377757207158" MODIFIED="1429634139893" COLOR="#000000" BACKGROUND_COLOR="#b1c2d0">
 <font NAME="SansSerif" SIZE="20" BOLD="true"/>
 <node TEXT="Planting Trees" ID="ID_746951159" CREATED="1409728658892" MODIFIED="1429466622174">
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
@@ -501,15 +526,14 @@
 <node TEXT="&#xf0b7; Delicious and valuable fruit &#xf0b7; Medicinal leaves &#xf0b7; Tolerant of light frosts 130 &#xf0b7; Drought tolerant up to four months but requires irrigation in Palestine &#xf0b7; Small tree attaining 3-4m in height" ID="ID_426656079" CREATED="1420550853228" MODIFIED="1420550854405"/>
 </node>
 </node>
-<node TEXT="Sorbus spp. (Service Trees)" ID="ID_688241449" CREATED="1420660533622" MODIFIED="1429472750309">
-<font NAME="SansSerif" SIZE="19" BOLD="true"/>
+<node TEXT="Sorbus spp. (Service Trees)" STYLE_REF="Genus" ID="ID_688241449" CREATED="1420660533622" MODIFIED="1429688501697">
 <attribute_layout NAME_WIDTH="138" VALUE_WIDTH="240"/>
 <attribute NAME="Growth Habit" VALUE="Tree"/>
 <attribute NAME="Duration" VALUE="Perennial"/>
 <node TEXT="Sorbus is a genus of approximately 200 species in the Rosaceae, native to the Northern Hemisphere. They are deciduous shrubs or trees to 40 feet. The yellow-white blossoms produce abundant nectar from the red-orange fleshy fruits. These are important food for wildlife, people and the leaves and twigs are browse for many animals. The plant coppices well and makes a good pioneer. PLACEMENTS  We will grow Sorbus in any suitable location.* CULTURAL CONSIDERATIONS  The plant has few pests or serious diseases The roots are deep and wide, making the plant a valuable nutrient cycler Although Sorbus will grow in shade, it fruits better at the edge of forest clearings PLANTING GUIDELINES  Plants should be thoroughly mulched after planting and watered in well. Regular irrigation should continue until signs of new growth appear." ID="ID_291459123" CREATED="1420660553133" MODIFIED="1420660555311"/>
 <node TEXT="en.wikipedia.org &gt; Wiki &gt; Sorbus" ID="ID_1554340617" CREATED="1420660569914" MODIFIED="1420660569914" LINK="http://en.wikipedia.org/wiki/Sorbus"/>
 <node TEXT="tcpermaculture.com &gt; Site &gt; 2013 &gt; 07 &gt; 03 &gt; Permaculture-plants-sorbus-species" ID="ID_1892780469" CREATED="1429109973849" MODIFIED="1429109979040" LINK="http://tcpermaculture.com/site/2013/07/03/permaculture-plants-sorbus-species/"/>
-<node TEXT="Service Tree (Sorbus domestica)" ID="ID_1874438674" CREATED="1429109247936" MODIFIED="1429110775515">
+<node TEXT="Service Tree (Sorbus domestica)" ID="ID_1874438674" CREATED="1429109247936" MODIFIED="1429688501680">
 <font NAME="SansSerif" SIZE="18" BOLD="true"/>
 <attribute_layout NAME_WIDTH="181" VALUE_WIDTH="176"/>
 <attribute NAME="Duration" VALUE="Perennial"/>
@@ -531,7 +555,7 @@
 <node TEXT="Wild Service Tree (Sorbus torminalis)" ID="ID_1811773390" CREATED="1429109670756" MODIFIED="1429109710940">
 <font NAME="SansSerif" SIZE="18" BOLD="true"/>
 </node>
-<node TEXT="Rowan (Sorbus aucuparia) " ID="ID_409048788" CREATED="1429110146159" MODIFIED="1429110290802">
+<node TEXT="Rowan (Sorbus aucuparia) " ID="ID_409048788" CREATED="1429110146159" MODIFIED="1429688501680">
 <font NAME="SansSerif" SIZE="18" BOLD="true"/>
 <attribute_layout NAME_WIDTH="133" VALUE_WIDTH="166"/>
 <attribute NAME="Edible" VALUE="Tea"/>
@@ -540,9 +564,8 @@
 <attribute NAME="Leaf Type" VALUE="Deciduous"/>
 </node>
 </node>
-<node TEXT="Quercus .spp (Oaks)" ID="ID_219027989" CREATED="1429634198021" MODIFIED="1429634229330">
-<font SIZE="19" BOLD="true"/>
-<node TEXT="Holly Oak (Quercus ilex)" ID="ID_1858837151" CREATED="1393493309237" MODIFIED="1429634194256">
+<node TEXT="Quercus .spp (Oaks)" STYLE_REF="Genus" ID="ID_219027989" CREATED="1429634198021" MODIFIED="1429687724722">
+<node TEXT="Holly Oak (Quercus ilex)" ID="ID_1858837151" CREATED="1393493309237" MODIFIED="1429688501682">
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
 <attribute_layout NAME_WIDTH="112" VALUE_WIDTH="159"/>
 <attribute NAME="Application" VALUE="Building Material"/>
@@ -552,7 +575,7 @@
 <node TEXT="en.wikipedia.org &gt; Wiki &gt; Quercus ilex" ID="ID_1980499837" CREATED="1393493331587" MODIFIED="1393493331587" LINK="http://en.wikipedia.org/wiki/Quercus_ilex"/>
 </node>
 </node>
-<node TEXT="Black Locust (Robinia pseudoacacia)" ID="ID_1166428335" CREATED="1380021208279" MODIFIED="1429466622538">
+<node TEXT="Black Locust (Robinia pseudoacacia)" ID="ID_1166428335" CREATED="1380021208279" MODIFIED="1429688501695">
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
 <attribute_layout NAME_WIDTH="166" VALUE_WIDTH="124"/>
 <attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
@@ -562,16 +585,15 @@
 <node TEXT="berlinplants.wordpress.com &gt; 2012 &gt; 05 &gt; 31 &gt; Black-locust-the-tree-of-abandoned-spaces" ID="ID_1272371061" CREATED="1382191174354" MODIFIED="1382191174354" LINK="http://berlinplants.wordpress.com/2012/05/31/black-locust-the-tree-of-abandoned-spaces/"/>
 <node TEXT="Robinia pseudoacacia, Black Locust,  food forest, One Community outdoor planting plan, grow your own food, evolved food, Highest Good food, sustainable food Black locust is a tree in the Fabaceae native to southeastern North America. It has been widely planted around the world for its hard rot-resistant timber, nitrogen fixing and soil improvement, bee pasture, fuelwood, and other uses. Trees can reach 60-80 feet in height but are usually harvested before this. The long racemes of flower produce abundant nectar, and are edible battered and fried. PLACEMENTS  We will grow Black locust in any suitable location.* CULTURAL CONSIDERATIONS  Black locust grows in a wide range of soils and pHs Locust borer cause the decline and death of the trees after a few years When planted in a mixed species forest stand insect problems are generally reduced When grown for timber, care must be taken to control locust borer, the trees main pest The tree coppices well and regrows quickly, making it an excellent choice for fuelwood lots PLANTING GUIDELINES  Plants should be planted out into a well-worked soil enriched with compost. They should be mulched well and irrigated at regular intervals until signs of growth begin. Inoculation with Rhizobium is beneficial." ID="ID_447643092" CREATED="1420660307069" MODIFIED="1420660310578"/>
 </node>
-<node TEXT="Mastic .spp" ID="ID_584085737" CREATED="1429634541239" MODIFIED="1429634551334">
-<font SIZE="19" BOLD="true"/>
-<node TEXT="Mastic tree (Pistacia atlantica)" ID="ID_733248860" CREATED="1420550623201" MODIFIED="1429466622543">
+<node TEXT="Pistacia .spp (Mastic)" STYLE_REF="Genus" ID="ID_584085737" CREATED="1429634541239" MODIFIED="1429687683532">
+<node TEXT="Mastic tree (Pistacia atlantica)" ID="ID_733248860" CREATED="1420550623201" MODIFIED="1429688501683">
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
 <attribute_layout VALUE_WIDTH="167"/>
 <attribute NAME="Growth Habit" VALUE="Tree"/>
 <attribute NAME="Duration" VALUE="Perennial"/>
 <node TEXT="&#xf0b7; Nutritious seeds yielding oil &#xf0b7; Essential oils used for perfume &#xf0b7; Resin used in the manufacture of chewing gum, alcohol and lacquer &#xf0b7; Source of tannin for the leather industry &#xf0b7; Sap is dried to be burned as incense &#xf0b7; Strong root stock for grafting pistachio (Pistacia vera) &#xf0b7; Drought tolerant &#xf0b7; Frost Hardy &#xf0b7; Slow growth to 7x7m &#xf0b7; Although slow growing provides very good fuel wood and timber" ID="ID_1977599400" CREATED="1420550636265" MODIFIED="1420550637615"/>
 </node>
-<node TEXT="Mastic (Pistacia lentiscus)" ID="ID_1682925901" CREATED="1420659726464" MODIFIED="1429469648191">
+<node TEXT="Mastic (Pistacia lentiscus)" ID="ID_1682925901" CREATED="1420659726464" MODIFIED="1429688501683">
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
 <attribute_layout NAME_WIDTH="183" VALUE_WIDTH="159"/>
 <attribute NAME="Characteristic" VALUE="Drought Tolerant"/>
@@ -580,8 +602,8 @@
 <node TEXT="Pistacia lentiscus is a shrub or small tree to 20 feet in the Anacardiaceae, native to the Mediterranean. It is a evergreen dioecious species, and is drought tolerant. The tree has been cultivated for thousands of years for is fragrant resin, known as mastic. The resin is used as chewing gum, a breath freshener, used to flavor wine, pastries, other dishes, and has medicinal properties PLACEMENTS  We will grow Mastic in any suitable location.* CULTURAL CONSIDERATIONS  Mastic has been naturalized in Mexico They appear to have few pests or diseases The plants are adaptable to alkaline and infertile soils They have been introduced to Mexico as a drought tolerant ornamental   PLANTING GUIDELINES  Plants should be thoroughly mulched after planting and watered in well. Regular irrigation should continue until signs of new growth appear. Once established, the trees require little care." ID="ID_1606644730" CREATED="1420659746927" MODIFIED="1420659748172"/>
 </node>
 </node>
-<node TEXT="Thorntree, Wattle (Acacia spp.)" ID="ID_397852154" CREATED="1420657290157" MODIFIED="1429468366356">
-<font NAME="SansSerif" SIZE="19" BOLD="true"/>
+<node TEXT="Fabaceae (Acacia)" STYLE_REF="Family" ID="ID_106705840" CREATED="1429688563532" MODIFIED="1429688589389">
+<node TEXT="Acacia spp. (Thorntree, Wattle)" STYLE_REF="Genus" ID="ID_397852154" CREATED="1420657290157" MODIFIED="1429688651256">
 <attribute_layout NAME_WIDTH="147" VALUE_WIDTH="195"/>
 <attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
 <attribute NAME="Growth Habit" VALUE="Tree"/>
@@ -589,14 +611,15 @@
 <node TEXT="Acacia is a genus of approximately 1300 species of trees and shrubs in the Fabaceae, native mainly to Australia and Africa. They are generally xerophytic, low branching, drought deciduous trees frequently armed with thorns on their branches (the genus name derives from the Greek word for thorn). They are nitrogen fixing, and many produce valuable timber or fuel wood, useful gums, edible seeds and flowers, etc. PLACEMENTS  We will grow Acacia in any suitable location.* CULTURAL CONSIDERATIONS  Acacias are adapted to climate with a long dry season They form deep root systems and fix nitrogen, creating their own fertility Supplemental water in the first year will also improve establishment rates Ripping a site prior to planting Acacias will encourage deep rooting and speed establishment PLANTING GUIDELINES  Acacia should be planted when small, as their root systems do not hold well in pots. Deep treepots are best. These should be planted in a well drained site, mulched well, and watered in thoroughly. Rhizobium inoculation is beneficial." ID="ID_822668471" CREATED="1420657334445" MODIFIED="1420657336312"/>
 <node TEXT="en.wikipedia.org &gt; Wiki &gt; Acacia" ID="ID_1392131389" CREATED="1420657369949" MODIFIED="1420657369949" LINK="http://en.wikipedia.org/wiki/Acacia"/>
 </node>
-<node TEXT="Leucaena leucocephala - Leucaena" ID="ID_1095662177" CREATED="1420549372244" MODIFIED="1429466622555">
+</node>
+<node TEXT="Leucaena leucocephala - Leucaena" ID="ID_1095662177" CREATED="1420549372244" MODIFIED="1429688501691">
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
 <attribute_layout VALUE_WIDTH="181"/>
 <attribute NAME="Growth Habit" VALUE="Tree"/>
 <attribute NAME="Duration" VALUE="Perennial"/>
 <node TEXT="Why? &#xf0b7; L. leucocephala continuously produces tender green pods, green seeds, and leaf tips that are all nutrient-rich and delicious when cooked &#xf0b7; These, in addition to the huge volumes of foliage, flowers, and bark it produces, also provide excellent and highly valuable animal fodder &#xf0b7; Capable of producing copious quantities of pollen and nectar for apiculture &#xf0b7; Excellent source of fuelwood and timber can be used to make straight poles &#xf0b7; A very fast growing species, and, although drought-tolerant, irrigation will greatly increase productivity &#xf0b7; This tree has the highest recorded rate of nitrogen fixation of any tree, and is therefore the best choice for improving soil fertility How? &#xf0b7; Propagation from seed is easy: use ripe, fresh seed sown at maximum one centimetre depth &#xf0b7; Boil the seeds for one minute, then soak for 24 hours before sowing for more prompt and synchronous germination" ID="ID_1773090301" CREATED="1420549387405" MODIFIED="1420549389308"/>
 </node>
-<node TEXT="Amelanchier (Serviceberry)" ID="ID_199527172" CREATED="1420656975972" MODIFIED="1429468370396">
+<node TEXT="Amelanchier (Serviceberry)" ID="ID_199527172" CREATED="1420656975972" MODIFIED="1429688501690">
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
 <attribute_layout NAME_WIDTH="126" VALUE_WIDTH="148"/>
 <attribute NAME="Growth Habit" VALUE="Tree"/>
@@ -604,23 +627,21 @@
 <node TEXT="Amelanchier is a genus of approximately 20 species of deciduous shrubs and trees in the Rosaceae, native to temperate regions of the Northern Hemisphere. The plants range in height from 2 to 50 feet. The fruit is a pome, and ranges from bland to sweet and delicious. They are important wildlife food and are cultivated for their fruits. Recent breeding work has developed improved varieties. PLACEMENTS  We will grow Serviceberry in any suitable location.* CULTURAL CONSIDERATIONS  They plant is hardy and can withstand some drought once established Amelanchier can be grown on most soils provided they are well drained PLANTING GUIDELINES  Plants should be thoroughly mulched after planting and watered in well. Regular irrigation should continue until signs of new growth appear." ID="ID_1427138634" CREATED="1420656997068" MODIFIED="1420656998888"/>
 <node TEXT="en.wikipedia.org &gt; Wiki &gt; Amelanchier" ID="ID_1362082088" CREATED="1420657016270" MODIFIED="1420657016270" LINK="http://en.wikipedia.org/wiki/Amelanchier"/>
 </node>
-<node TEXT="Prosopis spp. (Mesquite)" ID="ID_1407044573" CREATED="1420660136224" MODIFIED="1429468295110">
-<font NAME="SansSerif" SIZE="19" BOLD="true"/>
+<node TEXT="Prosopis spp. (Mesquite)" STYLE_REF="Genus" ID="ID_1407044573" CREATED="1420660136224" MODIFIED="1429688501689">
 <attribute_layout NAME_WIDTH="117" VALUE_WIDTH="158"/>
 <attribute NAME="Duration" VALUE="Perennial"/>
 <attribute NAME="Growth Habit" VALUE="Tree"/>
 <node TEXT="Prosopis is a genus of 45 species in the Fabaceae distributed in the arid zones of the Americas, Africa, and western and southern Asia. They are drought adapted, deep rooted trees to 20-40 feet. Their wood is hard, dense, and is used fence posts, fuel and as craft wood. The abundant pods (containing large amounts of sugars), and the high protein seeds have been an important food resources for desert people and animals. PLACEMENTS  We will grow Prosopis in any suitable location.* CULTURAL CONSIDERATIONS  Mesquite should be planted out as small seedlings Plantings should be from deep tree pots to encourage the plants tap roots Mulch is very beneficial to newly planted trees, as is mycorrhizal inoculation In hardpan or caliche soils ripping or augering a deep planting hole should be considered PLANTING GUIDELINES  Trees form deep tap roots and should be planted when small. Some supplemental water is necessary for the first year or two. Inoculation with Rhizobium is beneficial." ID="ID_837213204" CREATED="1420660149142" MODIFIED="1420660150890"/>
 <node TEXT="http://en.wikipedia.org/wiki/Prosopis" ID="ID_983372496" CREATED="1420660160758" MODIFIED="1420660162498"/>
 </node>
-<node TEXT="Schinus spp. (Pepper Tree)" ID="ID_15447567" CREATED="1420660379153" MODIFIED="1429468378636">
-<font NAME="SansSerif" SIZE="19" BOLD="true"/>
+<node TEXT="Schinus spp. (Pepper Tree)" STYLE_REF="Genus" ID="ID_15447567" CREATED="1420660379153" MODIFIED="1429688501687">
 <attribute_layout NAME_WIDTH="154" VALUE_WIDTH="156"/>
 <attribute NAME="Duration" VALUE="Perennial"/>
 <attribute NAME="Growth Habit" VALUE="Tree"/>
 <node TEXT="Schinus is a genus of approximately 35 species of trees in the Anacardiaceae, native to the drier parts of South America. They are evergreen or drought deciduous trees to 35 feet in height. The trunk is often knobbed with large burls, makes an interesting specimen tree in xerophytic gardens. The pink to red seed pods have been used as a spice, called &#x201c;pink peppercorns&#x201d; not related to pepper (Piper nigrum). PLACEMENTS  We will grow Schinus in any suitable location.* CULTURAL CONSIDERATIONS  Trees are tolerant of alkaline soils Some people may show allergic skin reaction to the resin The trees are quite drought tolerant, and require little care after establishment PLANTING GUIDELINES  Young trees should be mulched well after planting and watered in well. Subsequent irrigation should be infrequent but deep to encourage the deep root system." ID="ID_380174085" CREATED="1420660395065" MODIFIED="1420660397781"/>
 <node TEXT="en.wikipedia.org &gt; Wiki &gt; Schinus" ID="ID_1280925426" CREATED="1420660424674" MODIFIED="1420660424674" LINK="http://en.wikipedia.org/wiki/Schinus"/>
 </node>
-<node TEXT="Moringa (Moringa oleifera)" ID="ID_774656707" CREATED="1422114798690" MODIFIED="1429466622569">
+<node TEXT="Moringa (Moringa oleifera)" ID="ID_774656707" CREATED="1422114798690" MODIFIED="1429688501686">
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
 <attribute_layout NAME_WIDTH="136" VALUE_WIDTH="200"/>
 <attribute NAME="Medicinal" VALUE=""/>
@@ -631,14 +652,14 @@
 <node TEXT="miracletrees.org &gt; Growing moringa" ID="ID_294865704" CREATED="1422115357994" MODIFIED="1422115357994" LINK="http://miracletrees.org/growing_moringa.html"/>
 <node TEXT="ilovemoringa.com &gt; How-To-Grow-Moringa-In-Cold-Climates" ID="ID_12894270" CREATED="1422116040533" MODIFIED="1422116040533" LINK="http://www.ilovemoringa.com/How-To-Grow-Moringa-In-Cold-Climates.html"/>
 </node>
-<node TEXT="Eucalyptus cinerea" ID="ID_772081184" CREATED="1425012769689" MODIFIED="1428302372292">
+<node TEXT="Eucalyptus cinerea" ID="ID_772081184" CREATED="1425012769689" MODIFIED="1429688501685">
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
 <attribute_layout NAME_WIDTH="114" VALUE_WIDTH="183"/>
 <attribute NAME="Application" VALUE="Dye Source"/>
 <attribute NAME="Duration" VALUE="Perennial"/>
 <attribute NAME="Growth Habit" VALUE="Tree"/>
 </node>
-<node TEXT="Tagasaste (Cytisus proliferus)" ID="ID_635382812" CREATED="1429466407413" MODIFIED="1429469648196">
+<node TEXT="Tagasaste (Cytisus proliferus)" ID="ID_635382812" CREATED="1429466407413" MODIFIED="1429688501684">
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
 <attribute_layout NAME_WIDTH="148" VALUE_WIDTH="173"/>
 <attribute NAME="Duration" VALUE="Perennial"/>
@@ -650,10 +671,9 @@
 <node TEXT="en.wikipedia.org &gt; Wiki &gt; Cytisus proliferus" ID="ID_1175699810" CREATED="1429466449917" MODIFIED="1429466449917" LINK="http://en.wikipedia.org/wiki/Cytisus_proliferus"/>
 </node>
 </node>
-<node TEXT="Shrubs" POSITION="left" ID="ID_240451703" CREATED="1420555169362" MODIFIED="1429634109720" BACKGROUND_COLOR="#b1c2d0">
+<node TEXT="Shrubs" ID="ID_240451703" CREATED="1420555169362" MODIFIED="1429634109720" BACKGROUND_COLOR="#b1c2d0">
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
-<node TEXT="(Family)Rosaceae - Roses, Blackberries, Rasberries" ID="ID_1814057239" CREATED="1429511993486" MODIFIED="1429512024759">
-<font NAME="SansSerif" SIZE="18" BOLD="true"/>
+<node TEXT="Rosaceae&#xa;Roses, Blackberries, Rasberries" STYLE_REF="Family" ID="ID_1814057239" CREATED="1429511993486" MODIFIED="1429687821259">
 <node TEXT="Rosa spp. (Domestic Rose)" ID="ID_1776565615" CREATED="1394951976874" MODIFIED="1429512687166">
 <font NAME="SansSerif" SIZE="17" BOLD="true"/>
 <attribute_layout NAME_WIDTH="160" VALUE_WIDTH="197"/>
@@ -725,7 +745,7 @@
 </node>
 <node TEXT="Berries" ID="ID_714159388" CREATED="1382941367232" MODIFIED="1429466622598">
 <font NAME="SansSerif" SIZE="18" BOLD="true"/>
-<node TEXT="Blueberries" ID="ID_1970690252" CREATED="1382941131718" MODIFIED="1429468105516">
+<node TEXT="Blueberries" ID="ID_1970690252" CREATED="1382941131718" MODIFIED="1429688501665">
 <font NAME="SansSerif" SIZE="17" BOLD="true"/>
 <attribute_layout NAME_WIDTH="125" VALUE_WIDTH="188"/>
 <attribute NAME="Edible" VALUE="Berries"/>
@@ -745,7 +765,7 @@
 <node TEXT="https://www.lsuagcenter.com/en/crops_livestock/crops/blueberries/pests/Insect+Guide.htm" ID="ID_1321278206" CREATED="1421841381882" MODIFIED="1421841381882" LINK="https://www.lsuagcenter.com/en/crops_livestock/crops/blueberries/pests/Insect+Guide.htm"/>
 <node TEXT="http://www.ibiblio.org/london/agriculture/faqs/1/msg00000.html" ID="ID_779538253" CREATED="1421841560188" MODIFIED="1421841564026"/>
 </node>
-<node TEXT="Haskaps, Honeyberry, Blue Honeysuckle (Lonicera caerulea) " ID="ID_1337218581" CREATED="1382941131718" MODIFIED="1429466622617">
+<node TEXT="Haskaps, Honeyberry, Blue Honeysuckle (Lonicera caerulea) " ID="ID_1337218581" CREATED="1382941131718" MODIFIED="1429688501662">
 <font NAME="SansSerif" SIZE="17" BOLD="true"/>
 <attribute_layout NAME_WIDTH="138" VALUE_WIDTH="225"/>
 <attribute NAME="Edible" VALUE="Berries"/>
@@ -754,8 +774,8 @@
 <attribute NAME="Soil Moisture" VALUE="Moist"/>
 <node TEXT="joybileefarm.com &gt; Haskaps" ID="ID_1636914043" CREATED="1429078858723" MODIFIED="1429078858723" LINK="http://joybileefarm.com/haskaps/"/>
 </node>
-<node TEXT="Morus alba; M. nigra; M. rubra - Mulberry" ID="ID_1539961165" CREATED="1420550330968" MODIFIED="1429466622625">
-<font NAME="SansSerif" SIZE="17" BOLD="true"/>
+<node TEXT=" Moraceae (Mulberries, Maulbeerbaum)" STYLE_REF="Family" ID="ID_1665316200" CREATED="1429687896704" MODIFIED="1429687943100">
+<node TEXT="Morus (Mulberry, Maulbeerbaum)" STYLE_REF="Genus" ID="ID_1539961165" CREATED="1420550330968" MODIFIED="1429688501657">
 <attribute_layout NAME_WIDTH="138" VALUE_WIDTH="172"/>
 <attribute NAME="Edible" VALUE="Berries"/>
 <attribute NAME="Fermentation" VALUE="Drink"/>
@@ -766,11 +786,15 @@
 </node>
 <node TEXT="Morus is a genus of 10-16 species of deciduous trees in the Moraceae, native to the warm temperate and subtropical regions of the Old World. It was much used in folk medicine, especially in the treatment of ringworm. They have been cultivated for centuries for their fruit and for the leaves which are fed to silkworms. Trees are 15-30 feet tall, and bear compound fruits resembling blackberries which are white, red,or purple-black. PLACEMENTS  We will grow mulberries in any suitable location.* CULTURAL CONSIDERATIONS  Trees are fairly drought tolerant once established Seedling trees are generally produced for silkworm production The pruned branches are flexible, and are often used in basketry Mulberries are high in anthocyanins which have antioxidant properties Mulberries can be grown from seed, grafts or large cuttings, which root easily If grown for fruit, multiple leaders are recommended and planting known varieties is preferred PLANTING GUIDELINES  Young trees are best planted when dormant, near the end of winter. They should be mulched and watered in well. With the onset of spring and bud break, regular cultural practices can begin." ID="ID_1851852308" CREATED="1420659388752" MODIFIED="1420659390164"/>
 <node TEXT="Figs , Mulberry and Osage Orange are all in the same family" ID="ID_757284550" CREATED="1382699776831" MODIFIED="1422115009900"/>
+<node TEXT="Morus alba" STYLE_REF="Species" ID="ID_931865214" CREATED="1429688147333" MODIFIED="1429688282867"/>
+<node TEXT="Morus nigra (Black Mulberry)" STYLE_REF="Species" ID="ID_1383467520" CREATED="1429688155677" MODIFIED="1429688302481"/>
+<node TEXT="Morius rubra" STYLE_REF="Species" ID="ID_1922208273" CREATED="1429688175893" MODIFIED="1429688267868"/>
+</node>
 </node>
 <node TEXT="Gogi Berry" ID="ID_444343300" CREATED="1429078888900" MODIFIED="1429078897844">
 <font NAME="SansSerif" SIZE="17" BOLD="true"/>
 </node>
-<node TEXT="Service Berry, Goose Berry  (Amelanchier lamarckii)" ID="ID_1090029561" CREATED="1424928417152" MODIFIED="1429466622630">
+<node TEXT="Service Berry, Goose Berry  (Amelanchier lamarckii)" ID="ID_1090029561" CREATED="1424928417152" MODIFIED="1429688501660">
 <font NAME="SansSerif" SIZE="18" BOLD="true"/>
 <attribute_layout NAME_WIDTH="178" VALUE_WIDTH="268"/>
 <attribute NAME="Edible" VALUE="Berries"/>
@@ -783,7 +807,7 @@
 <node TEXT="pfaf.org &gt; User &gt; Plant ? ..." ID="ID_1810173343" CREATED="1424928491793" MODIFIED="1424928491793" LINK="http://www.pfaf.org/user/plant.aspx?LatinName=Amelanchier+lamarckii"/>
 <node TEXT="&lt;meta charset=&apos;utf-8&apos;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Arial; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none;&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&#xa0;&lt;/span&gt;light (sandy), medium (loamy) and heavy (clay)&lt;span class=&quot;Apple-converted-space&quot;&gt;&#xa0;&lt;/span&gt;&lt;/span&gt;" ID="ID_221920330" CREATED="1424928993949" MODIFIED="1424928993949"/>
 </node>
-<node TEXT="Elderberry  (Sambucus nigra)" ID="ID_1575011572" CREATED="1382601266079" MODIFIED="1429468301893">
+<node TEXT="Elderberry  (Sambucus nigra)" ID="ID_1575011572" CREATED="1382601266079" MODIFIED="1429688501659">
 <font NAME="SansSerif" SIZE="18" BOLD="true"/>
 <attribute_layout NAME_WIDTH="172" VALUE_WIDTH="146"/>
 <attribute NAME="Edible" VALUE="Berries"/>
@@ -794,7 +818,7 @@
 <node TEXT="Anti-viral" ID="ID_580125802" CREATED="1382601380364" MODIFIED="1382601385516"/>
 </node>
 </node>
-<node TEXT="Szechuan Pfeffer - Zanthoxylum Simulans" ID="ID_1047689715" CREATED="1424603108275" MODIFIED="1429468288278">
+<node TEXT="Szechuan Pfeffer - Zanthoxylum Simulans" ID="ID_1047689715" CREATED="1424603108275" MODIFIED="1429688501678">
 <font NAME="SansSerif" SIZE="18" BOLD="true"/>
 <attribute_layout NAME_WIDTH="147" VALUE_WIDTH="198"/>
 <attribute NAME="Application" VALUE="Dye Source"/>
@@ -869,7 +893,7 @@
 <node TEXT="ybbser-kraeutergarten.at &gt; Index ? ..." ID="ID_1812147154" CREATED="1424603261898" MODIFIED="1424603261898" LINK="http://www.ybbser-kraeutergarten.at/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=69&amp;virtuemart_category_id=3&amp;Itemid=57"/>
 <node TEXT="en.wikipedia.org &gt; Wiki &gt; Zanthoxylum simulans" ID="ID_1983970098" CREATED="1424603270857" MODIFIED="1424603270857" LINK="http://en.wikipedia.org/wiki/Zanthoxylum_simulans"/>
 </node>
-<node TEXT="Kaki, Japanese Persimmon - (Diospyros kaki)" ID="ID_362212380" CREATED="1420658251944" MODIFIED="1429468391276">
+<node TEXT="Kaki, Japanese Persimmon - (Diospyros kaki)" ID="ID_362212380" CREATED="1420658251944" MODIFIED="1429688501676">
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
 <attribute_layout NAME_WIDTH="176" VALUE_WIDTH="205"/>
 <attribute NAME="Edible" VALUE="Fruits"/>
@@ -882,7 +906,7 @@
 <node TEXT="en.wikipedia.org &gt; Wiki &gt; Diospyros kaki" ID="ID_1601488012" CREATED="1420658316627" MODIFIED="1420658316627" LINK="http://en.wikipedia.org/wiki/Diospyros_kaki"/>
 <node TEXT="Japanese persimmon is a medium tree to 30 feet in height in the Ebenaceae, native to Japan and China. It is one of only a few species of Diospyros that is native to temperate regions. It produces a yellow, orange or red fruit the size of an apple. Fruits of some cultivars are astringent until fully ripened, other cultivars are non-astringent and can be eaten while firm. PLACEMENTS  We will grow Japanese persimmon in any suitable location.* CULTURAL CONSIDERATIONS  Grafted trees will also come into bearing much sooner Trees are tap rooted and should not be held in nursery pots for too long If grown for fruit, grafted varieties should be planted, as the quality of seed grown trees varies PLANTING GUIDELINES  Plants should be thoroughly mulched after planting and watered in well. Regular irrigation should continue until signs of new growth appear." ID="ID_1779353292" CREATED="1420658336398" MODIFIED="1420658338308"/>
 </node>
-<node TEXT="Sea Buckthorn (Hippophae rhamnoides)" ID="ID_841225892" CREATED="1422009986191" MODIFIED="1429466622704">
+<node TEXT="Sea Buckthorn (Hippophae rhamnoides)" ID="ID_841225892" CREATED="1422009986191" MODIFIED="1429688501674">
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
 <attribute_layout NAME_WIDTH="125" VALUE_WIDTH="179"/>
 <attribute NAME="Application" VALUE="Living Fence"/>
@@ -890,7 +914,7 @@
 <attribute NAME="Duration" VALUE="Perennial"/>
 <node TEXT="https://en.wikipedia.org/wiki/Hippophae" ID="ID_1785725251" CREATED="1422010130425" MODIFIED="1422010130425" LINK="https://en.wikipedia.org/wiki/Hippophae"/>
 </node>
-<node TEXT="California lilac, New Jersey tea (Ceanothus spp.)" ID="ID_1168251876" CREATED="1420657740180" MODIFIED="1429466622708">
+<node TEXT="California lilac, New Jersey tea (Ceanothus spp.)" ID="ID_1168251876" CREATED="1420657740180" MODIFIED="1429688501673">
 <font NAME="SansSerif" SIZE="18" BOLD="true"/>
 <attribute_layout NAME_WIDTH="128" VALUE_WIDTH="190"/>
 <attribute NAME="Application" VALUE="Fragrance Source"/>
@@ -899,7 +923,7 @@
 <attribute NAME="Growth Habit" VALUE="Shrub"/>
 <node TEXT="Ceanothus is a genus of approximately 60 species of shrubby perennials in the Rhamnaceae, native to North America, especially California. They are evergreen to deciduous, with dense clusters of white, blue, or purple flowers, often fragrant. The leaves are important wildlife browse and have been used medicinally. The branches were used in basketry by the Miwok people of California. PLACEMENTS  We will grow Ceanothus in any suitable location.* CULTURAL CONSIDERATIONS  Seeds require scarification Plants are very drought tolerant May require smoke treatment to germinate Seeds are recalcitrant, and require stratification PLANTING GUIDELINES  Plants should be thoroughly mulched after planting and watered in well. Avoid overwatering as plants are subject to root rot if kept too moist." ID="ID_1409760877" CREATED="1420657756227" MODIFIED="1420657758093"/>
 </node>
-<node TEXT="Siberian Pea Shrub (Caragana arborescens)" ID="ID_1969502872" CREATED="1420657535575" MODIFIED="1429466622714">
+<node TEXT="Siberian Pea Shrub (Caragana arborescens)" ID="ID_1969502872" CREATED="1420657535575" MODIFIED="1429688501672">
 <font NAME="SansSerif" SIZE="18" BOLD="true"/>
 <attribute_layout NAME_WIDTH="137" VALUE_WIDTH="192"/>
 <attribute NAME="Growth Habit" VALUE="Shrub"/>
@@ -908,14 +932,14 @@
 <node TEXT="en.wikipedia.org &gt; Wiki &gt; Caragana arborescens" ID="ID_1704175581" CREATED="1420657584249" MODIFIED="1420657584249" LINK="http://en.wikipedia.org/wiki/Caragana_arborescens"/>
 <node TEXT="hort.purdue.edu &gt; Newcrop &gt; Duke energy &gt; Caragana arborescens" ID="ID_245835038" CREATED="1420657597850" MODIFIED="1420657597850" LINK="http://www.hort.purdue.edu/newcrop/duke_energy/Caragana_arborescens.html"/>
 </node>
-<node TEXT="Ziziphus lotus" ID="ID_1032945144" CREATED="1420553265658" MODIFIED="1429466622717">
+<node TEXT="Ziziphus lotus" ID="ID_1032945144" CREATED="1420553265658" MODIFIED="1429688501670">
 <font NAME="SansSerif" SIZE="18" BOLD="true"/>
 <attribute_layout NAME_WIDTH="143" VALUE_WIDTH="153"/>
 <attribute NAME="Application" VALUE="Living Fence"/>
 <attribute NAME="Duration" VALUE="Perennial"/>
 <node TEXT="&#xf0b7; Tenacious (even recalcitrant) large thorny shrub &#xf0b7; Delicious nutritious fruit &#xf0b7; Root stock for Jujube fruit (Ziziphus jujuba) &#xf0b7; Drought tolerant &#xf0b7; Tolerates even goat grazing &#xf0b7; Excellent if fierce lowland desert reaforestation species" ID="ID_94555484" CREATED="1420553296666" MODIFIED="1420553298312"/>
 </node>
-<node TEXT="Osage Orange (Maclura pomifera)" ID="ID_498045329" CREATED="1395033145541" MODIFIED="1429511267725">
+<node TEXT="Osage Orange (Maclura pomifera)" ID="ID_498045329" CREATED="1395033145541" MODIFIED="1429688501669">
 <font NAME="SansSerif" SIZE="18" BOLD="true"/>
 <attribute_layout NAME_WIDTH="177" VALUE_WIDTH="191"/>
 <attribute NAME="Growth Habit" VALUE="Shrub"/>
@@ -927,7 +951,7 @@
 <node TEXT="en.wikipedia.org &gt; Wiki &gt; Maclura pomifera" ID="ID_906850362" CREATED="1420659286070" MODIFIED="1420659286070" LINK="http://en.wikipedia.org/wiki/Maclura_pomifera"/>
 <node TEXT="Figs , Mulberry and Osage Orange are all in the same family" ID="ID_1723695395" CREATED="1382699776831" MODIFIED="1422115009900"/>
 </node>
-<node TEXT="American Pokeweed - Kermesbeere, amerikanische - (Phytolacca americana)" ID="ID_1167838888" CREATED="1424602533062" MODIFIED="1429511260078">
+<node TEXT="American Pokeweed - Kermesbeere, amerikanische - (Phytolacca americana)" ID="ID_1167838888" CREATED="1424602533062" MODIFIED="1429688501668">
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
 <attribute_layout NAME_WIDTH="151" VALUE_WIDTH="236"/>
 <attribute NAME="Application" VALUE="Dye Source"/>
@@ -1002,7 +1026,7 @@
 </node>
 <node TEXT="ybbser-kraeutergarten.at &gt; Index ? ..." ID="ID_1476677387" CREATED="1424602591483" MODIFIED="1424602591483" LINK="http://www.ybbser-kraeutergarten.at/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=59&amp;virtuemart_category_id=3&amp;Itemid=57"/>
 </node>
-<node TEXT="Spanish Broom (Spartium junceum)" ID="ID_134918273" CREATED="1429467409522" MODIFIED="1429468169588">
+<node TEXT="Spanish Broom (Spartium junceum)" ID="ID_134918273" CREATED="1429467409522" MODIFIED="1429688501667">
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
 <attribute_layout NAME_WIDTH="152" VALUE_WIDTH="202"/>
 <attribute NAME="Duration" VALUE="Perennial"/>
@@ -1016,7 +1040,7 @@
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
 </node>
 </node>
-<node TEXT="Vines" POSITION="left" ID="ID_675974278" CREATED="1420555688849" MODIFIED="1429466622771">
+<node TEXT="Vines" ID="ID_675974278" CREATED="1420555688849" MODIFIED="1429466622771">
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
 <node TEXT="Honeysuckle" ID="ID_544844904" CREATED="1403082970661" MODIFIED="1429467795770">
 <font NAME="SansSerif" SIZE="17" BOLD="true"/>
@@ -1053,7 +1077,7 @@
 <node TEXT="Grapes send lateral roots to great lengths. Large plants send out 75 or 80 feet. And only 15 or twenty centimeters deep" ID="ID_1478872633" CREATED="1382699325849" MODIFIED="1382699373432"/>
 </node>
 </node>
-<node TEXT="Graminoids (Bamboos, Reeds, Canes, Grasses, Cereals)" POSITION="left" ID="ID_1570836883" CREATED="1409816697503" MODIFIED="1429472247742">
+<node TEXT="Graminoids (Bamboos, Reeds, Canes, Grasses, Cereals)" ID="ID_1570836883" CREATED="1409816697503" MODIFIED="1429472247742">
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
 <node TEXT="Giant River Cane (Arundo Donax)" ID="ID_962753330" CREATED="1409816782713" MODIFIED="1429466622791">
 <font NAME="SansSerif" SIZE="16" BOLD="true"/>
@@ -1112,24 +1136,12 @@
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
 </node>
 </node>
-<node TEXT="Herbaceous" POSITION="left" ID="ID_1479221922" CREATED="1361857841375" MODIFIED="1429466622809">
+<node TEXT="Herbaceous" ID="ID_1479221922" CREATED="1361857841375" MODIFIED="1429466622809">
 <font NAME="SansSerif" SIZE="20" BOLD="true"/>
 <node TEXT="Foragers" ID="ID_1065754332" CREATED="1381554826124" MODIFIED="1407822706430">
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
 </node>
-<node TEXT="Cole Crops (Cabbage, Brocolli ...)" ID="ID_814567022" CREATED="1425012953882" MODIFIED="1429468516228">
-<font NAME="SansSerif" SIZE="19" BOLD="true"/>
-<node TEXT="Red Cabbage" ID="ID_1366502002" CREATED="1425013030529" MODIFIED="1429467731227">
-<font NAME="SansSerif" SIZE="18" BOLD="true"/>
-<attribute_layout NAME_WIDTH="131" VALUE_WIDTH="210"/>
-<attribute NAME="Application" VALUE="Dye Source"/>
-<attribute NAME="Duration" VALUE="Annual"/>
-<attribute NAME="Growth Habit" VALUE="Forb/herb"/>
-<attribute NAME="Fermentation" VALUE="Slaw"/>
-</node>
-</node>
-<node TEXT="Cucurbits ( Squash, Pumpkin, Zucchini, Gourds ... )" ID="ID_785859542" CREATED="1429037976838" MODIFIED="1429468514899">
-<font NAME="SansSerif" SIZE="19" BOLD="true"/>
+<node TEXT="Cucurbitaceae &#xa;Cucurbits ( Squash, Pumpkin, Zucchini, Gourds)" STYLE_REF="Family" ID="ID_785859542" CREATED="1429037976838" MODIFIED="1429687138758">
 <node TEXT="Cucumber" ID="ID_578045866" CREATED="1427094700012" MODIFIED="1429466622811">
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
 <attribute_layout NAME_WIDTH="109" VALUE_WIDTH="125"/>
@@ -1141,8 +1153,7 @@
 <node TEXT="motherearthnews.com &gt; Organic-gardening &gt; Great-cucumber-challenge ? ..." ID="ID_1887327524" CREATED="1427094709596" MODIFIED="1427094709596" LINK="http://www.motherearthnews.com/organic-gardening/great-cucumber-challenge.aspx?PageId=1"/>
 </node>
 </node>
-<node TEXT="Legumes (Pulse)(Family Fabaceae or Leguminosae)" ID="ID_1870764207" CREATED="1429189815306" MODIFIED="1429471991551">
-<font NAME="SansSerif" SIZE="19" BOLD="true"/>
+<node TEXT="Fabaceae (Leguminosae)&#xa;Legumes or Pulse (Beans, Peas, Clover)" STYLE_REF="Family" ID="ID_1870764207" CREATED="1429189815306" MODIFIED="1429686895338">
 <node TEXT="Lentil Bean" ID="ID_1515001403" CREATED="1429190273436" MODIFIED="1429190423817">
 <font NAME="SansSerif" SIZE="18" BOLD="true"/>
 <attribute_layout NAME_WIDTH="160" VALUE_WIDTH="194"/>
@@ -2253,8 +2264,17 @@
 </node>
 <node TEXT="kew.org &gt; Science-conservation &gt; Research-data &gt; Resources &gt; Legumes-of-the-world" ID="ID_315339412" CREATED="1429471725655" MODIFIED="1429471733995" COLOR="#660000" BACKGROUND_COLOR="#ffff99" LINK="http://www.kew.org/science-conservation/research-data/resources/legumes-of-the-world"/>
 </node>
-<node TEXT="Crucifers (Turnips, Mustards, Kale, and Rape)" ID="ID_317934195" CREATED="1429470836341" MODIFIED="1429636175435">
-<font NAME="SansSerif" SIZE="19" BOLD="true"/>
+<node TEXT="Brassicaceae (Cruciferae)&#xa;Crucifers (Turnips, Mustards, Kale, and Rape)" STYLE_REF="Family" ID="ID_317934195" CREATED="1429470836341" MODIFIED="1429687126453">
+<node TEXT="Brassica &#xa;Cole Crops (Cabbage, Brocolli, Cauliflower, Brussel Sprouts)" STYLE_REF="Genus" ID="ID_814567022" CREATED="1425012953882" MODIFIED="1429687330027">
+<node TEXT="Red Cabbage" ID="ID_1366502002" CREATED="1425013030529" MODIFIED="1429467731227">
+<font NAME="SansSerif" SIZE="18" BOLD="true"/>
+<attribute_layout NAME_WIDTH="131" VALUE_WIDTH="210"/>
+<attribute NAME="Application" VALUE="Dye Source"/>
+<attribute NAME="Duration" VALUE="Annual"/>
+<attribute NAME="Growth Habit" VALUE="Forb/herb"/>
+<attribute NAME="Fermentation" VALUE="Slaw"/>
+</node>
+</node>
 </node>
 <node TEXT="Herbs" ID="ID_1807416651" CREATED="1383391658838" MODIFIED="1429468518866">
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
@@ -3477,25 +3497,11 @@
 <node TEXT="en.wikipedia.org &gt; Wiki &gt; Ribes" ID="ID_1596294441" CREATED="1429472571991" MODIFIED="1429472571991" LINK="http://en.wikipedia.org/wiki/Ribes"/>
 </node>
 </node>
-<node TEXT="Cactus/Succulents" POSITION="left" ID="ID_1038689710" CREATED="1420009559955" MODIFIED="1429466623477">
+<node TEXT="Cactus/Succulents" ID="ID_1038689710" CREATED="1420009559955" MODIFIED="1429466623477">
 <font NAME="SansSerif" SIZE="18" BOLD="true"/>
 <node TEXT="yurakuna.blogspot.com.es &gt; 2014 &gt; 12 &gt; Primer-ano-entre-cactus-i" ID="ID_828915155" CREATED="1420009568089" MODIFIED="1420009568089" LINK="http://yurakuna.blogspot.com.es/2014/12/primer-ano-entre-cactus-i.html"/>
 </node>
-<node TEXT="Lists - Anti-Desertification/Dry Tolerant Plants" POSITION="left" ID="ID_1286858058" CREATED="1393232880134" MODIFIED="1429468745016">
-<font NAME="SansSerif" SIZE="19" BOLD="true"/>
-<node TEXT="desertification.wordpress.com &gt; 3-interesting-plant-species" ID="ID_786874828" CREATED="1393232900387" MODIFIED="1393232900387" LINK="http://desertification.wordpress.com/3-interesting-plant-species/"/>
-<node TEXT="grit.com &gt; Farm-and-garden &gt; Drought-tolerant-plants-zm0z14jfzgou" ID="ID_378450977" CREATED="1395464884342" MODIFIED="1395464884342" LINK="http://www.grit.com/farm-and-garden/drought-tolerant-plants-zm0z14jfzgou.aspx#axzz2wJvXMXEG"/>
-<node TEXT="Agroforestry for Palestine.pdf" ID="ID_1224965620" CREATED="1395466292361" MODIFIED="1395466292361" LINK="Plant_Map_Resources/Drought_Resistant_Dry_Tolerant_Varieties/Agroforestry%20for%20Palestine.pdf"/>
-<node TEXT="A good list" ID="ID_1955971088" CREATED="1395466304376" MODIFIED="1429466623558">
-<font NAME="SansSerif" SIZE="10" BOLD="true"/>
-<node TEXT="Acacia species : acacia &#xa;Acca sellowiana : feijao, pineapple guava &#xa;Actinidia arguta : kiwi &#xa;Actinidia deliciosa : kiwi &#xa;Adansonia digitata : baobab &#xa;Agave americana : century plant &#xa;Amaranthus spp. : amaranth &#xa;Annona cherimola : cherimoya &#xa;Annona muricata : guanabana, soursop, graviola &#xa;Artemisia annua : sweet wormwood &#xa;Artemisia halodendron : wormwood &#xa;Asimina triloba : pawpaw &#xa;Brassica carinata : Ethiopian mustard &#xa;Cajanus cajan : pigeonpea &#xa;Calliandra calothyrsa : calliandra &#xa;Caragana microphylla : littleleaf peashrub &#xa;Caryopteris x clandonensis : Blue beard / Blue mist &#xa;Cleome gynandra : African cabbage, cat&#x2019;s whiskers &#xa;Crocus sativus : saffron crocus &#xa;Cydonia oblonga : quince, membrillo &#xa;Cyphomandra betacea : tomato tree &#xa;Dacryodes edulis : safou or butterfruit &#xa;Eleusine coracana : finger millet, African millet, Ragi &#xa;Garcinia lmivingstonei :&#xa0; imbe &#xa;Gleditsia triacanthos : honey locust &#xa;Hippophae rhamnoides : sea buckthorn &#xa;Hylocereus undatus : dragonfruit &#xa;INTA Sequia common bean &#xa;Ipomoea batatas : sweet potato &#xa;Irvingia gabonensis : Dika tree &#xa;Jatropha curcas : Barbados nut, Physic nut &#xa;Lens culinaris : lentils &#xa;Linum usitatissimum : Flax &#xa;Lupinus luteus, L. hispanicus and L. cosentinii: lupins &#xa;Mesembryanthemum acinaciforme : Fig-Marigold, Giant Pigface, Hottentot Fig &#xa;Miscanthus x giganteus : miscanthus &#xa;Moringa oleifera : Moringa &#xa;Morus spp. : mulberry &#xa;Oenothera speciosa : Mexican evening primrose (invasive ground cover) &#xa;Opuntia ficus-indica : prickly pear cactus &#xa;Oxytenanthera abyssinica : drought-resistant bamboo &#xa;Panicum virgatum : switchgrass &#xa;Parthenium argentatum : guayule &#xa;Portulacaria afra : spekboom, elephant bush &#xa;Prosopis cineraria &#xa;Rheum palaestinum : Desert rhubarb &#xa;Ricinus communis : castor plant &#xa;Salicornia : samphire &#xa;Sesamum indicum &#x2013; sesame &#xa;Sclerocarya birrea : marula &#xa;Sesbania rostrata &#xa;Sesbania sesban &#xa;Simmondsia chinensis : jojoba &#xa;Solanum scabrum : African nightshade Strychnos spinosa : monkey orange &#xa;Suaeda glauca : seepweed, seablite &#xa;Tephrosia candida &#xa;Tylosema esculentum : marama Vigna radiata : greengram, mung bean Vigna unguiculata : cowpea, black-eyed pea Vitex agnus-castus : chaste tree &#xa;Zizyphus mauritiana : jujube" ID="ID_337891267" CREATED="1395465516850" MODIFIED="1395466049240"/>
-</node>
-<node TEXT="A list mostly pertaining to the US southwest" ID="ID_1767183663" CREATED="1395466341734" MODIFIED="1429466623579">
-<font NAME="SansSerif" SIZE="10" BOLD="true"/>
-<node TEXT="&#x9;Peppers, sweet or hot, Capsicum species &#xa;&#x9; Peppers need no description, as there are many species and cultivars commonly grown for their edible fruits. All need a long, warm growing season in order for the fruit to properly ripen. They love heat and prefer a well-drained yet moisture-retentive soil for best results.  Peppers are an excellent source of vitamin A and one of the best vegetable sources of vitamin C. They also contain many other nutrients in lesser amounts.  &#xa;&#xa;&#x9;Tomatillos, Physalis ixocarpa  &#xa;&#x9;Grown in much the same way as tomatoes, this interesting perennial vegetable is easily grown as an annual. Growing 3 to 4 feet tall, like many tomatoes, it may need to be trained on a trellis. It bears purple-blotched yellow flowers, followed by golf-ball-sized, purplish fruits that are enclosed in a papery, often purple, veined husk. Try tomatillos for a mildly hot green sauce with tacos, or add raw to salads, pies and jams.  &#xa;&#xa;&#x9;Amaranth, Amaranthus species and cultivars  &#xa;&#x9;Amaranth is usually thought of as a grain crop, but many amaranth species and cultivars can also be eaten as vegetables. Young leaves and shoots can be used in salads, and mature leaves can be cooked like spinach. Amaranth is one of only a few greens that enjoy the heat of summer. Most amaranth species prefer warm conditions with full sun for best growth, along with adequate moisture and well-drained, moderately fertile soil.  Amaranth leaves are generally rich in vitamins A, C and K, folate, and minerals such as calcium, iron, magnesium, manganese and potassium.  One species, A. tricolor, known as vegetable amaranth, thrives in hot, dry weather. Its leaves have a distinctive bittersweet flavor. Of the several varieties, most grow about 18 inches tall. Pick leaves as you need them. Another, Amaranthus dubius, known as wild spinach in some regions, has spikes of green and white flowers, oval green leaves, and grows 2 to 3 feet tall.    Read more: http://www.grit.com/farm-and-garden/drought-tolerant-plants-zm0z14jfzgou.aspx#ixzz2wfIr7gcD&#xa;&#xa;&#x9;Globe artichoke, Cynara scolymus&#xa;&#x9;This unique clump-forming perennial can be treated as an annual in colder regions. It grows 4 to 6 feet tall. The plants normally require two full seasons to produce the edible buds, but varieties have been developed specifically to be treated as annuals. These plants enjoy heat and tolerate drought well with moisture-retaining garden mulch and sufficient watering.&#xa;&#x9;Globe artichokes have deeply lobed, hairy leaves that are a gray-greenish above, and densely woolly and whitish beneath. The purple flowers are quite large, up to 6 inches across with large green bracts. These fully develop in late summer to early autumn. You do not want the flowers to open, as it is the plump, unopened flower head buds that are eaten. When firm, tight and a uniform green color, these buds are cut off the plant with a knife in spring or summer.&#xa;&#x9;Once harvested, soak the large globular flower buds in salted water for a couple of hours, rinse, boil until tender, and serve with butter. Scrape off the fleshy part of the scales and solid hearts with your teeth.&#xa;&#xa;&#x9;Melons, Cucumis melo&#xa;&#x9;Often thought of as fruits, melons are often categorized with vegetables in books and catalogs. These fruits include muskmelons, cantaloupes, crenshaw and honeydew, with many cultivars and varieties.&#xa;&#x9;Melons need a long, sunny, warm season. They prefer well-drained soil with added organic matter and shelter from winds. Many melons do better with a trellis. Keep fruits off the ground if possible.&#xa;&#x9;Melons are a good source of vitamins B2 and C. Cantaloupes are higher in vitamin A than other melons and are also rich in vitamin C and potassium. Honeydew has the highest average sugar content and is rich in vitamin C.&#xa;&#xa;&#x9;Jerusalem artichoke, Helianthus tuberosus&#xa;&#x9;Jerusalem artichoke is a vigorous perennial with sunflower yellow flowers in autumn, and thick, coarse, hairy stems and leaves. It can spread rapidly and may grow up to 12 feet tall. It produces potatolike tubers that are edible both raw and cooked &#x2014; baked, boiled, creamed or grated into salads. They are said to be up to five times more productive than potatoes and contain little digestible starch. These plants are propagated from the tubers and not from seed. If the weather is particularly dry in early fall, give your plants a thorough watering to increase tuber size.&#xa;&#x9;Jerusalem artichoke is rich in iron and potassium, and its principle storage carbohydrate, inulin, is not readily digestible, so it has little effect on blood sugar levels. The plant can sometimes be so prolific as to become invasive, but if handled with care, you can achieve a rewarding, controlled crop.&#xa;&#xa;&#x9;Sweet potato, Ipomoea batatas&#xa;&#x9;Sweet potato is a perennial climber that is closely related to morning glory. It has somewhat fleshy, reddish-purple stems, three-lobed leaves and trumpet-shaped lavender-purple flowers in summer. The edible tubers appear somewhat like large, contorted potatoes, typically with orange flesh. These are deliciously sweet and very nutritious. While regular potatoes grow best in cooler soil, sweet potatoes like it hot.&#xa;Sweet potatoes are rich in vitamin A, fiber, carbohydrates and, of course, starch, as well as beta carotene and several other nutrients&#xa;&#xa;&#x9;Yardlong or dow gauk beans, Vigna unguiculata sesquipedalis&#xa;&#x9;This heat- and drought-tolerant bean is unlike most others. The pods are long, up to 2 or 3 feet, with 10 to 20 seeds in each pod. Plants need a sturdy trellis. There are several varieties to choose from, including those with purple pods and black seeds.&#xa;&#x9;Pod flavor is similar to the sweet bean. Treated as a green bean, dow gauks are great stir-fried, but feel free to experiment with other preparations. In regions with temperatures too high for a snap bean to thrive, yardlongs are a viable option, though you may need to water regularly as the plants become established.&#xa;&#xa;&#x9;Okra, Abelmoschus esculentus&#xa;&#x9;Okra performs best with a long, warm growing season, well-drained soil with added organic matter and dry conditions. It is considerably more drought tolerant than most vegetables. The species can grow to 6 feet tall or more. Okra has pale yellow flowers with a red or maroon central area. The flowers, flower buds and pods are edible. The pods can be added to soups or stews, or on their own, grilled, boiled, dipped in batter or breaded and fried. The younger pods are best for flavor and tenderness. There are many varieties to choose from.&#xa;&#x9;Okra is a great source of fiber, plus many minerals and vitamins. It is particularly high in vitamins C and K, folate, magnesium and manganese.&#xa;&#xa;&#x9;Edible burdock, Arctium lappa&#xa;&#x9;Not often thought of as a vegetable, burdock is a 2- to 6-foot-tall biennial that can spread rapidly. It has hollow stems, broad heart-shaped leaves and thistlelike flowers that are usually purple. The roots are peeled, sliced and cooked, and have a strong flavor resembling oysters or salsify. It is rich in vitamin C and iron.&#xa;&#xa;&#x9;Horned cucumber, Cucumis metuliferus&#xa;&#x9;An uncommon cucumber indeed! This annual vine has somewhat rough, hairy leaves and stems, and fascinating spiny, bright orange, 4-inch-long edible fruits. The fruits are bright green on the inside with an almost jellylike texture. The flavor has been described as a combination of banana, lime and cucumber.&#xa;&#xa;&#x9;Eggplant, Solanum melongena&#xa;&#x9;This tomato relative thrives under low-humidity conditions and prefers soil that is far from saturated with moisture. Eggplant bears pale blue or deep purple flowers, and the stems often have spines. The fruits are usually a dark purple to almost black and somewhat egg shaped, although there are many varieties with highly varying fruit colors and shapes. You can also find eggplant with pink, green, white, yellow, tiny egg sized, round, elongated and oval fruits, to name a few. Eggplant is rich in fiber, vitamin B2, folate, potassium and manganese, plus several other nutrients.&#xa;&#xa;&#x9;Malabar spinach, Basella alba and B. rubra&#xa;&#x9;These fast-growing perennial vines are treated as annuals in colder regions. They grow about 12 feet high with abundant bright and glossy, large and thick, heart-shaped leaves. Flowers are white for B. alba and red for B. rubra. Both prefer well-drained soil with added organic matter, thrive in hot weather, and make a great substitute for spinach. Malabar spinach is rich in vitamins A and C, folate, iron, calcium, magnesium and manganese.&#xa;&#xa;&#x9;Summer and winter squash, Cucurbita pepo and other Cucurbita species&#xa;&#x9;All squashes are heat- and drought-tolerant. Production and growth is higher in hot areas. They prefer well-drained soil with added organic matter. Both types of squash are high in vitamins A and C.&#xa;&#xa;&#x9;Watermelon, Citrullus lanatus&#xa;&#x9;Watermelon has the same cultural requirements as melons. They need a long, hot summer and a fairly rich, well-drained soil. Because watermelons are heavy feeders, it helps to prepare your patch by adding seaweed, compost, or aged manure.&#xa;" ID="ID_1154924942" CREATED="1395464903080" MODIFIED="1395465447176"/>
-</node>
-</node>
-<node TEXT="Lists" POSITION="left" ID="ID_1696484509" CREATED="1429639619904" MODIFIED="1429639634978">
+<node TEXT="Lists" ID="ID_1696484509" CREATED="1429639619904" MODIFIED="1429639634978">
 <font SIZE="19" BOLD="true"/>
 <node TEXT="Lists - Shade Tolerant Plants" ID="ID_1702329758" CREATED="1420953186486" MODIFIED="1429468753864">
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
@@ -4075,9 +4081,203 @@
 </node>
 </node>
 </node>
-</node>
-<node TEXT="Living Fences" POSITION="left" ID="ID_519886679" CREATED="1395029092950" MODIFIED="1429468884492">
+<node TEXT="Lists - Anti-Desertification/Dry Tolerant Plants" ID="ID_1286858058" CREATED="1393232880134" MODIFIED="1429468745016">
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
+<node TEXT="desertification.wordpress.com &gt; 3-interesting-plant-species" ID="ID_786874828" CREATED="1393232900387" MODIFIED="1393232900387" LINK="http://desertification.wordpress.com/3-interesting-plant-species/"/>
+<node TEXT="grit.com &gt; Farm-and-garden &gt; Drought-tolerant-plants-zm0z14jfzgou" ID="ID_378450977" CREATED="1395464884342" MODIFIED="1395464884342" LINK="http://www.grit.com/farm-and-garden/drought-tolerant-plants-zm0z14jfzgou.aspx#axzz2wJvXMXEG"/>
+<node TEXT="Agroforestry for Palestine.pdf" ID="ID_1224965620" CREATED="1395466292361" MODIFIED="1395466292361" LINK="Plant_Map_Resources/Drought_Resistant_Dry_Tolerant_Varieties/Agroforestry%20for%20Palestine.pdf"/>
+<node TEXT="A good list" ID="ID_1955971088" CREATED="1395466304376" MODIFIED="1429466623558">
+<font NAME="SansSerif" SIZE="10" BOLD="true"/>
+<node TEXT="Acacia species : acacia &#xa;Acca sellowiana : feijao, pineapple guava &#xa;Actinidia arguta : kiwi &#xa;Actinidia deliciosa : kiwi &#xa;Adansonia digitata : baobab &#xa;Agave americana : century plant &#xa;Amaranthus spp. : amaranth &#xa;Annona cherimola : cherimoya &#xa;Annona muricata : guanabana, soursop, graviola &#xa;Artemisia annua : sweet wormwood &#xa;Artemisia halodendron : wormwood &#xa;Asimina triloba : pawpaw &#xa;Brassica carinata : Ethiopian mustard &#xa;Cajanus cajan : pigeonpea &#xa;Calliandra calothyrsa : calliandra &#xa;Caragana microphylla : littleleaf peashrub &#xa;Caryopteris x clandonensis : Blue beard / Blue mist &#xa;Cleome gynandra : African cabbage, cat&#x2019;s whiskers &#xa;Crocus sativus : saffron crocus &#xa;Cydonia oblonga : quince, membrillo &#xa;Cyphomandra betacea : tomato tree &#xa;Dacryodes edulis : safou or butterfruit &#xa;Eleusine coracana : finger millet, African millet, Ragi &#xa;Garcinia lmivingstonei :&#xa0; imbe &#xa;Gleditsia triacanthos : honey locust &#xa;Hippophae rhamnoides : sea buckthorn &#xa;Hylocereus undatus : dragonfruit &#xa;INTA Sequia common bean &#xa;Ipomoea batatas : sweet potato &#xa;Irvingia gabonensis : Dika tree &#xa;Jatropha curcas : Barbados nut, Physic nut &#xa;Lens culinaris : lentils &#xa;Linum usitatissimum : Flax &#xa;Lupinus luteus, L. hispanicus and L. cosentinii: lupins &#xa;Mesembryanthemum acinaciforme : Fig-Marigold, Giant Pigface, Hottentot Fig &#xa;Miscanthus x giganteus : miscanthus &#xa;Moringa oleifera : Moringa &#xa;Morus spp. : mulberry &#xa;Oenothera speciosa : Mexican evening primrose (invasive ground cover) &#xa;Opuntia ficus-indica : prickly pear cactus &#xa;Oxytenanthera abyssinica : drought-resistant bamboo &#xa;Panicum virgatum : switchgrass &#xa;Parthenium argentatum : guayule &#xa;Portulacaria afra : spekboom, elephant bush &#xa;Prosopis cineraria &#xa;Rheum palaestinum : Desert rhubarb &#xa;Ricinus communis : castor plant &#xa;Salicornia : samphire &#xa;Sesamum indicum &#x2013; sesame &#xa;Sclerocarya birrea : marula &#xa;Sesbania rostrata &#xa;Sesbania sesban &#xa;Simmondsia chinensis : jojoba &#xa;Solanum scabrum : African nightshade Strychnos spinosa : monkey orange &#xa;Suaeda glauca : seepweed, seablite &#xa;Tephrosia candida &#xa;Tylosema esculentum : marama Vigna radiata : greengram, mung bean Vigna unguiculata : cowpea, black-eyed pea Vitex agnus-castus : chaste tree &#xa;Zizyphus mauritiana : jujube" ID="ID_337891267" CREATED="1395465516850" MODIFIED="1395466049240"/>
+</node>
+<node TEXT="A list mostly pertaining to the US southwest" ID="ID_1767183663" CREATED="1395466341734" MODIFIED="1429466623579">
+<font NAME="SansSerif" SIZE="10" BOLD="true"/>
+<node TEXT="&#x9;Peppers, sweet or hot, Capsicum species &#xa;&#x9; Peppers need no description, as there are many species and cultivars commonly grown for their edible fruits. All need a long, warm growing season in order for the fruit to properly ripen. They love heat and prefer a well-drained yet moisture-retentive soil for best results.  Peppers are an excellent source of vitamin A and one of the best vegetable sources of vitamin C. They also contain many other nutrients in lesser amounts.  &#xa;&#xa;&#x9;Tomatillos, Physalis ixocarpa  &#xa;&#x9;Grown in much the same way as tomatoes, this interesting perennial vegetable is easily grown as an annual. Growing 3 to 4 feet tall, like many tomatoes, it may need to be trained on a trellis. It bears purple-blotched yellow flowers, followed by golf-ball-sized, purplish fruits that are enclosed in a papery, often purple, veined husk. Try tomatillos for a mildly hot green sauce with tacos, or add raw to salads, pies and jams.  &#xa;&#xa;&#x9;Amaranth, Amaranthus species and cultivars  &#xa;&#x9;Amaranth is usually thought of as a grain crop, but many amaranth species and cultivars can also be eaten as vegetables. Young leaves and shoots can be used in salads, and mature leaves can be cooked like spinach. Amaranth is one of only a few greens that enjoy the heat of summer. Most amaranth species prefer warm conditions with full sun for best growth, along with adequate moisture and well-drained, moderately fertile soil.  Amaranth leaves are generally rich in vitamins A, C and K, folate, and minerals such as calcium, iron, magnesium, manganese and potassium.  One species, A. tricolor, known as vegetable amaranth, thrives in hot, dry weather. Its leaves have a distinctive bittersweet flavor. Of the several varieties, most grow about 18 inches tall. Pick leaves as you need them. Another, Amaranthus dubius, known as wild spinach in some regions, has spikes of green and white flowers, oval green leaves, and grows 2 to 3 feet tall.    Read more: http://www.grit.com/farm-and-garden/drought-tolerant-plants-zm0z14jfzgou.aspx#ixzz2wfIr7gcD&#xa;&#xa;&#x9;Globe artichoke, Cynara scolymus&#xa;&#x9;This unique clump-forming perennial can be treated as an annual in colder regions. It grows 4 to 6 feet tall. The plants normally require two full seasons to produce the edible buds, but varieties have been developed specifically to be treated as annuals. These plants enjoy heat and tolerate drought well with moisture-retaining garden mulch and sufficient watering.&#xa;&#x9;Globe artichokes have deeply lobed, hairy leaves that are a gray-greenish above, and densely woolly and whitish beneath. The purple flowers are quite large, up to 6 inches across with large green bracts. These fully develop in late summer to early autumn. You do not want the flowers to open, as it is the plump, unopened flower head buds that are eaten. When firm, tight and a uniform green color, these buds are cut off the plant with a knife in spring or summer.&#xa;&#x9;Once harvested, soak the large globular flower buds in salted water for a couple of hours, rinse, boil until tender, and serve with butter. Scrape off the fleshy part of the scales and solid hearts with your teeth.&#xa;&#xa;&#x9;Melons, Cucumis melo&#xa;&#x9;Often thought of as fruits, melons are often categorized with vegetables in books and catalogs. These fruits include muskmelons, cantaloupes, crenshaw and honeydew, with many cultivars and varieties.&#xa;&#x9;Melons need a long, sunny, warm season. They prefer well-drained soil with added organic matter and shelter from winds. Many melons do better with a trellis. Keep fruits off the ground if possible.&#xa;&#x9;Melons are a good source of vitamins B2 and C. Cantaloupes are higher in vitamin A than other melons and are also rich in vitamin C and potassium. Honeydew has the highest average sugar content and is rich in vitamin C.&#xa;&#xa;&#x9;Jerusalem artichoke, Helianthus tuberosus&#xa;&#x9;Jerusalem artichoke is a vigorous perennial with sunflower yellow flowers in autumn, and thick, coarse, hairy stems and leaves. It can spread rapidly and may grow up to 12 feet tall. It produces potatolike tubers that are edible both raw and cooked &#x2014; baked, boiled, creamed or grated into salads. They are said to be up to five times more productive than potatoes and contain little digestible starch. These plants are propagated from the tubers and not from seed. If the weather is particularly dry in early fall, give your plants a thorough watering to increase tuber size.&#xa;&#x9;Jerusalem artichoke is rich in iron and potassium, and its principle storage carbohydrate, inulin, is not readily digestible, so it has little effect on blood sugar levels. The plant can sometimes be so prolific as to become invasive, but if handled with care, you can achieve a rewarding, controlled crop.&#xa;&#xa;&#x9;Sweet potato, Ipomoea batatas&#xa;&#x9;Sweet potato is a perennial climber that is closely related to morning glory. It has somewhat fleshy, reddish-purple stems, three-lobed leaves and trumpet-shaped lavender-purple flowers in summer. The edible tubers appear somewhat like large, contorted potatoes, typically with orange flesh. These are deliciously sweet and very nutritious. While regular potatoes grow best in cooler soil, sweet potatoes like it hot.&#xa;Sweet potatoes are rich in vitamin A, fiber, carbohydrates and, of course, starch, as well as beta carotene and several other nutrients&#xa;&#xa;&#x9;Yardlong or dow gauk beans, Vigna unguiculata sesquipedalis&#xa;&#x9;This heat- and drought-tolerant bean is unlike most others. The pods are long, up to 2 or 3 feet, with 10 to 20 seeds in each pod. Plants need a sturdy trellis. There are several varieties to choose from, including those with purple pods and black seeds.&#xa;&#x9;Pod flavor is similar to the sweet bean. Treated as a green bean, dow gauks are great stir-fried, but feel free to experiment with other preparations. In regions with temperatures too high for a snap bean to thrive, yardlongs are a viable option, though you may need to water regularly as the plants become established.&#xa;&#xa;&#x9;Okra, Abelmoschus esculentus&#xa;&#x9;Okra performs best with a long, warm growing season, well-drained soil with added organic matter and dry conditions. It is considerably more drought tolerant than most vegetables. The species can grow to 6 feet tall or more. Okra has pale yellow flowers with a red or maroon central area. The flowers, flower buds and pods are edible. The pods can be added to soups or stews, or on their own, grilled, boiled, dipped in batter or breaded and fried. The younger pods are best for flavor and tenderness. There are many varieties to choose from.&#xa;&#x9;Okra is a great source of fiber, plus many minerals and vitamins. It is particularly high in vitamins C and K, folate, magnesium and manganese.&#xa;&#xa;&#x9;Edible burdock, Arctium lappa&#xa;&#x9;Not often thought of as a vegetable, burdock is a 2- to 6-foot-tall biennial that can spread rapidly. It has hollow stems, broad heart-shaped leaves and thistlelike flowers that are usually purple. The roots are peeled, sliced and cooked, and have a strong flavor resembling oysters or salsify. It is rich in vitamin C and iron.&#xa;&#xa;&#x9;Horned cucumber, Cucumis metuliferus&#xa;&#x9;An uncommon cucumber indeed! This annual vine has somewhat rough, hairy leaves and stems, and fascinating spiny, bright orange, 4-inch-long edible fruits. The fruits are bright green on the inside with an almost jellylike texture. The flavor has been described as a combination of banana, lime and cucumber.&#xa;&#xa;&#x9;Eggplant, Solanum melongena&#xa;&#x9;This tomato relative thrives under low-humidity conditions and prefers soil that is far from saturated with moisture. Eggplant bears pale blue or deep purple flowers, and the stems often have spines. The fruits are usually a dark purple to almost black and somewhat egg shaped, although there are many varieties with highly varying fruit colors and shapes. You can also find eggplant with pink, green, white, yellow, tiny egg sized, round, elongated and oval fruits, to name a few. Eggplant is rich in fiber, vitamin B2, folate, potassium and manganese, plus several other nutrients.&#xa;&#xa;&#x9;Malabar spinach, Basella alba and B. rubra&#xa;&#x9;These fast-growing perennial vines are treated as annuals in colder regions. They grow about 12 feet high with abundant bright and glossy, large and thick, heart-shaped leaves. Flowers are white for B. alba and red for B. rubra. Both prefer well-drained soil with added organic matter, thrive in hot weather, and make a great substitute for spinach. Malabar spinach is rich in vitamins A and C, folate, iron, calcium, magnesium and manganese.&#xa;&#xa;&#x9;Summer and winter squash, Cucurbita pepo and other Cucurbita species&#xa;&#x9;All squashes are heat- and drought-tolerant. Production and growth is higher in hot areas. They prefer well-drained soil with added organic matter. Both types of squash are high in vitamins A and C.&#xa;&#xa;&#x9;Watermelon, Citrullus lanatus&#xa;&#x9;Watermelon has the same cultural requirements as melons. They need a long, hot summer and a fairly rich, well-drained soil. Because watermelons are heavy feeders, it helps to prepare your patch by adding seaweed, compost, or aged manure.&#xa;" ID="ID_1154924942" CREATED="1395464903080" MODIFIED="1395465447176"/>
+</node>
+</node>
+</node>
+<node TEXT="Identification Aids/Classification/Description Terms" ID="ID_365633680" CREATED="1427352191792" MODIFIED="1429683747726">
+<font NAME="SansSerif" SIZE="19" BOLD="true"/>
+<node TEXT="Glossaries" ID="ID_454724951" CREATED="1424864969849" MODIFIED="1429466625360">
+<font NAME="SansSerif" SIZE="19" BOLD="true"/>
+<node TEXT="Trees" ID="ID_1101573840" CREATED="1424864984804" MODIFIED="1429466625362">
+<font NAME="SansSerif" SIZE="18" BOLD="true"/>
+<node TEXT="arborday.org &gt; Trees &gt; Treeguide &gt; Glossary" ID="ID_560916842" CREATED="1424865031475" MODIFIED="1424865031475" LINK="http://www.arborday.org/trees/treeguide/glossary.cfm"/>
+<node TEXT="forestry.usu.edu &gt; Htm &gt; Treeid &gt; Tree-and-botanical-glossary" ID="ID_1732606331" CREATED="1424865039652" MODIFIED="1424865039652" LINK="http://forestry.usu.edu/htm/treeid/tree-and-botanical-glossary/"/>
+<node TEXT="naturesbeautytreeservice.com &gt; Wp-content &gt; Uploads &gt; 2013 &gt; 03 &gt; GLOSSARY" ID="ID_1356825300" CREATED="1424865047870" MODIFIED="1424865047870" LINK="http://naturesbeautytreeservice.com/wp-content/uploads/2013/03/GLOSSARY.pdf"/>
+</node>
+<node TEXT="Fire Effects Information System Glossary" ID="ID_1275368445" CREATED="1424865011737" MODIFIED="1429466625363">
+<font NAME="SansSerif" SIZE="10" BOLD="true"/>
+<node TEXT="fs.fed.us &gt; Database &gt; Feis &gt; Glossary2" ID="ID_409555063" CREATED="1424865020614" MODIFIED="1424865020614" LINK="http://www.fs.fed.us/database/feis/glossary2.html#S"/>
+</node>
+<node TEXT="Table of growth habit descriptions" ID="ID_423677643" CREATED="1425013562264" MODIFIED="1429466625452" COLOR="#660000" BACKGROUND_COLOR="#ffff99">
+<font NAME="SansSerif" SIZE="10" BOLD="true"/>
+<node ID="ID_235027070" CREATED="1425013577005" MODIFIED="1425013642178"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      
+    </p>
+    <table>
+      <tr>
+        <td valign="top" colspan="2">
+          <!-- InstanceBeginEditable name="headlinebar" -->
+          
+
+          <p class="childhlbar">
+            Growth Habits Codes and Definitions
+          </p>
+          <!-- InstanceEndEditable -->
+          
+
+          <p>
+            
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <!-- InstanceBeginEditable name="childcontent" -->
+          
+
+          <table frame="border" title="This table provides information on PLANTS growth habit codes and definitions" width="100%" border="0" cellspacing="1" cellpadding="7" summary="This table provides information on PLANTS growth habit codes and definitions">
+            <tr valign="top">
+              <th align="left" id="descript" width="15%" valign="top">
+                PLANTS Description
+              </th>
+              <th align="left" id="def" width="39%" valign="top">
+                PLANTS Definition
+              </th>
+              <th align="left" id="notes" width="34%" valign="top">
+                Notes
+              </th>
+            </tr>
+            <tr>
+              <td width="15%" valign="top" headers="descript">
+                Forb/herb
+              </td>
+              <td width="39%" valign="top" headers="def">
+                Vascular plant without significant woody tissue above or at the ground. Forbs and herbs may be annual, biennial, or perennial but always lack significant thickening by secondary woody growth and have perennating buds borne at or below the ground surface. In PLANTS, graminoids are excluded but ferns, horsetails, lycopods, and whisk-ferns are included.
+              </td>
+              <td width="34%" valign="top" headers="notes">
+                Applies to vascular plants only. Federal Geographic Data Committee (FGDC) definition includes graminoids, forbs, and ferns.
+              </td>
+            </tr>
+            <tr>
+              <td width="15%" valign="top" headers="descript">
+                Graminoid
+              </td>
+              <td width="39%" valign="top" headers="def">
+                Grass or grass-like plant, including grasses (Poaceae), sedges (Cyperaceae), rushes (Juncaceae), arrow-grasses (Juncaginaceae), and quillworts (<i>Isoetes</i>).
+              </td>
+              <td width="34%" valign="top" headers="notes">
+                Applies to vascular plants only. An herb in the FGDC classification.
+              </td>
+            </tr>
+            <tr>
+              <td width="15%" valign="top" headers="descript">
+                Lichenous
+              </td>
+              <td width="39%" valign="top" headers="def">
+                Organism generally recognized as a single &quot;plant&quot; that consists of a fungus and an alga or cyanobacterium living in symbiotic association. Often attached to solid objects such as rocks or living or dead wood rather than soil.
+              </td>
+              <td width="34%" valign="top" headers="notes">
+                Applies to lichens only, which are not true plants.
+              </td>
+            </tr>
+            <tr>
+              <td width="15%" valign="top" headers="descript">
+                Nonvascular
+              </td>
+              <td width="39%" valign="top" headers="def">
+                Nonvascular, terrestrial green plant, including mosses, hornworts, and liverworts. Always herbaceous, often attached to solid objects such as rocks or living or dead wood rather than soil.
+              </td>
+              <td width="34%" valign="top" headers="notes">
+                Applies to non-vascular plants only; in PLANTS system this is groups HN (Hornworts), LV (Liverworts), and MS (Mosses).
+              </td>
+            </tr>
+            <tr>
+              <td width="15%" valign="top" headers="descript">
+                Shrub
+              </td>
+              <td width="39%" valign="top" headers="def">
+                Perennial, multi-stemmed woody plant that is usually less than 4 to 5 meters (13 to 16 feet) in height. Shrubs typically have several stems arising from or near the ground, but may be taller than 5 meters or single-stemmed under certain environmental conditions.
+              </td>
+              <td width="34%" valign="top" headers="notes">
+                Applies to vascular plants only.
+              </td>
+            </tr>
+            <tr>
+              <td width="15%" valign="top" headers="descript">
+                Subshrub
+              </td>
+              <td width="39%" valign="top">
+                Low-growing shrub usually under 0.5 m (1.5 feet) tall, never exceeding 1 meter (3 feet) tall at maturity.
+              </td>
+              <td width="34%" valign="top" headers="notes">
+                Applies to vascular plants only. A dwarf-shrub in the FGDC classification.
+              </td>
+            </tr>
+            <tr>
+              <td width="15%" valign="top" headers="descript">
+                Tree
+              </td>
+              <td width="39%" valign="top" headers="def">
+                Perennial, woody plant with a single stem (trunk), normally greater than 4 to 5 meters (13 to 16 feet) in height; under certain environmental conditions, some tree species may develop a multi-stemmed or short growth form (less than 4 meters or 13 feet in height).
+              </td>
+              <td width="34%" valign="top" headers="notes">
+                Applies to vascular plants only.
+              </td>
+            </tr>
+            <tr>
+              <td width="15%" valign="top" headers="descript">
+                Vine
+              </td>
+              <td width="39%" valign="top" headers="def">
+                Twining/climbing plant with relatively long stems, can be woody or herbaceous.
+              </td>
+              <td width="34%" valign="top" headers="notes">
+                Applies to vascular plants only. FGDC classification considers woody vines to be shrubs and herbaceous vines to be herbs.
+              </td>
+            </tr>
+          </table>
+          <!-- InstanceEndEditable -->
+          
+        </td>
+        <td width="10">
+          &#160;
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="On-Line Glossary of Technical Terms in Plant Pathology" ID="ID_516538600" CREATED="1427095800008" MODIFIED="1429466625453">
+<font NAME="SansSerif" SIZE="10" BOLD="true"/>
+<node TEXT="plantpath.cornell.edu &gt; Glossary" ID="ID_669737410" CREATED="1427095809159" MODIFIED="1427095809159" LINK="http://www.plantpath.cornell.edu/glossary/"/>
+</node>
+</node>
+<node TEXT="Plant Databases" ID="ID_805035831" CREATED="1393234307461" MODIFIED="1424153707234">
+<font NAME="SansSerif" SIZE="19" BOLD="true"/>
+</node>
+<node TEXT="23 Architectural Models" ID="ID_503976993" CREATED="1427352486664" MODIFIED="1429466625455">
+<font NAME="SansSerif" SIZE="19" BOLD="true"/>
+<node TEXT="greenlab.cirad.fr &gt; GLUVED &gt; Html &gt; P1 Prelim &gt; Bota &gt; Bota typo 018" ID="ID_419161832" CREATED="1427352517821" MODIFIED="1427352517821" LINK="http://greenlab.cirad.fr/GLUVED/html/P1_Prelim/Bota/Bota_typo_018.html"/>
+<node TEXT="ncbi.nlm.nih.gov &gt; Pmc &gt; Articles &gt; PMC3077987" ID="ID_398238211" CREATED="1427352526792" MODIFIED="1427352526792" LINK="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3077987/"/>
+<node TEXT="slideshare.net &gt; ArborCulture &gt; The-23-architectural-models" ID="ID_1261857516" CREATED="1427352536891" MODIFIED="1427352536891" LINK="http://www.slideshare.net/ArborCulture/the-23-architectural-models"/>
+</node>
+</node>
+</node>
+<node TEXT="Physical Applications" POSITION="left" ID="ID_713250853" CREATED="1429683275243" MODIFIED="1429683622122">
+<font SIZE="19" BOLD="true"/>
+<node TEXT="Living Fences" ID="ID_519886679" CREATED="1395029092950" MODIFIED="1429683594541">
+<font NAME="SansSerif" SIZE="18" BOLD="true"/>
 <node TEXT="motherearthnews.com &gt; Homesteading-and-livestock &gt; Living-fences-zmaz10onzraw ? ..." ID="ID_1926624786" CREATED="1395029178933" MODIFIED="1395029178933" LINK="http://www.motherearthnews.com/homesteading-and-livestock/living-fences-zmaz10onzraw.aspx?PageId=1#axzz2w9WqwlAN"/>
 <node TEXT="British National Hedgelaying Society" ID="ID_1940921495" CREATED="1418806639797" MODIFIED="1429466623761">
 <font NAME="SansSerif" SIZE="10" BOLD="true"/>
@@ -4111,49 +4311,14 @@
 </node>
 </node>
 </node>
-<node TEXT="Seed Conservation/Husbandry/Purchase" POSITION="left" ID="ID_1208115159" CREATED="1381736927615" MODIFIED="1429598179093" MAX_WIDTH="800">
+<node TEXT="Wind Break" ID="ID_1531380510" CREATED="1429683584999" MODIFIED="1429683597646">
+<font SIZE="18" BOLD="true"/>
+</node>
+</node>
+<node TEXT="Growing" POSITION="left" ID="ID_98200632" CREATED="1372438808588" MODIFIED="1429683338632">
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
-<node TEXT="blog.seedsavers.org &gt; Assessing-seed-maturity" ID="ID_56469974" CREATED="1381736942298" MODIFIED="1381736942298" LINK="http://blog.seedsavers.org/assessing-seed-maturity/"/>
-<node TEXT="extension.org &gt; Pages &gt; 18340 &gt; Organic-seed-resource-guide:-introduction-and-table-of-contents#" ID="ID_1772561076" CREATED="1381739145566" MODIFIED="1381739145566" LINK="http://www.extension.org/pages/18340/organic-seed-resource-guide:-introduction-and-table-of-contents#.Uluqa2QY1H8"/>
-<node TEXT="livefreelivenatural.com &gt; Save-seeds-huge-list" ID="ID_1539130301" CREATED="1383153791145" MODIFIED="1383153791145" LINK="http://livefreelivenatural.com/save-seeds-huge-list/"/>
-<node TEXT="Desiccants" ID="ID_1374581752" CREATED="1383214841668" MODIFIED="1420457464837">
+<node TEXT="Techniques" ID="ID_459376059" CREATED="1373216377245" MODIFIED="1429683346215">
 <font NAME="SansSerif" SIZE="18" BOLD="true"/>
-</node>
-<node TEXT="Pollination" ID="ID_1158501319" CREATED="1408166956015" MODIFIED="1429466623773">
-<font NAME="SansSerif" SIZE="18" BOLD="true"/>
-<node TEXT="Hand-Polination" ID="ID_113114399" CREATED="1408166978911" MODIFIED="1429466623774">
-<font NAME="SansSerif" SIZE="10" BOLD="true"/>
-<node TEXT="https://www.youtube.com/watch?v=_5oOdfP_BIc&amp;feature=youtu.be&amp;list=PLzNxg5un8z6EVfkbRDiswLYsLBFTSEwmB" ID="ID_1841507911" CREATED="1408166976321" MODIFIED="1408166976321" LINK="https://www.youtube.com/watch?v=_5oOdfP_BIc&amp;feature=youtu.be&amp;list=PLzNxg5un8z6EVfkbRDiswLYsLBFTSEwmB"/>
-</node>
-</node>
-<node TEXT="seedalliance.org" ID="ID_68702526" CREATED="1381737748745" MODIFIED="1381737748745" LINK="http://seedalliance.org/"/>
-<node TEXT="blog.seedsavers.org" ID="ID_1409903217" CREATED="1381737003305" MODIFIED="1381737003305" LINK="http://blog.seedsavers.org/"/>
-<node TEXT="Purchase Websites" ID="ID_1443517159" CREATED="1420457312575" MODIFIED="1429466623778">
-<font NAME="SansSerif" SIZE="18" BOLD="true"/>
-<node TEXT="tradewindsfruit.com" ID="ID_1350822605" CREATED="1420457331478" MODIFIED="1420457331478" LINK="http://www.tradewindsfruit.com/"/>
-<node TEXT="List of 240 Heirlomm Seed Compnaies" ID="ID_784446501" CREATED="1420653714918" MODIFIED="1429466623779">
-<font NAME="SansSerif" SIZE="10" BOLD="true"/>
-<node TEXT="off-grid.info &gt; Food-independence &gt; Heirloom-seed-suppliers" ID="ID_16494413" CREATED="1420653734328" MODIFIED="1420653734328" LINK="http://www.off-grid.info/food-independence/heirloom-seed-suppliers.html"/>
-</node>
-<node TEXT="beehappyplants.co.uk" ID="ID_64715673" CREATED="1420977792328" MODIFIED="1420977792328" LINK="http://www.beehappyplants.co.uk/"/>
-<node TEXT="US 100$ minimum plus fees (check import laws)" ID="ID_825958645" CREATED="1422340793331" MODIFIED="1429466623779">
-<font NAME="SansSerif" SIZE="10" BOLD="true"/>
-<node TEXT="seedsavers.org &gt; Shipping" ID="ID_74859656" CREATED="1422340737939" MODIFIED="1422340737939" LINK="http://www.seedsavers.org/shipping.html"/>
-</node>
-<node TEXT="Native seeds" ID="ID_1890219521" CREATED="1427446937317" MODIFIED="1429466623780">
-<font NAME="SansSerif" SIZE="10" BOLD="true"/>
-<node TEXT="nativeseeds.org" ID="ID_95697757" CREATED="1427446921678" MODIFIED="1427446921678" LINK="http://www.nativeseeds.org/"/>
-</node>
-</node>
-<node TEXT="Savng Carrot Seed" ID="ID_1946786605" CREATED="1422470043838" MODIFIED="1429466623781">
-<font NAME="SansSerif" SIZE="10" BOLD="true"/>
-<node TEXT="https://www.youtube.com/watch?v=LxAuQznAbeY" ID="ID_1782697023" CREATED="1422470061943" MODIFIED="1422470061943" LINK="https://www.youtube.com/watch?v=LxAuQznAbeY"/>
-</node>
-</node>
-<node TEXT="Growing" POSITION="left" ID="ID_98200632" CREATED="1372438808588" MODIFIED="1429515179465">
-<font NAME="SansSerif" SIZE="20" BOLD="true"/>
-<node TEXT="Techniques" ID="ID_459376059" CREATED="1373216377245" MODIFIED="1429515179470">
-<font NAME="SansSerif" SIZE="19" BOLD="true"/>
 <node TEXT="Huegekulture, Haygeculture" ID="ID_212819030" CREATED="1373216393558" MODIFIED="1429515179770">
 <font NAME="SansSerif" SIZE="18" BOLD="true"/>
 <node TEXT="richsoil.com &gt; Hugelkultur" ID="ID_78621876" CREATED="1373216418494" MODIFIED="1373216418494" LINK="http://www.richsoil.com/hugelkultur/"/>
@@ -4209,8 +4374,8 @@
 </node>
 </node>
 </node>
-<node TEXT="Rooting" ID="ID_406337286" CREATED="1372491324644" MODIFIED="1429469742108">
-<font NAME="SansSerif" SIZE="19" BOLD="true"/>
+<node TEXT="Rooting" ID="ID_406337286" CREATED="1372491324644" MODIFIED="1429683346222">
+<font NAME="SansSerif" SIZE="18" BOLD="true"/>
 <node TEXT="Trees" ID="ID_1347492773" CREATED="1372491312795" MODIFIED="1429466624162">
 <font NAME="SansSerif" SIZE="18" BOLD="true"/>
 <node TEXT="If you can obtain some Willo twigs (Salix species), chop them up into short pieces 2-3&quot; long, and put them into a gallon jar until you can&apos;t get any more in (... well, maybe leave a little room so you can get them out later... don&apos;t pack them that tight...): fill the jar with really hot water to cover the twigs, and let it sit for at least 24 hours. If you use cold water, let the jars sit (in the sunlight) for about 2 weeks. The water pulls a natural growth hormone from the willow, and if you use this to water other plants, their root growth will be stimulated. This stuff even triggers hard-to-root plants like yellow birch and some cherries to put out roots, iirc. This ~should~ increase the success rate when using the method shown in this video." ID="ID_1639478901" CREATED="1372491337091" MODIFIED="1372491341233"/>
@@ -4224,8 +4389,8 @@
 <node TEXT="backyarddiva.ca &gt; Propagate-roses-with-potatoes" ID="ID_1363945803" CREATED="1378791207284" MODIFIED="1378791207284" LINK="http://www.backyarddiva.ca/propagate-roses-with-potatoes/"/>
 </node>
 </node>
-<node TEXT="Planting" ID="ID_1018170890" CREATED="1380026272378" MODIFIED="1429469743644">
-<font NAME="SansSerif" SIZE="19" BOLD="true"/>
+<node TEXT="Planting" ID="ID_1018170890" CREATED="1380026272378" MODIFIED="1429683346224">
+<font NAME="SansSerif" SIZE="18" BOLD="true"/>
 <node TEXT="Seed Balls" ID="ID_1679090666" CREATED="1380026153400" MODIFIED="1429466624170">
 <font NAME="SansSerif" SIZE="18" BOLD="true"/>
 <node TEXT="youtube.com &gt; Watch ? ..." ID="ID_994780414" CREATED="1380026161356" MODIFIED="1380026161356" LINK="http://www.youtube.com/watch?v=l_V9WI3ObyE"/>
@@ -4276,8 +4441,8 @@
 <node TEXT="ehow.com &gt; Info 7963700 soak-seeds-before-planting-peas" ID="ID_1080769954" CREATED="1398447291064" MODIFIED="1398447291064" LINK="http://www.ehow.com/info_7963700_soak-seeds-before-planting-peas.html"/>
 </node>
 </node>
-<node TEXT="Soil" ID="ID_1935216485" CREATED="1373432922424" MODIFIED="1429469745239">
-<font NAME="SansSerif" SIZE="19" BOLD="true"/>
+<node TEXT="Soil" ID="ID_1935216485" CREATED="1373432922424" MODIFIED="1429683346226">
+<font NAME="SansSerif" SIZE="18" BOLD="true"/>
 <node TEXT="Chrcoal/Bio-char" ID="ID_1281130721" CREATED="1373432945950" MODIFIED="1429466624273">
 <font NAME="SansSerif" SIZE="18" BOLD="true"/>
 <node TEXT="Bio-char" ID="ID_121685605" CREATED="1373433174873" MODIFIED="1429466624274">
@@ -4950,17 +5115,16 @@
 </node>
 </node>
 </node>
-<node TEXT="Water Conservation" ID="ID_1548573556" CREATED="1422084762624" MODIFIED="1429469746612">
-<font NAME="SansSerif" SIZE="19" BOLD="true"/>
+<node TEXT="Water Conservation" ID="ID_1548573556" CREATED="1422084762624" MODIFIED="1429683346227">
+<font NAME="SansSerif" SIZE="18" BOLD="true"/>
 <node TEXT="Reduce water usage with corn starch in pots and beds" ID="ID_73903831" CREATED="1422084860162" MODIFIED="1429466624817">
 <font NAME="SansSerif" SIZE="10" BOLD="true"/>
 <node TEXT="freshbitesdaily.com &gt; Garden-water &gt;  ? ..." ID="ID_985084734" CREATED="1422084886703" MODIFIED="1422084886703" LINK="http://www.freshbitesdaily.com/garden-water/?utm_content=bufferc71d8&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer"/>
 <node TEXT="Hope offers this advice: Add corn starch to your potted plants to help them maintain their moisture and reduce their watering needs. &#xa;In a one-gallon pot, use two tablespoons of corn starch&#xa; In a five-gallon pot, use 1/4 cup of corn starch &#xa;She even sprinkles corn starch in her landscape beds. I asked how often she re-applies it. &#x201c;Never,&#x201d; she said.... &#xa;" ID="ID_1265539355" CREATED="1422084921318" MODIFIED="1422084994434"/>
 </node>
 </node>
-</node>
-<node TEXT="Pest Control" POSITION="left" ID="ID_1751739848" CREATED="1361857852901" MODIFIED="1429469752112">
-<font NAME="SansSerif" SIZE="19" BOLD="true"/>
+<node TEXT="Pest Control" ID="ID_1751739848" CREATED="1361857852901" MODIFIED="1429683346229">
+<font NAME="SansSerif" SIZE="18" BOLD="true"/>
 <node TEXT="5 plants that attract benificial insects" ID="ID_1191748819" CREATED="1375678301402" MODIFIED="1429466624831">
 <font NAME="SansSerif" SIZE="10" BOLD="true"/>
 <node TEXT="Sweet alyssum attracts hoverflies and lacewings. The adults of both species feed on nectar and pollen, then lay eggs that hatch in a few days. It&#x2019;s the larvae of these species that destroy garden pests, hunting the undersides of leaves and devouring soft-bodied insects like aphids, mites, and small caterpillars. Read more at http://www.realfarmacy.com/five-awesome-plants-that-attract-beneficial-insects-to-your-garden/#UDHoHUAAiSPzYzkg.99 " ID="ID_1170499652" CREATED="1375678370809" MODIFIED="1375678373799"/>
@@ -5214,12 +5378,12 @@
 </node>
 </node>
 </node>
-<node TEXT="Disease Control" POSITION="left" ID="ID_1175661261" CREATED="1378539348825" MODIFIED="1429466625020">
-<font NAME="SansSerif" SIZE="19" BOLD="true"/>
+<node TEXT="Disease Control" ID="ID_1175661261" CREATED="1378539348825" MODIFIED="1429683346229">
+<font NAME="SansSerif" SIZE="18" BOLD="true"/>
 <node TEXT="vegetablemdonline.ppath.cornell.edu" ID="ID_1741125552" CREATED="1378539364835" MODIFIED="1378539364835" LINK="http://vegetablemdonline.ppath.cornell.edu/"/>
 </node>
-<node TEXT="Plant Guilds" POSITION="left" ID="ID_555884129" CREATED="1382440953531" MODIFIED="1429469754357">
-<font NAME="SansSerif" SIZE="19" BOLD="true"/>
+<node TEXT="Plant Guilds" ID="ID_555884129" CREATED="1382440953531" MODIFIED="1429683363084">
+<font NAME="SansSerif" SIZE="18" BOLD="true"/>
 <node TEXT="Tree Guilds" ID="ID_1039980834" CREATED="1382167803838" MODIFIED="1429464833766">
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
 <node TEXT="Mediteranean" ID="ID_1561697132" CREATED="1382443441901" MODIFIED="1429464835692">
@@ -5675,185 +5839,50 @@
 </node>
 </node>
 </node>
-<node TEXT="Identification/Classification/Description" POSITION="left" ID="ID_365633680" CREATED="1427352191792" MODIFIED="1429469755828">
-<font NAME="SansSerif" SIZE="19" BOLD="true"/>
-<node TEXT="Glossaries" ID="ID_454724951" CREATED="1424864969849" MODIFIED="1429466625360">
-<font NAME="SansSerif" SIZE="19" BOLD="true"/>
-<node TEXT="Trees" ID="ID_1101573840" CREATED="1424864984804" MODIFIED="1429466625362">
+<node TEXT="Seed Conservation/Husbandry/Purchase" ID="ID_1208115159" CREATED="1381736927615" MODIFIED="1429683374692" MAX_WIDTH="800">
 <font NAME="SansSerif" SIZE="18" BOLD="true"/>
-<node TEXT="arborday.org &gt; Trees &gt; Treeguide &gt; Glossary" ID="ID_560916842" CREATED="1424865031475" MODIFIED="1424865031475" LINK="http://www.arborday.org/trees/treeguide/glossary.cfm"/>
-<node TEXT="forestry.usu.edu &gt; Htm &gt; Treeid &gt; Tree-and-botanical-glossary" ID="ID_1732606331" CREATED="1424865039652" MODIFIED="1424865039652" LINK="http://forestry.usu.edu/htm/treeid/tree-and-botanical-glossary/"/>
-<node TEXT="naturesbeautytreeservice.com &gt; Wp-content &gt; Uploads &gt; 2013 &gt; 03 &gt; GLOSSARY" ID="ID_1356825300" CREATED="1424865047870" MODIFIED="1424865047870" LINK="http://naturesbeautytreeservice.com/wp-content/uploads/2013/03/GLOSSARY.pdf"/>
+<node TEXT="blog.seedsavers.org &gt; Assessing-seed-maturity" ID="ID_56469974" CREATED="1381736942298" MODIFIED="1381736942298" LINK="http://blog.seedsavers.org/assessing-seed-maturity/"/>
+<node TEXT="extension.org &gt; Pages &gt; 18340 &gt; Organic-seed-resource-guide:-introduction-and-table-of-contents#" ID="ID_1772561076" CREATED="1381739145566" MODIFIED="1381739145566" LINK="http://www.extension.org/pages/18340/organic-seed-resource-guide:-introduction-and-table-of-contents#.Uluqa2QY1H8"/>
+<node TEXT="livefreelivenatural.com &gt; Save-seeds-huge-list" ID="ID_1539130301" CREATED="1383153791145" MODIFIED="1383153791145" LINK="http://livefreelivenatural.com/save-seeds-huge-list/"/>
+<node TEXT="Desiccants" ID="ID_1374581752" CREATED="1383214841668" MODIFIED="1429683382276">
+<font NAME="SansSerif" SIZE="17" BOLD="true"/>
 </node>
-<node TEXT="Fire Effects Information System Glossary" ID="ID_1275368445" CREATED="1424865011737" MODIFIED="1429466625363">
+<node TEXT="Pollination" ID="ID_1158501319" CREATED="1408166956015" MODIFIED="1429683384309">
+<font NAME="SansSerif" SIZE="17" BOLD="true"/>
+<node TEXT="Hand-Polination" ID="ID_113114399" CREATED="1408166978911" MODIFIED="1429466623774">
 <font NAME="SansSerif" SIZE="10" BOLD="true"/>
-<node TEXT="fs.fed.us &gt; Database &gt; Feis &gt; Glossary2" ID="ID_409555063" CREATED="1424865020614" MODIFIED="1424865020614" LINK="http://www.fs.fed.us/database/feis/glossary2.html#S"/>
+<node TEXT="https://www.youtube.com/watch?v=_5oOdfP_BIc&amp;feature=youtu.be&amp;list=PLzNxg5un8z6EVfkbRDiswLYsLBFTSEwmB" ID="ID_1841507911" CREATED="1408166976321" MODIFIED="1408166976321" LINK="https://www.youtube.com/watch?v=_5oOdfP_BIc&amp;feature=youtu.be&amp;list=PLzNxg5un8z6EVfkbRDiswLYsLBFTSEwmB"/>
 </node>
-<node TEXT="Table of growth habit descriptions" ID="ID_423677643" CREATED="1425013562264" MODIFIED="1429466625452" COLOR="#660000" BACKGROUND_COLOR="#ffff99">
+</node>
+<node TEXT="seedalliance.org" ID="ID_68702526" CREATED="1381737748745" MODIFIED="1381737748745" LINK="http://seedalliance.org/"/>
+<node TEXT="blog.seedsavers.org" ID="ID_1409903217" CREATED="1381737003305" MODIFIED="1381737003305" LINK="http://blog.seedsavers.org/"/>
+<node TEXT="Purchase Websites" ID="ID_1443517159" CREATED="1420457312575" MODIFIED="1429683386656">
+<font NAME="SansSerif" SIZE="17" BOLD="true"/>
+<node TEXT="tradewindsfruit.com" ID="ID_1350822605" CREATED="1420457331478" MODIFIED="1420457331478" LINK="http://www.tradewindsfruit.com/"/>
+<node TEXT="List of 240 Heirlomm Seed Compnaies" ID="ID_784446501" CREATED="1420653714918" MODIFIED="1429466623779">
 <font NAME="SansSerif" SIZE="10" BOLD="true"/>
-<node ID="ID_235027070" CREATED="1425013577005" MODIFIED="1425013642178"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      
-    </p>
-    <table>
-      <tr>
-        <td valign="top" colspan="2">
-          <!-- InstanceBeginEditable name="headlinebar" -->
-          
-
-          <p class="childhlbar">
-            Growth Habits Codes and Definitions
-          </p>
-          <!-- InstanceEndEditable -->
-          
-
-          <p>
-            
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td valign="top">
-          <!-- InstanceBeginEditable name="childcontent" -->
-          
-
-          <table frame="border" title="This table provides information on PLANTS growth habit codes and definitions" width="100%" border="0" cellspacing="1" cellpadding="7" summary="This table provides information on PLANTS growth habit codes and definitions">
-            <tr valign="top">
-              <th align="left" id="descript" width="15%" valign="top">
-                PLANTS Description
-              </th>
-              <th align="left" id="def" width="39%" valign="top">
-                PLANTS Definition
-              </th>
-              <th align="left" id="notes" width="34%" valign="top">
-                Notes
-              </th>
-            </tr>
-            <tr>
-              <td width="15%" valign="top" headers="descript">
-                Forb/herb
-              </td>
-              <td width="39%" valign="top" headers="def">
-                Vascular plant without significant woody tissue above or at the ground. Forbs and herbs may be annual, biennial, or perennial but always lack significant thickening by secondary woody growth and have perennating buds borne at or below the ground surface. In PLANTS, graminoids are excluded but ferns, horsetails, lycopods, and whisk-ferns are included.
-              </td>
-              <td width="34%" valign="top" headers="notes">
-                Applies to vascular plants only. Federal Geographic Data Committee (FGDC) definition includes graminoids, forbs, and ferns.
-              </td>
-            </tr>
-            <tr>
-              <td width="15%" valign="top" headers="descript">
-                Graminoid
-              </td>
-              <td width="39%" valign="top" headers="def">
-                Grass or grass-like plant, including grasses (Poaceae), sedges (Cyperaceae), rushes (Juncaceae), arrow-grasses (Juncaginaceae), and quillworts (<i>Isoetes</i>).
-              </td>
-              <td width="34%" valign="top" headers="notes">
-                Applies to vascular plants only. An herb in the FGDC classification.
-              </td>
-            </tr>
-            <tr>
-              <td width="15%" valign="top" headers="descript">
-                Lichenous
-              </td>
-              <td width="39%" valign="top" headers="def">
-                Organism generally recognized as a single &quot;plant&quot; that consists of a fungus and an alga or cyanobacterium living in symbiotic association. Often attached to solid objects such as rocks or living or dead wood rather than soil.
-              </td>
-              <td width="34%" valign="top" headers="notes">
-                Applies to lichens only, which are not true plants.
-              </td>
-            </tr>
-            <tr>
-              <td width="15%" valign="top" headers="descript">
-                Nonvascular
-              </td>
-              <td width="39%" valign="top" headers="def">
-                Nonvascular, terrestrial green plant, including mosses, hornworts, and liverworts. Always herbaceous, often attached to solid objects such as rocks or living or dead wood rather than soil.
-              </td>
-              <td width="34%" valign="top" headers="notes">
-                Applies to non-vascular plants only; in PLANTS system this is groups HN (Hornworts), LV (Liverworts), and MS (Mosses).
-              </td>
-            </tr>
-            <tr>
-              <td width="15%" valign="top" headers="descript">
-                Shrub
-              </td>
-              <td width="39%" valign="top" headers="def">
-                Perennial, multi-stemmed woody plant that is usually less than 4 to 5 meters (13 to 16 feet) in height. Shrubs typically have several stems arising from or near the ground, but may be taller than 5 meters or single-stemmed under certain environmental conditions.
-              </td>
-              <td width="34%" valign="top" headers="notes">
-                Applies to vascular plants only.
-              </td>
-            </tr>
-            <tr>
-              <td width="15%" valign="top" headers="descript">
-                Subshrub
-              </td>
-              <td width="39%" valign="top">
-                Low-growing shrub usually under 0.5 m (1.5 feet) tall, never exceeding 1 meter (3 feet) tall at maturity.
-              </td>
-              <td width="34%" valign="top" headers="notes">
-                Applies to vascular plants only. A dwarf-shrub in the FGDC classification.
-              </td>
-            </tr>
-            <tr>
-              <td width="15%" valign="top" headers="descript">
-                Tree
-              </td>
-              <td width="39%" valign="top" headers="def">
-                Perennial, woody plant with a single stem (trunk), normally greater than 4 to 5 meters (13 to 16 feet) in height; under certain environmental conditions, some tree species may develop a multi-stemmed or short growth form (less than 4 meters or 13 feet in height).
-              </td>
-              <td width="34%" valign="top" headers="notes">
-                Applies to vascular plants only.
-              </td>
-            </tr>
-            <tr>
-              <td width="15%" valign="top" headers="descript">
-                Vine
-              </td>
-              <td width="39%" valign="top" headers="def">
-                Twining/climbing plant with relatively long stems, can be woody or herbaceous.
-              </td>
-              <td width="34%" valign="top" headers="notes">
-                Applies to vascular plants only. FGDC classification considers woody vines to be shrubs and herbaceous vines to be herbs.
-              </td>
-            </tr>
-          </table>
-          <!-- InstanceEndEditable -->
-          
-        </td>
-        <td width="10">
-          &#160;
-        </td>
-      </tr>
-    </table>
-  </body>
-</html>
-</richcontent>
+<node TEXT="off-grid.info &gt; Food-independence &gt; Heirloom-seed-suppliers" ID="ID_16494413" CREATED="1420653734328" MODIFIED="1420653734328" LINK="http://www.off-grid.info/food-independence/heirloom-seed-suppliers.html"/>
 </node>
-</node>
-<node TEXT="On-Line Glossary of Technical Terms in Plant Pathology" ID="ID_516538600" CREATED="1427095800008" MODIFIED="1429466625453">
+<node TEXT="beehappyplants.co.uk" ID="ID_64715673" CREATED="1420977792328" MODIFIED="1420977792328" LINK="http://www.beehappyplants.co.uk/"/>
+<node TEXT="US 100$ minimum plus fees (check import laws)" ID="ID_825958645" CREATED="1422340793331" MODIFIED="1429466623779">
 <font NAME="SansSerif" SIZE="10" BOLD="true"/>
-<node TEXT="plantpath.cornell.edu &gt; Glossary" ID="ID_669737410" CREATED="1427095809159" MODIFIED="1427095809159" LINK="http://www.plantpath.cornell.edu/glossary/"/>
+<node TEXT="seedsavers.org &gt; Shipping" ID="ID_74859656" CREATED="1422340737939" MODIFIED="1422340737939" LINK="http://www.seedsavers.org/shipping.html"/>
+</node>
+<node TEXT="Native seeds" ID="ID_1890219521" CREATED="1427446937317" MODIFIED="1429466623780">
+<font NAME="SansSerif" SIZE="10" BOLD="true"/>
+<node TEXT="nativeseeds.org" ID="ID_95697757" CREATED="1427446921678" MODIFIED="1427446921678" LINK="http://www.nativeseeds.org/"/>
 </node>
 </node>
-<node TEXT="Plant Databases" ID="ID_805035831" CREATED="1393234307461" MODIFIED="1424153707234">
-<font NAME="SansSerif" SIZE="19" BOLD="true"/>
-</node>
-<node TEXT="23 Architectural Models" ID="ID_503976993" CREATED="1427352486664" MODIFIED="1429466625455">
-<font NAME="SansSerif" SIZE="19" BOLD="true"/>
-<node TEXT="greenlab.cirad.fr &gt; GLUVED &gt; Html &gt; P1 Prelim &gt; Bota &gt; Bota typo 018" ID="ID_419161832" CREATED="1427352517821" MODIFIED="1427352517821" LINK="http://greenlab.cirad.fr/GLUVED/html/P1_Prelim/Bota/Bota_typo_018.html"/>
-<node TEXT="ncbi.nlm.nih.gov &gt; Pmc &gt; Articles &gt; PMC3077987" ID="ID_398238211" CREATED="1427352526792" MODIFIED="1427352526792" LINK="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3077987/"/>
-<node TEXT="slideshare.net &gt; ArborCulture &gt; The-23-architectural-models" ID="ID_1261857516" CREATED="1427352536891" MODIFIED="1427352536891" LINK="http://www.slideshare.net/ArborCulture/the-23-architectural-models"/>
+<node TEXT="Savng Carrot Seed" ID="ID_1946786605" CREATED="1422470043838" MODIFIED="1429466623781">
+<font NAME="SansSerif" SIZE="10" BOLD="true"/>
+<node TEXT="https://www.youtube.com/watch?v=LxAuQznAbeY" ID="ID_1782697023" CREATED="1422470061943" MODIFIED="1422470061943" LINK="https://www.youtube.com/watch?v=LxAuQznAbeY"/>
 </node>
 </node>
-<node TEXT="Nitrogen Fixation" POSITION="left" ID="ID_172706663" CREATED="1429188851629" MODIFIED="1429469757430">
-<font NAME="SansSerif" SIZE="19" BOLD="true"/>
+</node>
+<node TEXT="Biology" POSITION="left" ID="ID_136757392" CREATED="1429683468503" MODIFIED="1429683487863">
+<font SIZE="19" BOLD="true"/>
+<node TEXT="Nitrogen Fixation" ID="ID_172706663" CREATED="1429188851629" MODIFIED="1429683495198">
+<font NAME="SansSerif" SIZE="18" BOLD="true"/>
 <node TEXT="tropicalpermaculture.com &gt; Nitrogen-fixing-bacteria" ID="ID_1922717115" CREATED="1429188871904" MODIFIED="1429188871904" LINK="http://www.tropicalpermaculture.com/nitrogen-fixing-bacteria.html"/>
 <node ID="ID_161473429" CREATED="1429189415357" MODIFIED="1429189455491"><richcontent TYPE="NODE">
 
@@ -5921,6 +5950,7 @@
 </node>
 <node TEXT="the-compost-gardener.com &gt; Nitrogen-fixing-bacteria" ID="ID_1170081796" CREATED="1429189636327" MODIFIED="1429189636327" LINK="http://www.the-compost-gardener.com/nitrogen-fixing-bacteria.html"/>
 <node TEXT="agriculture.gov.sk.ca &gt; Default ? ..." ID="ID_41116320" CREATED="1429190936139" MODIFIED="1429190936139" LINK="http://www.agriculture.gov.sk.ca/Default.aspx?DN=4b50acd7-fb26-49a9-a31c-829f38598d7e"/>
+</node>
 </node>
 </node>
 </map>
