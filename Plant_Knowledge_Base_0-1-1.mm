@@ -113,20 +113,145 @@
 <node TEXT="Node Styles" ID="ID_984241589" CREATED="1429687416775" MODIFIED="1429687578646">
 <font SIZE="14" BOLD="true"/>
 <node TEXT="Class" STYLE_REF="Class" ID="ID_1435596671" CREATED="1429773904776" MODIFIED="1432523786357"/>
-<node TEXT="Order" STYLE_REF="Order" ID="ID_1955683835" CREATED="1429773904776" MODIFIED="1429773915793">
+<node STYLE_REF="Order" ID="ID_1955683835" CREATED="1429773904776" MODIFIED="1432668599787"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Order
+    </p>
+    <p>
+      <font size="4">Included (common names)</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="command + 4" STYLE_REF="key_stroke" ID="ID_1254735938" CREATED="1429954647443" MODIFIED="1429954954060"/>
 </node>
-<node TEXT="Order(Suborder)" STYLE_REF="Order(Suborder)" ID="ID_589731187" CREATED="1432523789801" MODIFIED="1432523883032"/>
-<node TEXT="Family" STYLE_REF="Family" ID="ID_921789066" CREATED="1429687465004" MODIFIED="1429687482512">
+<node STYLE_REF="Order(Suborder)" ID="ID_589731187" CREATED="1432523789801" MODIFIED="1432668616953"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Order(Suborder)
+    </p>
+    <p>
+      <font size="4">Included (common names)</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node STYLE_REF="Family" ID="ID_921789066" CREATED="1429687465004" MODIFIED="1432668622899"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Family
+    </p>
+    <p>
+      <font size="4">Included (common names)</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="command + 3" STYLE_REF="key_stroke" ID="ID_974059151" CREATED="1429954647443" MODIFIED="1429954964658"/>
 </node>
-<node TEXT="Family(Subfamily)" STYLE_REF="Family(Subfamily)" ID="ID_1544621287" CREATED="1429854705572" MODIFIED="1429854722437"/>
-<node TEXT="Family(Tribe)" STYLE_REF="Family(Tribe)" ID="ID_1754342179" CREATED="1429854727712" MODIFIED="1429854739140"/>
-<node TEXT="Family (Subtribe)" STYLE_REF="Family(Subtribe)" ID="ID_1301103517" CREATED="1429693060727" MODIFIED="1429693077263"/>
-<node TEXT="Genus" STYLE_REF="Genus" ID="ID_1824940784" CREATED="1429687494200" MODIFIED="1429687504594">
+<node STYLE_REF="Family(Subfamily)" ID="ID_1544621287" CREATED="1429854705572" MODIFIED="1432668629356"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Family(Subfamily)
+    </p>
+    <p>
+      <font size="4">Included (common names)</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node STYLE_REF="Family(Tribe)" ID="ID_1754342179" CREATED="1429854727712" MODIFIED="1432668633709"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Family(Tribe)
+    </p>
+    <p>
+      <font size="4">Included (common names)</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node STYLE_REF="Family(Subtribe)" ID="ID_1301103517" CREATED="1429693060727" MODIFIED="1432668639217"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Family (Subtribe)
+    </p>
+    <p>
+      <font size="4">Included (common names)</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node STYLE_REF="Genus" ID="ID_1824940784" CREATED="1429687494200" MODIFIED="1432668648467"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Genus
+    </p>
+    <p>
+      <font size="4">Included (common names)</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="command + 2" STYLE_REF="key_stroke" ID="ID_812443138" CREATED="1429954647443" MODIFIED="1429954964662"/>
 </node>
-<node TEXT="Genus(Subgenus)" STYLE_REF="Genus(Subgenus)" ID="ID_1581777714" CREATED="1429797137705" MODIFIED="1429797150463"/>
+<node STYLE_REF="Genus(Subgenus)" ID="ID_1581777714" CREATED="1429797137705" MODIFIED="1432668655640"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Genus(Subgenus)
+    </p>
+    <p>
+      <font size="4">Included (common names)</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node TEXT="Species" STYLE_REF="Species" ID="ID_1170499071" CREATED="1429687508402" MODIFIED="1429687516471">
 <node TEXT="command + 1" STYLE_REF="key_stroke" ID="ID_677740557" CREATED="1429954647443" MODIFIED="1429954964664"/>
 </node>
@@ -455,11 +580,25 @@
 <node TEXT="Details config" ID="ID_3302265" CREATED="1431955168498" MODIFIED="1431955180225">
 <font SIZE="14" BOLD="true"/>
 <node TEXT="Languages" STYLE_REF="Config" ID="ID_1243466905" CREATED="1431502387910" MODIFIED="1431502597611">
+<node TEXT="CA -" ID="ID_587724630" CREATED="1431515130329" MODIFIED="1431515137519"/>
 <node TEXT="DE -" LOCALIZED_STYLE_REF="default" ID="ID_60878858" CREATED="1431502417950" MODIFIED="1431502588296"/>
 <node TEXT="EN -" LOCALIZED_STYLE_REF="default" ID="ID_370325422" CREATED="1431502425254" MODIFIED="1431502588297"/>
 <node TEXT="ES -" LOCALIZED_STYLE_REF="default" ID="ID_478869979" CREATED="1431502436238" MODIFIED="1431502588297"/>
-<node TEXT="CA -" ID="ID_587724630" CREATED="1431515130329" MODIFIED="1431515137519"/>
 </node>
+</node>
+<node TEXT="Display Notes Styles" ID="ID_258527224" CREATED="1432575001698" MODIFIED="1432575052129">
+<font SIZE="14" BOLD="true"/>
+<node TEXT="Class" STYLE_REF="Class" ID="ID_966080517" CREATED="1429773904776" MODIFIED="1432523786357"/>
+<node TEXT="Order" STYLE_REF="Order" ID="ID_105257389" CREATED="1429773904776" MODIFIED="1429773915793">
+<node TEXT="command + 4" STYLE_REF="key_stroke" ID="ID_1813772094" CREATED="1429954647443" MODIFIED="1429954954060"/>
+</node>
+<node TEXT="Order(Suborder)" STYLE_REF="Order(Suborder)" ID="ID_162869335" CREATED="1432523789801" MODIFIED="1432523883032"/>
+<node TEXT="Family" STYLE_REF="Family" ID="ID_829840886" CREATED="1429687465004" MODIFIED="1429687482512">
+<node TEXT="command + 3" STYLE_REF="key_stroke" ID="ID_1635133592" CREATED="1429954647443" MODIFIED="1429954964658"/>
+</node>
+<node TEXT="Family(Subfamily)" STYLE_REF="Family(Subfamily)" ID="ID_31075798" CREATED="1429854705572" MODIFIED="1429854722437"/>
+<node TEXT="Family(Tribe)" STYLE_REF="Family(Tribe)" ID="ID_23753211" CREATED="1429854727712" MODIFIED="1429854739140"/>
+<node TEXT="Family (Subtribe)" STYLE_REF="Family(Subtribe)" ID="ID_1191491788" CREATED="1429693060727" MODIFIED="1429693077263"/>
 </node>
 </node>
 <node POSITION="left" ID="ID_323859214" CREATED="1429683636152" MODIFIED="1432391966719"><richcontent TYPE="NODE">
@@ -498,7 +637,22 @@
 </richcontent>
 <font SIZE="19" BOLD="true"/>
 <node TEXT="Magnoliopsida" STYLE_REF="Class" ID="ID_897558015" CREATED="1432391969109" MODIFIED="1432392163557">
-<node TEXT="Apiales&#xa;Carrot" STYLE_REF="Order" ID="ID_488411886" CREATED="1429812580216" MODIFIED="1429812592898">
+<node STYLE_REF="Order" ID="ID_488411886" CREATED="1429812580216" MODIFIED="1432649271816"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Apiales
+    </p>
+    <p>
+      <font size="4">Carrot</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Apiaceae&#xa;Carrot" STYLE_REF="Family" ID="ID_802044622" CREATED="1429812557752" MODIFIED="1429812599956">
 <node TEXT="Apioideae" STYLE_REF="Family(Subfamily)" ID="ID_318068726" CREATED="1430808773983" MODIFIED="1430808782280">
 <node TEXT="Bupleureae" STYLE_REF="Family(Tribe)" ID="ID_523069598" CREATED="1430808798344" MODIFIED="1430808810126">
@@ -723,7 +877,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Savng Carrot Seed" ID="ID_138914473" CREATED="1422470043838" MODIFIED="1422470385700" LINK="#ID_1946786605">
 <font NAME="SansSerif" SIZE="10" BOLD="true"/>
@@ -1217,7 +1370,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Arecales&#xa;Date Palm" STYLE_REF="Order" ID="ID_1813569596" CREATED="1429859738088" MODIFIED="1429859761922">
+<node STYLE_REF="Order" ID="ID_1813569596" CREATED="1429859738088" MODIFIED="1432649280164"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Arecales
+    </p>
+    <p>
+      <font size="4">Date Palm</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Arecaceae&#xa;Date Palm" STYLE_REF="Family" ID="ID_1066898203" CREATED="1429859604281" MODIFIED="1429859616208">
 <node TEXT="Phoenix spp.&#xa;Date Palm" STYLE_REF="Genus" ID="ID_1321332596" CREATED="1429859570579" MODIFIED="1429859623791">
 <node TEXT="Phoenix dactylifera" STYLE_REF="Species" ID="ID_1895382776" CREATED="1420550548540" MODIFIED="1432569467800">
@@ -1279,7 +1447,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#xf0b7; Sugar-rich fruits are a valuable cash crop &#xf0b7; Ground seeds softened by soaking in water can be used as forage for camels, goats, horses, and poultry &#xf0b7; Strong trunks are used as construction timber &#xf0b7; Leaves are applied in sand dune stabilization and for thatching &#xf0b7; Trees are grown to reclaim salt-affected lands &#xf0b7; Mature trees are suitable for intercropping &#xf0b7; Salt tolerant &#xf0b7; Very drought resistant; grows with 100 mm annual rainfall &#xf0b7; Tender to prolonged frost" ID="ID_1610344162" CREATED="1420550561747" MODIFIED="1420550563695"/>
 <node TEXT="Phoenix dactylifera, the date palm, is a desert-adapted tree native to the eastern Mediterranean. It is a single-trunked dioecious species with blue-green fronds. The pale yellow spathes of female flowers are wind pollinated in nature or hand pollinated in cultivation. These clusters of the berries are known as dates. Dates have been cultivated in the Middle East for thousands of years. PLACEMENTS  We will grow dates in any suitable location.* CULTURAL CONSIDERATIONS  The propagation of offshoots is a slow and labor-intensive process The propagation of offshoots has limited the spread of date culture Tissue culture is an affordable way for more acreage to be planted Dates are propagated by offshoots that occur on the trunk of the palm The propagation of offshoots used to be only way to reproduce improved cultivars Tissue culture is a newly viable method of producing large quantities of planting stock PLANTING GUIDELINES  Plants should be thoroughly mulched after planting and watered in well. Regular irrigation should continue until signs of new growth appear. Although dates are very drought tolerant, they do require some subsurface moisture." ID="ID_1739692772" CREATED="1420659599427" MODIFIED="1420659600646"/>
@@ -1290,7 +1457,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Asparagales&#xa;Asparagus, Garlic, Onion" STYLE_REF="Order" ID="ID_1671960936" CREATED="1429812109802" MODIFIED="1429878908494">
+<node STYLE_REF="Order" ID="ID_1671960936" CREATED="1429812109802" MODIFIED="1432650006737"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Asparagales
+    </p>
+    <p>
+      <font size="4">Asparagus, Garlic, Onion</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Amaryllidaceae&#xa;Garlic, Onion" STYLE_REF="Family" ID="ID_47137700" CREATED="1429812062515" MODIFIED="1429878902150">
 <node TEXT="Allium spp.&#xa;Garlic, Onion" STYLE_REF="Genus" ID="ID_1205077694" CREATED="1429811936259" MODIFIED="1432562014479">
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
@@ -1595,7 +1777,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="vegetable-garden-guide.com &gt; Planting-asparagus" ID="ID_1784040562" CREATED="1407652117774" MODIFIED="1407652117774" LINK="http://www.vegetable-garden-guide.com/planting-asparagus.html"/>
 <node TEXT="6 perennial vegetables" ID="ID_293133671" CREATED="1407652154420" MODIFIED="1407652175499" LINK="#ID_1125555829">
@@ -1663,7 +1844,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_827722160" CREATED="1430808162810" MODIFIED="1430808162811"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_48959454" CREATED="1430808162812" MODIFIED="1430808162813"/>
@@ -2001,7 +2181,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Aloe verrucosa" STYLE_REF="Species" ID="ID_1288277132" CREATED="1431953653942" MODIFIED="1431953671162">
 <attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
@@ -2325,7 +2504,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Asterales&#xa;Sunflowers, Daisies, Yarrow" STYLE_REF="Order" ID="ID_855853703" CREATED="1429792893283" MODIFIED="1429793443205">
+<node STYLE_REF="Order" ID="ID_855853703" CREATED="1429792893283" MODIFIED="1432650017792"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Asterales
+    </p>
+    <p>
+      <font size="4">Sunflowers, Daisies, Yarrow</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Asteraceae&#xa;Astor, Daisy, Sunflower, Yarrow, Dandelion, Salsify" STYLE_REF="Family" ID="ID_600874442" CREATED="1429792595590" MODIFIED="1429811608014">
 <node TEXT="Achillea spp.&#xa;Yarrow" STYLE_REF="Genus" ID="ID_1347002967" CREATED="1429793454890" MODIFIED="1429793491460">
 <node TEXT="Achillea millefolium" STYLE_REF="Species" ID="ID_1171750911" CREATED="1381554800341" MODIFIED="1432569297595">
@@ -2390,7 +2584,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="permaculture.co.uk &gt; Articles &gt; Yarrow-and-its-medicinal-benefits" ID="ID_26288938" CREATED="1381554814210" MODIFIED="1381554814210" LINK="http://www.permaculture.co.uk/articles/yarrow-and-its-medicinal-benefits"/>
 <node ID="ID_458413132" CREATED="1429469127637" MODIFIED="1429469144610"><richcontent TYPE="NODE">
@@ -2621,7 +2814,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1037146012" CREATED="1424602682401" MODIFIED="1424602725854"><richcontent TYPE="NODE">
 
@@ -3321,7 +3513,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1577414530" CREATED="1424602304118" MODIFIED="1424602342825"><richcontent TYPE="NODE">
 
@@ -3444,7 +3635,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="seedsavers.org &gt; Onlinestore &gt; Salsify &gt; Salsify-Mammoth-Sandwich-Island" ID="ID_717949050" CREATED="1422293697028" MODIFIED="1422293697028" LINK="http://www.seedsavers.org/onlinestore/salsify/Salsify-Mammoth-Sandwich-Island.html"/>
 <node TEXT="washingtonpost.com &gt; Lifestyle &gt; Home-garden &gt; Salsify-a-root-vegetable-that-does-double-duty &gt; 2011 &gt; 12 &gt; 20 &gt; GIQAxL6GaP story" ID="ID_183430779" CREATED="1422293851703" MODIFIED="1422293851703" LINK="http://www.washingtonpost.com/lifestyle/home-garden/salsify-a-root-vegetable-that-does-double-duty/2011/12/20/gIQAxL6GaP_story.html"/>
@@ -3516,7 +3706,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_704655395" CREATED="1424601995558" MODIFIED="1424602049153"><richcontent TYPE="NODE">
 
@@ -3645,7 +3834,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_675095708" CREATED="1430757308308" MODIFIED="1430757308311"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_279752813" CREATED="1430757308313" MODIFIED="1430757308316"/>
@@ -3710,7 +3898,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1824878881" CREATED="1432569092838" MODIFIED="1432569092841"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_850675022" CREATED="1432569092841" MODIFIED="1432569092841"/>
@@ -3777,7 +3964,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="http://en.wikipedia.org/wiki/Tragopogon_porrifolius" ID="ID_244063797" CREATED="1429811861775" MODIFIED="1429811861775" LINK="http://en.wikipedia.org/wiki/Tragopogon_porrifolius"/>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1692282602" CREATED="1430757308426" MODIFIED="1430757308427"/>
@@ -4298,7 +4484,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Brassicales&#xa;Mustard, Kale, Capers" STYLE_REF="Order" ID="ID_1192695274" CREATED="1429796334401" MODIFIED="1432376966673">
+<node STYLE_REF="Order" ID="ID_1192695274" CREATED="1429796334401" MODIFIED="1432650037905"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Brassicales
+    </p>
+    <p>
+      <font size="4">Mustard, Kale, Capers</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Capparaceae" STYLE_REF="Family" ID="ID_994615783" CREATED="1429796250826" MODIFIED="1429796256245">
 <node TEXT="Capparis spp.&#xa;Capers" STYLE_REF="Genus" ID="ID_1005347428" CREATED="1429796189768" MODIFIED="1429796205053">
 <node TEXT="Capparis spinosa" STYLE_REF="Species" ID="ID_102919616" CREATED="1410766293100" MODIFIED="1432568676994">
@@ -4361,7 +4562,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="en.wikipedia.org &gt; Wiki &gt; Caper" ID="ID_831392112" CREATED="1410766305061" MODIFIED="1410766305061" LINK="http://en.wikipedia.org/wiki/Caper"/>
 <node TEXT="growitalian.com &gt; How-to-grow-capers" ID="ID_1264030155" CREATED="1410766639734" MODIFIED="1410766639734" LINK="http://www.growitalian.com/how-to-grow-capers/"/>
@@ -4443,7 +4643,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_35480117" CREATED="1430770489540" MODIFIED="1430770489542"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1178519546" CREATED="1430770489543" MODIFIED="1430770489545"/>
@@ -4519,7 +4718,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1897886282" CREATED="1431326689948" MODIFIED="1431326689949"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1065791879" CREATED="1431326689950" MODIFIED="1431326689951"/>
@@ -4651,7 +4849,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="naturalsociety.com &gt; Camelina-oil-source-omega-3s-brain-depression" ID="ID_1866562977" CREATED="1380726877699" MODIFIED="1380726877699" LINK="http://naturalsociety.com/camelina-oil-source-omega-3s-brain-depression/"/>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_426380516" CREATED="1430757308465" MODIFIED="1430757308466"/>
@@ -4813,7 +5010,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Rat&apos;s Tail Radish This easy-to-grow veggie is harvested for its crisp, pungent-flavored seed pod rather than its root. &#x201c;Wait until the plant bolts and flowers,&#x201d; Grant says. &#x201c;Pods develop after the flowers and should be harvested and eaten when they&#x2019;re still young and green.&#x201d; Eat raw, pickle or chop in salads." ID="ID_342191896" CREATED="1423377712046" MODIFIED="1423377713750"/>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1807120105" CREATED="1430757308475" MODIFIED="1430757308476"/>
@@ -4896,7 +5092,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="reneesgarden.com &gt; Articles &gt; Nasturtiums" ID="ID_1025067868" CREATED="1383319680929" MODIFIED="1383319680929" LINK="http://www.reneesgarden.com/articles/nasturtiums.html"/>
 <node TEXT="Nasturtium flowers and leaves give salad a peppery kick similar to watercress." ID="ID_1837711100" CREATED="1408603626918" MODIFIED="1408603629195"/>
@@ -4982,7 +5177,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="permaculture.co.uk &gt; Articles &gt; Amazing-moringa-medicinal-edible-easy-grow" ID="ID_964424100" CREATED="1422114854918" MODIFIED="1422114854918" LINK="http://www.permaculture.co.uk/articles/amazing-moringa-medicinal-edible-easy-grow"/>
 <node TEXT="miracletrees.org &gt; Growing moringa" ID="ID_294865704" CREATED="1422115357994" MODIFIED="1422115357994" LINK="http://miracletrees.org/growing_moringa.html"/>
@@ -5080,7 +5274,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Caryophyllales&#xa;Buckwheat, Pokeweed, Quinoa" STYLE_REF="Order" ID="ID_1179280823" CREATED="1429809040902" MODIFIED="1429813311717">
+<node STYLE_REF="Order" ID="ID_1179280823" CREATED="1429809040902" MODIFIED="1432650049876"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Caryophyllales
+    </p>
+    <p>
+      <font size="4">Buckwheat, Pokeweed, Quinoa</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Amaranthaceae&#xa;Pigweed, Amaranth, Quinoa" STYLE_REF="Family" ID="ID_1404523838" CREATED="1429191368074" MODIFIED="1432562912942">
 <node TEXT="Amaranthus spp.&#xa;Amaranth" STYLE_REF="Genus" ID="ID_761210138" CREATED="1395475547770" MODIFIED="1432568530448">
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
@@ -6403,7 +6612,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Comales&#xa;Dogwood" STYLE_REF="Order" ID="ID_480244095" CREATED="1431949417297" MODIFIED="1431949619280">
+<node STYLE_REF="Order" ID="ID_480244095" CREATED="1431949417297" MODIFIED="1432650060336"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Comales
+    </p>
+    <p>
+      <font size="4">Dogwood</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="41" VALUE_WIDTH="41"/>
 <node TEXT="Hydrangeaceae&#xa;Dogwood" STYLE_REF="Family" ID="ID_595708369" CREATED="1431949673379" MODIFIED="1431949700546">
 <attribute_layout NAME_WIDTH="41" VALUE_WIDTH="41"/>
@@ -6481,7 +6705,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Cucurbitales&#xa;Vines, Squash, Pumpkin" STYLE_REF="Order" ID="ID_1398809595" CREATED="1429818161533" MODIFIED="1429878675155">
+<node STYLE_REF="Order" ID="ID_1398809595" CREATED="1429818161533" MODIFIED="1432650068023"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cucurbitales
+    </p>
+    <p>
+      <font size="4">Vines, Squash, Pumpkin</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Cucurbitaceae &#xa;Cucurbits - Squash, Pumpkin, Zucchini, Gourds" STYLE_REF="Family" ID="ID_785859542" CREATED="1429037976838" MODIFIED="1429694037716">
 <node TEXT="Cucumis spp." STYLE_REF="Genus" ID="ID_60281096" CREATED="1429818086322" MODIFIED="1431248243299">
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
@@ -6708,7 +6947,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Dioscoreales&#xa;Turtle Back Plant" STYLE_REF="Order" ID="ID_729864640" CREATED="1429817682289" MODIFIED="1429878857472">
+<node STYLE_REF="Order" ID="ID_729864640" CREATED="1429817682289" MODIFIED="1432650075984"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Dioscoreales
+    </p>
+    <p>
+      <font size="4">Turtle Back Plant</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Dioscoreaceae" STYLE_REF="Family" ID="ID_392793060" CREATED="1429817657158" MODIFIED="1429817660845">
 <node TEXT="Dioscorea spp." STYLE_REF="Genus" ID="ID_1733288097" CREATED="1429817605735" MODIFIED="1429817612245">
 <node TEXT="Dioscorea elephantipis" STYLE_REF="Species" ID="ID_1389368527" CREATED="1429716955635" MODIFIED="1432565740268">
@@ -6780,7 +7034,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Dipsacales  &#xa;Honeysuckle, Elder, Viburnum, and Valerian." STYLE_REF="Order" ID="ID_1127535635" CREATED="1429789963815" MODIFIED="1429790005614">
+<node STYLE_REF="Order" ID="ID_1127535635" CREATED="1429789963815" MODIFIED="1432650095795"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Dipsacales&#160;&#160;
+    </p>
+    <p>
+      <font size="4">Honeysuckle, Elder, Viburnum, and Valerian.</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Caprifoliaceae&#xa;Honeysuckle" STYLE_REF="Family" ID="ID_917089370" CREATED="1429789819422" MODIFIED="1429790021732">
 <node TEXT="Lonicera spp.&#xa;Honeysuckle" STYLE_REF="Genus" ID="ID_16119097" CREATED="1429789583748" MODIFIED="1429789629872">
 <node TEXT="http://en.wikipedia.org/wiki/Honeysuckle" ID="ID_1947130391" CREATED="1429789667419" MODIFIED="1429789667419" LINK="http://en.wikipedia.org/wiki/Honeysuckle"/>
@@ -6920,7 +7189,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Ericales&#xa;Kaki, Blueberry, Azalea, Rhododendrum" STYLE_REF="Order" ID="ID_1959469036" CREATED="1429818435176" MODIFIED="1429878991812">
+<node STYLE_REF="Order" ID="ID_1959469036" CREATED="1429818435176" MODIFIED="1432650106804"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ericales
+    </p>
+    <p>
+      <font size="4">Kaki, Blueberry, Azalea, Rhododendrum</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Ebenaceae&#xa;Kaki" STYLE_REF="Family" ID="ID_559557055" CREATED="1429807834858" MODIFIED="1429878942019">
 <node TEXT="Diospyros spp.&#xa;Kaki" STYLE_REF="Genus" ID="ID_137212789" CREATED="1429807697199" MODIFIED="1429808712549">
 <node TEXT="Diospyros kaki" STYLE_REF="Species" ID="ID_362212380" CREATED="1420658251944" MODIFIED="1432568382823">
@@ -6983,7 +7267,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="In Spain - Ribera del Xuquer" ID="ID_237765664" CREATED="1420658297727" MODIFIED="1420658305553">
 <font NAME="SansSerif" SIZE="10" BOLD="true"/>
@@ -8236,7 +8519,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Fabales&#xa;Legumes" STYLE_REF="Order" ID="ID_1851702653" CREATED="1429806709958" MODIFIED="1429878648338">
+<node STYLE_REF="Order" ID="ID_1851702653" CREATED="1429806709958" MODIFIED="1432650116410"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Fabales
+    </p>
+    <p>
+      <font size="4">Legumes</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Fabaceae (Leguminosae)&#xa;[Legumes or Pulse]&#xa;Beans, Peas, Clover, Acacia" STYLE_REF="Family" ID="ID_1870764207" CREATED="1429189815306" MODIFIED="1432565133254"><richcontent TYPE="NOTE">
 
 <html>
@@ -10051,7 +10349,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Yardlong Beans&#xa;(subsp. sesquipedalis)" STYLE_REF="Species(Subspecies)" ID="ID_1467574945" CREATED="1423377374034" MODIFIED="1429856623127">
 <attribute_layout NAME_WIDTH="137" VALUE_WIDTH="193"/>
@@ -10159,7 +10456,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="http://en.wikipedia.org/wiki/Mung_bean" ID="ID_1013373459" CREATED="1429856822861" MODIFIED="1429856822861" LINK="http://en.wikipedia.org/wiki/Mung_bean"/>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1638569000" CREATED="1430757308732" MODIFIED="1430757308733"/>
@@ -10397,7 +10693,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Wood lasts longer then ceder in outdoors" ID="ID_157243168" CREATED="1380021220534" MODIFIED="1380021236473"/>
 <node TEXT="berlinplants.wordpress.com &gt; 2012 &gt; 05 &gt; 31 &gt; Black-locust-the-tree-of-abandoned-spaces" ID="ID_1272371061" CREATED="1382191174354" MODIFIED="1382191174354" LINK="http://berlinplants.wordpress.com/2012/05/31/black-locust-the-tree-of-abandoned-spaces/"/>
@@ -10679,7 +10974,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_52408339" CREATED="1430757308719" MODIFIED="1430757308720"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_709865451" CREATED="1430757308720" MODIFIED="1430757308721"/>
@@ -10891,7 +11185,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="http://en.wikipedia.org/wiki/Prosopis_africana" ID="ID_1877338176" CREATED="1429855141034" MODIFIED="1429855141034" LINK="http://en.wikipedia.org/wiki/Prosopis_africana"/>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_960423072" CREATED="1430757308760" MODIFIED="1430757308761"/>
@@ -11371,7 +11664,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_312052410" CREATED="1424602099457" MODIFIED="1424602147669"><richcontent TYPE="NODE">
 
@@ -11510,7 +11802,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Siberian pea shrub is a perennial shrub from 6 to 20 feet in height in the Leguminosae, native to China and Siberia. The plant produces dense foliage, making a good windbreak. The abundant yellow flowers can be steamed and eaten. Plants fix nitrogen, and have extensive root systems, aiding in erosion control. The high-protein seeds are edible cooked and are also widely used as poultry feed. PLACEMENTS  We will grow Siberian pea shrub in any suitable location.* CULTURAL CONSIDERATIONS  Caragana arborescens are relatively long-lived Can be coppiced repeatedly for mulch and compost material Neutralize various soil types, preparing the ground for more valuable crop Seedlings should be inoculated with Rhizobium to speed growth and enrich the soil Often planted along poultry runs; seeds can drop directly to the birds, eliminating harvesting PLANTING GUIDELINES  Seedlings should be planted out as early as possible to avoid getting root bound in the containers. Dibble tubes or tree pots are best to accommodate the plants tap roots. Inoculate with Rhizobium. After planting, mulch and water until signs of new growth appear. Siberian peashrub seems largely disease and pest free." ID="ID_537622392" CREATED="1420657561288" MODIFIED="1420657563365"/>
 <node TEXT="en.wikipedia.org &gt; Wiki &gt; Caragana arborescens" ID="ID_1704175581" CREATED="1420657584249" MODIFIED="1420657584249" LINK="http://en.wikipedia.org/wiki/Caragana_arborescens"/>
@@ -11588,7 +11879,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Why? &#xf0b7; The fruits of C. siliqua can be used to make syrup or juice, and can also be eaten fresh or dried &#xf0b7; The seeds of this tree, known as locust beans, can be used as a food thickening agent &#xf0b7; The fruit provides fodder for all animals, and the carob seed flour is a nutritious additive for animal foods &#xf0b7; Carob trees have closed-grained wood that provides a fine, pink-coloured timber that is extremely versatile, proving acceptable firewood and yielding good, slow-burning charcoal &#xf0b7; This is a weak nitrogen-fixing tree &#xf0b7; Its extensive root system penetrates rock and soil, and is mineral-mining to the benefit of intercropped plants &#xf0b7; It is fire retardant and evergreen, and thus provides an ideal perimeter windbreak &#xf0b7; The carob grows well with all common fruit trees How? &#xf0b7; Sow seeds when fresh as possible &#xf0b7; Before sowing, the seed must be boiled for 1 minute, then left in cold water to cool for 24 hours - this water should be changed after 12 hours &#xf0b7; Sow the seed outdoors at a depth of 1 cm &#xf0b7; Carob trees are either male or female. Only female&#x2019;s produce fruit - grow only females if there is a male in the neighbourhood (as the flowers require pollination to fruit!) &#xf0b7; Carob trees can grow literally right on the rock" ID="ID_202193085" CREATED="1420549116746" MODIFIED="1420549119399"/>
 <node TEXT="Why?  &#xa;&#xf0b7; The fruits of C. siliqua can be used to make syrup or juice, and can also be eaten fresh  or dried  &#xa;&#xf0b7; The seeds of this tree, known as locust beans, can be used as a food thickening agent  &#xa;&#xf0b7; The fruit provides fodder for all animals, and the carob seed flour is a nutritious additive  for animal foods  &#xa;&#xf0b7; Carob trees have closed-grained wood that provides a fine, pink-coloured timber that is  extremely versatile, proving acceptable firewood and yielding good, slow-burning  charcoal  &#xa;&#xf0b7; This is a weak nitrogen-fixing tree  &#xa;&#xf0b7; Its extensive root system penetrates rock and soil, and is mineral-mining to the benefit of  intercropped plants  &#xf0b7; It is fire retardant and evergreen, and thus provides an ideal perimeter windbreak &#xa; &#xf0b7; The carob grows well with all common fruit trees    &#xa;&#xa;How?  &#xa;&#xf0b7; Sow seeds when fresh as possible  &#xa;&#xf0b7; Before sowing, the seed must be boiled for 1 minute, then left in cold water to cool for 24  hours - this water should be changed after 12 hours &#xa;&#xf0b7; Sow the seed outdoors at a depth of 1 cm  &#xa;&#xf0b7; Carob trees are either male or female. Only female&#x2019;s produce fruit - grow only females if  there is a male in the neighbourhood (as the flowers require pollination to fruit!)  &#xa;&#xf0b7; Carob trees can grow literally right on the rock  " ID="ID_1097683390" CREATED="1395084390501" MODIFIED="1395084855319"/>
@@ -11740,7 +12030,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Desi (small dark" STYLE_REF="Variation" ID="ID_849136723" CREATED="1429857211700" MODIFIED="1429857316100"/>
 <node TEXT="Kabuli (large light)" STYLE_REF="Variation" ID="ID_1240249810" CREATED="1429857245666" MODIFIED="1429857324374"/>
@@ -12027,7 +12316,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="http://en.wikipedia.org/wiki/Phaseolus_acutifolius" ID="ID_1479676949" CREATED="1429857477684" MODIFIED="1429857477684" LINK="http://en.wikipedia.org/wiki/Phaseolus_acutifolius"/>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1906202870" CREATED="1430757308778" MODIFIED="1430757308779"/>
@@ -12108,7 +12396,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Red" STYLE_REF="Variation" ID="ID_728246342" CREATED="1383297342562" MODIFIED="1430121737701">
 <node TEXT="adventuressheart.com &gt; 2011 &gt; 08 &gt; Red-clover-lemonade" ID="ID_1926799091" CREATED="1383297349105" MODIFIED="1383297349105" LINK="http://www.adventuressheart.com/2011/08/red-clover-lemonade.html"/>
@@ -12176,7 +12463,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Fagales&#xa;Birch, Beech, Walnut, She-Oak, Bayberry, Hazel" STYLE_REF="Order" ID="ID_990584864" CREATED="1429773078776" MODIFIED="1430915981340">
+<node STYLE_REF="Order" ID="ID_990584864" CREATED="1429773078776" MODIFIED="1432650127707"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Fagales
+    </p>
+    <p>
+      <font size="4">Birch, Beech, Walnut, She-Oak, Bayberry, Hazel</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Betulaceae&#xa;Hazel" STYLE_REF="Family" ID="ID_134296958" CREATED="1430915908181" MODIFIED="1430915920975">
 <node TEXT="Corylus spp.&#xa;Hazel" STYLE_REF="Genus" ID="ID_1149450062" CREATED="1430915881224" MODIFIED="1432455039752">
 <attribute_layout NAME_WIDTH="209" VALUE_WIDTH="209"/>
@@ -13204,7 +13506,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Gentianales&#xa;Common Madder" STYLE_REF="Order" ID="ID_1458146812" CREATED="1432368866697" MODIFIED="1432369159951">
+<node STYLE_REF="Order" ID="ID_1458146812" CREATED="1432368866697" MODIFIED="1432650135523"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Gentianales
+    </p>
+    <p>
+      <font size="4">Common Madder</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Rubiaceae&#xa;Common Madder" STYLE_REF="Family" ID="ID_576907345" CREATED="1432368977323" MODIFIED="1432369027399">
 <node TEXT="Rubia spp.&#xa;Common Madder" STYLE_REF="Genus" ID="ID_1050542278" CREATED="1432368988693" MODIFIED="1432558747746">
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
@@ -13411,7 +13728,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Incertae sedis&#xa;Forget-me-not, Borage, Comphrey" STYLE_REF="Order" ID="ID_1373367860" CREATED="1429817929732" MODIFIED="1432375079556">
+<node STYLE_REF="Order" ID="ID_1373367860" CREATED="1429817929732" MODIFIED="1432650145426"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Incertae sedis
+    </p>
+    <p>
+      <font size="4">Forget-me-not, Borage, Comphrey</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node STYLE_REF="Family" ID="ID_1832865656" CREATED="1429794313601" MODIFIED="1432375066683" LINK="http://eol.org/pages/4301/overview"><richcontent TYPE="NODE">
 
 <html>
@@ -13495,7 +13827,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="youtube.com &gt; Watch ? ..." ID="ID_1676024135" CREATED="1380001763430" MODIFIED="1380001763430" LINK="http://www.youtube.com/watch?v=yEHc_UzeT9w"/>
 <node TEXT="en.wikipedia.org &gt; Wiki &gt; Comfrey" ID="ID_194536139" CREATED="1429470080098" MODIFIED="1429470080098" LINK="http://en.wikipedia.org/wiki/Comfrey"/>
@@ -13582,7 +13913,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Lamiales&#xa;Olive, Jasmine, Mint, Lavender, Chia, Lilac" STYLE_REF="Order" ID="ID_913507305" CREATED="1429817879081" MODIFIED="1431953316165">
+<node STYLE_REF="Order" ID="ID_913507305" CREATED="1429817879081" MODIFIED="1432649258652"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Lamiales
+    </p>
+    <p>
+      <font size="4">Olive, Jasmine, Mint, Lavender, Chia, Lilac</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Bignoniaceae" STYLE_REF="Family" ID="ID_1710062976" CREATED="1432560473052" MODIFIED="1432560477704">
 <node TEXT="Jacaranda spp." STYLE_REF="Genus" ID="ID_1321159738" CREATED="1432560494038" MODIFIED="1432560502597">
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
@@ -15513,7 +15859,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Laurales&#xa;Avocado" STYLE_REF="Order" ID="ID_1029546362" CREATED="1429859484751" MODIFIED="1430758250930">
+<node STYLE_REF="Order" ID="ID_1029546362" CREATED="1429859484751" MODIFIED="1432650158087"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Laurales
+    </p>
+    <p>
+      <font size="4">Avocado</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Lauraceae&#xa;Avocado" STYLE_REF="Family" ID="ID_245529691" CREATED="1429859462876" MODIFIED="1429859474857">
 <node TEXT="Perseae&#xa;Avocado" STYLE_REF="Family(Tribe)" ID="ID_339962848" CREATED="1429859409763" MODIFIED="1429859426580">
 <node TEXT="Persea spp.&#xa;Avocado" STYLE_REF="Genus" ID="ID_689438653" CREATED="1429859359496" MODIFIED="1429859384476">
@@ -15575,7 +15936,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#xf0b7; Nutritious and very vitamin-rich fruit &#xf0b7; Surplus fruit is valuable forage &#xf0b7; Good for beekeeping &#xf0b7; Essential oil extracted from the leaves &#xf0b7; Mean annual rainfall: 300-2500 mm &#xf0b7; Tolerates light frosts" ID="ID_426782301" CREATED="1420550410670" MODIFIED="1420550413137"/>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1160851831" CREATED="1430757308870" MODIFIED="1430757308871"/>
@@ -15590,7 +15950,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Liliales&#xa;Lilies" STYLE_REF="Order" ID="ID_105127487" CREATED="1432556742522" MODIFIED="1432556773651">
+<node STYLE_REF="Order" ID="ID_105127487" CREATED="1432556742522" MODIFIED="1432650166312"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Liliales
+    </p>
+    <p>
+      <font size="4">Lilies</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Liliaceae&#xa;Lilies" STYLE_REF="Family" ID="ID_1748431868" CREATED="1432556787843" MODIFIED="1432556863026">
 <node TEXT="Lilioideae&#xa;Lilies" STYLE_REF="Family(Subfamily)" ID="ID_410761488" CREATED="1432556799554" MODIFIED="1432556867532">
 <node TEXT="Lilieae&#xa;Lilies" STYLE_REF="Family(Tribe)" ID="ID_942201311" CREATED="1432556815488" MODIFIED="1432556872013">
@@ -15688,7 +16063,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Magnoliales&#xa;Pawpaw, Cherimoya" STYLE_REF="Order" ID="ID_834572870" CREATED="1429860233420" MODIFIED="1429860453387">
+<node STYLE_REF="Order" ID="ID_834572870" CREATED="1429860233420" MODIFIED="1432650173909"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Magnoliales
+    </p>
+    <p>
+      <font size="4">Pawpaw, Cherimoya</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Annonaceae&#xa;Pawpaw, Papaya, Cherimoya" STYLE_REF="Family" ID="ID_183472660" CREATED="1429860189739" MODIFIED="1429860437828">
 <node TEXT="Asimina spp.&#xa;Pawpaw" STYLE_REF="Genus" ID="ID_1674673658" CREATED="1429859877518" MODIFIED="1429859912128">
 <node TEXT="Carica papaya" STYLE_REF="Species" ID="ID_1359423090" CREATED="1429859957690" MODIFIED="1432567732494">
@@ -15749,7 +16139,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="http://en.wikipedia.org/wiki/Papaya" ID="ID_1444948914" CREATED="1429859995710" MODIFIED="1429859995710" LINK="http://en.wikipedia.org/wiki/Papaya"/>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_739474919" CREATED="1430757308876" MODIFIED="1430757308877"/>
@@ -15815,7 +16204,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="I am writing from Spain. My interest is for cherimoyas and pawpaws. I have actually four asiminas and Cherimoya seeds &quot;Fina del Jete&quot; that I can interchange. I am trying to get hybrids from cherimoyas and asiminas also from rollinia deliciosa and asiminas with a friend of Slovaquia.  Spain export to EU cherimoyas and I live in south of Spain in winter (the place where is a big land for cherimoyas) and north of Spain in summer where I have a land at the foot of the Pyrennes (zone 7). There I have many plants, blueberries, asiminas, amelanchiers and many more.  I would also be interested in some wood and/or seeds from &quot;Pauls Prolific Giant&quot; paw paw ." ID="ID_930692856" CREATED="1406307698196" MODIFIED="1406307700606"/>
 <node ID="ID_1948243692" CREATED="1428152336584" MODIFIED="1430114061607"><richcontent TYPE="NODE">
@@ -15895,7 +16283,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="crfg.org &gt; Pubs &gt; Ff &gt; Cherimoya" ID="ID_1173610133" CREATED="1419062423688" MODIFIED="1419062423688" LINK="http://www.crfg.org/pubs/ff/cherimoya.html"/>
 <node TEXT="http://en.wikipedia.org/wiki/Cherimoya" ID="ID_713259130" CREATED="1429860469032" MODIFIED="1429860469032" LINK="http://en.wikipedia.org/wiki/Cherimoya"/>
@@ -15905,7 +16292,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Malpighiales&#xa;Cassava, St John&apos;s Wort" STYLE_REF="Order" ID="ID_466537873" CREATED="1429793842193" MODIFIED="1431076931340">
+<node STYLE_REF="Order" ID="ID_466537873" CREATED="1429793842193" MODIFIED="1432650181822"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Malpighiales
+    </p>
+    <p>
+      <font size="4">Cassava, St John's Wort</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Hypericaceae&#xa;St. John&apos;s Wort" STYLE_REF="Family" ID="ID_1604043930" CREATED="1429793764800" MODIFIED="1431076961925">
 <node TEXT="Hypericum spp.&#xa;St John&apos;s Wort" STYLE_REF="Genus" ID="ID_914733943" CREATED="1429793714622" MODIFIED="1431076945719">
 <node TEXT="Hyperikum perforatum" STYLE_REF="Species" ID="ID_342924610" CREATED="1424602174533" MODIFIED="1432567675867">
@@ -15967,7 +16369,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_315272388" CREATED="1424602192795" MODIFIED="1424602244706"><richcontent TYPE="NODE">
 
@@ -16248,7 +16649,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Malvales&#xa;Maqui" STYLE_REF="Order" ID="ID_850987851" CREATED="1430980469764" MODIFIED="1432524468116">
+<node STYLE_REF="Order" ID="ID_850987851" CREATED="1430980469764" MODIFIED="1432650200430"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Malvales
+    </p>
+    <p>
+      <font size="4">Maqui</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Cistaceae" STYLE_REF="Family" ID="ID_1182963222" CREATED="1430980599103" MODIFIED="1430980603808">
 <node TEXT="Helianthemum spp." STYLE_REF="Genus" ID="ID_1786862711" CREATED="1430980621431" MODIFIED="1430980634645">
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
@@ -16408,7 +16824,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Myrtales&#xa;Pomegranite, Eucalyptus" STYLE_REF="Order" ID="ID_967055811" CREATED="1429855914700" MODIFIED="1429878800886">
+<node STYLE_REF="Order" ID="ID_967055811" CREATED="1429855914700" MODIFIED="1432650209024"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Myrtales
+    </p>
+    <p>
+      <font size="4">Pomegranite, Eucalyptus</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Myrtaceae&#xa;Eucalyptus, Guava" STYLE_REF="Family" ID="ID_1641062565" CREATED="1429855928177" MODIFIED="1432377576974">
 <node TEXT="Eucalyptus spp." STYLE_REF="Genus" ID="ID_131562489" CREATED="1429855836380" MODIFIED="1429855841574">
 <node TEXT="Eucalyptus cinerea" STYLE_REF="Species" ID="ID_772081184" CREATED="1425012769689" MODIFIED="1432377617883">
@@ -16756,7 +17187,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Pinales&#xa;Pines" STYLE_REF="Order" ID="ID_74247" CREATED="1429982525659" MODIFIED="1429982556744">
+<node STYLE_REF="Order" ID="ID_74247" CREATED="1429982525659" MODIFIED="1432650219259"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Pinales
+    </p>
+    <p>
+      <font size="4">Pines</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Pinaceae&#xa;Pines" STYLE_REF="Family" ID="ID_82423258" CREATED="1429982512490" MODIFIED="1429982563451">
 <node TEXT="Pinus&#xa;Pines" STYLE_REF="Genus" ID="ID_1405141452" CREATED="1429982477289" MODIFIED="1432567522672"><richcontent TYPE="NOTE">
 
@@ -16770,7 +17216,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Pinus" STYLE_REF="Genus(Subgenus)" ID="ID_1795190581" CREATED="1429982458336" MODIFIED="1429982470872">
 <node TEXT="Pinus pinea" STYLE_REF="Species" ID="ID_1638727924" CREATED="1424851700984" MODIFIED="1432567549696">
@@ -16832,7 +17277,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="en.wikipedia.org &gt; Wiki &gt; Stone pine" ID="ID_1240726456" CREATED="1424851972231" MODIFIED="1424851972231" LINK="http://en.wikipedia.org/wiki/Stone_pine"/>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1022710825" CREATED="1429981701536" MODIFIED="1429981701538"/>
@@ -17028,7 +17472,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1303375031" CREATED="1430812174476" MODIFIED="1430812174478"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_671822333" CREATED="1430812174478" MODIFIED="1430812174479"/>
@@ -17094,7 +17537,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1057256639" CREATED="1430811563853" MODIFIED="1430811563854"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1071343502" CREATED="1430811563855" MODIFIED="1430811563856"/>
@@ -17158,7 +17600,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_522239854" CREATED="1430812037106" MODIFIED="1430812037107"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1871088779" CREATED="1430812037108" MODIFIED="1430812037109"/>
@@ -17227,7 +17668,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="permaculturenews.org &gt; 2013 &gt; 11 &gt; 27 &gt; The-bunya-bunya-pine-araucaria-bidwillii" ID="ID_1135412636" CREATED="1385533566863" MODIFIED="1385533566863" LINK="http://permaculturenews.org/2013/11/27/the-bunya-bunya-pine-araucaria-bidwillii/"/>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1377404287" CREATED="1429981696600" MODIFIED="1429981696602"/>
@@ -17287,7 +17727,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Juniperus oxycedrus" STYLE_REF="Species" ID="ID_237481968" CREATED="1430813651021" MODIFIED="1432567405915">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
@@ -17349,7 +17788,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1621307823" CREATED="1430813654934" MODIFIED="1430813654935"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1592622031" CREATED="1430813654935" MODIFIED="1430813654936"/>
@@ -17357,7 +17795,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Poales&#xa;River Cane, Erdmandeln, Maize" STYLE_REF="Order" ID="ID_740043936" CREATED="1429796523052" MODIFIED="1431074602621">
+<node STYLE_REF="Order" ID="ID_740043936" CREATED="1429796523052" MODIFIED="1432650234964"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Poales
+    </p>
+    <p>
+      <font size="4">River Cane, Erdmandeln, Maize</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Cyperaceae&#xa;Erdmandeln" STYLE_REF="Family" ID="ID_1096851596" CREATED="1429796505468" MODIFIED="1429809908168">
 <node TEXT="Cyperus spp.&#xa;Erdmandeln" STYLE_REF="Genus" ID="ID_1489066081" CREATED="1429796443335" MODIFIED="1429809921090">
 <node TEXT="Cyperus esculentus" STYLE_REF="Species" ID="ID_1531160482" CREATED="1403074335390" MODIFIED="1432567186256">
@@ -17425,7 +17878,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="chufa.com &gt; How-to-grow" ID="ID_813735473" CREATED="1403074366818" MODIFIED="1403074366818" LINK="http://www.chufa.com/how-to-grow.htm"/>
 <node TEXT="en.wikipedia.org &gt; Wiki &gt; Cyperus esculentus" ID="ID_486262963" CREATED="1403074408143" MODIFIED="1403074408143" LINK="http://en.wikipedia.org/wiki/Cyperus_esculentus"/>
@@ -17497,7 +17949,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Arundo Donax 2007 (Movie)" ID="ID_1323293325" CREATED="1409816893152" MODIFIED="1429466622792">
 <font NAME="SansSerif" SIZE="10" BOLD="true"/>
@@ -17569,7 +18020,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="en.wikipedia.org &gt; Wiki &gt; Khorasan wheat" ID="ID_1361990508" CREATED="1395071105712" MODIFIED="1395071105712" LINK="http://en.wikipedia.org/wiki/Khorasan_wheat"/>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_773698281" CREATED="1430757308936" MODIFIED="1430757308937"/>
@@ -17634,7 +18084,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1459051075" CREATED="1430757308941" MODIFIED="1430757308942"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_229153921" CREATED="1430757308943" MODIFIED="1430757308943"/>
@@ -17700,7 +18149,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Black barley  &#xa;The most nutritious of all barleys. Unlike most grains it has no inedible hull, so when harvested the nutrition-packed hull remains intact. Rich in fibre and minerals. Its eye-catching colour, texture and flavour make it brilliant for salads and pilafs." ID="ID_1558892557" CREATED="1429811023939" MODIFIED="1429811028802"/>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1614991221" CREATED="1430757308947" MODIFIED="1430757308948"/>
@@ -17775,7 +18223,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1807091774" CREATED="1431074647007" MODIFIED="1431074647009"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_113878358" CREATED="1431074647026" MODIFIED="1431074647028"/>
@@ -17806,7 +18253,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Ranunculales&#xa;Poppies" STYLE_REF="Order" ID="ID_68554054" CREATED="1429794026239" MODIFIED="1429817972148">
+<node STYLE_REF="Order" ID="ID_68554054" CREATED="1429794026239" MODIFIED="1432650242473"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ranunculales
+    </p>
+    <p>
+      <font size="4">Poppies</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Ranunculaceae" STYLE_REF="Family" ID="ID_1213481963" CREATED="1429793972430" MODIFIED="1429793979942">
 <node TEXT="Nigella spp." STYLE_REF="Genus" ID="ID_637981042" CREATED="1429793982694" MODIFIED="1429793994514">
 <node TEXT="Nigella Sativa" STYLE_REF="Species" ID="ID_1031042470" CREATED="1404474343264" MODIFIED="1432566989955">
@@ -17868,7 +18330,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="greenmedinfo.com &gt; Blog &gt; Black-seed-remedy-everything-death" ID="ID_643172172" CREATED="1404474375776" MODIFIED="1404474375776" LINK="http://www.greenmedinfo.com/blog/black-seed-remedy-everything-death"/>
 <node TEXT="http://en.wikipedia.org/wiki/Nigella_sativa" ID="ID_840086971" CREATED="1429794091084" MODIFIED="1429794091084" LINK="http://en.wikipedia.org/wiki/Nigella_sativa"/>
@@ -18147,7 +18608,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="mofga.org &gt; Publications &gt; MaineOrganicFarmerGardener &gt; Winter19971998 &gt; BreadseedPoppy &gt; Tabid &gt; 2414 &gt; Default" ID="ID_1683315899" CREATED="1429082804268" MODIFIED="1429082804268" LINK="http://www.mofga.org/Publications/MaineOrganicFarmerGardener/Winter19971998/BreadseedPoppy/tabid/2414/Default.aspx"/>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1753433344" CREATED="1430757308964" MODIFIED="1430757308965"/>
@@ -18216,7 +18676,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="growingpeople.wordpress.com &gt; 2010 &gt; 11 &gt; 22 &gt; Application - Edible-of-the-week-akebia-quinata" ID="ID_193261983" CREATED="1406181929273" MODIFIED="1406181929273" LINK="http://growingpeople.wordpress.com/2010/11/22/edible-of-the-week-akebia-quinata/"/>
 <node TEXT="thehomesteadsurvival.com &gt; Application - Edible-week-akebia-quinata-called-chocolate-vine" ID="ID_731453071" CREATED="1406181935970" MODIFIED="1406181935970" LINK="http://thehomesteadsurvival.com/edible-week-akebia-quinata-called-chocolate-vine/"/>
@@ -18226,7 +18685,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Rosales&#xa;Roses, Mulberries, Buckthorn, Nettles, Stone Fruit" STYLE_REF="Order" ID="ID_360404784" CREATED="1429794236915" MODIFIED="1430062405690">
+<node STYLE_REF="Order" ID="ID_360404784" CREATED="1429794236915" MODIFIED="1432650413963"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Rosales
+    </p>
+    <p>
+      <font size="4">Roses, Mulberries, Buckthorn, Nettles, Stone Fruit</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Cannabaceae&#xa;Nettle Tree, Hckberry" STYLE_REF="Family" ID="ID_229451012" CREATED="1430115391196" MODIFIED="1432393230570">
 <node TEXT="Celtis spp.&#xa;Nettle Tree, Hackberry" STYLE_REF="Genus" ID="ID_654045108" CREATED="1430115464454" MODIFIED="1432454158150">
 <attribute_layout NAME_WIDTH="209" VALUE_WIDTH="209"/>
@@ -20188,7 +20662,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Amelanchier lamarckii" STYLE_REF="Species" ID="ID_1090029561" CREATED="1424928417152" MODIFIED="1431517691138">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
@@ -20689,7 +21162,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Sorbus domestica" STYLE_REF="Species" ID="ID_1874438674" CREATED="1429109247936" MODIFIED="1431517634899">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
@@ -21076,7 +21548,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Rosa x damascena" STYLE_REF="Species" ID="ID_694734770" CREATED="1420550907740" MODIFIED="1431517216788">
 <attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
@@ -21460,7 +21931,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Sapindales&#xa;Citrus, Pepper Spice" STYLE_REF="Order" ID="ID_1783973658" CREATED="1429773998729" MODIFIED="1429878778064">
+<node STYLE_REF="Order" ID="ID_1783973658" CREATED="1429773998729" MODIFIED="1432650259302"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Sapindales
+    </p>
+    <p>
+      <font size="4">Citrus, Pepper Spice</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Rutaceae&#xa;Citrus, Sichuan Pepper" STYLE_REF="Family" ID="ID_593471986" CREATED="1429773873292" MODIFIED="1429878749866">
 <node TEXT="Acmadenia spp." STYLE_REF="Genus" ID="ID_1789690767" CREATED="1432384872506" MODIFIED="1432452581304">
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
@@ -22684,7 +23170,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Amphipterygium spp." STYLE_REF="Genus" ID="ID_815126147" CREATED="1432388574800" MODIFIED="1432388581126">
@@ -23012,7 +23497,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Saxifragales&#xa;Currants" STYLE_REF="Order" ID="ID_1500708158" CREATED="1429818482594" MODIFIED="1429878711187">
+<node STYLE_REF="Order" ID="ID_1500708158" CREATED="1429818482594" MODIFIED="1432650267118"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Saxifragales
+    </p>
+    <p>
+      <font size="4">Currants</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Grossulariaceae&#xa;Currants and Gooseberry" STYLE_REF="Family" ID="ID_1886675499" CREATED="1429713874486" MODIFIED="1429713919025">
 <node TEXT="Ribes spp.  &#xa;Black Currant, Red Currant, White Currant, and Gooseberry" STYLE_REF="Genus" ID="ID_272551808" CREATED="1429472495847" MODIFIED="1432452265603" LINK="http://en.wikipedia.org/wiki/Ribes">
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
@@ -23251,7 +23751,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Solanales&#xa;Nightshades" STYLE_REF="Order" ID="ID_516846799" CREATED="1429818264624" MODIFIED="1429878698444">
+<node STYLE_REF="Order" ID="ID_516846799" CREATED="1429818264624" MODIFIED="1432650275348"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Solanales
+    </p>
+    <p>
+      <font size="4">Nightshades</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Solanaceae&#xa;Nightshades - Potatoe, Tomatoe, Chillie, Bell Pepper, Tobacco" STYLE_REF="Family" ID="ID_1405228473" CREATED="1429690114183" MODIFIED="1430311596524">
 <node TEXT="Fabiana spp." STYLE_REF="Genus" ID="ID_453557542" CREATED="1432391312078" MODIFIED="1432450888879">
 <attribute_layout NAME_WIDTH="209" VALUE_WIDTH="209"/>
@@ -24073,7 +24588,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Vitales&#xa;Grape" STYLE_REF="Order" ID="ID_986357826" CREATED="1429809694695" MODIFIED="1429881233492">
+<node STYLE_REF="Order" ID="ID_986357826" CREATED="1429809694695" MODIFIED="1432650282956"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Vitales
+    </p>
+    <p>
+      <font size="4">Grape</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Vitaceae&#xa;Grape" STYLE_REF="Family" ID="ID_721176054" CREATED="1429809658820" MODIFIED="1429809671167">
 <node TEXT="Vitis spp.&#xa;Grape" STYLE_REF="Genus" ID="ID_432794599" CREATED="1429809587088" MODIFIED="1429809607254">
 <node TEXT="Vitis vinifera" STYLE_REF="Species" ID="ID_1115399269" CREATED="1382699316121" MODIFIED="1432566218165">
@@ -24143,7 +24673,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Zygophyllales&#xa;Soap Berry" STYLE_REF="Order" ID="ID_452205091" CREATED="1429980835752" MODIFIED="1430120354566">
+<node STYLE_REF="Order" ID="ID_452205091" CREATED="1429980835752" MODIFIED="1432650292894"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Zygophyllales
+    </p>
+    <p>
+      <font size="4">Soap Berry</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Zygophyllaceae&#xa;Soap Berry" STYLE_REF="Family" ID="ID_1139583196" CREATED="1429980850920" MODIFIED="1430120327063">
 <node TEXT="Balanites spp.&#xa;Soap Berry" STYLE_REF="Genus" ID="ID_540205454" CREATED="1429906180035" MODIFIED="1430120338124">
 <node TEXT="Balanites aegyptiaca" STYLE_REF="Species" ID="ID_1273207818" CREATED="1420549189105" MODIFIED="1432566202717">
@@ -25194,6 +25739,10 @@
 <node TEXT="10 flowers to grow with vegetables" ID="ID_724255111" CREATED="1432306487672" MODIFIED="1432306497530">
 <font BOLD="true"/>
 <node TEXT="http://www.my-garden-school.com/10-flowers-to-grow-with-vegetables/" ID="ID_961006959" CREATED="1432306498688" MODIFIED="1432306498688" LINK="http://www.my-garden-school.com/10-flowers-to-grow-with-vegetables/"/>
+</node>
+<node TEXT="Medicinal Plants 230 (Spanish)" ID="ID_1274454114" CREATED="1432877984565" MODIFIED="1432878006746">
+<font BOLD="true"/>
+<node TEXT="http://bioguia.es/las-230-plantas-medicinales-mas-efectivas-y-sus-usos-compartelo-para-que-se-sepa/" ID="ID_1389038650" CREATED="1432878014932" MODIFIED="1432878014932" LINK="http://bioguia.es/las-230-plantas-medicinales-mas-efectivas-y-sus-usos-compartelo-para-que-se-sepa/"/>
 </node>
 </node>
 <node TEXT="Identification Aids/Classification/Description Terms" POSITION="left" ID="ID_365633680" CREATED="1427352191792" MODIFIED="1429683747726">
@@ -27137,6 +27686,72 @@
 <font SIZE="18" BOLD="true"/>
 <node TEXT="http://permacultureapprentice.com/how-to-start-a-small-permaculture-nursery-and-grow-1000s-of-trees-by-yourself/" ID="ID_531515685" CREATED="1431410554705" MODIFIED="1431410554705" LINK="http://permacultureapprentice.com/how-to-start-a-small-permaculture-nursery-and-grow-1000s-of-trees-by-yourself/"/>
 </node>
+<node TEXT="Diseases / Treatments" ID="ID_47329976" CREATED="1430307236625" MODIFIED="1430310930287">
+<font SIZE="18" BOLD="true"/>
+<node TEXT="Diseases" ID="ID_1354971778" CREATED="1430310939396" MODIFIED="1430310951775">
+<font SIZE="17" BOLD="true"/>
+<node TEXT="Peach Tree Leaf Curl" ID="ID_489711268" CREATED="1430307249591" MODIFIED="1430762568247" LINK="#ID_1167677827">
+<attribute_layout NAME_WIDTH="146" VALUE_WIDTH="204"/>
+<attribute NAME="Disease Treatment" VALUE="#ID_57460350" OBJECT="java.net.URI|#ID_57460350"/>
+<attribute NAME="Disease Treatment" VALUE="#ID_57460350" OBJECT="java.net.URI|#ID_57460350"/>
+<font SIZE="16" BOLD="true"/>
+<node TEXT="The most successful means of treating leaf curl organically is spraying with a Trichoderma mix, which is a natural organic fungus which feeds on the other fungus. Whereas copper applications often defoliates the tree, Trichoderma will only attack the area where the leaf curl is on the leaf, the remaining section remains intact and continues to grow. Regular applications of Trichoderma can eliminate leaf curl completely. Trichoderma should be applied at leaf burst and then 2 or 3 times through the season. However as a living organic substance Trichoderma cannot be applied in conjunction with chemical applications." ID="ID_360788715" CREATED="1430307277323" MODIFIED="1430307277323"/>
+<node TEXT="http://en.wikipedia.org/wiki/Leaf_curl" ID="ID_831098693" CREATED="1430307284770" MODIFIED="1430307284770" LINK="http://en.wikipedia.org/wiki/Leaf_curl"/>
+</node>
+<node TEXT="Verticillium Wilt" ID="ID_1856407949" CREATED="1430309464326" MODIFIED="1430311553042">
+<font SIZE="16" BOLD="true"/>
+<node TEXT="http://www.oliveoilsource.com/page/disease-control#verticillium" ID="ID_278543951" CREATED="1430309603962" MODIFIED="1430309603962" LINK="http://www.oliveoilsource.com/page/disease-control#verticillium"/>
+<node TEXT="Verticillium wilt is a serious fungal disease in olives for which there is no cure. It is caused by Verticillium dahliae. It is found around the world. Symptoms appear when leaves on one or more branches of the tree suddenly wilt early in the growing season; the leaves stick to the dead branch, unlike the symptoms of Armillaria root rot, in which defoliation appears gradually and the leaves drop out of the canopy. This process intensifies as the season progresses. Trees die after repeated attacks over several years. Infections increase with tree age as root systems enlarge and explore larger volumes of contaminated soil. Note that darkening of xylem tissue, a key symptom for distinguishing Verticillium wilt in many crops, is frequently not apparent in olives.&#xa;&#xa;The fungus survives as microsclerotia (dark, multi-celled structures the size of a grain of sand) from season to season in the soil and probably in the roots of infected trees. They remain quiescent in the soil until roots approach within a few millimeters, stimulating them to germinate and penetrate the root. There they grow into the vascular tissue of the tree, plugging the tissue and causing sudden wilting and the death of limbs and entire trees. There must be many microsclerotia to actually cause the disease.&#xa;&#xa;In early summer the fungus can be readily isolated from diseased tissue in infected trees. The most effective management strategies to protect the trees are those taken before planting. When considering a new site for an olive grove, avoid land that has been planted for a number of years to crops that are highly susceptible to Verticillium wilt, such as cotton, cucurbits, eggplant, peppers, potato, or tomato. The Verticillium wilt pathogen is usually present in these soils. Soils containing over one microsclerotia per gram of soil should be avoided.&#xa;&#xa;Inoculum levels can be reduced before planting by soil solarization {link to olictionary definition}, flooding the fields during summer, growing several seasons of grass cover crops (rye, corn, or sudangrass) or a combination of these treatments. Whether any of these practices are sufficient to make much of a difference is unknown. Resistant spores have been documented to survive for at least 30 years in the soil. When replanting in an area where susceptible perennials were previously grown, remove as many roots of the trees or vines as possible. A resistant rootstock is not available, although some tolerance has been reported in the cultivar Ascolano." ID="ID_616341951" CREATED="1430309615973" MODIFIED="1430309620012"/>
+</node>
+<node TEXT="Phytophthora Rot" ID="ID_1580739632" CREATED="1430331668104" MODIFIED="1430333031421">
+<font SIZE="16" BOLD="true"/>
+</node>
+<node TEXT="Peacock Spot" ID="ID_1589386003" CREATED="1430332524791" MODIFIED="1430333052069">
+<font SIZE="16" BOLD="true"/>
+</node>
+<node TEXT="Olive Knot" ID="ID_847544070" CREATED="1430332703453" MODIFIED="1430333059181">
+<font SIZE="16" BOLD="true"/>
+</node>
+<node TEXT="Diplodia Canker" ID="ID_168059675" CREATED="1430332888938" MODIFIED="1430333074827">
+<font SIZE="16" BOLD="true"/>
+</node>
+<node TEXT="Cercospora Leaf Spot" ID="ID_1614105497" CREATED="1430332912100" MODIFIED="1430333087923">
+<font SIZE="16" BOLD="true"/>
+</node>
+<node TEXT="Armillaria Root Rot" ID="ID_251378327" CREATED="1430332931490" MODIFIED="1430333098061">
+<font SIZE="16" BOLD="true"/>
+</node>
+<node TEXT="Powdery Mildew" ID="ID_1448505388" CREATED="1432876709367" MODIFIED="1432876718971">
+<font SIZE="16" BOLD="true"/>
+<node TEXT="Likewise, you can coat cucurbit plants with baking soda or milk solution to control powdery mildew, and use immune-boosting compost tea to prevent blight on tomatoes" ID="ID_1528195546" CREATED="1432876720638" MODIFIED="1432876722258"/>
+</node>
+</node>
+<node TEXT="Treatments" ID="ID_1051697640" CREATED="1430310958634" MODIFIED="1430310968109">
+<font SIZE="17" BOLD="true"/>
+<node TEXT="Fungicide" ID="ID_254370242" CREATED="1430310970770" MODIFIED="1430310982494">
+<font SIZE="16" BOLD="true"/>
+<node TEXT="Fungal" ID="ID_583455680" CREATED="1430333437125" MODIFIED="1430333446953">
+<font SIZE="15" BOLD="true"/>
+<node TEXT="Trichoderma harzianum" ID="ID_57460350" CREATED="1430310988957" MODIFIED="1430333450557">
+<font SIZE="14" BOLD="true"/>
+<node TEXT="http://en.wikipedia.org/wiki/Trichoderma_harzianum" ID="ID_1796656322" CREATED="1430311007196" MODIFIED="1430311007196" LINK="http://en.wikipedia.org/wiki/Trichoderma_harzianum"/>
+<node TEXT="http://botit.botany.wisc.edu/toms_fungi/nov2004.html" ID="ID_238060664" CREATED="1430311380099" MODIFIED="1430311380099" LINK="http://botit.botany.wisc.edu/toms_fungi/nov2004.html"/>
+<node TEXT="http://en.wikipedia.org/wiki/Trichoderma" ID="ID_402375223" CREATED="1430311512136" MODIFIED="1430311512136" LINK="http://en.wikipedia.org/wiki/Trichoderma"/>
+<node TEXT="http://www.google.com/patents/US4837155" ID="ID_1484947774" CREATED="1430331317152" MODIFIED="1430331317152" LINK="http://www.google.com/patents/US4837155"/>
+<node TEXT="http://www.sciencedirect.com/science/article/pii/S0944501307000171" ID="ID_222643439" CREATED="1430331426897" MODIFIED="1430331426897" LINK="http://www.sciencedirect.com/science/article/pii/S0944501307000171"/>
+<node TEXT="http://pelagiaresearchlibrary.com/advances-in-applied-science/vol3-iss6/AASR-2012-3-6-3950-3955.pdf" ID="ID_1669386204" CREATED="1430331605650" MODIFIED="1430331605650" LINK="http://pelagiaresearchlibrary.com/advances-in-applied-science/vol3-iss6/AASR-2012-3-6-3950-3955.pdf"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="http://www.highmowingseeds.com/blog/5-simple-tricks-for-preventing-pests-disease/" ID="ID_1307484840" CREATED="1432876973461" MODIFIED="1432876973461" LINK="http://www.highmowingseeds.com/blog/5-simple-tricks-for-preventing-pests-disease/"/>
+</node>
+<node TEXT="Pests/Treatments" ID="ID_1874372707" CREATED="1432368085359" MODIFIED="1432368104871">
+<font SIZE="18" BOLD="true"/>
+<node TEXT="Where you can&#x2019;t cover, you can coat. Cucumber beetles and squash bugs can be deterred by dipping seedlings in kaolin-clay solution &#x2013; but it must be reapplied after heavy rains to continue protecting the plants." ID="ID_840717160" CREATED="1432876944949" MODIFIED="1432876958693"/>
+<node TEXT="Covering cucurbits like cucumbers and squash until they begin flowering keeps out cucumber beetles and squash bugs. It can be used to keep plantings of peppers and eggplants warmer, helping them grow and produce faster. For pest prevention, it&#x2019;s essential that all the edges of the row cover are completely buried &#x2013; even a small opening is enough to allow an army of flea beetles in." ID="ID_427115103" CREATED="1432876959453" MODIFIED="1432876967439"/>
+<node TEXT="http://www.highmowingseeds.com/blog/5-simple-tricks-for-preventing-pests-disease/" ID="ID_801484151" CREATED="1432876968586" MODIFIED="1432876968586" LINK="http://www.highmowingseeds.com/blog/5-simple-tricks-for-preventing-pests-disease/"/>
+</node>
 </node>
 <node TEXT="Biology/Botany" POSITION="left" ID="ID_136757392" CREATED="1429683468503" MODIFIED="1431177112249">
 <font SIZE="19" BOLD="true"/>
@@ -27210,64 +27825,6 @@
 <node TEXT="the-compost-gardener.com &gt; Nitrogen-fixing-bacteria" ID="ID_1170081796" CREATED="1429189636327" MODIFIED="1429189636327" LINK="http://www.the-compost-gardener.com/nitrogen-fixing-bacteria.html"/>
 <node TEXT="agriculture.gov.sk.ca &gt; Default ? ..." ID="ID_41116320" CREATED="1429190936139" MODIFIED="1429190936139" LINK="http://www.agriculture.gov.sk.ca/Default.aspx?DN=4b50acd7-fb26-49a9-a31c-829f38598d7e"/>
 </node>
-<node TEXT="Diseases / Treatments" ID="ID_47329976" CREATED="1430307236625" MODIFIED="1430310930287">
-<font SIZE="18" BOLD="true"/>
-<node TEXT="Diseases" ID="ID_1354971778" CREATED="1430310939396" MODIFIED="1430310951775">
-<font SIZE="17" BOLD="true"/>
-<node TEXT="Peach Tree Leaf Curl" ID="ID_489711268" CREATED="1430307249591" MODIFIED="1430762568247" LINK="#ID_1167677827">
-<attribute_layout NAME_WIDTH="146" VALUE_WIDTH="204"/>
-<attribute NAME="Disease Treatment" VALUE="#ID_57460350" OBJECT="java.net.URI|#ID_57460350"/>
-<attribute NAME="Disease Treatment" VALUE="#ID_57460350" OBJECT="java.net.URI|#ID_57460350"/>
-<font SIZE="16" BOLD="true"/>
-<node TEXT="The most successful means of treating leaf curl organically is spraying with a Trichoderma mix, which is a natural organic fungus which feeds on the other fungus. Whereas copper applications often defoliates the tree, Trichoderma will only attack the area where the leaf curl is on the leaf, the remaining section remains intact and continues to grow. Regular applications of Trichoderma can eliminate leaf curl completely. Trichoderma should be applied at leaf burst and then 2 or 3 times through the season. However as a living organic substance Trichoderma cannot be applied in conjunction with chemical applications." ID="ID_360788715" CREATED="1430307277323" MODIFIED="1430307277323"/>
-<node TEXT="http://en.wikipedia.org/wiki/Leaf_curl" ID="ID_831098693" CREATED="1430307284770" MODIFIED="1430307284770" LINK="http://en.wikipedia.org/wiki/Leaf_curl"/>
-</node>
-<node TEXT="Verticillium Wilt" ID="ID_1856407949" CREATED="1430309464326" MODIFIED="1430311553042">
-<font SIZE="16" BOLD="true"/>
-<node TEXT="http://www.oliveoilsource.com/page/disease-control#verticillium" ID="ID_278543951" CREATED="1430309603962" MODIFIED="1430309603962" LINK="http://www.oliveoilsource.com/page/disease-control#verticillium"/>
-<node TEXT="Verticillium wilt is a serious fungal disease in olives for which there is no cure. It is caused by Verticillium dahliae. It is found around the world. Symptoms appear when leaves on one or more branches of the tree suddenly wilt early in the growing season; the leaves stick to the dead branch, unlike the symptoms of Armillaria root rot, in which defoliation appears gradually and the leaves drop out of the canopy. This process intensifies as the season progresses. Trees die after repeated attacks over several years. Infections increase with tree age as root systems enlarge and explore larger volumes of contaminated soil. Note that darkening of xylem tissue, a key symptom for distinguishing Verticillium wilt in many crops, is frequently not apparent in olives.&#xa;&#xa;The fungus survives as microsclerotia (dark, multi-celled structures the size of a grain of sand) from season to season in the soil and probably in the roots of infected trees. They remain quiescent in the soil until roots approach within a few millimeters, stimulating them to germinate and penetrate the root. There they grow into the vascular tissue of the tree, plugging the tissue and causing sudden wilting and the death of limbs and entire trees. There must be many microsclerotia to actually cause the disease.&#xa;&#xa;In early summer the fungus can be readily isolated from diseased tissue in infected trees. The most effective management strategies to protect the trees are those taken before planting. When considering a new site for an olive grove, avoid land that has been planted for a number of years to crops that are highly susceptible to Verticillium wilt, such as cotton, cucurbits, eggplant, peppers, potato, or tomato. The Verticillium wilt pathogen is usually present in these soils. Soils containing over one microsclerotia per gram of soil should be avoided.&#xa;&#xa;Inoculum levels can be reduced before planting by soil solarization {link to olictionary definition}, flooding the fields during summer, growing several seasons of grass cover crops (rye, corn, or sudangrass) or a combination of these treatments. Whether any of these practices are sufficient to make much of a difference is unknown. Resistant spores have been documented to survive for at least 30 years in the soil. When replanting in an area where susceptible perennials were previously grown, remove as many roots of the trees or vines as possible. A resistant rootstock is not available, although some tolerance has been reported in the cultivar Ascolano." ID="ID_616341951" CREATED="1430309615973" MODIFIED="1430309620012"/>
-</node>
-<node TEXT="Phytophthora Rot" ID="ID_1580739632" CREATED="1430331668104" MODIFIED="1430333031421">
-<font SIZE="16" BOLD="true"/>
-</node>
-<node TEXT="Peacock Spot" ID="ID_1589386003" CREATED="1430332524791" MODIFIED="1430333052069">
-<font SIZE="16" BOLD="true"/>
-</node>
-<node TEXT="Olive Knot" ID="ID_847544070" CREATED="1430332703453" MODIFIED="1430333059181">
-<font SIZE="16" BOLD="true"/>
-</node>
-<node TEXT="Diplodia Canker" ID="ID_168059675" CREATED="1430332888938" MODIFIED="1430333074827">
-<font SIZE="16" BOLD="true"/>
-</node>
-<node TEXT="Cercospora Leaf Spot" ID="ID_1614105497" CREATED="1430332912100" MODIFIED="1430333087923">
-<font SIZE="16" BOLD="true"/>
-</node>
-<node TEXT="Armillaria Root Rot" ID="ID_251378327" CREATED="1430332931490" MODIFIED="1430333098061">
-<font SIZE="16" BOLD="true"/>
-</node>
-</node>
-<node TEXT="Treatments" ID="ID_1051697640" CREATED="1430310958634" MODIFIED="1430310968109">
-<font SIZE="17" BOLD="true"/>
-<node TEXT="Fungicide" ID="ID_254370242" CREATED="1430310970770" MODIFIED="1430310982494">
-<font SIZE="16" BOLD="true"/>
-<node TEXT="Fungal" ID="ID_583455680" CREATED="1430333437125" MODIFIED="1430333446953">
-<font SIZE="15" BOLD="true"/>
-<node TEXT="Trichoderma harzianum" ID="ID_57460350" CREATED="1430310988957" MODIFIED="1430333450557">
-<font SIZE="14" BOLD="true"/>
-<node TEXT="http://en.wikipedia.org/wiki/Trichoderma_harzianum" ID="ID_1796656322" CREATED="1430311007196" MODIFIED="1430311007196" LINK="http://en.wikipedia.org/wiki/Trichoderma_harzianum"/>
-<node TEXT="http://botit.botany.wisc.edu/toms_fungi/nov2004.html" ID="ID_238060664" CREATED="1430311380099" MODIFIED="1430311380099" LINK="http://botit.botany.wisc.edu/toms_fungi/nov2004.html"/>
-<node TEXT="http://en.wikipedia.org/wiki/Trichoderma" ID="ID_402375223" CREATED="1430311512136" MODIFIED="1430311512136" LINK="http://en.wikipedia.org/wiki/Trichoderma"/>
-<node TEXT="http://www.google.com/patents/US4837155" ID="ID_1484947774" CREATED="1430331317152" MODIFIED="1430331317152" LINK="http://www.google.com/patents/US4837155"/>
-<node TEXT="http://www.sciencedirect.com/science/article/pii/S0944501307000171" ID="ID_222643439" CREATED="1430331426897" MODIFIED="1430331426897" LINK="http://www.sciencedirect.com/science/article/pii/S0944501307000171"/>
-<node TEXT="http://pelagiaresearchlibrary.com/advances-in-applied-science/vol3-iss6/AASR-2012-3-6-3950-3955.pdf" ID="ID_1669386204" CREATED="1430331605650" MODIFIED="1430331605650" LINK="http://pelagiaresearchlibrary.com/advances-in-applied-science/vol3-iss6/AASR-2012-3-6-3950-3955.pdf"/>
-</node>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="Pests/Treatments" ID="ID_1874372707" CREATED="1432368085359" MODIFIED="1432368104871">
-<font SIZE="18" BOLD="true"/>
-</node>
 <node TEXT="Botany" ID="ID_562988725" CREATED="1431177118076" MODIFIED="1431177127073">
 <font SIZE="18" BOLD="true"/>
 <node TEXT="Courses" ID="ID_178222081" CREATED="1431177129778" MODIFIED="1431177135744">
@@ -27324,6 +27881,10 @@
 </node>
 </node>
 </node>
-<node TEXT="TODO&#xa;&#xa;Figure out how to best record companion plantings. How to retrieve the nodes that are marked as compatable (or incompatible) to the selected one&#xa;&#xa;Sometimes there exists genus&apos;s that encompass a collection of species that all share the same attribute values (see Lavender, Rosemary). So the genus should have the attribute. Maybe a tag on genus the genus nodes that establish the presence of attributes that can be &apos;tuned up&apos; with t a script pimarily for genus recursively.&#xa;&#xa;Script to decrease or increase the font size recursively on a node and it&apos;s children except for leaf nodes&#xa;&#xa;Edit script for adding attributes to check for children int the config.&#xa;If a child exists then the first one is the default value given to the new att.&#xa;&#xa;Add a sort to the node details language labels on a species node setup" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_988492698" CREATED="1429863654113" MODIFIED="1432405407567" HGAP="170" VSHIFT="-565"/>
+<node TEXT="lfg;ajdhfg;ahjgf" POSITION="left" ID="ID_1607616093" CREATED="1432652373597" MODIFIED="1432652378360"/>
+<node TEXT="TODO" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_988492698" CREATED="1429863654113" MODIFIED="1432574401654" HGAP="170" VSHIFT="-565">
+<font BOLD="true"/>
+<node TEXT="Figure out how to best record companion plantings. How to retrieve the nodes that are marked as compatable (or incompatible) to the selected one&#xa;&#xa;Sometimes there exists genus&apos;s that encompass a collection of species that all share the same attribute values (see Lavender, Rosemary). So the genus should have the attribute. Maybe a tag on genus the genus nodes that establish the presence of attributes that can be &apos;tuned up&apos; with t a script pimarily for genus recursively.&#xa;&#xa;Script to decrease or increase the font size recursively on a node and it&apos;s children except for leaf nodes&#xa;&#xa;Edit script for adding attributes to check for children int the config.&#xa;If a child exists then the first one is the default value given to the new att.&#xa;&#xa;Add a sort to the node details language labels on a species node setup&#xa;&#xa;Create a plugin that will display the notes of a node if it has a certain style. The styles that are valid are set in the config section. All styles under the config section will be included" ID="ID_1066845340" CREATED="1432574358772" MODIFIED="1432575173231"/>
+</node>
 </node>
 </map>
