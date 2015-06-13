@@ -51,7 +51,25 @@
 <stylenode TEXT="Purchase" COLOR="#ddfce2" BACKGROUND_COLOR="#4b7555" STYLE="as_parent">
 <font NAME="Tw Cen MT" SIZE="14"/>
 </stylenode>
-<stylenode TEXT="Class" COLOR="#d6d6ff" BACKGROUND_COLOR="#56466b" MAX_WIDTH="500" MIN_WIDTH="500">
+<stylenode TEXT="Guild" COLOR="#331700" BACKGROUND_COLOR="#bdccf9" STYLE="as_parent">
+<font NAME="Tw Cen MT" SIZE="20" BOLD="true"/>
+</stylenode>
+<stylenode TEXT="Guild Membership" COLOR="#150033" BACKGROUND_COLOR="#cef1c5" STYLE="as_parent">
+<font NAME="Tw Cen MT" SIZE="18" BOLD="true"/>
+</stylenode>
+<stylenode TEXT="Guild Member Family" COLOR="#000038" BACKGROUND_COLOR="#708f31" MAX_WIDTH="500" MIN_WIDTH="500">
+<font NAME="Liberation Sans" SIZE="12" BOLD="false"/>
+</stylenode>
+<stylenode TEXT="Guild Member Genus" COLOR="#000038" BACKGROUND_COLOR="#37a38f" MAX_WIDTH="500" MIN_WIDTH="500">
+<font NAME="Liberation Sans" SIZE="12" BOLD="false"/>
+</stylenode>
+<stylenode TEXT="Guild Member Species" COLOR="#000038" BACKGROUND_COLOR="#caa96c" MAX_WIDTH="500" MIN_WIDTH="500">
+<font NAME="Liberation Sans" SIZE="12" BOLD="false"/>
+</stylenode>
+<stylenode TEXT="Division" COLOR="#00006b" BACKGROUND_COLOR="#e0eae8" MAX_WIDTH="500" MIN_WIDTH="500">
+<font NAME="Liberation Sans" SIZE="20" BOLD="true"/>
+</stylenode>
+<stylenode TEXT="Class" COLOR="#d6d6ff" BACKGROUND_COLOR="#342a40" MAX_WIDTH="500" MIN_WIDTH="500">
 <font NAME="Liberation Sans" SIZE="20" BOLD="true"/>
 </stylenode>
 <stylenode TEXT="Order" COLOR="#000038" BACKGROUND_COLOR="#9583ae" MAX_WIDTH="500" MIN_WIDTH="500">
@@ -112,6 +130,7 @@
 <font SIZE="13" BOLD="true"/>
 <node TEXT="Node Styles" ID="ID_984241589" CREATED="1429687416775" MODIFIED="1429687578646">
 <font SIZE="14" BOLD="true"/>
+<node TEXT="Division" STYLE_REF="Division" ID="ID_1858822656" CREATED="1433788647659" MODIFIED="1433788768504"/>
 <node TEXT="Class" STYLE_REF="Class" ID="ID_1435596671" CREATED="1429773904776" MODIFIED="1432523786357"/>
 <node STYLE_REF="Order" ID="ID_1955683835" CREATED="1429773904776" MODIFIED="1432668599787"><richcontent TYPE="NODE">
 
@@ -366,10 +385,6 @@
 <font BOLD="false"/>
 </node>
 </node>
-<node TEXT="Food Forest Position" ID="ID_1695530169" CREATED="1432401890248" MODIFIED="1432401899939">
-<font BOLD="true"/>
-<node TEXT="Canopy, Understory, Vines, Shrubs, Herbs, Groundcover, Root Crops, and Edge Plantings" ID="ID_861430508" CREATED="1432401904349" MODIFIED="1432401910015"/>
-</node>
 <node TEXT="Leaf Types???" ID="ID_1842508735" CREATED="1432403853623" MODIFIED="1432403863345">
 <font BOLD="true"/>
 <node ID="ID_558590829" CREATED="1432407425248" MODIFIED="1432408897335"><richcontent TYPE="NODE">
@@ -499,6 +514,307 @@
 </richcontent>
 </node>
 </node>
+<node TEXT="Data - Food Forest Layer" ID="ID_463232968" CREATED="1433920628185" MODIFIED="1433959494958">
+<font SIZE="10" BOLD="true"/>
+<node ID="ID_1225609235" CREATED="1433920650289" MODIFIED="1433939288868"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <h4>
+      7 Layers of a Temperate Forest Garden
+    </h4>
+    <p>
+      The 7 layer classification system was developed by Robert Hart from Prehistoric tropical garden methods in the 60s for more temperate climates. It provides a structure similar to that of a real forest that can be adapted from a large scale farm to that of a modest backyard. The architecture of a successful food forest considers not only light requirements of the plants, but water, shelter, root depths and other companion planting principles.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1149989799" CREATED="1433922298165" MODIFIED="1433960527260"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <h3 class="red">
+      Canopy
+    </h3>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Canopy"/>
+<font SIZE="9"/>
+<node ID="ID_1270548190" CREATED="1433922298166" MODIFIED="1433922298166"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      9m+ high nut, fruit and nitrogen fixing trees (Only larger FFGs)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node ID="ID_214923965" CREATED="1433922324753" MODIFIED="1433960529078"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <h3 class="red">
+      Understory
+    </h3>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Understory"/>
+<font SIZE="9"/>
+<node ID="ID_1860391355" CREATED="1433922324755" MODIFIED="1433922324755"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      4m high, Dwarf Fruit / Nut Trees<br/>Nitrogen Fixers &amp; smaller trees<br/>Shade tolerant trees<br/>Pruned into open form for light
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node ID="ID_1146795048" CREATED="1433922336738" MODIFIED="1433960530701"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <h3 class="red">
+      Shrub
+    </h3>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Shrub"/>
+<font SIZE="9"/>
+<node ID="ID_910755852" CREATED="1433922336739" MODIFIED="1433922336739"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Woody perennial plants<br/>Flowering, fruiting, wildlife attracting
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node ID="ID_1888059675" CREATED="1433922346188" MODIFIED="1433960532174"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <h3 class="red">
+      Herbacious
+    </h3>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<font SIZE="9"/>
+<node ID="ID_1330120437" CREATED="1433922346190" MODIFIED="1433922346190"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Perennial vegetables<br/>Self seeding annuals<br/>Bee &amp; poultry forage<br/>Mulch &amp; soil builders, cover crops
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node ID="ID_658659400" CREATED="1433922359510" MODIFIED="1433960536514"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <h3 class="red">
+      Groundcover
+    </h3>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Groundcover"/>
+<font SIZE="9"/>
+<node ID="ID_1778397816" CREATED="1433922359512" MODIFIED="1433922359512"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Less than 30cm high<br/>Low, prostrate, creeping plants<br/>Forms a living mulch &#8211; retain, suppress weed growth
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node ID="ID_1006841705" CREATED="1433922370511" MODIFIED="1433960538051"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <h3 class="red">
+      Rhizosphere_(Root)
+    </h3>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Rhizosphere_(Root)"/>
+<font SIZE="9"/>
+<node ID="ID_1981233442" CREATED="1433922370513" MODIFIED="1433922370513"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Edible roots &amp; tubers<br/>Shallow rooted, easy to dig<br/>Longer rooted left to flower for beneficial insects
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node ID="ID_409438524" CREATED="1433922380012" MODIFIED="1433960541826"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <h3 class="red">
+      Vertical
+    </h3>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Vertical"/>
+<font SIZE="9"/>
+<node ID="ID_374881915" CREATED="1433922380013" MODIFIED="1433922380013"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Climbers, creepers, vines<br/>Twine around trunks or up fences, trellises, etc.<br/>Habitat and food<br/>Only in established Forest Garden, can strangle young trees<br/>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Guild Elements" ID="ID_1932013039" CREATED="1433920528459" MODIFIED="1433960586106">
+<font SIZE="10" BOLD="true"/>
+<node TEXT="Permaculture Elements (T.Hemenway w/ additions)" ID="ID_789264961" CREATED="1433938901013" MODIFIED="1433938903898">
+<font BOLD="true"/>
+</node>
+<node ID="ID_77688705" CREATED="1433876645968" MODIFIED="1433924299402"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Tree
+    </p>
+  </body>
+</html>
+</richcontent>
+<font SIZE="15" BOLD="true"/>
+<attribute_layout NAME_WIDTH="150" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Guild Element" VALUE="Central_Element"/>
+</node>
+<node TEXT="Mulch Producer" ID="ID_222760991" CREATED="1433876645968" MODIFIED="1433924425985">
+<font SIZE="15" BOLD="true"/>
+<attribute_layout NAME_WIDTH="150" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Guild Element" VALUE="Mulch_Producer"/>
+</node>
+<node TEXT="Nutrient Accumulator" ID="ID_1267327461" CREATED="1433876645969" MODIFIED="1433924427042">
+<font SIZE="15" BOLD="true"/>
+<attribute_layout NAME_WIDTH="150" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Guild Element" VALUE="Nutrient_Accumulator"/>
+</node>
+<node TEXT="Nitrogen Fixer" ID="ID_676549358" CREATED="1433876645970" MODIFIED="1433924427876">
+<font SIZE="15" BOLD="true"/>
+<attribute_layout NAME_WIDTH="150" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Guild Element" VALUE="Nitrogen_Fixer"/>
+</node>
+<node TEXT="Pest Repellant" ID="ID_661580201" CREATED="1433876645969" MODIFIED="1433924428608">
+<font SIZE="15" BOLD="true"/>
+<attribute_layout NAME_WIDTH="150" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Guild Element" VALUE="Pest_Repellant"/>
+</node>
+<node TEXT="Pest Attractant" ID="ID_1128666653" CREATED="1433876645970" MODIFIED="1433924429313">
+<font SIZE="15" BOLD="true"/>
+<attribute_layout NAME_WIDTH="150" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Guild Element" VALUE="Pest_Attractant"/>
+</node>
+<node TEXT="Pest Predator Host" ID="ID_934592233" CREATED="1433916352224" MODIFIED="1433924429981">
+<font SIZE="15" BOLD="true"/>
+<attribute_layout NAME_WIDTH="150" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Guild Element" VALUE="Pest_Predator_Host"/>
+</node>
+<node TEXT="Grass Suppressor" ID="ID_28730993" CREATED="1433876645971" MODIFIED="1433924430660">
+<font SIZE="15" BOLD="true"/>
+<attribute_layout NAME_WIDTH="150" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Guild Element" VALUE="Grass_Suppressor"/>
+</node>
+<node TEXT="Physical Barrier (frost, wind, sun)" ID="ID_1257872543" CREATED="1433916815551" MODIFIED="1433924252058">
+<font SIZE="15" BOLD="true"/>
+<attribute_layout NAME_WIDTH="100" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Guild Element" VALUE="Physical_Barrier"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="Configuration" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_453124326" CREATED="1431502342591" MODIFIED="1432405428524" HGAP="168" VSHIFT="13">
@@ -515,42 +831,44 @@
 <node TEXT="Species" STYLE_REF="Config" ID="ID_1800748601" CREATED="1430736462857" MODIFIED="1430736886285">
 <font BOLD="true"/>
 <node TEXT="Application" ID="ID_814850073" CREATED="1430736554955" MODIFIED="1430737919847"/>
-<node TEXT="Application - Medicinal" ID="ID_1466762179" CREATED="1430736554955" MODIFIED="1430737932086"/>
 <node TEXT="Application - Edible" ID="ID_164015075" CREATED="1430736554955" MODIFIED="1430737939853"/>
 <node TEXT="Application - Fermentation" ID="ID_869104173" CREATED="1430736554955" MODIFIED="1430737947876"/>
+<node TEXT="Application - Medicinal" ID="ID_1466762179" CREATED="1430736554955" MODIFIED="1430737932086"/>
 <node TEXT="Characteristic" ID="ID_1038293487" CREATED="1430736554955" MODIFIED="1430737955101"/>
 <node TEXT="Characteristic - Allelopathy" ID="ID_1527560279" CREATED="1430736554955" MODIFIED="1431326935298">
 <node TEXT="None" ID="ID_1269565426" CREATED="1431326965771" MODIFIED="1431326971051"/>
 </node>
-<node TEXT="Conditions - Hardiness Zones" ID="ID_1408875092" CREATED="1430736554955" MODIFIED="1431240037385" LINK="#ID_617396870"/>
 <node TEXT="Characteristic - Diseases" ID="ID_255513902" CREATED="1430736554955" MODIFIED="1430738108016"/>
-<node TEXT="Characteristic - Resistance" ID="ID_192548182" CREATED="1430736554955" MODIFIED="1430737963148"/>
-<node TEXT="Characteristic - Sensitivity" ID="ID_346896093" CREATED="1430736554955" MODIFIED="1430737970116"/>
 <node TEXT="Characteristic - Growth Habit" ID="ID_1932307591" CREATED="1430736554955" MODIFIED="1430737977197"/>
 <node TEXT="Characteristic - Leaf Type" ID="ID_891582520" CREATED="1430736554955" MODIFIED="1430737988956"/>
+<node TEXT="Characteristic - Pests" ID="ID_71317025" CREATED="1430736554955" MODIFIED="1433873594167"/>
+<node TEXT="Characteristic - Resistance" ID="ID_192548182" CREATED="1430736554955" MODIFIED="1430737963148"/>
+<node TEXT="Characteristic - Sensitivity" ID="ID_346896093" CREATED="1430736554955" MODIFIED="1430737970116"/>
 <node TEXT="Characteristic - Toxicity" ID="ID_166640129" CREATED="1430736554955" MODIFIED="1430738008178">
 <node TEXT="None" ID="ID_1115571696" CREATED="1431327066917" MODIFIED="1431327069929"/>
 </node>
+<node TEXT="Conditions - Hardiness Zones" ID="ID_1408875092" CREATED="1430736554955" MODIFIED="1431240037385" LINK="#ID_617396870"/>
 <node TEXT="Conditions - Light" ID="ID_1665524969" CREATED="1430736554955" MODIFIED="1430738023241"/>
 <node TEXT="Conditions - Soil Characteristics" ID="ID_767109874" CREATED="1430736554955" MODIFIED="1430738030322"/>
 <node TEXT="Conditions - Soil Moisture" ID="ID_802010760" CREATED="1430736554955" MODIFIED="1430738038178"/>
 <node TEXT="Conditions - Soil PH" ID="ID_1764174637" CREATED="1430736554955" MODIFIED="1430738045680"/>
 <node TEXT="Conditions - Soil Texture" ID="ID_893218089" CREATED="1430736554955" MODIFIED="1430738053170"/>
+<node TEXT="Data - Conservation Status" ID="ID_933257960" CREATED="1430736554955" MODIFIED="1431239901498" LINK="#ID_578018460"/>
+<node TEXT="Data - Food Forest Layer" ID="ID_522108" CREATED="1432390879331" MODIFIED="1432401949608"/>
+<node TEXT="Data - Guild" ID="ID_1836956036" CREATED="1430736554955" MODIFIED="1430980361636"/>
+<node TEXT="Data - Guild Element" ID="ID_827741829" CREATED="1430736554955" MODIFIED="1433959301489"/>
+<node TEXT="Data - Native Regions" ID="ID_1108889625" CREATED="1430736554955" MODIFIED="1431239190015"/>
 <node TEXT="Dimensions - Height Max" ID="ID_236849282" CREATED="1430736554955" MODIFIED="1430738060489"/>
 <node TEXT="Dimensions - Height Min" ID="ID_210217628" CREATED="1430736554955" MODIFIED="1430738068800"/>
-<node TEXT="Dimensions - Spacing" ID="ID_1502807905" CREATED="1430736554955" MODIFIED="1430738077671"/>
 <node TEXT="Dimensions - Root Depth" ID="ID_1993366863" CREATED="1430736554955" MODIFIED="1430738085417"/>
-<node TEXT="Data - Conservation Status" ID="ID_933257960" CREATED="1430736554955" MODIFIED="1431239901498" LINK="#ID_578018460"/>
-<node TEXT="Data - Food Forest Position" ID="ID_522108" CREATED="1432390879331" MODIFIED="1432401949608" LINK="#ID_1695530169"/>
-<node TEXT="Data - Guild" ID="ID_1836956036" CREATED="1430736554955" MODIFIED="1430980361636"/>
-<node TEXT="Data - Native Regions" ID="ID_1108889625" CREATED="1430736554955" MODIFIED="1431239190015"/>
+<node TEXT="Dimensions - Spacing" ID="ID_1502807905" CREATED="1430736554955" MODIFIED="1430738077671"/>
 <node TEXT="Schedule - Bearing Age" ID="ID_440016890" CREATED="1430736554955" MODIFIED="1430738121936"/>
 <node TEXT="Schedule - Duration" ID="ID_1598389558" CREATED="1430736554955" MODIFIED="1430738128776"/>
-<node TEXT="Schedule - Sowing Date (Week)" ID="ID_1589989559" CREATED="1430736554955" MODIFIED="1431251769015"/>
 <node TEXT="Schedule - Flower Period" ID="ID_127473024" CREATED="1430736554955" MODIFIED="1430738136520"/>
+<node TEXT="Schedule - Germination Span" ID="ID_983799405" CREATED="1430736554955" MODIFIED="1430738158477"/>
 <node TEXT="Schedule - Harvest Period" ID="ID_762013776" CREATED="1430736554955" MODIFIED="1430738143911"/>
 <node TEXT="Schedule - Lifespan" ID="ID_1107036707" CREATED="1430736554955" MODIFIED="1430738151439"/>
-<node TEXT="Schedule - Germination Span" ID="ID_983799405" CREATED="1430736554955" MODIFIED="1430738158477"/>
+<node TEXT="Schedule - Sowing Date (Week)" ID="ID_1589989559" CREATED="1430736554955" MODIFIED="1431251769015"/>
 <node TEXT="Sexuality - Behavior" ID="ID_564645098" CREATED="1430736554955" MODIFIED="1431239811290" LINK="#ID_714481884"/>
 <node TEXT="Sexuality - Flower Tyoe" ID="ID_1217215489" CREATED="1430736554956" MODIFIED="1431239869287" LINK="#ID_231064716"/>
 <node TEXT="Sexuality - Pollination" ID="ID_761754130" CREATED="1430736554956" MODIFIED="1430738179567"/>
@@ -562,13 +880,15 @@
 <node TEXT="Characteristic" ID="ID_1382725087" CREATED="1430736554955" MODIFIED="1430737955101"/>
 <node TEXT="Characteristic - Diseases" ID="ID_1722627543" CREATED="1430736554955" MODIFIED="1430738108016"/>
 <node TEXT="Characteristic - Growth Habit" ID="ID_1684602695" CREATED="1430736554955" MODIFIED="1430737977197"/>
+<node TEXT="Characteristic - Pests" ID="ID_498078419" CREATED="1430736554955" MODIFIED="1433873648571"/>
 <node TEXT="Characteristic - Resistance" ID="ID_496361407" CREATED="1430736554955" MODIFIED="1430737963148"/>
 <node TEXT="Characteristic - Sensitivity" ID="ID_942490321" CREATED="1430736554955" MODIFIED="1430737970116"/>
 <node TEXT="Characteristic - Toxicity" ID="ID_1923763641" CREATED="1430736554955" MODIFIED="1430738008178">
 <node TEXT="None" ID="ID_47148393" CREATED="1431327066917" MODIFIED="1431327069929"/>
 </node>
-<node TEXT="Data - Food Forest Position" ID="ID_1925170635" CREATED="1432390879331" MODIFIED="1432401949608" LINK="#ID_1695530169"/>
+<node TEXT="Data - Food Forest Layer" ID="ID_1925170635" CREATED="1432390879331" MODIFIED="1432401949608"/>
 <node TEXT="Data - Guild" ID="ID_1027560168" CREATED="1430736554955" MODIFIED="1430738092103"/>
+<node TEXT="Data - Guild Element" ID="ID_735749114" CREATED="1430736554955" MODIFIED="1433959301489"/>
 <node TEXT="Data - Native Regions" ID="ID_1351432483" CREATED="1430736554955" MODIFIED="1431239190015"/>
 <node TEXT="Schedule - Duration" ID="ID_187212474" CREATED="1430736554955" MODIFIED="1430738128776"/>
 </node>
@@ -576,6 +896,10 @@
 <font BOLD="true"/>
 </node>
 <node TEXT="Order" STYLE_REF="Config" ID="ID_1298211363" CREATED="1431955104595" MODIFIED="1431955121786"/>
+<node TEXT="Guild Member" STYLE_REF="Config" ID="ID_1017410030" CREATED="1434001913670" MODIFIED="1434001944395">
+<node TEXT="Data - Guild Element" ID="ID_478010907" CREATED="1430736554955" MODIFIED="1433959301489"/>
+<node TEXT="Data - Food Forest Layer" ID="ID_243409244" CREATED="1432390879331" MODIFIED="1432401949608"/>
+</node>
 </node>
 <node TEXT="Details config" ID="ID_3302265" CREATED="1431955168498" MODIFIED="1431955180225">
 <font SIZE="14" BOLD="true"/>
@@ -588,6 +912,7 @@
 </node>
 <node TEXT="Display Notes Styles" ID="ID_258527224" CREATED="1432575001698" MODIFIED="1432575052129">
 <font SIZE="14" BOLD="true"/>
+<node TEXT="Division" STYLE_REF="Division" ID="ID_1751752031" CREATED="1433788647659" MODIFIED="1433788768504"/>
 <node TEXT="Class" STYLE_REF="Class" ID="ID_966080517" CREATED="1429773904776" MODIFIED="1432523786357"/>
 <node TEXT="Order" STYLE_REF="Order" ID="ID_105257389" CREATED="1429773904776" MODIFIED="1429773915793">
 <node TEXT="command + 4" STYLE_REF="key_stroke" ID="ID_1813772094" CREATED="1429954647443" MODIFIED="1429954954060"/>
@@ -599,9 +924,45 @@
 <node TEXT="Family(Subfamily)" STYLE_REF="Family(Subfamily)" ID="ID_31075798" CREATED="1429854705572" MODIFIED="1429854722437"/>
 <node TEXT="Family(Tribe)" STYLE_REF="Family(Tribe)" ID="ID_23753211" CREATED="1429854727712" MODIFIED="1429854739140"/>
 <node TEXT="Family (Subtribe)" STYLE_REF="Family(Subtribe)" ID="ID_1191491788" CREATED="1429693060727" MODIFIED="1429693077263"/>
+<node TEXT="Genus" STYLE_REF="Genus" ID="ID_1487525673" CREATED="1429687494200" MODIFIED="1433873840477">
+<node TEXT="command + 2" STYLE_REF="key_stroke" ID="ID_1827886891" CREATED="1429954647443" MODIFIED="1429954964662"/>
+</node>
+<node TEXT="Genus(Subgenus)" STYLE_REF="Genus(Subgenus)" ID="ID_1433892487" CREATED="1429797137705" MODIFIED="1433873856198"/>
+</node>
+<node TEXT="Column widths" ID="ID_1516945364" CREATED="1433610954961" MODIFIED="1433960490106">
+<font SIZE="14" BOLD="true"/>
+<node TEXT="Name Column Width" STYLE_REF="Config" ID="ID_1176629168" CREATED="1433611004643" MODIFIED="1433960524279"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      200
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Value Column Width" STYLE_REF="Config" ID="ID_354951998" CREATED="1433612032280" MODIFIED="1433678488618"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      250
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="250" STYLE_REF="Config" ID="ID_1213284682" CREATED="1433612100288" MODIFIED="1433612107065"/>
 </node>
 </node>
-<node POSITION="left" ID="ID_323859214" CREATED="1429683636152" MODIFIED="1432391966719"><richcontent TYPE="NODE">
+</node>
+<node POSITION="left" ID="ID_323859214" CREATED="1429683636152" MODIFIED="1433789393889"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -623,20 +984,482 @@
     <p>
       <font size="2">Superdivision - Embryophyta </font>
     </p>
-    <p>
-      <font size="2">Division - Tracheophyta&#160;&#160;&#8211; vascular plants, tracheophytes </font>
-    </p>
-    <p>
-      <font size="2">Subdivision - Spermatophytina&#160;&#160;&#8211; spermatophytes, seed plants, phan&#233;rogames </font>
-    </p>
-    <p>
-      <font size="2">Superorder ???</font>
-    </p>
   </body>
 </html>
 </richcontent>
 <font SIZE="19" BOLD="true"/>
-<node TEXT="Magnoliopsida" STYLE_REF="Class" ID="ID_897558015" CREATED="1432391969109" MODIFIED="1432392163557">
+<node STYLE_REF="Division" ID="ID_1516586627" CREATED="1433789714235" MODIFIED="1433789900437"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cycadophyta
+    </p>
+    <p>
+      <font size="4">Cycads</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="http://botit.botany.wisc.edu/courses/systematics/Phyla/Cycadophyta/Cycadophyta.html">http://botit.botany.wisc.edu/courses/systematics/Phyla/Cycadophyta/Cycadophyta.html</a>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node STYLE_REF="Division" ID="ID_1193349765" CREATED="1433790142100" MODIFIED="1433790328136"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Equisetophyta
+    </p>
+    <p>
+      <font size="4">Horsetails</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="http://botit.botany.wisc.edu/courses/systematics/Phyla/Spenophyta/Sphenophyta.html">http://botit.botany.wisc.edu/courses/systematics/Phyla/Spenophyta/Sphenophyta.html</a>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node STYLE_REF="Division" ID="ID_1717624525" CREATED="1433789417326" MODIFIED="1433789900437"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ginkgophyta
+    </p>
+    <p>
+      <font size="4">Ginkoes</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="http://botit.botany.wisc.edu/courses/systematics/Phyla/Ginkgophyta/Ginkgophyta.html">http://botit.botany.wisc.edu/courses/systematics/Phyla/Ginkgophyta/Ginkgophyta.htm</a>l
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node STYLE_REF="Division" ID="ID_635649939" CREATED="1433788936779" MODIFIED="1433789900436"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Gnetophyta
+    </p>
+    <p>
+      <font size="4">Vessel-bearing Gymnosperms</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="http://botit.botany.wisc.edu/courses/systematics/Phyla/Gnetophyta/Gnetophyta.html">http://botit.botany.wisc.edu/courses/systematics/Phyla/Gnetophyta/Gnetophyta.html</a>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Gnetopsida" STYLE_REF="Class" ID="ID_918448960" CREATED="1432392202897" MODIFIED="1432392210154">
+<node TEXT="Ephedrales" STYLE_REF="Order" ID="ID_228281828" CREATED="1432392243858" MODIFIED="1432392248010">
+<node TEXT="Ephedraceae" STYLE_REF="Family" ID="ID_1775661301" CREATED="1432392256668" MODIFIED="1432392270284">
+<node TEXT="Ephedra spp." STYLE_REF="Genus" ID="ID_1085310241" CREATED="1432392271937" MODIFIED="1432451074324">
+<attribute_layout NAME_WIDTH="209" VALUE_WIDTH="209"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ephedra is a genus of gymnosperm shrubs, the only genus in its family, Ephedraceae, and order, Ephedrales. The various species of Ephedra are widespread in many lands, native to southwestern North America, southern Europe, northern Africa, and southwest and central Asia, northern China, and western South America.[2]
+    </p>
+    <p>
+      <a href="http://en.wikipedia.org/wiki/Ephedra_(plant)">
+</a>    </p>
+    <p>
+      Ephedra is a genus of approximately 50 species of dioecious gymnosperm shrubs in the Ephedraceae, native to arid regions of the Northern Hemisphere and South America. They are evergreen herbs to 3 feet in height. The fruits are edible although bland, and the seeds are eaten after parching, and roasted as a coffee substitute. The herb is used medicinally to treat asthma and urinary infections.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      The plants are drought tolerant
+    </p>
+    <p>
+      If grown for the fruit and seed, male and female plants must be present<a href="http://en.wikipedia.org/wiki/Ephedra_(plant)">
+</a>    </p>
+    <p>
+      <a href="http://en.wikipedia.org/wiki/Ephedra_(plant)">
+</a>    </p>
+    <p>
+      <a href="http://en.wikipedia.org/wiki/Ephedra_(plant)">http://en.wikipedia.org/wiki/Ephedra_(plant) </a>
+    </p>
+    <p>
+      <a href="http://en.wikipedia.org/wiki/Ephedra_(plant)">
+</a>    </p>
+    <p>
+      <b>Species</b>
+    </p>
+    <p>
+      Ephedra alata Decne &#8211; North Africa, Arabian Peninsula
+    </p>
+    <p>
+      Ephedra altissima Desf. &#8211; North Africa, Canary Islands
+    </p>
+    <p>
+      Ephedra americana Humb. &amp; Bonpl. ex Willd. &#8211; Bolivia, Ecuador, Peru, Argentina, Chile
+    </p>
+    <p>
+      Ephedra antisyphilitica Berland ex C.A.Meyer &#8211; Clapweed, Erect Ephedra &#8211; Texas, Oklahoma, New Mexico, Nuevo Le&#243;n, Coahuila, Chihuahua
+    </p>
+    <p>
+      Ephedra aphylla Forssk. &#8211; eastern Mediterranean from Libya and Cyprus to the Persian Gulf
+    </p>
+    <p>
+      Ephedra &#215; arenicola H.C.Cutler &#8211; Arizona, Utah (hybrid, E. cutleri &#215; E. torreyana)
+    </p>
+    <p>
+      Ephedra aspera Engelm. ex S.Wats. &#8211; Boundary Ephedra, Pitamoreal &#8211; Texas, New Mexico, Arizona, Utah, Nevada, California, Chihuahua, Durango, Zacatecas, Sinaloa, Sonora, Baja California
+    </p>
+    <p>
+      Ephedra aurantiaca Takht. &amp; Pachom. &#8211; Caucasus, Kazakhstan, Turkmenistan
+    </p>
+    <p>
+      Ephedra boelckei F.A.Roig &#8211; Argentina
+    </p>
+    <p>
+      Ephedra botschantzevii Pachom. &#8211; Kazakhstan, Tuva region of Siberia
+    </p>
+    <p>
+      Ephedra breana Phil. &#8211; Peru, Bolivia, Chile, Argentina
+    </p>
+    <p>
+      Ephedra brevifoliata Ghahr. &#8211; Iran
+    </p>
+    <p>
+      Ephedra californica S.Wats. &#8211; California Ephedra, California Jointfir &#8211; California, western Arizona, Baja California
+    </p>
+    <p>
+      Ephedra chilensis C.Presl &#8211; Chile, Argentina
+    </p>
+    <p>
+      Ephedra compacta Rose &#8211; widespread in much of Mexico
+    </p>
+    <p>
+      Ephedra coryi E.L.Reed &#8211; Cory's Ephedra &#8211; Texas, New Mexico
+    </p>
+    <p>
+      Ephedra cutleri Peebles &#8211; Navajo Ephedra, Cutler's Ephedra, Cutler Mormon-tea, Cutler's Jointfir &#8211; Colorado, Utah, Arizona, New Mexico, Wyoming
+    </p>
+    <p>
+      Ephedra dahurica Turcz. &#8211; Siberia, Mongolia
+    </p>
+    <p>
+      Ephedra dawuensis Y.Yang &#8211; Sichuan
+    </p>
+    <p>
+      Ephedra distachya L. &#8211; Joint-pine, Jointfir &#8211; southern Europe and central Asia from Portugal to Kazakhstan
+    </p>
+    <p>
+      Ephedra &#215; eleutherolepis V.A.Nikitin &#8211; Tajikistan (hybrid E. intermedia &#215; E. strobilacea)
+    </p>
+    <p>
+      Ephedra equisetina Bunge &#8211; Ma huang &#8211; Caucasus, Central Asia, Siberia, Mongolia, Gansu, Hebei, Inner Mongolia, Ningxia, Qinghai, Shanxi, Xinjiang
+    </p>
+    <p>
+      Ephedra fasciculata A.Nelson &#8211; Arizona Ephedra, Arizona Jointfir, Desert Mormon-tea &#8211; Arizona, California, Nevada, Utah
+    </p>
+    <p>
+      Ephedra fedtschenkoae Paulsen &#8211; Central Asia, Siberia, Mongolia, Xinjiang
+    </p>
+    <p>
+      Ephedra foeminea Forssk. &#8211; North Africa, Somalia, Balkans, Italy, Middle East; naturalized in Santa Barbara County of California
+    </p>
+    <p>
+      Ephedra foliata Boiss. ex C.A.Mey. &#8211; North Africa, Somalia, Middle East, India
+    </p>
+    <p>
+      Ephedra fragilis Desf. &#8211; Mediterranean, Canary Islands, Madeira
+    </p>
+    <p>
+      Ephedra frustillata Miers &#8211; Patagonian Ephedra &#8211; Chile, Argentina
+    </p>
+    <p>
+      Ephedra funerea Coville &amp; Morton &#8211; Death Valley Ephedra, Death Valley Jointfir &#8211; California, Arizona, Nevada
+    </p>
+    <p>
+      Ephedra gerardiana Wallich ex C.A.Meyer &#8211; Gerard's Jointfir, Shan Ling Ma Huang &#8211; Himalayas, Tibet, Yunnan, Siberia, Central Asia
+    </p>
+    <p>
+      Ephedra glauca Regel &#8211; Iran, Central Asia, Mongolia
+    </p>
+    <p>
+      Ephedra holoptera Riedl &#8211; Iran
+    </p>
+    <p>
+      Ephedra intermedia Schrenk &amp; C.A.Meyer &#8211; China, Siberia, Central Asia, Himalayas, Iran, Pakistan
+    </p>
+    <p>
+      Ephedra &#215; intermixta H.C.Cutler &#8211; New Mexico (hybrid E. trifurca &#215; E. torreyana)
+    </p>
+    <p>
+      Ephedra kardangensis P.Sharma &amp; P.L.Uniyal &#8211; western Himalayas
+    </p>
+    <p>
+      Ephedra khurikensis P.Sharma &amp; P.L.Uniyal &#8211; western Himalayas
+    </p>
+    <p>
+      Ephedra laristanica Assadi &#8211; Iran
+    </p>
+    <p>
+      Ephedra likiangensis Florin &#8211; Guizhou, Sichuan, Tibet, Yunnan
+    </p>
+    <p>
+      Ephedra lomatolepis Schrenk &#8211; Kazakhstan, Tuva region of Siberia
+    </p>
+    <p>
+      Ephedra major Host &#8211; Mediterranean, Middle East, Central Asia; from Canary Islands to Kashmir
+    </p>
+    <p>
+      Ephedra milleri Freitag &amp; Maier-St. &#8211; Oman, Yemen
+    </p>
+    <p>
+      Ephedra minuta Florin &#8211; Qinghai, Sichuan
+    </p>
+    <p>
+      Ephedra monosperma C.A.Meyer &#8211; Siberia, Mongolia, much of China including Tibet and Xinjiang
+    </p>
+    <p>
+      Ephedra multiflora Phil. ex Stapf &#8211; Chile, Argentina
+    </p>
+    <p>
+      Ephedra nevadensis S.Wats. &#8211; Nevada Ephedra, Nevada Jointfir, Nevada Mormon-tea &#8211; Baja California, California, Arizona, Nevada, Utah, Oregon
+    </p>
+    <p>
+      Ephedra ochreata Miers &#8211; Argentina
+    </p>
+    <p>
+      Ephedra oxyphylla Riedl &#8211; Afghanistan
+    </p>
+    <p>
+      Ephedra pachyclada Boiss. &#8211; Middle East from Sinai and Yemen to Pakistan
+    </p>
+    <p>
+      Ephedra pedunculata Engelm. ex S.Wats. &#8211; Vine Ephedra, Vine Jointfir &#8211; Texas, Chihuahua, Coahuila, Durango, San Luis Potos&#237;, Nuevo Le&#243;n, Zacatecas
+    </p>
+    <p>
+      Ephedra pentandra Pachom. &#8211; Iran
+    </p>
+    <p>
+      Ephedra przewalskii Stapf &#8211; Central Asia, Mongolia, Pakistan, Gansu, Inner Mongolia, Ningxia, Qinghai, Tibet
+    </p>
+    <p>
+      Ephedra pseudodistachya Pachom. &#8211; Siberia, Mongolia
+    </p>
+    <p>
+      Ephedra regeliana Florin &#8211; Xi Zi Ma Huang &#8211; Central Asia, Siberia, Pakistan, Xinjiang
+    </p>
+    <p>
+      Ephedra rhytidosperma Pachom. &#8211; Gansu, Inner Mongolia, Ningxia, Mongolia
+    </p>
+    <p>
+      Ephedra rituensis Y.Yang, D.Z.Fu &amp; G.H.Zhu &#8211; Qinghai, Xinjiang, Tibet
+    </p>
+    <p>
+      Ephedra rupestris Benth. &#8211; Ecuador, Peru, Bolivia, Argentina
+    </p>
+    <p>
+      Ephedra sarcocarpa Aitch. &amp; Hemsl. -Pakiostan, Afghanistan
+    </p>
+    <p>
+      Ephedra sinica Stapf &#8211; Cao Ma Huang, Chinese ephedra &#8211; Mongolia, Siberia, Primorye, Manchuria
+    </p>
+    <p>
+      Ephedra somalensis Freitag &amp; Maier-St. &#8211; Somalia, Eritrea
+    </p>
+    <p>
+      Ephedra strobilacea Bunge &#8211; Iran, Central Asia
+    </p>
+    <p>
+      Ephedra sumlingensis P.Sharma &amp; P.L.Uniyal &#8211; western Himalayas
+    </p>
+    <p>
+      Ephedra tilhoana Maire &#8211; Chad
+    </p>
+    <p>
+      Ephedra torreyana S.Wats. &#8211; Torrey's Ephedra, Torrey's Jointfir, Torrey's Mormon-tea, Ca&#241;utillo &#8211; Nevada, Utah, Colorado, Arizona, New Mexico, Texas, Chihuahua
+    </p>
+    <p>
+      Ephedra transitoria Riedl &#8211; Iraq, Syria, Palestine, Saudi Arabia
+    </p>
+    <p>
+      Ephedra triandra Tul. -Bolivia, Argentina
+    </p>
+    <p>
+      Ephedra trifurca Torrey ex S.Wats. &#8211; Longleaf Ephedra, Longleaf Jointfir, Longleaf Mormon-tea, Popotilla, Teposote &#8211; California, Arizona, New Mexico, Texas, Chihuahua, Sonora, Baja California
+    </p>
+    <p>
+      Ephedra tweedieana C.A.Mey. &#8211; Brazil, Argentina, Uruguay
+    </p>
+    <p>
+      Ephedra viridis Coville &#8211; Green Ephedra, Green Mormon-tea &#8211; California, Nevada, Utah, Arizona, New Mexico, Colorado, Wyoming, South Dakota, Oregon
+    </p>
+    <p>
+      Ephedra vvedenskyi Pachom. &#8211; Iran, Caucasus, Turkmenistan
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node STYLE_REF="Division" ID="ID_1894503859" CREATED="1433789934478" MODIFIED="1433790339997"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Lycodiophyta
+    </p>
+    <p>
+      <font size="4">Club Mosses</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="http://botit.botany.wisc.edu/courses/systematics/Phyla/Lycophyta/Lycophyta.html">http://botit.botany.wisc.edu/courses/systematics/Phyla/Lycophyta/Lycophyta.html</a>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node STYLE_REF="Division" ID="ID_1830769377" CREATED="1433789306972" MODIFIED="1433789900435"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Magnoliophyta
+    </p>
+    <p>
+      <font size="4">Flowering Plants</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="http://botit.botany.wisc.edu/courses/systematics/Phyla/Magnoliophyta/Magnoliophyta.html">http://botit.botany.wisc.edu/courses/systematics/Phyla/Magnoliophyta/Magnoliophyta.html</a>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Class" ID="ID_897558015" CREATED="1432391969109" MODIFIED="1433790602893"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Magnoliopsida
+    </p>
+    <p>
+      <font size="4">Dicots</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="http://botit.botany.wisc.edu/courses/systematics/Phyla/Magnoliophyta/Magnoliopsida.html">http://botit.botany.wisc.edu/courses/systematics/Phyla/Magnoliophyta/Magnoliopsida.html</a>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node STYLE_REF="Order" ID="ID_488411886" CREATED="1429812580216" MODIFIED="1432649271816"><richcontent TYPE="NODE">
 
 <html>
@@ -653,7 +1476,22 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Apiaceae&#xa;Carrot" STYLE_REF="Family" ID="ID_802044622" CREATED="1429812557752" MODIFIED="1429812599956">
+<node STYLE_REF="Family" ID="ID_802044622" CREATED="1429812557752" MODIFIED="1433760399359"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Apiaceae
+    </p>
+    <p>
+      <font size="4">Carrot</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Apioideae" STYLE_REF="Family(Subfamily)" ID="ID_318068726" CREATED="1430808773983" MODIFIED="1430808782280">
 <node TEXT="Bupleureae" STYLE_REF="Family(Tribe)" ID="ID_523069598" CREATED="1430808798344" MODIFIED="1430808810126">
 <node TEXT="Bupleurum spp." STYLE_REF="Genus" ID="ID_673871738" CREATED="1430808834054" MODIFIED="1432387867626">
@@ -808,16 +1646,36 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_716582332" CREATED="1430728903134" MODIFIED="1430728903134"/>
 </node>
 </node>
-<node TEXT="Daucus spp.&#xa;Carrot" STYLE_REF="Genus" ID="ID_497758360" CREATED="1429812292658" MODIFIED="1432387913595">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<node STYLE_REF="Genus" ID="ID_497758360" CREATED="1429812292658" MODIFIED="1433760407119"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Daucus spp.
+    </p>
+    <p>
+      <font size="4">Carrot</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
-<node TEXT="Daucus carota" STYLE_REF="Species" ID="ID_506159385" CREATED="1422470095251" MODIFIED="1432569509949">
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<node TEXT="Daucus carota" STYLE_REF="Species" ID="ID_506159385" CREATED="1422470095251" MODIFIED="1434053704060">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE="Root"/>
@@ -839,8 +1697,8 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Rhizosphere_(Root)"/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
 <attribute NAME="Dimensions - Height Min" VALUE=""/>
@@ -884,12 +1742,28 @@
 <node TEXT="http://en.wikipedia.org/wiki/Daucus_carota" ID="ID_828909178" CREATED="1429812362185" MODIFIED="1429812362185" LINK="http://en.wikipedia.org/wiki/Daucus_carota"/>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_114113761" CREATED="1430728880842" MODIFIED="1430728880899"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_785912964" CREATED="1430728880847" MODIFIED="1430728880850"/>
-<node TEXT="Garden Carrots&#xa;(Daucus carota subsp. sativus)" STYLE_REF="Species(Subspecies)" ID="ID_1028246908" CREATED="1425013063831" MODIFIED="1430729069481">
+<node STYLE_REF="Species(Subspecies)" ID="ID_1028246908" CREATED="1425013063831" MODIFIED="1433136489935"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Daucus carota subsp. sativus
+    </p>
+    <p>
+      <font size="3">Garden Carrots</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="173" VALUE_WIDTH="167"/>
-<node TEXT="Purple Carrots&#xa;(Daucus carota subsp. sativus)" STYLE_REF="Variation" ID="ID_214321002" CREATED="1425013063831" MODIFIED="1430729058998">
+<node TEXT="Purple Carrots" STYLE_REF="Variation" ID="ID_214321002" CREATED="1425013063831" MODIFIED="1433136713025">
 <attribute_layout NAME_WIDTH="173" VALUE_WIDTH="167"/>
 <attribute NAME="Application" VALUE="Dye Source"/>
 </node>
+<node TEXT="http://www.attainable-sustainable.net/growing-carrots/" ID="ID_1102349003" CREATED="1433136525096" MODIFIED="1433136525096" LINK="http://www.attainable-sustainable.net/growing-carrots/"/>
 </node>
 </node>
 </node>
@@ -902,7 +1776,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE="Perennial"/>
@@ -1010,16 +1884,35 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Opopanax spp.&#xa;Rough parsnip" STYLE_REF="Genus" ID="ID_1626184335" CREATED="1432397042294" MODIFIED="1432451971181">
-<attribute_layout NAME_WIDTH="209" VALUE_WIDTH="209"/>
+<node STYLE_REF="Genus" ID="ID_1626184335" CREATED="1432397042294" MODIFIED="1433760422611"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Opopanax spp.
+    </p>
+    <p>
+      <font size="4">Rough parsnip</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -1049,15 +1942,35 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Petroselinum  spp.&#xa;Parsely" STYLE_REF="Genus" ID="ID_203429227" CREATED="1430756187042" MODIFIED="1432388442061">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<node STYLE_REF="Genus" ID="ID_203429227" CREATED="1430756187042" MODIFIED="1433760425670"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Petroselinum&#160;&#160;spp.
+    </p>
+    <p>
+      <font size="4">Parsely</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE="Rose"/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <node TEXT="Petroselinum crispum" STYLE_REF="Species" ID="ID_1698414449" CREATED="1430756157287" MODIFIED="1432388381967">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
@@ -1183,7 +2096,22 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1737490014" CREATED="1430756284622" MODIFIED="1430756284624"/>
 </node>
 </node>
-<node TEXT="Trachymene spp.&#xa;Wild Parsnip" STYLE_REF="Genus" ID="ID_258037414" CREATED="1432554956376" MODIFIED="1432554998924">
+<node STYLE_REF="Genus" ID="ID_258037414" CREATED="1432554956376" MODIFIED="1433136660698"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Trachymene spp.
+    </p>
+    <p>
+      <font size="3">Wild Parsnip</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
@@ -1191,7 +2119,7 @@
 <attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <node TEXT="Trachymene incisa" STYLE_REF="Species" ID="ID_393768327" CREATED="1432554963943" MODIFIED="1432555066667">
@@ -1215,7 +2143,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE="Australia"/>
 <attribute NAME="Dimensions - Height Max" VALUE="80cm"/>
@@ -1262,18 +2190,51 @@
 </node>
 </node>
 </node>
-<node TEXT="Araliaceae&#xa;Ginseng" STYLE_REF="Family" ID="ID_1893637900" CREATED="1429813748794" MODIFIED="1429813763433">
-<node TEXT="Panax spp.&#xa;Ginseng" STYLE_REF="Genus" ID="ID_408924453" CREATED="1429813703158" MODIFIED="1432494493189">
+<node STYLE_REF="Family" ID="ID_1893637900" CREATED="1429813748794" MODIFIED="1433760432668"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Araliaceae
+    </p>
+    <p>
+      <font size="4">Ginseng</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_408924453" CREATED="1429813703158" MODIFIED="1433760435719"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Panax spp.
+    </p>
+    <p>
+      <font size="4">Ginseng</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <node TEXT="Panax ginseng" STYLE_REF="Species" ID="ID_1352992786" CREATED="1403783859832" MODIFIED="1432494414714">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
@@ -1295,7 +2256,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -1350,7 +2311,7 @@
 <attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <richcontent TYPE="NOTE">
@@ -1366,93 +2327,6 @@
   </body>
 </html>
 </richcontent>
-</node>
-</node>
-</node>
-</node>
-<node STYLE_REF="Order" ID="ID_1813569596" CREATED="1429859738088" MODIFIED="1432649280164"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Arecales
-    </p>
-    <p>
-      <font size="4">Date Palm</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Arecaceae&#xa;Date Palm" STYLE_REF="Family" ID="ID_1066898203" CREATED="1429859604281" MODIFIED="1429859616208">
-<node TEXT="Phoenix spp.&#xa;Date Palm" STYLE_REF="Genus" ID="ID_1321332596" CREATED="1429859570579" MODIFIED="1429859623791">
-<node TEXT="Phoenix dactylifera" STYLE_REF="Species" ID="ID_1895382776" CREATED="1420550548540" MODIFIED="1432569467800">
-<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Application - Edible" VALUE="Fruits"/>
-<attribute NAME="Application - Fermentation" VALUE=""/>
-<attribute NAME="Application - Medicinal" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE="Tree"/>
-<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
-<attribute NAME="Conditions - Light" VALUE=""/>
-<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
-<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
-<attribute NAME="Conditions - Soil PH" VALUE=""/>
-<attribute NAME="Conditions - Soil Texture" VALUE=""/>
-<attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Dimensions - Height Max" VALUE=""/>
-<attribute NAME="Dimensions - Height Min" VALUE=""/>
-<attribute NAME="Dimensions - Root Depth" VALUE=""/>
-<attribute NAME="Dimensions - Spacing" VALUE=""/>
-<attribute NAME="Schedule - Bearing Age" VALUE=""/>
-<attribute NAME="Schedule - Duration" VALUE="Perennial"/>
-<attribute NAME="Schedule - Flower Period" VALUE=""/>
-<attribute NAME="Schedule - Germination Span" VALUE=""/>
-<attribute NAME="Schedule - Harvest Period" VALUE=""/>
-<attribute NAME="Schedule - Lifespan" VALUE=""/>
-<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
-<attribute NAME="Sexuality - Behavior" VALUE=""/>
-<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
-<attribute NAME="Sexuality - Pollination" VALUE=""/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      EN - Date Palm
-    </p>
-    <p>
-      ES -
-    </p>
-    <p>
-      CA -
-    </p>
-    <p>
-      DE -
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="&#xf0b7; Sugar-rich fruits are a valuable cash crop &#xf0b7; Ground seeds softened by soaking in water can be used as forage for camels, goats, horses, and poultry &#xf0b7; Strong trunks are used as construction timber &#xf0b7; Leaves are applied in sand dune stabilization and for thatching &#xf0b7; Trees are grown to reclaim salt-affected lands &#xf0b7; Mature trees are suitable for intercropping &#xf0b7; Salt tolerant &#xf0b7; Very drought resistant; grows with 100 mm annual rainfall &#xf0b7; Tender to prolonged frost" ID="ID_1610344162" CREATED="1420550561747" MODIFIED="1420550563695"/>
-<node TEXT="Phoenix dactylifera, the date palm, is a desert-adapted tree native to the eastern Mediterranean. It is a single-trunked dioecious species with blue-green fronds. The pale yellow spathes of female flowers are wind pollinated in nature or hand pollinated in cultivation. These clusters of the berries are known as dates. Dates have been cultivated in the Middle East for thousands of years. PLACEMENTS  We will grow dates in any suitable location.* CULTURAL CONSIDERATIONS  The propagation of offshoots is a slow and labor-intensive process The propagation of offshoots has limited the spread of date culture Tissue culture is an affordable way for more acreage to be planted Dates are propagated by offshoots that occur on the trunk of the palm The propagation of offshoots used to be only way to reproduce improved cultivars Tissue culture is a newly viable method of producing large quantities of planting stock PLANTING GUIDELINES  Plants should be thoroughly mulched after planting and watered in well. Regular irrigation should continue until signs of new growth appear. Although dates are very drought tolerant, they do require some subsurface moisture." ID="ID_1739692772" CREATED="1420659599427" MODIFIED="1420659600646"/>
-<node TEXT="en.wikipedia.org &gt; Wiki &gt; Date palm" ID="ID_97054948" CREATED="1420659616929" MODIFIED="1420659616929" LINK="http://en.wikipedia.org/wiki/Date_palm"/>
-<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_730882181" CREATED="1430757308219" MODIFIED="1430757308221"/>
-<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1097379274" CREATED="1430757308223" MODIFIED="1430757308225"/>
 </node>
 </node>
 </node>
@@ -1473,8 +2347,38 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Amaryllidaceae&#xa;Garlic, Onion" STYLE_REF="Family" ID="ID_47137700" CREATED="1429812062515" MODIFIED="1429878902150">
-<node TEXT="Allium spp.&#xa;Garlic, Onion" STYLE_REF="Genus" ID="ID_1205077694" CREATED="1429811936259" MODIFIED="1432562014479">
+<node STYLE_REF="Family" ID="ID_47137700" CREATED="1429812062515" MODIFIED="1433760351902"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Amaryllidaceae
+    </p>
+    <p>
+      <font size="4">Garlic, Onion</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1205077694" CREATED="1429811936259" MODIFIED="1434083746733"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Allium spp.
+    </p>
+    <p>
+      <font size="4">Garlic, Onion</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE=""/>
@@ -1484,7 +2388,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
@@ -1496,12 +2400,30 @@
   </head>
   <body>
     <p>
-      <a href="http://en.wikipedia.org/wiki/Allium">http://en.wikipedia.org/wiki/Allium</a>
+      <a href="http://en.wikipedia.org/wiki/Allium">http://en.wikipedia.org/wiki/Allium </a>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <a href="http://www.pfaf.org/user/cmspage.aspx?pageid=51">http://www.pfaf.org/user/cmspage.aspx?pageid=51</a>
     </p>
   </body>
 </html>
 </richcontent>
-<node TEXT="Allium sativum" STYLE_REF="Species" ID="ID_633017525" CREATED="1382021713705" MODIFIED="1432561952703">
+<node STYLE_REF="Species" ID="ID_633017525" CREATED="1382021713705" MODIFIED="1434083848513"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Allium sativum
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE="Root"/>
@@ -1513,6 +2435,7 @@
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
@@ -1523,8 +2446,9 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE="Cherry"/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
 <attribute NAME="Dimensions - Height Min" VALUE=""/>
@@ -1569,7 +2493,19 @@
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_200993644" CREATED="1430121042293" MODIFIED="1430121042295"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1868906071" CREATED="1430121042293" MODIFIED="1430121042294"/>
 </node>
-<node TEXT="Allium rouyi" STYLE_REF="Species" ID="ID_162642226" CREATED="1430804283032" MODIFIED="1432561936398">
+<node STYLE_REF="Species" ID="ID_162642226" CREATED="1430804283032" MODIFIED="1434083840204"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Allium rouyi
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE="Root"/>
@@ -1580,6 +2516,7 @@
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
@@ -1590,8 +2527,9 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE="Spain"/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
 <attribute NAME="Dimensions - Height Min" VALUE=""/>
@@ -1615,7 +2553,7 @@
   </head>
   <body>
     <p>
-      EN -
+      EN - Yellow Onion
     </p>
     <p>
       ES - Ajo Amarillo
@@ -1634,7 +2572,19 @@
 <node TEXT="A. rouyi is a tertiary wild relative of and potential gene donor to a number of crops in the allium group, including onion (A. cepa), Welsh onion (A. fistulosum), leek (A. porrum), garlic (A. sativum) and chives (A. schoenoprasum)." ID="ID_1444103667" CREATED="1430804406658" MODIFIED="1430804409525"/>
 <node TEXT="http://www.iucnredlist.org/details/61599/0" ID="ID_797827191" CREATED="1430804602044" MODIFIED="1430804602044" LINK="http://www.iucnredlist.org/details/61599/0"/>
 </node>
-<node TEXT="Allium cepa L" STYLE_REF="Species" ID="ID_849586923" CREATED="1423377477986" MODIFIED="1432561981040">
+<node STYLE_REF="Species" ID="ID_849586923" CREATED="1423377477986" MODIFIED="1434084020105"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Allium cepa L
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE="Root"/>
@@ -1646,6 +2596,7 @@
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
@@ -1656,8 +2607,9 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
 <attribute NAME="Dimensions - Height Min" VALUE=""/>
@@ -1681,7 +2633,7 @@
   </head>
   <body>
     <p>
-      EN - Common Onion
+      EN - Common Onion, Shallot
     </p>
     <p>
       ES -
@@ -1704,9 +2656,166 @@
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1232855148" CREATED="1430757308252" MODIFIED="1430757308255"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_438440728" CREATED="1430757308256" MODIFIED="1430757308258"/>
 </node>
+<node TEXT="Allium schoenoprasum" STYLE_REF="Species" ID="ID_1707811384" CREATED="1434083890672" MODIFIED="1434083916144">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Chives
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1256536559" CREATED="1434083902963" MODIFIED="1434083902979"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_624241769" CREATED="1434083903074" MODIFIED="1434083903076"/>
+</node>
+<node STYLE_REF="Species" ID="ID_1109588475" CREATED="1434083965513" MODIFIED="1434083992371"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Allium canadense
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Wild Garlic
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_791708427" CREATED="1434083973012" MODIFIED="1434083973013"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1574584657" CREATED="1434083973014" MODIFIED="1434083973015"/>
 </node>
 </node>
-<node TEXT="Asparagaceae&#xa;Asparagus" STYLE_REF="Family" ID="ID_975619841" CREATED="1429814023262" MODIFIED="1429814037868">
+</node>
+<node STYLE_REF="Family" ID="ID_975619841" CREATED="1429814023262" MODIFIED="1433760348623"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Asparagaceae
+    </p>
+    <p>
+      <font size="4">Asparagus</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Asparagus spp." STYLE_REF="Genus" ID="ID_844458795" CREATED="1429813976973" MODIFIED="1432554662131">
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
@@ -1715,7 +2824,7 @@
 <attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <node TEXT="Asparagus officinalis" STYLE_REF="Species" ID="ID_136871816" CREATED="1407652104476" MODIFIED="1432569419765">
@@ -1739,7 +2848,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -1785,7 +2894,19 @@
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_514545867" CREATED="1430757308269" MODIFIED="1430757308271"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1742537600" CREATED="1430757308272" MODIFIED="1430757308274"/>
 </node>
-<node TEXT="Asparagus acutifolius" STYLE_REF="Species" ID="ID_1183969850" CREATED="1430808155643" MODIFIED="1432569432088">
+<node STYLE_REF="Species" ID="ID_1183969850" CREATED="1430808155643" MODIFIED="1434053810106"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Asparagus acutifolius
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE=""/>
@@ -1796,6 +2917,7 @@
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Growth Habit" VALUE="Forb/herb"/>
 <attribute NAME="Characteristic - Leaf Type" VALUE="Evergreen"/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
@@ -1806,8 +2928,10 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
 <attribute NAME="Data - Guild" VALUE="Oak - Holly (Quercus ilex)"/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE="70cm"/>
 <attribute NAME="Dimensions - Height Min" VALUE="30cm"/>
@@ -1850,17 +2974,35 @@
 <node TEXT="http://en.wikipedia.org/wiki/Asparagus_acutifolius" ID="ID_367932480" CREATED="1430808253989" MODIFIED="1430808253989" LINK="http://en.wikipedia.org/wiki/Asparagus_acutifolius"/>
 </node>
 </node>
-<node TEXT="Triteleia spp.&#xa;Triplet Lilies" STYLE_REF="Genus" ID="ID_1229317849" CREATED="1432554649525" MODIFIED="1432554754656">
+<node STYLE_REF="Genus" ID="ID_1229317849" CREATED="1432554649525" MODIFIED="1433760359837"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Triteleia spp.
+    </p>
+    <p>
+      <font size="4">Triplet Lilies</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -1895,7 +3037,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -1940,7 +3082,22 @@
 </node>
 </node>
 <node TEXT="Brodiaeoideae" STYLE_REF="Family(Subfamily)" ID="ID_1603229003" CREATED="1432558458400" MODIFIED="1432558464947">
-<node TEXT="Brodiaea spp.&#xa;Cluster Lily" STYLE_REF="Genus" ID="ID_214048501" CREATED="1432558477697" MODIFIED="1432558673062">
+<node STYLE_REF="Genus" ID="ID_214048501" CREATED="1432558477697" MODIFIED="1433760362930"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Brodiaea spp.
+    </p>
+    <p>
+      <font size="4">Cluster Lily</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE="Root"/>
@@ -1950,7 +3107,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
@@ -1994,7 +3151,7 @@
 <attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <node TEXT="Thysanotus tuberosus" STYLE_REF="Species" ID="ID_390625798" CREATED="1432555222747" MODIFIED="1432555291157">
@@ -2018,7 +3175,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE="Australia"/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -2065,7 +3222,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Xanthorrhoeaceae&#xa;Aloe" STYLE_REF="Family" ID="ID_1747296625" CREATED="1429815815461" MODIFIED="1431953704297">
+<node STYLE_REF="Family" ID="ID_1747296625" CREATED="1429815815461" MODIFIED="1433760349585"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Xanthorrhoeaceae
+    </p>
+    <p>
+      <font size="4">Aloe</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Asphodelaceae" STYLE_REF="Family(Subtribe)" ID="ID_597254686" CREATED="1429815688713" MODIFIED="1429815823682">
 <node TEXT="Kniphofia spp." STYLE_REF="Genus" ID="ID_1211217868" CREATED="1429815640799" MODIFIED="1432561662892">
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
@@ -2077,7 +3249,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
@@ -2159,7 +3331,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
@@ -2255,7 +3427,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
@@ -2311,7 +3483,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -2357,15 +3529,51 @@
 </node>
 </node>
 </node>
-<node TEXT="Iridaceae&#xa;Saffron" STYLE_REF="Family" ID="ID_227051956" CREATED="1432370634127" MODIFIED="1432370649159">
-<node TEXT="Crocus spp.&#xa;Saffron" STYLE_REF="Genus" ID="ID_1012751143" CREATED="1432370708376" MODIFIED="1432370734008">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<node STYLE_REF="Family" ID="ID_227051956" CREATED="1432370634127" MODIFIED="1433760350277"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Iridaceae
+    </p>
+    <p>
+      <font size="4">Saffron</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1012751143" CREATED="1432370708376" MODIFIED="1433760377878"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Crocus spp.
+    </p>
+    <p>
+      <font size="4">Saffron</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <node TEXT="Crocus sativus" STYLE_REF="Species" ID="ID_1433206025" CREATED="1432370660621" MODIFIED="1432371011461">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Dye Source"/>
@@ -2520,8 +3728,38 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Asteraceae&#xa;Astor, Daisy, Sunflower, Yarrow, Dandelion, Salsify" STYLE_REF="Family" ID="ID_600874442" CREATED="1429792595590" MODIFIED="1429811608014">
-<node TEXT="Achillea spp.&#xa;Yarrow" STYLE_REF="Genus" ID="ID_1347002967" CREATED="1429793454890" MODIFIED="1429793491460">
+<node STYLE_REF="Family" ID="ID_600874442" CREATED="1429792595590" MODIFIED="1434132346339"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Asteraceae
+    </p>
+    <p>
+      <font size="4">Astor, Daisy, Sunflower, Yarrow, Dandelion, Salsify</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1347002967" CREATED="1429793454890" MODIFIED="1434132327542"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Achillea spp.
+    </p>
+    <p>
+      <font size="4">Yarrow</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Achillea millefolium" STYLE_REF="Species" ID="ID_1171750911" CREATED="1381554800341" MODIFIED="1432569297595">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Ground Cover"/>
@@ -2546,7 +3784,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE="Alkaline"/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -2754,8 +3992,35 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_997029193" CREATED="1430757308346" MODIFIED="1430757308348"/>
 </node>
 </node>
-<node TEXT="Calendula spp.&#xa;Marigold, Ringelblume" STYLE_REF="Genus" ID="ID_161108531" CREATED="1429795297613" MODIFIED="1429795334281">
-<node TEXT="Calendula officinalis" STYLE_REF="Species" ID="ID_1884928932" CREATED="1424602657529" MODIFIED="1432569269786">
+<node STYLE_REF="Genus" ID="ID_161108531" CREATED="1429795297613" MODIFIED="1434132325264"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Calendula spp.
+    </p>
+    <p>
+      <font size="4">Marigold, Ringelblume</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Species" ID="ID_1884928932" CREATED="1424602657529" MODIFIED="1434132319905"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Calendula officinalis
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Dye Source"/>
 <attribute NAME="Application - Edible" VALUE=""/>
@@ -2766,6 +4031,7 @@
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
@@ -2776,8 +4042,9 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE="Tomatoe"/>
+<attribute NAME="Data - Guild Element" VALUE="Pest_Repellant"/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
 <attribute NAME="Dimensions - Height Min" VALUE=""/>
@@ -2876,7 +4143,22 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_100017300" CREATED="1430757308372" MODIFIED="1430757308373"/>
 </node>
 </node>
-<node TEXT="Carthamus spp.&#xa;Safflower" STYLE_REF="Genus" ID="ID_1829631730" CREATED="1429795738264" MODIFIED="1429795768676">
+<node STYLE_REF="Genus" ID="ID_1829631730" CREATED="1429795738264" MODIFIED="1434132329460"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Carthamus spp.
+    </p>
+    <p>
+      <font size="4">Safflower</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Carthamus tinctorius" STYLE_REF="Species" ID="ID_522046784" CREATED="1424601162101" MODIFIED="1432376319993">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Dye Source"/>
@@ -2997,7 +4279,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Cota&#xa;Chamomille" STYLE_REF="Genus" ID="ID_1493905061" CREATED="1429796056853" MODIFIED="1429796084456">
+<node STYLE_REF="Genus" ID="ID_1493905061" CREATED="1429796056853" MODIFIED="1434132330350"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cota
+    </p>
+    <p>
+      <font size="4">Chamomille</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Cota tinctoria,&#xa;Anthemis tinktoria" STYLE_REF="Species" ID="ID_1905828238" CREATED="1424601829842" MODIFIED="1432370452659">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Dye Source"/>
@@ -3121,10 +4418,38 @@
 <node TEXT="http://www.gardening.cornell.edu/homegardening/scene1084.html" ID="ID_1824425593" CREATED="1432370362218" MODIFIED="1432370362218" LINK="http://www.gardening.cornell.edu/homegardening/scene1084.html"/>
 </node>
 </node>
-<node TEXT="Cynara spp.&#xa;Cardoon, Artichoke" STYLE_REF="Genus" ID="ID_1407458458" CREATED="1429814583567" MODIFIED="1432379133795">
-<node TEXT="Cynara cardunculus" STYLE_REF="Species" ID="ID_207111386" CREATED="1423377513722" MODIFIED="1432379551879">
+<node STYLE_REF="Genus" ID="ID_1407458458" CREATED="1429814583567" MODIFIED="1434132330985"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cynara spp.
+    </p>
+    <p>
+      <font size="4">Cardoon, Artichoke</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Species" ID="ID_207111386" CREATED="1423377513722" MODIFIED="1434139355660"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cynara cardunculus
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Application - Fermentation" VALUE=""/>
 <attribute NAME="Application - Medicinal" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
@@ -3132,6 +4457,7 @@
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Growth Habit" VALUE="Forb/herb"/>
 <attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
@@ -3142,7 +4468,10 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild" VALUE="Almond"/>
+<attribute NAME="Data - Guild Element" VALUE="Mulch_Producer"/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE="2m"/>
 <attribute NAME="Dimensions - Height Min" VALUE=""/>
@@ -3166,7 +4495,7 @@
   </head>
   <body>
     <p>
-      EN -
+      EN - Artichoke
     </p>
     <p>
       ES -
@@ -3180,14 +4509,39 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Cardoon &#x201c;This is the most striking vegetable I&#x2019;ve ever grown,&#x201d; says Grant, who notes that Seed Savers Exchange put several of these giant thistle-like plants in the center of 4x4-foot raised beds in their display garden last year. &#x201c;They take a bit of extra work to prepare because you have to blanch and peel the spiky leaves, but we made a fantastic cardoon risotto that had a flavor somewhere between celery and artichoke. &#x201c; Plant cardoon in the garden as transplants to give them a good start." ID="ID_1470320812" CREATED="1423377524731" MODIFIED="1423377526401"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="http://en.wikipedia.org/wiki/Artichoke">http://en.wikipedia.org/wiki/Artichoke</a>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_817325799" CREATED="1430757308438" MODIFIED="1430757308439"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1046843798" CREATED="1430757308440" MODIFIED="1430757308442"/>
-<node TEXT="Cynara cardunculus var. scolymus" STYLE_REF="Variation" ID="ID_1027495075" CREATED="1432378971995" MODIFIED="1432379629074">
+<node STYLE_REF="Variation" ID="ID_1027495075" CREATED="1432378971995" MODIFIED="1433955607128"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cynara cardunculus var. scolymus
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="210" VALUE_WIDTH="210"/>
-<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
 <attribute NAME="Application" VALUE="Dye Source"/>
 <attribute NAME="Application - Edible" VALUE="Buds"/>
+<attribute NAME="Application - Edible" VALUE="Leaves/Needles"/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Bearing Age" VALUE=""/>
 <richcontent TYPE="DETAILS">
@@ -3198,10 +4552,10 @@
   </head>
   <body>
     <p>
-      EN - Artichoke
+      EN - Globe Artichoke
     </p>
     <p>
-      ES - Alcachofa
+      ES - Alcachofa Alcachofra
     </p>
     <p>
       CA -
@@ -3218,14 +4572,31 @@
 <font BOLD="true"/>
 <node TEXT="Dye source Color - Green" ID="ID_1494652580" CREATED="1432379641165" MODIFIED="1432379649016"/>
 </node>
+<node TEXT="https://greenlifesoil.worldsecuresystems.com/organic-vegetables-herbs/globe-artichokes" ID="ID_1022180317" CREATED="1433949335962" MODIFIED="1433949335962" LINK="https://greenlifesoil.worldsecuresystems.com/organic-vegetables-herbs/globe-artichokes"/>
+<node TEXT="Diseases" ID="ID_1569617639" CREATED="1433955839574" MODIFIED="1433955846044">
+<font BOLD="true"/>
+<node TEXT="https://www.plantvillage.com/en/topics/artichoke/infos/diseases_and_pests_description_uses_propagation" ID="ID_873810559" CREATED="1433955629166" MODIFIED="1433955629166" LINK="https://www.plantvillage.com/en/topics/artichoke/infos/diseases_and_pests_description_uses_propagation"/>
 </node>
-<node TEXT="C. cardunculus var. altilis" STYLE_REF="Variation" ID="ID_474254954" CREATED="1432379274781" MODIFIED="1432379466072">
+</node>
+<node STYLE_REF="Variation" ID="ID_474254954" CREATED="1432379274781" MODIFIED="1433949607092"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      C. cardunculus var. altilis
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="210" VALUE_WIDTH="210"/>
-<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
 <attribute NAME="Application" VALUE="Ornamental"/>
+<attribute NAME="Application" VALUE="Cheese Rennet"/>
 <attribute NAME="Application - Edible" VALUE="Stems"/>
 <attribute NAME="Application - Edible" VALUE="Leaves/Needles"/>
-<attribute NAME="Application" VALUE="Cheese Rennet"/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Bearing Age" VALUE=""/>
 <richcontent TYPE="DETAILS">
@@ -3236,7 +4607,7 @@
   </head>
   <body>
     <p>
-      EN - Cardoon, Artichoke, Cardone, Cardoni
+      EN - Cardoon,&#160;&#160;Cardone, Cardoni
     </p>
     <p>
       ES -
@@ -3252,10 +4623,26 @@
 </richcontent>
 <node TEXT="Seed Purchase" STYLE_REF="Purchase" ID="ID_858296473" CREATED="1432379278777" MODIFIED="1432379278778"/>
 <node TEXT="http://en.wikipedia.org/wiki/Cardoon" ID="ID_481669605" CREATED="1429815298832" MODIFIED="1429815298832" LINK="http://en.wikipedia.org/wiki/Cardoon"/>
+<node TEXT="Cardoon &#x201c;This is the most striking vegetable I&#x2019;ve ever grown,&#x201d; says Grant, who notes that Seed Savers Exchange put several of these giant thistle-like plants in the center of 4x4-foot raised beds in their display garden last year. &#x201c;They take a bit of extra work to prepare because you have to blanch and peel the spiky leaves, but we made a fantastic cardoon risotto that had a flavor somewhere between celery and artichoke. &#x201c; Plant cardoon in the garden as transplants to give them a good start." ID="ID_1470320812" CREATED="1423377524731" MODIFIED="1423377526401"/>
 </node>
 </node>
 </node>
-<node TEXT="Helianthus spp.&#xa;Sunflower" STYLE_REF="Genus" ID="ID_1266001068" CREATED="1429792997549" MODIFIED="1429793023399">
+<node STYLE_REF="Genus" ID="ID_1266001068" CREATED="1429792997549" MODIFIED="1434132331677"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Helianthus spp.
+    </p>
+    <p>
+      <font size="4">Sunflower</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Helianthus tuberosus" STYLE_REF="Species" ID="ID_1624842672" CREATED="1380020971140" MODIFIED="1432557248584">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
@@ -3277,7 +4664,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE="3m"/>
@@ -3344,7 +4731,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -3407,7 +4794,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -3453,7 +4840,19 @@
 <node TEXT="After establishment, they are largely care free&#xa;Young plants should be mulched in dry climates for the first year" ID="ID_1519660588" CREATED="1432557500015" MODIFIED="1432557502371"/>
 </node>
 </node>
-<node TEXT="Matricaria spp." STYLE_REF="Genus" ID="ID_759854294" CREATED="1429796915270" MODIFIED="1429796919505">
+<node STYLE_REF="Genus" ID="ID_759854294" CREATED="1429796915270" MODIFIED="1434132332421"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Matricaria spp.
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Chamomilla recutita&#xa;Matricaria chamomilla" STYLE_REF="Species" ID="ID_197765399" CREATED="1424602293456" MODIFIED="1432568714523">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Dye Source"/>
@@ -3475,7 +4874,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -3575,7 +4974,22 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1348829840" CREATED="1430757308406" MODIFIED="1430757308408"/>
 </node>
 </node>
-<node TEXT="Scorzonera spp.&#xa;Black Salsify" STYLE_REF="Genus" ID="ID_673774255" CREATED="1429811554863" MODIFIED="1429811672876">
+<node STYLE_REF="Genus" ID="ID_673774255" CREATED="1429811554863" MODIFIED="1434132333981"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Scorzonera spp.
+    </p>
+    <p>
+      <font size="4">Black Salsify</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Scorzonera hispanica" STYLE_REF="Species" ID="ID_929767796" CREATED="1422293688090" MODIFIED="1432568731135">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
@@ -3597,7 +5011,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -3646,8 +5060,23 @@
 <font NAME="SansSerif" SIZE="14" BOLD="true"/>
 </node>
 </node>
-<node TEXT="Solidago spp.&#xa;Goldenrod" STYLE_REF="Genus" ID="ID_1217769608" CREATED="1429795116959" MODIFIED="1429795165038">
-<node TEXT="Solidargo virgaurea" STYLE_REF="Species" ID="ID_1104236200" CREATED="1424601966110" MODIFIED="1432568771435">
+<node STYLE_REF="Genus" ID="ID_1217769608" CREATED="1429795116959" MODIFIED="1434132335166"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Solidago spp.
+    </p>
+    <p>
+      <font size="4">Goldenrod</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Solidargo virgaurea" STYLE_REF="Species" ID="ID_1104236200" CREATED="1424601966110" MODIFIED="1434053884029">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Dye Source"/>
 <attribute NAME="Application - Edible" VALUE=""/>
@@ -3668,7 +5097,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -3693,7 +5122,7 @@
   </head>
   <body>
     <p>
-      EN - Europ&#228;ische Goldrute, European Goldenrod or Woundwort
+      EN - European Goldenrod, Woundwort
     </p>
     <p>
       ES -
@@ -3702,7 +5131,7 @@
       CA -
     </p>
     <p>
-      DE -
+      DE - Europ&#228;ische Goldrute
     </p>
   </body>
 </html>
@@ -3774,7 +5203,22 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1279321754" CREATED="1430757308360" MODIFIED="1430757308362"/>
 </node>
 </node>
-<node TEXT="Tagetes spp.&#xa;Marigolds" STYLE_REF="Genus" ID="ID_1515129522" CREATED="1429792337303" MODIFIED="1432569205906">
+<node STYLE_REF="Genus" ID="ID_1515129522" CREATED="1429792337303" MODIFIED="1434132336709"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Tagetes spp.
+    </p>
+    <p>
+      <font size="4">Marigolds</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Tagetes erecta" STYLE_REF="Species" ID="ID_622692115" CREATED="1425013234024" MODIFIED="1432568930194">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Dye Source"/>
@@ -3796,7 +5240,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -3860,7 +5304,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -3904,7 +5348,22 @@
 <node TEXT="http://en.wikipedia.org/wiki/Tagetes_lucida" ID="ID_93344060" CREATED="1432569174424" MODIFIED="1432569174424" LINK="http://en.wikipedia.org/wiki/Tagetes_lucida"/>
 </node>
 </node>
-<node TEXT="Tragopogon spp.&#xa;Salsify" STYLE_REF="Genus" ID="ID_561672738" CREATED="1429811817876" MODIFIED="1429811837634">
+<node STYLE_REF="Genus" ID="ID_561672738" CREATED="1429811817876" MODIFIED="1434132338132"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Tragopogon spp.
+    </p>
+    <p>
+      <font size="4">Salsify</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Tragopogon porrifolius" STYLE_REF="Species" ID="ID_1293998302" CREATED="1429811646519" MODIFIED="1432568960332">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
@@ -3926,7 +5385,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -3978,7 +5437,7 @@
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <richcontent TYPE="NOTE">
@@ -4024,7 +5483,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -4080,7 +5539,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
@@ -4117,6 +5576,105 @@
 </richcontent>
 </node>
 </node>
+<node TEXT="Inuleae" STYLE_REF="Family(Tribe)" ID="ID_717787647" CREATED="1433877750219" MODIFIED="1433877760468">
+<node TEXT="Dittrichia spp." STYLE_REF="Genus" ID="ID_935966499" CREATED="1433877778547" MODIFIED="1433877788505">
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<node STYLE_REF="Species" ID="ID_77038610" CREATED="1433877677245" MODIFIED="1433961985639"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Dittrichia viscosa
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild Element" VALUE="Pest_Predator_Host"/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE="Perennial"/>
+<attribute NAME="Schedule - Flower Period" VALUE="Early Fall"/>
+<attribute NAME="Schedule - Flower Period" VALUE="Mid Fall"/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE="Hermaphrodite"/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - False Yellowhead, Sticky Fleabane, Woody Fleabane Yellow Fleabane
+    </p>
+    <p>
+      ES - Olivada
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_85294092" CREATED="1433877713180" MODIFIED="1433877713182"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_375563103" CREATED="1433877713182" MODIFIED="1433877713183"/>
+<node TEXT="http://www.florsurbanes.net/dittrichia.html" ID="ID_875425614" CREATED="1433919939174" MODIFIED="1433919939174" LINK="http://www.florsurbanes.net/dittrichia.html"/>
+<node TEXT="https://www.google.es/search?q=Dittrichia+viscosa+-+False+Yellowhead&amp;es_sm=91&amp;tbm=isch&amp;tbo=u&amp;source=univ&amp;sa=X&amp;ved=0CC4QsARqFQoTCM3g_q2_hMYCFcKyFAodx2IA0g&amp;biw=1398&amp;bih=758#imgrc=POUR0dqbq8FdbM%253A%3B_Lidm5tEqJhT_M%3Bhttp%253A%252F%252Fwww.florsurbanes.net%252Fd%252Fdittrichia_viscosa2.jpg%3Bhttp%253A%252F%252Fwww.florsurbanes.net%252Fdittrichia.html%3B1280%3B960" ID="ID_919158424" CREATED="1433919951464" MODIFIED="1433919951464" LINK="https://www.google.es/search?q=Dittrichia+viscosa+-+False+Yellowhead&amp;es_sm=91&amp;tbm=isch&amp;tbo=u&amp;source=univ&amp;sa=X&amp;ved=0CC4QsARqFQoTCM3g_q2_hMYCFcKyFAodx2IA0g&amp;biw=1398&amp;bih=758#imgrc=POUR0dqbq8FdbM%253A%3B_Lidm5tEqJhT_M%3Bhttp%253A%252F%252Fwww.florsurbanes.net%252Fd%252Fdittrichia_viscosa2.jpg%3Bhttp%253A%252F%252Fwww.florsurbanes.net%252Fdittrichia.html%3B1280%3B960"/>
+<node TEXT="http://en.wikipedia.org/wiki/Dittrichia_viscosa" ID="ID_1052647916" CREATED="1433919957200" MODIFIED="1433919957200" LINK="http://en.wikipedia.org/wiki/Dittrichia_viscosa"/>
+</node>
+</node>
+</node>
 </node>
 <node TEXT="Anthemideae" STYLE_REF="Family(Tribe)" ID="ID_1574734152" CREATED="1432398072688" MODIFIED="1432398081690">
 <node TEXT="Phymaspermum spp." STYLE_REF="Genus" ID="ID_662838212" CREATED="1432398106470" MODIFIED="1432450232466">
@@ -4126,7 +5684,7 @@
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE="Drought"/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE="Southern Africa"/>
 <richcontent TYPE="NOTE">
@@ -4164,7 +5722,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -4209,8 +5767,38 @@
 </node>
 </node>
 </node>
-<node TEXT="Cichorioideae&#xa;Dandelion" STYLE_REF="Family(Subfamily)" ID="ID_1053229560" CREATED="1432556334700" MODIFIED="1432556588931">
-<node TEXT="Cichorieae&#xa;Dandelion" STYLE_REF="Family(Tribe)" ID="ID_1944875272" CREATED="1432556358006" MODIFIED="1432556578787">
+<node STYLE_REF="Family(Subfamily)" ID="ID_1053229560" CREATED="1432556334700" MODIFIED="1434132340742"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cichorioideae
+    </p>
+    <p>
+      <font size="4">Dandelion</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Family(Tribe)" ID="ID_1944875272" CREATED="1432556358006" MODIFIED="1433138960427"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cichorieae
+    </p>
+    <p>
+      <font size="3">Dandelion</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Microseris spp.&#xa;Yam daisy" STYLE_REF="Genus" ID="ID_1772723736" CREATED="1432556400044" MODIFIED="1432556663310">
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
@@ -4220,7 +5808,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
@@ -4391,6 +5979,186 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="Taraxacum spp" STYLE_REF="Genus" ID="ID_1042528675" CREATED="1433138999099" MODIFIED="1433139480995">
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      There are no poisonous look alikes, but some similar ones can be bitter and not tasty
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Most parts of the Dandelion is edible &#8211; flowers, roots and leaves.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Dandelion tea increases urine production and can act as a laxative to increase bowel movements
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      If you are allergic to Ragweed, Dandelion tea could cause allergic reactions if drank. People who are allergic to ragweed or related plants (daisies, chrysanthemums, marigolds) are likely to be allergic to dandelion.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Dandelion might decrease how much antibiotic the body absorbs. Taking dandelion along with antibiotics might decrease the effectiveness of some antibiotics. Those antibiotics are ciprofloxacin (Cipro), enoxacin (Penetrex), norfloxacin (Chibroxin, Noroxin), sparfloxacin (Zagam), trovafloxacin (Trovan), and grepafloxacin (Raxar).
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="http://en.wikipedia.org/wiki/Taraxacum" ID="ID_1912895133" CREATED="1433139056731" MODIFIED="1433139056731" LINK="http://en.wikipedia.org/wiki/Taraxacum"/>
+<node TEXT="T. officinale" STYLE_REF="Species" ID="ID_1960732453" CREATED="1433139067423" MODIFIED="1433140086494">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Common Dandelion
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1537344022" CREATED="1433139072901" MODIFIED="1433139072904"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_110693950" CREATED="1433139072905" MODIFIED="1433139072906"/>
+</node>
+<node TEXT="T. erythrospermum," STYLE_REF="Species" ID="ID_201644118" CREATED="1433139079579" MODIFIED="1433140062827">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Red-seeded Dandelion
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1674393331" CREATED="1433139084609" MODIFIED="1433139084610"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1211851967" CREATED="1433139084610" MODIFIED="1433139084611"/>
+<node TEXT="http://en.wikipedia.org/wiki/Taraxacum_erythrospermum" ID="ID_1135222413" CREATED="1433140068582" MODIFIED="1433140068582" LINK="http://en.wikipedia.org/wiki/Taraxacum_erythrospermum"/>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="Heliantheae" STYLE_REF="Family(Tribe)" ID="ID_216038662" CREATED="1432561030904" MODIFIED="1432561037881">
@@ -4404,7 +6172,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
@@ -4464,7 +6232,7 @@
 <attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <richcontent TYPE="NOTE">
@@ -4501,7 +6269,35 @@
 </html>
 </richcontent>
 <node TEXT="Capparaceae" STYLE_REF="Family" ID="ID_994615783" CREATED="1429796250826" MODIFIED="1429796256245">
-<node TEXT="Capparis spp.&#xa;Capers" STYLE_REF="Genus" ID="ID_1005347428" CREATED="1429796189768" MODIFIED="1429796205053">
+<node STYLE_REF="Genus" ID="ID_1005347428" CREATED="1429796189768" MODIFIED="1433760303329"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Capparis spp.
+    </p>
+    <p>
+      <font size="4">Capers</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <node TEXT="Capparis spinosa" STYLE_REF="Species" ID="ID_102919616" CREATED="1410766293100" MODIFIED="1432568676994">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Ornamental"/>
@@ -4524,7 +6320,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -4575,15 +6371,54 @@
 </node>
 </node>
 </node>
-<node TEXT="Brassicaceae (Cruciferae)&#xa;[Crucifers]&#xa;Turnips, Mustards, Kale, and Rape" STYLE_REF="Family" ID="ID_317934195" CREATED="1429470836341" MODIFIED="1429857888572">
-<node TEXT="Armoracia spp.&#xa;Horseradish" STYLE_REF="Genus" ID="ID_106055882" CREATED="1430770442635" MODIFIED="1432376728856">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<node STYLE_REF="Family" ID="ID_317934195" CREATED="1429470836341" MODIFIED="1433760296375"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Brassicaceae (Cruciferae)
+    </p>
+    <p>
+      <font size="4">Turnips, Mustards, Kale, and Rape</font>
+    </p>
+    <p>
+      <font size="3">Crucifers</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_106055882" CREATED="1430770442635" MODIFIED="1433760312078"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Armoracia spp.
+    </p>
+    <p>
+      <font size="4">Horseradish</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE="Walnut"/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <node TEXT="Armoracia rusticana" STYLE_REF="Species" ID="ID_190604305" CREATED="1430770481599" MODIFIED="1432568657427">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Herb/Spice/Condiment"/>
@@ -4605,7 +6440,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE="Walnut"/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE="1.5m"/>
@@ -4651,14 +6486,35 @@
 <node TEXT="Common Strains&#xa;Very broad leaves" STYLE_REF="Variation" ID="ID_963678357" CREATED="1430803039829" MODIFIED="1430803110818"/>
 </node>
 </node>
-<node TEXT="Brassica spp.&#xa;Cole Crops (Cabbage, Brocolli, Cauliflower, Brussel Sprouts)" STYLE_REF="Genus" ID="ID_814567022" CREATED="1425012953882" MODIFIED="1432376734281">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<node STYLE_REF="Genus" ID="ID_814567022" CREATED="1425012953882" MODIFIED="1433760313708"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Brassica spp.
+    </p>
+    <p>
+      <font size="4">Cole Crops (Cabbage, Brocolli, Cauliflower, Brussel Sprouts)</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <node TEXT="Brassica oleracea" STYLE_REF="Species" ID="ID_1549954021" CREATED="1431326681695" MODIFIED="1432568639327">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
@@ -4680,7 +6536,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -4782,14 +6638,35 @@
 </node>
 </node>
 </node>
-<node TEXT="Camelina spp.&#xa;Flax" STYLE_REF="Genus" ID="ID_124454977" CREATED="1429796604542" MODIFIED="1432376732319">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<node STYLE_REF="Genus" ID="ID_124454977" CREATED="1429796604542" MODIFIED="1433760317446"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Camelina spp.
+    </p>
+    <p>
+      <font size="4">Flax</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <node TEXT="Camelina sativa" STYLE_REF="Species" ID="ID_906400099" CREATED="1380726856535" MODIFIED="1432568621147">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
@@ -4811,7 +6688,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -4855,7 +6732,22 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1286839816" CREATED="1430757308467" MODIFIED="1430757308469"/>
 </node>
 </node>
-<node TEXT="Isatis spp.&#xa;Woad" STYLE_REF="Genus" ID="ID_164917177" CREATED="1432376715924" MODIFIED="1432568566861">
+<node STYLE_REF="Genus" ID="ID_164917177" CREATED="1432376715924" MODIFIED="1433760320324"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Isatis spp.
+    </p>
+    <p>
+      <font size="4">Woad</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE=""/>
@@ -4865,7 +6757,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
@@ -4937,7 +6829,22 @@
 <node TEXT="http://en.wikipedia.org/wiki/Isatis_tinctoria" ID="ID_1226720378" CREATED="1432376825109" MODIFIED="1432376825109" LINK="http://en.wikipedia.org/wiki/Isatis_tinctoria"/>
 </node>
 </node>
-<node TEXT="Raphanus spp.&#xa;Radish" STYLE_REF="Genus" ID="ID_278023177" CREATED="1429817461390" MODIFIED="1432568569746">
+<node STYLE_REF="Genus" ID="ID_278023177" CREATED="1429817461390" MODIFIED="1433760321420"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Raphanus spp.
+    </p>
+    <p>
+      <font size="4">Radish</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE=""/>
@@ -4947,7 +6854,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
@@ -4972,7 +6879,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -5017,8 +6924,38 @@
 </node>
 </node>
 </node>
-<node TEXT="Tropaeolaceae&#xa;Nasturtiums" STYLE_REF="Family" ID="ID_849615401" CREATED="1429793292010" MODIFIED="1429793309258">
-<node TEXT="Tropaeolum spp.&#xa;Nasturtiums" STYLE_REF="Genus" ID="ID_1326935020" CREATED="1429793257518" MODIFIED="1432568522932">
+<node STYLE_REF="Family" ID="ID_849615401" CREATED="1429793292010" MODIFIED="1433760274839"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Tropaeolaceae
+    </p>
+    <p>
+      <font size="4">Nasturtiums</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1326935020" CREATED="1429793257518" MODIFIED="1433760326863"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Tropaeolum spp.
+    </p>
+    <p>
+      <font size="4">Nasturtiums</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE=""/>
@@ -5028,7 +6965,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
@@ -5054,7 +6991,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -5102,8 +7039,38 @@
 </node>
 </node>
 </node>
-<node TEXT="Moringaceae&#xa;Moringa" STYLE_REF="Family" ID="ID_1959709815" CREATED="1429855776925" MODIFIED="1429855806184">
-<node TEXT="Moringa spp.&#xa;Moringa" STYLE_REF="Genus" ID="ID_1143878888" CREATED="1429855728662" MODIFIED="1432568525135">
+<node STYLE_REF="Family" ID="ID_1959709815" CREATED="1429855776925" MODIFIED="1433760275822"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Moringaceae
+    </p>
+    <p>
+      <font size="4">Moringa</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1143878888" CREATED="1429855728662" MODIFIED="1433760331015"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Moringa spp.
+    </p>
+    <p>
+      <font size="4">Moringa</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE=""/>
@@ -5113,7 +7080,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
@@ -5138,7 +7105,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -5186,8 +7153,38 @@
 </node>
 </node>
 </node>
-<node TEXT="Resedaceae&#xa;Weld" STYLE_REF="Family" ID="ID_428642240" CREATED="1432368417634" MODIFIED="1432368589123">
-<node TEXT="Reseda spp.&#xa;Weld" STYLE_REF="Genus" ID="ID_1342525317" CREATED="1432368433052" MODIFIED="1432568527250">
+<node STYLE_REF="Family" ID="ID_428642240" CREATED="1432368417634" MODIFIED="1433760276685"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Resedaceae
+    </p>
+    <p>
+      <font size="4">Weld</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1342525317" CREATED="1432368433052" MODIFIED="1433760333940"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Reseda spp.
+    </p>
+    <p>
+      <font size="4">Weld</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE=""/>
@@ -5197,7 +7194,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
@@ -5290,8 +7287,38 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Amaranthaceae&#xa;Pigweed, Amaranth, Quinoa" STYLE_REF="Family" ID="ID_1404523838" CREATED="1429191368074" MODIFIED="1432562912942">
-<node TEXT="Amaranthus spp.&#xa;Amaranth" STYLE_REF="Genus" ID="ID_761210138" CREATED="1395475547770" MODIFIED="1432568530448">
+<node STYLE_REF="Family" ID="ID_1404523838" CREATED="1429191368074" MODIFIED="1433760169776"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Amaranthaceae
+    </p>
+    <p>
+      <font size="4">Pigweed, Amaranth, Quinoa</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_761210138" CREATED="1395475547770" MODIFIED="1433760183670"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Amaranthus spp.
+    </p>
+    <p>
+      <font size="4">Amaranth</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE=""/>
@@ -5301,7 +7328,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
@@ -5397,7 +7424,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -5519,7 +7546,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -5583,7 +7610,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -5626,7 +7653,22 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1309698485" CREATED="1430757308550" MODIFIED="1430757308551"/>
 </node>
 </node>
-<node TEXT="Chenopodium spp.&#xa;Goosefoots" STYLE_REF="Genus" ID="ID_1541079507" CREATED="1429638302535" MODIFIED="1432568532445">
+<node STYLE_REF="Genus" ID="ID_1541079507" CREATED="1429638302535" MODIFIED="1433760184897"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Chenopodium spp.
+    </p>
+    <p>
+      <font size="4">Goosefoots</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE=""/>
@@ -5636,7 +7678,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
@@ -5664,7 +7706,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE="Neutral"/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -5711,8 +7753,35 @@
 </node>
 </node>
 <node TEXT="Chenopodioideae" STYLE_REF="Family(Subtribe)" ID="ID_1560569581" CREATED="1429817333144" MODIFIED="1429817341730">
-<node TEXT="Atriplex spp.&#xa;Orach, Saltbush" STYLE_REF="Genus" ID="ID_1465071931" CREATED="1423377568575" MODIFIED="1429817192075">
-<attribute_layout NAME_WIDTH="178" VALUE_WIDTH="216"/>
+<node STYLE_REF="Genus" ID="ID_1465071931" CREATED="1423377568575" MODIFIED="1433760187957"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Atriplex spp.
+    </p>
+    <p>
+      <font size="4">Orach, Saltbush</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <node TEXT="Atriplex hortensis" STYLE_REF="Species" ID="ID_826881291" CREATED="1429817069028" MODIFIED="1432566042354">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
@@ -5734,7 +7803,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -5782,9 +7851,39 @@
 </node>
 </node>
 </node>
-<node TEXT="Cactaceae&#xa;Cactus" STYLE_REF="Family" ID="ID_1031516331" CREATED="1431954038340" MODIFIED="1431954204254">
+<node STYLE_REF="Family" ID="ID_1031516331" CREATED="1431954038340" MODIFIED="1433760170766"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cactaceae
+    </p>
+    <p>
+      <font size="4">Cactus</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="41" VALUE_WIDTH="41"/>
-<node TEXT="Opuntia spp.&#xa;Prickly Pear Cactus" STYLE_REF="Genus" ID="ID_880406199" CREATED="1431954055645" MODIFIED="1432568535391">
+<node STYLE_REF="Genus" ID="ID_880406199" CREATED="1431954055645" MODIFIED="1433760202093"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Opuntia spp.
+    </p>
+    <p>
+      <font size="4">Prickly Pear Cactus</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE=""/>
@@ -5794,11 +7893,26 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
-<node TEXT="Opuntia&#xa;Prickly Pear Cactus" STYLE_REF="Genus(Subgenus)" ID="ID_1531818939" CREATED="1431954072740" MODIFIED="1432373909923">
+<node STYLE_REF="Genus(Subgenus)" ID="ID_1531818939" CREATED="1431954072740" MODIFIED="1433760206630"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Opuntia
+    </p>
+    <p>
+      <font size="4">Prickly Pear Cactus</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Opuntia ficus-indica" STYLE_REF="Species" ID="ID_1534683872" CREATED="1431954105507" MODIFIED="1432373754101">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="261"/>
 <attribute NAME="Application" VALUE="Living Fence/Hedge"/>
@@ -5886,7 +8000,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
@@ -5960,7 +8074,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -6005,8 +8119,51 @@
 </node>
 </node>
 </node>
-<node TEXT="Phytolaccaceae&#xa;Pokeweed" STYLE_REF="Family" ID="ID_241069406" CREATED="1429809002525" MODIFIED="1429810233137">
-<node TEXT="Phytolacca spp.&#xa;Pokeweed" STYLE_REF="Genus" ID="ID_1048909181" CREATED="1429808933157" MODIFIED="1429810241539">
+<node STYLE_REF="Family" ID="ID_241069406" CREATED="1429809002525" MODIFIED="1433760176784"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Phytolaccaceae
+    </p>
+    <p>
+      <font size="4">Pokeweed</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1048909181" CREATED="1429808933157" MODIFIED="1433760217121"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Phytolacca spp.
+    </p>
+    <p>
+      <font size="4">Pokeweed</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <node TEXT="Phytolacca americana" STYLE_REF="Species" ID="ID_1167838888" CREATED="1424602533062" MODIFIED="1432565881087">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Dye Source"/>
@@ -6030,7 +8187,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -6143,7 +8300,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Polygonaceae&#xa;Buckwheat" STYLE_REF="Family" ID="ID_1469655168" CREATED="1429810145912" MODIFIED="1429810194978">
+<node STYLE_REF="Family" ID="ID_1469655168" CREATED="1429810145912" MODIFIED="1433760177766"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Polygonaceae
+    </p>
+    <p>
+      <font size="4">Buckwheat</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Antigonon spp." STYLE_REF="Genus" ID="ID_591641609" CREATED="1432562924690" MODIFIED="1432562937462">
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
@@ -6154,7 +8326,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
@@ -6179,7 +8351,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE="8m"/>
@@ -6223,7 +8395,22 @@
 <node TEXT="http://en.wikipedia.org/wiki/Antigonon_leptopus" ID="ID_200927127" CREATED="1432563080201" MODIFIED="1432563080201" LINK="http://en.wikipedia.org/wiki/Antigonon_leptopus"/>
 </node>
 </node>
-<node TEXT="Fagopyrum  spp.&#xa;Buckwheat" STYLE_REF="Genus" ID="ID_1837982722" CREATED="1429810087222" MODIFIED="1432562940928">
+<node STYLE_REF="Genus" ID="ID_1837982722" CREATED="1429810087222" MODIFIED="1433760248535"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Fagopyrum spp.
+    </p>
+    <p>
+      <font size="4">Buckwheat</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE=""/>
@@ -6233,7 +8420,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
@@ -6258,7 +8445,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -6301,7 +8488,22 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_644515961" CREATED="1430757308513" MODIFIED="1430757308514"/>
 </node>
 </node>
-<node TEXT="Rumex spp.&#xa;Sorrel" STYLE_REF="Genus" ID="ID_821992566" CREATED="1429814275694" MODIFIED="1432562942738">
+<node STYLE_REF="Genus" ID="ID_821992566" CREATED="1429814275694" MODIFIED="1433760250285"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Rumex spp.
+    </p>
+    <p>
+      <font size="4">Sorrel</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE=""/>
@@ -6311,7 +8513,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
@@ -6336,7 +8538,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -6388,7 +8590,7 @@
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE="Drought"/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <richcontent TYPE="NOTE">
@@ -6536,18 +8738,66 @@
 </node>
 </node>
 </node>
-<node TEXT="Portulacaceae&#xa;Purslane" STYLE_REF="Family" ID="ID_1443529259" CREATED="1431324115134" MODIFIED="1431324144772">
+<node STYLE_REF="Family" ID="ID_1443529259" CREATED="1431324115134" MODIFIED="1433852772777"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Portulacaceae
+    </p>
+    <p>
+      <font size="4">Purslane</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="41" VALUE_WIDTH="41"/>
-<node TEXT="Portulaca spp." STYLE_REF="Genus" ID="ID_331913501" CREATED="1431324166675" MODIFIED="1431324176601">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<node STYLE_REF="Genus" ID="ID_331913501" CREATED="1431324166675" MODIFIED="1433853320349"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Portulaca spp.
+    </p>
+    <p>
+      <font size="4">Purslane</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<node TEXT="Portulaca oleracea" STYLE_REF="Species" ID="ID_1277815101" CREATED="1431323977040" MODIFIED="1432565789623">
-<attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<node STYLE_REF="Species" ID="ID_1277815101" CREATED="1431323977040" MODIFIED="1433962154336"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Portulaca oleracea
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE="Leaves/Needles"/>
 <attribute NAME="Application - Edible" VALUE="Stems"/>
@@ -6555,20 +8805,24 @@
 <attribute NAME="Application - Fermentation" VALUE=""/>
 <attribute NAME="Application - Medicinal" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
 <attribute NAME="Conditions - Light" VALUE=""/>
 <attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
 <attribute NAME="Conditions - Soil Moisture" VALUE=""/>
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Groundcover"/>
 <attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild Element" VALUE="Mulch_Producer"/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE="40cm"/>
 <attribute NAME="Dimensions - Height Min" VALUE=""/>
@@ -6600,6 +8854,9 @@
     <p>
       ES -
     </p>
+    <p>
+      CA -
+    </p>
   </body>
 </html>
 </richcontent>
@@ -6629,16 +8886,52 @@
 </html>
 </richcontent>
 <attribute_layout NAME_WIDTH="41" VALUE_WIDTH="41"/>
-<node TEXT="Hydrangeaceae&#xa;Dogwood" STYLE_REF="Family" ID="ID_595708369" CREATED="1431949673379" MODIFIED="1431949700546">
+<node STYLE_REF="Family" ID="ID_595708369" CREATED="1431949673379" MODIFIED="1433760160388"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Hydrangeaceae
+    </p>
+    <p>
+      <font size="4">Dogwood</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="41" VALUE_WIDTH="41"/>
-<node TEXT="Philadelphus spp.&#xa;Dogwood" STYLE_REF="Genus" ID="ID_298666886" CREATED="1431949716432" MODIFIED="1431952547902">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<node STYLE_REF="Genus" ID="ID_298666886" CREATED="1431949716432" MODIFIED="1433760162875"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Philadelphus spp.
+    </p>
+    <p>
+      <font size="4">Dogwood</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <node TEXT="Philadelphus coronarius" STYLE_REF="Species" ID="ID_1460711442" CREATED="1431949729505" MODIFIED="1432565771541">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Ornamental"/>
@@ -6660,7 +8953,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE="3m"/>
@@ -6721,7 +9014,22 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Cucurbitaceae &#xa;Cucurbits - Squash, Pumpkin, Zucchini, Gourds" STYLE_REF="Family" ID="ID_785859542" CREATED="1429037976838" MODIFIED="1429694037716">
+<node STYLE_REF="Family" ID="ID_785859542" CREATED="1429037976838" MODIFIED="1433760153771"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cucurbitaceae
+    </p>
+    <p>
+      <font size="4">Cucurbits - Squash, Pumpkin, Zucchini, Gourds</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Cucumis spp." STYLE_REF="Genus" ID="ID_60281096" CREATED="1429818086322" MODIFIED="1431248243299">
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
 <attribute NAME="Application" VALUE=""/>
@@ -6947,94 +9255,7 @@
 </node>
 </node>
 </node>
-<node STYLE_REF="Order" ID="ID_729864640" CREATED="1429817682289" MODIFIED="1432650075984"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Dioscoreales
-    </p>
-    <p>
-      <font size="4">Turtle Back Plant</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Dioscoreaceae" STYLE_REF="Family" ID="ID_392793060" CREATED="1429817657158" MODIFIED="1429817660845">
-<node TEXT="Dioscorea spp." STYLE_REF="Genus" ID="ID_1733288097" CREATED="1429817605735" MODIFIED="1429817612245">
-<node TEXT="Dioscorea elephantipis" STYLE_REF="Species" ID="ID_1389368527" CREATED="1429716955635" MODIFIED="1432565740268">
-<attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
-<attribute NAME="Application" VALUE="Ornamental"/>
-<attribute NAME="Application - Edible" VALUE=""/>
-<attribute NAME="Application - Fermentation" VALUE=""/>
-<attribute NAME="Application - Medicinal" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
-<attribute NAME="Characteristic - Leaf Type" VALUE="Deciduous"/>
-<attribute NAME="Characteristic - Resistance" VALUE="Drought"/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Conditions - Light" VALUE="Semi-shade"/>
-<attribute NAME="Conditions - Light" VALUE="Shade"/>
-<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
-<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
-<attribute NAME="Conditions - Soil PH" VALUE=""/>
-<attribute NAME="Conditions - Soil Texture" VALUE=""/>
-<attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Dimensions - Height Max" VALUE="1M"/>
-<attribute NAME="Dimensions - Height Min" VALUE=""/>
-<attribute NAME="Dimensions - Root Depth" VALUE=""/>
-<attribute NAME="Dimensions - Spacing" VALUE=""/>
-<attribute NAME="Schedule - Bearing Age" VALUE=""/>
-<attribute NAME="Schedule - Duration" VALUE="Perennial"/>
-<attribute NAME="Schedule - Flower Period" VALUE=""/>
-<attribute NAME="Schedule - Germination Span" VALUE=""/>
-<attribute NAME="Schedule - Harvest Period" VALUE=""/>
-<attribute NAME="Schedule - Lifespan" VALUE=""/>
-<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
-<attribute NAME="Sexuality - Behavior" VALUE="Dioecious"/>
-<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
-<attribute NAME="Sexuality - Pollination" VALUE=""/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      EN - Turtle Back Plant, Elephant's foot
-    </p>
-    <p>
-      ES -
-    </p>
-    <p>
-      CA -
-    </p>
-    <p>
-      DE -
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="http://www.plantzafrica.com/plantcd/dioscoreleph.htm" ID="ID_1255992214" CREATED="1429717124966" MODIFIED="1429717124966" LINK="http://www.plantzafrica.com/plantcd/dioscoreleph.htm"/>
-<node TEXT="Do not over water when it is dormant in the dry period ( when it has no leaves)" ID="ID_1187393769" CREATED="1429717318488" MODIFIED="1429717340948"/>
-<node TEXT="https://toptropicals.com/catalog/uid/dioscorea_elephantipes.htm" ID="ID_1188315426" CREATED="1429717597042" MODIFIED="1429717597042" LINK="https://toptropicals.com/catalog/uid/dioscorea_elephantipes.htm"/>
-<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1273721093" CREATED="1430757308584" MODIFIED="1430757308585"/>
-<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1795005430" CREATED="1430757308585" MODIFIED="1430757308587"/>
-</node>
-</node>
-</node>
-</node>
-<node STYLE_REF="Order" ID="ID_1127535635" CREATED="1429789963815" MODIFIED="1432650095795"><richcontent TYPE="NODE">
+<node STYLE_REF="Order" ID="ID_1127535635" CREATED="1429789963815" MODIFIED="1433792071342"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -7045,13 +9266,56 @@
       Dipsacales&#160;&#160;
     </p>
     <p>
-      <font size="4">Honeysuckle, Elder, Viburnum, and Valerian.</font>
+      <font size="4">Honeysuckle, Elder, Viburnum, and Valerian</font>
     </p>
   </body>
 </html>
 </richcontent>
-<node TEXT="Caprifoliaceae&#xa;Honeysuckle" STYLE_REF="Family" ID="ID_917089370" CREATED="1429789819422" MODIFIED="1429790021732">
-<node TEXT="Lonicera spp.&#xa;Honeysuckle" STYLE_REF="Genus" ID="ID_16119097" CREATED="1429789583748" MODIFIED="1429789629872">
+<node STYLE_REF="Family" ID="ID_917089370" CREATED="1429789819422" MODIFIED="1433760115984"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Caprifoliaceae
+    </p>
+    <p>
+      <font size="4">Honeysuckle</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_16119097" CREATED="1429789583748" MODIFIED="1433760119676"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Lonicera spp.
+    </p>
+    <p>
+      <font size="4">Honeysuckle</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <node TEXT="http://en.wikipedia.org/wiki/Honeysuckle" ID="ID_1947130391" CREATED="1429789667419" MODIFIED="1429789667419" LINK="http://en.wikipedia.org/wiki/Honeysuckle"/>
 <node TEXT="Lonicera caerulea" STYLE_REF="Species" ID="ID_1337218581" CREATED="1382941131718" MODIFIED="1432565729649">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
@@ -7205,8 +9469,51 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Ebenaceae&#xa;Kaki" STYLE_REF="Family" ID="ID_559557055" CREATED="1429807834858" MODIFIED="1429878942019">
-<node TEXT="Diospyros spp.&#xa;Kaki" STYLE_REF="Genus" ID="ID_137212789" CREATED="1429807697199" MODIFIED="1429808712549">
+<node STYLE_REF="Family" ID="ID_559557055" CREATED="1429807834858" MODIFIED="1433760014068"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ebenaceae
+    </p>
+    <p>
+      <font size="4">Kaki</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_137212789" CREATED="1429807697199" MODIFIED="1433760105589"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Diospyros spp.
+    </p>
+    <p>
+      <font size="4">Kaki</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <node TEXT="Diospyros kaki" STYLE_REF="Species" ID="ID_362212380" CREATED="1420658251944" MODIFIED="1432568382823">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
@@ -7229,7 +9536,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -7278,17 +9585,67 @@
 </node>
 </node>
 </node>
-<node TEXT="Ericaceae&#xa;Heaths, Heathers - Cranberry, Blueberry, Huckleberry, Azalea, Rhododendron" STYLE_REF="Family" ID="ID_1595442902" CREATED="1429689620103" MODIFIED="1429694061156">
-<node TEXT="Arbutoideae&#xa;Manzanita, Bearberries" STYLE_REF="Family(Subfamily)" ID="ID_619764403" CREATED="1432386054647" MODIFIED="1432387658946">
-<node TEXT="Arctostaphylos spp.&#xa;Manzanita, Bearberries, Bear&#x2019;s grape, Kinnikinik" STYLE_REF="Genus" ID="ID_719964531" CREATED="1432386078192" MODIFIED="1432473779559">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<node STYLE_REF="Family" ID="ID_1595442902" CREATED="1429689620103" MODIFIED="1433760015059"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ericaceae
+    </p>
+    <p>
+      <font size="4">Heaths, Heathers - Cranberry, Blueberry, Huckleberry, Azalea, Rhododendron</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Family(Subfamily)" ID="ID_619764403" CREATED="1432386054647" MODIFIED="1433760092023"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Arbutoideae
+    </p>
+    <p>
+      <font size="4">Manzanita, Bearberries</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_719964531" CREATED="1432386078192" MODIFIED="1433760098903"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Arctostaphylos spp.
+    </p>
+    <p>
+      <font size="4">Manzanita, Bearberries, Bear&#8217;s grape, Kinnikinik</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -7559,14 +9916,35 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Arbutus  spp.&#xa;Shepards Cherry" STYLE_REF="Genus" ID="ID_11729403" CREATED="1429808731325" MODIFIED="1431515542319">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<node STYLE_REF="Genus" ID="ID_11729403" CREATED="1429808731325" MODIFIED="1433760057872"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Arbutus spp.
+    </p>
+    <p>
+      <font size="4">Shepards Cherry</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE="Oak - Holly (Quercus ilex)"/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <node TEXT="Arbutus unedo" STYLE_REF="Species" ID="ID_1819847406" CREATED="1429472767431" MODIFIED="1432390648204">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Bee Fodder"/>
@@ -7632,14 +10010,35 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_882456815" CREATED="1430070076051" MODIFIED="1430070076052"/>
 </node>
 </node>
-<node TEXT="Vaccinium spp.&#xa;Cranberry, Blueberry, Bilberry, Lingonberry, Huckleberry" STYLE_REF="Genus" ID="ID_983768165" CREATED="1429689468808" MODIFIED="1432473671609">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<node STYLE_REF="Genus" ID="ID_983768165" CREATED="1429689468808" MODIFIED="1433760021520"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Vaccinium spp.
+    </p>
+    <p>
+      <font size="4">Cranberry, Blueberry, Bilberry, Lingonberry, Huckleberry</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -7818,8 +10217,8 @@
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE="Understory"/>
-<attribute NAME="Data - Food Forest Position" VALUE="Edge"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Understory"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Edge"/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <richcontent TYPE="NOTE">
@@ -8519,7 +10918,7 @@
 </node>
 </node>
 </node>
-<node STYLE_REF="Order" ID="ID_1851702653" CREATED="1429806709958" MODIFIED="1432650116410"><richcontent TYPE="NODE">
+<node STYLE_REF="Order" ID="ID_1851702653" CREATED="1429806709958" MODIFIED="1433792065326"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -8535,7 +10934,26 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Fabaceae (Leguminosae)&#xa;[Legumes or Pulse]&#xa;Beans, Peas, Clover, Acacia" STYLE_REF="Family" ID="ID_1870764207" CREATED="1429189815306" MODIFIED="1432565133254"><richcontent TYPE="NOTE">
+<node STYLE_REF="Family" ID="ID_1870764207" CREATED="1429189815306" MODIFIED="1434033763878"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Fabaceae (Leguminosae)
+    </p>
+    <p>
+      <font size="4">Beans, Peas, Clover, Acacia</font>
+    </p>
+    <p>
+      <font size="3">Legumes or Pulse</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -9592,6 +12010,412 @@
   </body>
 </html>
 </richcontent>
+<node STYLE_REF="Genus" ID="ID_397852154" CREATED="1420657290157" MODIFIED="1434033757903"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Acacia spp.
+    </p>
+    <p>
+      <font size="4">Thorntree, Wattle</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Acacia is a genus of approximately 1300 species of trees and shrubs in the Fabaceae, native mainly to Australia and Africa. They are generally xerophytic, low branching, drought deciduous trees frequently armed with thorns on their branches (the genus name derives from the Greek word for thorn). They are nitrogen fixing, and many produce valuable timber or fuel wood, useful gums, edible seeds and flowers, etc. PLACEMENTS&#160;&#160;We will grow Acacia in any suitable location.* CULTURAL CONSIDERATIONS&#160;&#160;Acacias are adapted to climate with a long dry season They form deep root systems and fix nitrogen, creating their own fertility Supplemental water in the first year will also improve establishment rates Ripping a site prior to planting Acacias will encourage deep rooting and speed establishment PLANTING GUIDELINES&#160;&#160;Acacia should be planted when small, as their root systems do not hold well in pots. Deep treepots are best. These should be planted in a well drained site, mulched well, and watered in thoroughly. Rhizobium inoculation is beneficial.
+    </p>
+    <p>
+      <a href="http://en.wikipedia.org/wiki/Acacia">
+</a>    </p>
+    <p>
+      <a href="http://en.wikipedia.org/wiki/Acacia">
+</a>    </p>
+    <p>
+      <a href="http://en.wikipedia.org/wiki/Acacia">http://en.wikipedia.org/wiki/Acacia</a>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Acacia farnesiana,&#xa;Vachellia farnesiana" STYLE_REF="Species" ID="ID_1541063252" CREATED="1429712111269" MODIFIED="1432563691901">
+<attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
+<attribute NAME="Application" VALUE="Tannin"/>
+<attribute NAME="Application" VALUE="Animal Fodder"/>
+<attribute NAME="Application" VALUE="Tannin"/>
+<attribute NAME="Application" VALUE="Ink Source"/>
+<attribute NAME="Application" VALUE="Fragrance Source"/>
+<attribute NAME="Application" VALUE="Bee Fodder"/>
+<attribute NAME="Application - Edible" VALUE="Leaves/Needles"/>
+<attribute NAME="Application - Edible" VALUE="Pods"/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE="8"/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE="Shrub"/>
+<attribute NAME="Characteristic - Leaf Type" VALUE="Semi-Evergreen"/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE="Arid"/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE="8M"/>
+<attribute NAME="Dimensions - Height Min" VALUE="2M"/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE="Perennial"/>
+<attribute NAME="Schedule - Flower Period" VALUE="Late Winter"/>
+<attribute NAME="Schedule - Flower Period" VALUE="Early Spring"/>
+<attribute NAME="Schedule - Flower Period" VALUE="Mid Spring"/>
+<attribute NAME="Schedule - Flower Period" VALUE="Late Spring"/>
+<attribute NAME="Schedule - Flower Period" VALUE="Early Summer"/>
+<attribute NAME="Schedule - Flower Period" VALUE="Mid Summer"/>
+<attribute NAME="Schedule - Flower Period" VALUE="Late Summer"/>
+<attribute NAME="Schedule - Flower Period" VALUE="Early Fall"/>
+<attribute NAME="Schedule - Flower Period" VALUE="Mid Fall"/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Sweet Acacia, Needle Bush
+    </p>
+    <p>
+      DE -
+    </p>
+    <p>
+      ES -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="http://en.wikipedia.org/wiki/Vachellia_farnesiana" ID="ID_526633992" CREATED="1429712469780" MODIFIED="1429712469780" LINK="http://en.wikipedia.org/wiki/Vachellia_farnesiana"/>
+<node TEXT="http://edis.ifas.ufl.edu/st005" ID="ID_208378608" CREATED="1430741032750" MODIFIED="1430741032750" LINK="http://edis.ifas.ufl.edu/st005"/>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_832857093" CREATED="1430753314427" MODIFIED="1430753314429"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_347458472" CREATED="1430753314429" MODIFIED="1430753314430"/>
+<node TEXT="http://www.pfaf.org/user/Plant.aspx?LatinName=Acacia+farnesiana" ID="ID_61708194" CREATED="1430753557974" MODIFIED="1430753557974" LINK="http://www.pfaf.org/user/Plant.aspx?LatinName=Acacia+farnesiana"/>
+<node TEXT="An essential oil called Cassie is distilled from the flowers[229, 269]. Cassie absolute is employed in preparation of violet bouquets and is extensively used in European perfumery[269]. Cassie pomades are manufactured in Uttar Pradesh and the Punjab. A deliciously scented essential oil, it has a fragrance of violets[245]. A mature plant 10 years old can yield 9 kg of flowers each year[245]. In a suitable climate, the trees begin to flower from their third year. The perfume is extracted from the flowers in form of concrete or pomade. Macerated flowers are placed in melted purified natural fat and allowed to stand for several hours. They are then replaced by fresh flowers and the process repeated until the fat is saturated with perfume. The fat is then melted, strained and cooled. This constitutes the pomade. Odour is that of violets but more intense. Absolute is prepared by mixing pomade with alcohol (2 - 3 kg to about 4 litres) and allowed to stand for 3 - 4 weeks at about -5&#xb0;C. The alcohol is then separated and distilled over. The extract obtained is an olive-green liquid with strong odour of cassie flowers[269]. Mature trees can yield about 1 kilo of flowers per year[269]. The bark and the fruit are a source of tannin and used in making dyes and inks[227]. The seedpods contain about 23% tannin[240]. The bark, in combination with iron ores and salts, is used as a black dyestuff[269]. A gummy substance obtained from the young pods is used to mend pottery[227, 269]. A mucilage can be manufactured from the gummy sap[229]. A gum exuding from trunk is considered to be superior to gum arabic in arts[269]. The woody branches are used in India as tooth brushes[269]. In suitable climates the plant is grown as a hedge[82]. The trees have also been used for erosion control in sandy soils[269, 272]. Wood - heavy, hard, durable in the soil, close-grained. Used for fencing posts, agricultural implements, pegs, woodenware etc[82, 227, 269]." ID="ID_169404188" CREATED="1430753728889" MODIFIED="1430753734444"/>
+<node TEXT="http://davesgarden.com/guides/pf/go/31848/#b" ID="ID_1465098836" CREATED="1432563810512" MODIFIED="1432563810512" LINK="http://davesgarden.com/guides/pf/go/31848/#b"/>
+</node>
+<node TEXT="Acacia colei" STYLE_REF="Species" ID="ID_268866005" CREATED="1432493602239" MODIFIED="1432493953376">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE="Seeds"/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE="Drought"/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Understory"/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE="9m"/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE="Early Summer"/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Cole's Wattle
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_758256869" CREATED="1432493605941" MODIFIED="1432493605942"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1394965048" CREATED="1432493605942" MODIFIED="1432493605943"/>
+<node TEXT="Cole&#x2019;s wattle is a fast growing, short-lived, nitrogen fixing shrub in the Leguminosae native to Australia. It has been widely planted as a multipurpose tree, particularly in Africa. The seeds are edible, containing 21% protein, 10% fat and 57% carbohydrate. It is useful as windbreak, fuel, soil improvement, and human and animal food. Cold hardiness is not well documented, so it must be considered experimental for One Community." ID="ID_724890788" CREATED="1432493702081" MODIFIED="1432493704605"/>
+<node TEXT="Tolerant of desert conditions&#xa;Native to areas of Australia that have an 8-9 month dry season&#xa;Adaptable to infertile soils and appears to have some salt tolerance&#xa;Has been tested in Africa as a drought-tolerant food source with positive results" ID="ID_1946951503" CREATED="1432493715003" MODIFIED="1432493898115"/>
+</node>
+</node>
+<node TEXT="Albizia spp." STYLE_REF="Genus" ID="ID_169104187" CREATED="1432381494417" MODIFIED="1432381502291">
+<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<node TEXT="Albizia lebbeck" STYLE_REF="Species" ID="ID_421577825" CREATED="1432381506523" MODIFIED="1432381841629">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE="Shade"/>
+<attribute NAME="Application" VALUE="Coppice - Posts"/>
+<attribute NAME="Application" VALUE="Tannin"/>
+<attribute NAME="Application" VALUE="Saponins"/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - East Indian Walnut, Frywood, Indian Siris, Koko, Lebbek, Lebbeck, Lebbektree, Rain Tree, Raom Tree, Rattlepod
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE - Lebachbaum, Andamanen-kokko
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1273478709" CREATED="1432381510159" MODIFIED="1432381510160"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1268196742" CREATED="1432381510160" MODIFIED="1432381510161"/>
+<node TEXT="http://en.wikipedia.org/wiki/Albizia_lebbeck" ID="ID_1444292791" CREATED="1432381599577" MODIFIED="1432381599577" LINK="http://en.wikipedia.org/wiki/Albizia_lebbeck"/>
+<node TEXT="http://www.tropicalforages.info/key/Forages/Media/Html/Albizia_lebbeck.htm" ID="ID_604454160" CREATED="1432381606993" MODIFIED="1432381606993" LINK="http://www.tropicalforages.info/key/Forages/Media/Html/Albizia_lebbeck.htm"/>
+</node>
+</node>
+<node TEXT="Baptisia spp." STYLE_REF="Genus" ID="ID_1656655064" CREATED="1429808165010" MODIFIED="1432381553031">
+<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<node TEXT="Baptisia australis" STYLE_REF="Species" ID="ID_1357671448" CREATED="1424602084759" MODIFIED="1432567977027">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE="Dye Source"/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE="Forb/herb"/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE="Full Sun"/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE="Perennial"/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Blue Wild Indigo, Indigolupine
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_312052410" CREATED="1424602099457" MODIFIED="1424602147669"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      
+    </p>
+    <div class="product-description">
+      Beschreibung
+
+      <h2>
+        <u>Indigolupine - Baptisia australis</u>
+      </h2>
+      <p>
+        &#160;
+      </p>
+      <p>
+        Winterharte F&#228;rber- und Heilpflanze.
+      </p>
+      <p>
+        Das echte Indigo war immer sehr teuer und so f&#228;rbte so manche Schwindler mit der g&#252;nstigeren Indigolupine (F&#228;rberhulse). Die Deckkraft ist gut jedoch das Blau nicht ganz so intensiev.
+      </p>
+      <p>
+        Die Indigolupine ist aber auch eine sehr sch&#246;ne Zierpflanze, mit dunkelblauen Bl&#252;ten im Mai und Juni.
+      </p>
+    </div>
+    <div class="product-fields">
+      <div class="product-field product-field-type-X">
+        Herkunft:&#160;Nordamerika&#160;
+      </div>
+      <div class="product-field product-field-type-X">
+        Standortanspr&#252;che:&#160;Halbschatten, normaler Gartenboden,&#160;
+      </div>
+      <div class="product-field product-field-type-X">
+        Wuchsform:&#160;Winterhart, aufrecht, bis 130 cm hoch,&#160;
+      </div>
+      <div class="product-field product-field-type-X">
+        Aussaat und Kultur:&#160;Mai - Juli, w&#228;chst in der Jugend langsam, ist aber sehr best&#228;ndig,&#160;
+      </div>
+      <div class="product-field product-field-type-P">
+        Verwendung:&#160;
+      </div>
+      <div class="product-field product-field-type-X">
+        Gesundheit:&#160;antibakteriell, antiseptisch,&#160;
+      </div>
+      <div class="product-field product-field-type-X">
+        Naturgarten:&#160;Die Schmetterlingsbl&#252;ten werden von Hummeln gerne besucht.&#160;
+      </div>
+      <div class="product-field product-field-type-X">
+        F&#228;rben:&#160;f&#228;rbt Wolle blau, traditionelle F&#228;rberpflanze der USA und Kanada,&#160;
+      </div>
+      <div class="product-field product-field-type-X">
+        Ernte:&#160;Bl&#228;tter im Fr&#252;hsommer&#160;
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="ybbser-kraeutergarten.at &gt; Index ? ..." ID="ID_276341930" CREATED="1424602156570" MODIFIED="1424602156570" LINK="http://www.ybbser-kraeutergarten.at/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=189&amp;virtuemart_category_id=3&amp;Itemid=57"/>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1768207679" CREATED="1430757308665" MODIFIED="1430757308666"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1166909408" CREATED="1430757308667" MODIFIED="1430757308668"/>
+</node>
+</node>
 <node TEXT="Caesalpinioideae" STYLE_REF="Family(Subfamily)" ID="ID_1026578649" CREATED="1429816757526" MODIFIED="1429854615768">
 <node TEXT="Caesalpinia spp." STYLE_REF="Genus" ID="ID_474892281" CREATED="1429816238186" MODIFIED="1429816243688">
 <node TEXT="Caesalpinia gilliesii" STYLE_REF="Species" ID="ID_1113947670" CREATED="1429816201309" MODIFIED="1432561278928">
@@ -9616,7 +12440,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE="3M"/>
@@ -9675,7 +12499,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE="Drought"/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
@@ -9728,9 +12552,427 @@
 </node>
 </node>
 </node>
-<node TEXT="Faboideae&#xa;Spanish Broom, Locust, Fava Bean, Indigos" STYLE_REF="Family(Subfamily)" ID="ID_616384774" CREATED="1429806670744" MODIFIED="1432525210011">
-<node TEXT="Galegeae&#xa;Liquorice" STYLE_REF="Family(Tribe)" ID="ID_37950975" CREATED="1430113669440" MODIFIED="1430113694759">
-<node TEXT="Glycyrrhiza spp.&#xa;Liquorice" STYLE_REF="Genus" ID="ID_1664648860" CREATED="1430113621184" MODIFIED="1432557745628">
+<node STYLE_REF="Genus" ID="ID_1040574583" CREATED="1429808054153" MODIFIED="1434033753629"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Caragana spp.
+    </p>
+    <p>
+      <font size="4">Pea Shrub</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<node TEXT="Caragana arborescens" STYLE_REF="Species" ID="ID_1969502872" CREATED="1420657535575" MODIFIED="1432567999275">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE="Ornamental"/>
+<attribute NAME="Application" VALUE="Bonsai"/>
+<attribute NAME="Application" VALUE="Bee Fodder"/>
+<attribute NAME="Application - Edible" VALUE="Flowers"/>
+<attribute NAME="Application - Edible" VALUE="Seeds"/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE="Shrub"/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE="6M"/>
+<attribute NAME="Dimensions - Height Min" VALUE="2M"/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE="Perennial"/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Siberian Pea Shrub
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Siberian pea shrub is a perennial shrub from 6 to 20 feet in height in the Leguminosae, native to China and Siberia. The plant produces dense foliage, making a good windbreak. The abundant yellow flowers can be steamed and eaten. Plants fix nitrogen, and have extensive root systems, aiding in erosion control. The high-protein seeds are edible cooked and are also widely used as poultry feed. PLACEMENTS  We will grow Siberian pea shrub in any suitable location.* CULTURAL CONSIDERATIONS  Caragana arborescens are relatively long-lived Can be coppiced repeatedly for mulch and compost material Neutralize various soil types, preparing the ground for more valuable crop Seedlings should be inoculated with Rhizobium to speed growth and enrich the soil Often planted along poultry runs; seeds can drop directly to the birds, eliminating harvesting PLANTING GUIDELINES  Seedlings should be planted out as early as possible to avoid getting root bound in the containers. Dibble tubes or tree pots are best to accommodate the plants tap roots. Inoculate with Rhizobium. After planting, mulch and water until signs of new growth appear. Siberian peashrub seems largely disease and pest free." ID="ID_537622392" CREATED="1420657561288" MODIFIED="1420657563365"/>
+<node TEXT="en.wikipedia.org &gt; Wiki &gt; Caragana arborescens" ID="ID_1704175581" CREATED="1420657584249" MODIFIED="1420657584249" LINK="http://en.wikipedia.org/wiki/Caragana_arborescens"/>
+<node TEXT="hort.purdue.edu &gt; Newcrop &gt; Duke energy &gt; Caragana arborescens" ID="ID_245835038" CREATED="1420657597850" MODIFIED="1420657597850" LINK="http://www.hort.purdue.edu/newcrop/duke_energy/Caragana_arborescens.html"/>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1889935749" CREATED="1430757308747" MODIFIED="1430757308748"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_688192035" CREATED="1430757308748" MODIFIED="1430757308749"/>
+</node>
+</node>
+<node STYLE_REF="Genus" ID="ID_1663886578" CREATED="1429858739742" MODIFIED="1434033751402"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ceratonia spp.
+    </p>
+    <p>
+      <font size="4">Carob</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<node TEXT="Ceratonia siliqua" STYLE_REF="Species" ID="ID_1130418118" CREATED="1420548905430" MODIFIED="1434053338859">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE="Wind Break"/>
+<attribute NAME="Application" VALUE="Fire Break"/>
+<attribute NAME="Application" VALUE="Animal Fodder"/>
+<attribute NAME="Application - Edible" VALUE="Seeds"/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE="Tree"/>
+<attribute NAME="Characteristic - Leaf Type" VALUE="Evergreen"/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Canopy"/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE="15m"/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE="Perennial"/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE="Dioecious"/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE="Unisexual"/>
+<attribute NAME="Sexuality - Pollination" VALUE="Cross"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Carob, St John's-bread, Locust Bean
+    </p>
+    <p>
+      ES - Algarrobo
+    </p>
+    <p>
+      CA - Garrofer, Garrofa
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Why? &#xf0b7; The fruits of C. siliqua can be used to make syrup or juice, and can also be eaten fresh or dried &#xf0b7; The seeds of this tree, known as locust beans, can be used as a food thickening agent &#xf0b7; The fruit provides fodder for all animals, and the carob seed flour is a nutritious additive for animal foods &#xf0b7; Carob trees have closed-grained wood that provides a fine, pink-coloured timber that is extremely versatile, proving acceptable firewood and yielding good, slow-burning charcoal &#xf0b7; This is a weak nitrogen-fixing tree &#xf0b7; Its extensive root system penetrates rock and soil, and is mineral-mining to the benefit of intercropped plants &#xf0b7; It is fire retardant and evergreen, and thus provides an ideal perimeter windbreak &#xf0b7; The carob grows well with all common fruit trees How? &#xf0b7; Sow seeds when fresh as possible &#xf0b7; Before sowing, the seed must be boiled for 1 minute, then left in cold water to cool for 24 hours - this water should be changed after 12 hours &#xf0b7; Sow the seed outdoors at a depth of 1 cm &#xf0b7; Carob trees are either male or female. Only female&#x2019;s produce fruit - grow only females if there is a male in the neighbourhood (as the flowers require pollination to fruit!) &#xf0b7; Carob trees can grow literally right on the rock" ID="ID_202193085" CREATED="1420549116746" MODIFIED="1420549119399"/>
+<node TEXT="Why?  &#xa;&#xf0b7; The fruits of C. siliqua can be used to make syrup or juice, and can also be eaten fresh  or dried  &#xa;&#xf0b7; The seeds of this tree, known as locust beans, can be used as a food thickening agent  &#xa;&#xf0b7; The fruit provides fodder for all animals, and the carob seed flour is a nutritious additive  for animal foods  &#xa;&#xf0b7; Carob trees have closed-grained wood that provides a fine, pink-coloured timber that is  extremely versatile, proving acceptable firewood and yielding good, slow-burning  charcoal  &#xa;&#xf0b7; This is a weak nitrogen-fixing tree  &#xa;&#xf0b7; Its extensive root system penetrates rock and soil, and is mineral-mining to the benefit of  intercropped plants  &#xf0b7; It is fire retardant and evergreen, and thus provides an ideal perimeter windbreak &#xa; &#xf0b7; The carob grows well with all common fruit trees    &#xa;&#xa;How?  &#xa;&#xf0b7; Sow seeds when fresh as possible  &#xa;&#xf0b7; Before sowing, the seed must be boiled for 1 minute, then left in cold water to cool for 24  hours - this water should be changed after 12 hours &#xa;&#xf0b7; Sow the seed outdoors at a depth of 1 cm  &#xa;&#xf0b7; Carob trees are either male or female. Only female&#x2019;s produce fruit - grow only females if  there is a male in the neighbourhood (as the flowers require pollination to fruit!)  &#xa;&#xf0b7; Carob trees can grow literally right on the rock  " ID="ID_1097683390" CREATED="1395084390501" MODIFIED="1395084855319"/>
+<node TEXT="http://en.wikipedia.org/wiki/Ceratonia_siliqua" ID="ID_313192406" CREATED="1429859134529" MODIFIED="1429859134529" LINK="http://en.wikipedia.org/wiki/Ceratonia_siliqua"/>
+<node TEXT="http://greenharvest.com.au/SeedOrganic/FruitTrees/CarobGrowingInformation.html" ID="ID_669364880" CREATED="1429877728481" MODIFIED="1429877728481" LINK="http://greenharvest.com.au/SeedOrganic/FruitTrees/CarobGrowingInformation.html"/>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_763894701" CREATED="1430757308786" MODIFIED="1430757308787"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1128564793" CREATED="1430757308787" MODIFIED="1430757308788"/>
+</node>
+</node>
+<node STYLE_REF="Genus" ID="ID_1379193563" CREATED="1429982076027" MODIFIED="1434033749668"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cercis
+    </p>
+    <p>
+      <font size="4">Judas Tree</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<node TEXT="Cercis siliquastrum" STYLE_REF="Species" ID="ID_1580215092" CREATED="1429981901865" MODIFIED="1432395233521">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE="Bee Fodder"/>
+<attribute NAME="Application" VALUE="Ornamental"/>
+<attribute NAME="Application - Edible" VALUE="Flowers"/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE="Deciduous"/>
+<attribute NAME="Characteristic - Resistance" VALUE="Drought"/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE="12m"/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE="10m"/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE="Mid Spring"/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Judas Tree, Love Tree
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_382388745" CREATED="1429981916119" MODIFIED="1429981916123">
+<node TEXT="" ID="ID_841439976" CREATED="1429981938873" MODIFIED="1429981938873"/>
+</node>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_514133457" CREATED="1429981916120" MODIFIED="1429981916121"/>
+</node>
+</node>
+<node STYLE_REF="Genus" ID="ID_476343066" CREATED="1429857096436" MODIFIED="1434033747840"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cicer spp.
+    </p>
+    <p>
+      <font size="4">Garbanzo</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<node TEXT="Cicer arietinum" STYLE_REF="Species" ID="ID_1781308452" CREATED="1429857050963" MODIFIED="1432568035440">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE="Beans"/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE="100 days"/>
+<attribute NAME="Schedule - Duration" VALUE="Annual"/>
+<attribute NAME="Schedule - Flower Period" VALUE=" "/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Chick Pea, Garbanzo Bean
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Desi (small dark" STYLE_REF="Variation" ID="ID_849136723" CREATED="1429857211700" MODIFIED="1429857316100"/>
+<node TEXT="Kabuli (large light)" STYLE_REF="Variation" ID="ID_1240249810" CREATED="1429857245666" MODIFIED="1429857324374"/>
+<node TEXT="Ceci Neri (black)" STYLE_REF="Variation" ID="ID_1584706526" CREATED="1429857276477" MODIFIED="1429857335709"/>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_859921753" CREATED="1430754240267" MODIFIED="1430754240268"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1115021178" CREATED="1430754240268" MODIFIED="1430754240269"/>
+<node TEXT="http://www.harvesttotable.com/2009/04/how_to_grow_chickpeas_garbanzo/" ID="ID_722294450" CREATED="1430754358736" MODIFIED="1430754358736" LINK="http://www.harvesttotable.com/2009/04/how_to_grow_chickpeas_garbanzo/"/>
+</node>
+</node>
+<node STYLE_REF="Family(Subfamily)" ID="ID_616384774" CREATED="1429806670744" MODIFIED="1434054017831"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Faboideae
+    </p>
+    <p>
+      <font size="4">Spanish Broom, Locust, Fava Bean, Indigos, Peas</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Family(Tribe)" ID="ID_37950975" CREATED="1430113669440" MODIFIED="1434033155015"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Galegeae
+    </p>
+    <p>
+      <font size="4">Liquorice</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1664648860" CREATED="1430113621184" MODIFIED="1434033900491"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Glycyrrhiza spp.
+    </p>
+    <p>
+      <font size="4">Liquorice</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
@@ -9739,7 +12981,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
@@ -9862,7 +13104,7 @@
 <attribute NAME="Conditions - Soil Texture" VALUE="Sandy"/>
 <attribute NAME="Conditions - Soil Texture" VALUE="Loamy"/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE="1m"/>
@@ -9909,7 +13151,133 @@
 </node>
 </node>
 </node>
-<node TEXT="Genisteae&#xa;Gorse" STYLE_REF="Family(Tribe)" ID="ID_1615602659" CREATED="1429856111097" MODIFIED="1430812923727">
+<node STYLE_REF="Family(Tribe)" ID="ID_51285781" CREATED="1433250534605" MODIFIED="1434033153557"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Dalbergieae
+    </p>
+    <p>
+      <font size="4">Peanut</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1807291365" CREATED="1433250791313" MODIFIED="1434033896016"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Arachis spp.
+    </p>
+    <p>
+      <font size="4">Peanut</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<node TEXT="Arachis hypogaea" STYLE_REF="Species" ID="ID_1718845912" CREATED="1433250672894" MODIFIED="1433250784211">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Peanut
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_264497813" CREATED="1433250774527" MODIFIED="1433250774532"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_560931103" CREATED="1433250774533" MODIFIED="1433250774536"/>
+<node TEXT="http://en.wikipedia.org/wiki/Peanut" ID="ID_388853021" CREATED="1433250847694" MODIFIED="1433250847694" LINK="http://en.wikipedia.org/wiki/Peanut"/>
+</node>
+</node>
+</node>
+<node STYLE_REF="Family(Tribe)" ID="ID_1615602659" CREATED="1429856111097" MODIFIED="1434033151898"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Genisteae
+    </p>
+    <p>
+      <font size="4">Gorse</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Cytisus spp." STYLE_REF="Genus" ID="ID_1123180150" CREATED="1429856027558" MODIFIED="1429856033982">
 <node TEXT="Cytisus proliferus" STYLE_REF="Species" ID="ID_635382812" CREATED="1429466407413" MODIFIED="1432565605995">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
@@ -9932,7 +13300,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -9976,7 +13344,22 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_531233826" CREATED="1430757308707" MODIFIED="1430757308707"/>
 </node>
 </node>
-<node TEXT="Genista spp.&#xa;Gorse (That evil spiny plant)" STYLE_REF="Genus" ID="ID_39264475" CREATED="1430812464893" MODIFIED="1432565532136">
+<node STYLE_REF="Genus" ID="ID_39264475" CREATED="1430812464893" MODIFIED="1434033890161"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Genista spp.
+    </p>
+    <p>
+      <font size="4">Gorse (That evil spiny plant)</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE=""/>
@@ -9986,7 +13369,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
@@ -10011,7 +13394,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -10076,7 +13459,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -10121,7 +13504,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Indigofereae&#xa;Indigos" STYLE_REF="Family(Tribe)" ID="ID_1783619039" CREATED="1432377130601" MODIFIED="1432377149952">
+<node STYLE_REF="Family(Tribe)" ID="ID_1783619039" CREATED="1432377130601" MODIFIED="1434033150385"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Indigofereae
+    </p>
+    <p>
+      <font size="4">Indigos</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Indigofera spp." STYLE_REF="Genus" ID="ID_280473600" CREATED="1432377160472" MODIFIED="1432473378423">
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
 <attribute NAME="Application" VALUE=""/>
@@ -10242,7 +13640,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE="Australia"/>
 <attribute NAME="Dimensions - Height Max" VALUE="2m"/>
@@ -10287,9 +13685,54 @@
 </node>
 </node>
 </node>
-<node TEXT="Phaseoleae&#xa;Mung Bean, Yardlong Bean" STYLE_REF="Family(Tribe)" ID="ID_1286888384" CREATED="1429857642971" MODIFIED="1429857712978">
-<node TEXT="Phaseolinae&#xa;Mung Bean, Yardlong Bean" STYLE_REF="Family(Subtribe)" ID="ID_1375910577" CREATED="1429857624985" MODIFIED="1429857708405">
-<node TEXT="Vigna spp.&#xa;Mung Bean, Yardlong Bean" STYLE_REF="Genus" ID="ID_88977120" CREATED="1429856664947" MODIFIED="1429856713683">
+<node STYLE_REF="Family(Tribe)" ID="ID_1286888384" CREATED="1429857642971" MODIFIED="1434033148802"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Phaseoleae
+    </p>
+    <p>
+      <font size="4">Mung Bean, Yardlong Bean</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Family(Subtribe)" ID="ID_1375910577" CREATED="1429857624985" MODIFIED="1434033784742"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Phaseolinae
+    </p>
+    <p>
+      <font size="4">Mung Bean, Yardlong Bean</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_88977120" CREATED="1429856664947" MODIFIED="1434033787572"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Vigna spp.
+    </p>
+    <p>
+      <font size="4">Mung Bean, Yardlong Bean</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Vigna unguiculata" STYLE_REF="Species" ID="ID_1621715603" CREATED="1429856538522" MODIFIED="1432568163498">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
@@ -10311,7 +13754,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -10418,7 +13861,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -10474,7 +13917,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE="Grazing"/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE="Perennial"/>
@@ -10625,8 +14068,38 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Robinieae&#xa;Locust" STYLE_REF="Family(Tribe)" ID="ID_1687971140" CREATED="1429854869853" MODIFIED="1429854936515">
-<node TEXT="Robinia spp.&#xa;Locust" STYLE_REF="Genus" ID="ID_1793785559" CREATED="1429854811367" MODIFIED="1432381066495">
+<node STYLE_REF="Family(Tribe)" ID="ID_1687971140" CREATED="1429854869853" MODIFIED="1434033146425"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Robinieae
+    </p>
+    <p>
+      <font size="4">Locust</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1793785559" CREATED="1429854811367" MODIFIED="1434033878320"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Robinia spp.
+    </p>
+    <p>
+      <font size="4">Locust</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
@@ -10634,9 +14107,12 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
-<node TEXT="Robinia pseudoacacia" STYLE_REF="Species" ID="ID_1166428335" CREATED="1380021208279" MODIFIED="1432568210274">
+<node TEXT="Robinia pseudoacacia" STYLE_REF="Species" ID="ID_1166428335" CREATED="1380021208279" MODIFIED="1433185552132">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
-<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application" VALUE="Building Material"/>
+<attribute NAME="Application" VALUE="Craft Wood"/>
+<attribute NAME="Application" VALUE="Coppice - Posts"/>
+<attribute NAME="Application" VALUE="Fuel -Slow Burning"/>
 <attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Application - Fermentation" VALUE=""/>
 <attribute NAME="Application - Medicinal" VALUE=""/>
@@ -10646,8 +14122,10 @@
 <attribute NAME="Characteristic - Growth Habit" VALUE="Tree"/>
 <attribute NAME="Characteristic - Leaf Type" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE="Juglone (Walnut)"/>
+<attribute NAME="Characteristic - Resistance" VALUE="Polution"/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE="Leaves"/>
+<attribute NAME="Characteristic - Toxicity" VALUE="Bark"/>
 <attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
 <attribute NAME="Conditions - Light" VALUE=""/>
 <attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
@@ -10655,9 +14133,9 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Canopy"/>
+<attribute NAME="Data - Guild" VALUE="Walnut"/>
+<attribute NAME="Data - Native Regions" VALUE="Southeast USA"/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
 <attribute NAME="Dimensions - Height Min" VALUE=""/>
 <attribute NAME="Dimensions - Root Depth" VALUE=""/>
@@ -10680,7 +14158,7 @@
   </head>
   <body>
     <p>
-      EN - Black Locust
+      EN - Black Locust, False Acacia
     </p>
     <p>
       ES -
@@ -10699,6 +14177,7 @@
 <node TEXT="Robinia pseudoacacia, Black Locust,  food forest, One Community outdoor planting plan, grow your own food, evolved food, Highest Good food, sustainable food Black locust is a tree in the Fabaceae native to southeastern North America. It has been widely planted around the world for its hard rot-resistant timber, nitrogen fixing and soil improvement, bee pasture, fuelwood, and other uses. Trees can reach 60-80 feet in height but are usually harvested before this. The long racemes of flower produce abundant nectar, and are edible battered and fried. PLACEMENTS  We will grow Black locust in any suitable location.* CULTURAL CONSIDERATIONS  Black locust grows in a wide range of soils and pHs Locust borer cause the decline and death of the trees after a few years When planted in a mixed species forest stand insect problems are generally reduced When grown for timber, care must be taken to control locust borer, the trees main pest The tree coppices well and regrows quickly, making it an excellent choice for fuelwood lots PLANTING GUIDELINES  Plants should be planted out into a well-worked soil enriched with compost. They should be mulched well and irrigated at regular intervals until signs of growth begin. Inoculation with Rhizobium is beneficial." ID="ID_447643092" CREATED="1420660307069" MODIFIED="1420660310578"/>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_120316774" CREATED="1430757308698" MODIFIED="1430757308699"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1991541959" CREATED="1430757308699" MODIFIED="1430757308700"/>
+<node TEXT="http://www.cas.vanderbilt.edu/bioimages/species/frame/rops.htm" ID="ID_344245833" CREATED="1433185672048" MODIFIED="1433185672048" LINK="http://www.cas.vanderbilt.edu/bioimages/species/frame/rops.htm"/>
 </node>
 </node>
 <node TEXT="Sesbania spp." STYLE_REF="Genus" ID="ID_575066627" CREATED="1432381051641" MODIFIED="1432381064243">
@@ -10775,8 +14254,38 @@
 </node>
 </node>
 </node>
-<node TEXT="Sophoreae&#xa;Pagoda Tree" STYLE_REF="Family(Tribe)" ID="ID_1329154767" CREATED="1432372291933" MODIFIED="1432372339039">
-<node TEXT="Styphnolobium spp.&#xa;Pagoda Tree" STYLE_REF="Genus" ID="ID_1077815826" CREATED="1432372128190" MODIFIED="1432372354263">
+<node STYLE_REF="Family(Tribe)" ID="ID_1329154767" CREATED="1432372291933" MODIFIED="1434033158123"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Sophoreae
+    </p>
+    <p>
+      <font size="4">Pagoda Tree</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1077815826" CREATED="1432372128190" MODIFIED="1434033871218"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Styphnolobium spp.
+    </p>
+    <p>
+      <font size="4">Pagoda Tree</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
@@ -10854,8 +14363,52 @@
 </node>
 </node>
 </node>
-<node TEXT="Vicieae&#xa;Fava Bean, Lentil Bean" STYLE_REF="Family(Tribe)" ID="ID_1001874020" CREATED="1429856878270" MODIFIED="1429857989187">
-<node TEXT="Vicia spp.&#xa;Fava Bean" STYLE_REF="Genus" ID="ID_694565780" CREATED="1429856859943" MODIFIED="1429856946515">
+<node STYLE_REF="Family(Tribe)" ID="ID_1001874020" CREATED="1429856878270" MODIFIED="1434054026550"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Vicieae
+    </p>
+    <p>
+      <font size="4">Fava Bean, Lentil Bean, Vetch, Peas</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_694565780" CREATED="1429856859943" MODIFIED="1434054065080"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Vicia spp.
+    </p>
+    <p>
+      <font size="4">Fava Bean, Vetch</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <node TEXT="Vicia faba" STYLE_REF="Species" ID="ID_809401306" CREATED="1395293239740" MODIFIED="1432568229112">
 <attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
 <attribute NAME="Application" VALUE=""/>
@@ -10912,8 +14465,260 @@
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1233477541" CREATED="1430757308712" MODIFIED="1430757308713"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1343944060" CREATED="1430757308713" MODIFIED="1430757308714"/>
 </node>
+<node STYLE_REF="Species" ID="ID_111863568" CREATED="1434033294374" MODIFIED="1434034509981"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Vicia sativa
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE="Animal Fodder"/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE="Forb/herb"/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild Element" VALUE="Nitrogen_Fixer"/>
+<attribute NAME="Data - Guild Element" VALUE="Mulch_Producer"/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE="Annual"/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Common Vetch, Tare
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE - Wicke
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1185584752" CREATED="1434034344850" MODIFIED="1434034344857"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_89250309" CREATED="1434034344889" MODIFIED="1434034344892"/>
+<node TEXT="http://en.wikipedia.org/wiki/Vicia_sativa" ID="ID_1023021522" CREATED="1434034654201" MODIFIED="1434034654201" LINK="http://en.wikipedia.org/wiki/Vicia_sativa"/>
 </node>
-<node TEXT="Lens spp.&#xa;Lentil Bean" STYLE_REF="Genus" ID="ID_310234838" CREATED="1429857949213" MODIFIED="1429858003170">
+<node TEXT="Vicia villosa" STYLE_REF="Species" ID="ID_1718682434" CREATED="1434033294374" MODIFIED="1434034594820">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE="Animal Fodder"/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE="Forb/herb"/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild Element" VALUE="Nitrogen_Fixer"/>
+<attribute NAME="Data - Guild Element" VALUE="Mulch_Producer"/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE="Annual"/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Hairy Vetch, Fodder Vetch,&#160;&#160;Winter Vetch
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE - Winter Wicke
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1766251225" CREATED="1434034344850" MODIFIED="1434034344857"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1821603870" CREATED="1434034344889" MODIFIED="1434034344892"/>
+<node TEXT="http://en.wikipedia.org/wiki/Vicia_villosa" ID="ID_318540970" CREATED="1434034640604" MODIFIED="1434034640604" LINK="http://en.wikipedia.org/wiki/Vicia_villosa"/>
+</node>
+<node STYLE_REF="Species" ID="ID_1906369701" CREATED="1434137154003" MODIFIED="1434137219247"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Vicia americana
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Groundcover"/>
+<attribute NAME="Data - Guild" VALUE="Hazelnut"/>
+<attribute NAME="Data - Guild Element" VALUE="Nitrogen_Fixer"/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - American Vetch
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1023161586" CREATED="1434137173058" MODIFIED="1434137173061"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_487571949" CREATED="1434137173112" MODIFIED="1434137173115"/>
+</node>
+</node>
+<node STYLE_REF="Genus" ID="ID_310234838" CREATED="1429857949213" MODIFIED="1434054063414"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Lens spp.
+    </p>
+    <p>
+      <font size="4">Lentil Bean</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <node TEXT="Lens culinaris" STYLE_REF="Species" ID="ID_1515001403" CREATED="1429190273436" MODIFIED="1432568252001">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Ground Cover"/>
@@ -10935,7 +14740,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -10979,8 +14784,131 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_709865451" CREATED="1430757308720" MODIFIED="1430757308721"/>
 </node>
 </node>
+<node STYLE_REF="Genus" ID="ID_162253059" CREATED="1434054046541" MODIFIED="1434054079759"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Lathyrus spp.
+    </p>
+    <p>
+      <font size="4">Peas</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<node STYLE_REF="Species" ID="ID_112610225" CREATED="1434054092241" MODIFIED="1434054150805"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Lathyrus odoratus
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE="Forb/herb"/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE="Annual"/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Sweet pea
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_398721491" CREATED="1434054104302" MODIFIED="1434054104303"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_814210039" CREATED="1434054104303" MODIFIED="1434054104304"/>
 </node>
-<node TEXT="Spartium spp.&#xa;Spanish Broom" STYLE_REF="Genus" ID="ID_1730007299" CREATED="1429806540101" MODIFIED="1432555867373">
+</node>
+</node>
+<node STYLE_REF="Genus" ID="ID_1730007299" CREATED="1429806540101" MODIFIED="1434033161530"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Spartium spp.
+    </p>
+    <p>
+      <font size="4">Spanish Broom</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
@@ -10988,7 +14916,7 @@
 <attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <node TEXT="Spartium junceum" STYLE_REF="Species" ID="ID_134918273" CREATED="1429467409522" MODIFIED="1431952754772">
@@ -11058,6 +14986,115 @@
 </node>
 </node>
 </node>
+<node STYLE_REF="Genus" ID="ID_1957081613" CREATED="1434138132771" MODIFIED="1434138265133"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Phaseolus spp.
+    </p>
+    <p>
+      <font size="4">Tepary Bean</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<node STYLE_REF="Species" ID="ID_1725461636" CREATED="1434138143819" MODIFIED="1434138232137"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Phaseolus acutifolius
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE="Three Sisters"/>
+<attribute NAME="Data - Guild Element" VALUE="Nitrogen_Fixer"/>
+<attribute NAME="Data - Native Regions" VALUE="Southwest USA"/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Tepary bean
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1532186911" CREATED="1434138150336" MODIFIED="1434138150337"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1110938153" CREATED="1434138150386" MODIFIED="1434138150388"/>
+</node>
+</node>
 <node TEXT="Galegeae" STYLE_REF="Family(Tribe)" ID="ID_1205349922" CREATED="1432561313551" MODIFIED="1432561322547">
 <node TEXT="Astragalinae" STYLE_REF="Family(Subtribe)" ID="ID_257870538" CREATED="1432561332321" MODIFIED="1432561340656">
 <node TEXT="Astragalus spp.&#xa;Milkvetch, Locoweed, Goat&apos;s-thorn" STYLE_REF="Genus" ID="ID_905816050" CREATED="1432561358252" MODIFIED="1432561521836">
@@ -11070,7 +15107,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
@@ -11109,9 +15146,404 @@
 </node>
 </node>
 </node>
-<node TEXT="Mimosoideae&#xa;Mesquite" STYLE_REF="Family(Subfamily)" ID="ID_1661878366" CREATED="1429854538464" MODIFIED="1429854658410">
-<node TEXT="Mimoseae&#xa;Mesquite" STYLE_REF="Family(Tribe)" ID="ID_1134924701" CREATED="1429854482574" MODIFIED="1429854791000">
-<node TEXT="Prosopis spp.&#xa;Mesquite" STYLE_REF="Genus" ID="ID_1407044573" CREATED="1420660136224" MODIFIED="1432565449897">
+<node STYLE_REF="Genus" ID="ID_970059746" CREATED="1429797703430" MODIFIED="1434033729770"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Genista spp.
+    </p>
+    <p>
+      <font size="4">Dyer's Broom</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<node TEXT="Genista tinctoria" STYLE_REF="Species" ID="ID_1420065356" CREATED="1424601465183" MODIFIED="1432371826444">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE="Dye Source"/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE="Shrub"/>
+<attribute NAME="Characteristic - Leaf Type" VALUE="Deciduous"/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE="90cm"/>
+<attribute NAME="Dimensions - Height Min" VALUE="60cm"/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE="Annual"/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Dyer's Broom, Dyer&#8217;s Greenweed
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE - F&#228;rberginster
+    </p>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_797259756" CREATED="1424601679031" MODIFIED="1424601748374"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      
+    </p>
+    <div class="product-description">
+      Beschreibung
+
+      <h2>
+        <strong><u>F&#228;rberginster - Genister tinctoria</u></strong>
+      </h2>
+      <p>
+        Der verholzende Strauch bl&#252;ht von Juni bis September und wird deshalb auch gerne als Zierpflanze angebaut. Absolut anspruchslos und winterhart.
+      </p>
+      <p>
+        Vertr&#228;gt viel Trockenheit und kommt auch in der Natur meist an trockenen H&#228;ngen vor. Der Samen keimt gut und die Kultur ist einfach.
+      </p>
+    </div>
+    <div class="product-fields">
+      <div class="product-field product-field-type-X">
+        Herkunft:&#160;Heimisch&#160;
+      </div>
+      <div class="product-field product-field-type-X">
+        Standortanspr&#252;che:&#160;Sonnig, vertr&#228;gt Trockenheit.&#160;
+      </div>
+      <div class="product-field product-field-type-X">
+        Wuchsform:&#160;D&#252;nntriebiger, &#252;berh&#228;ngender verholzender Stauch. H&#246;he ca 100 cm&#160;
+      </div>
+      <div class="product-field product-field-type-X">
+        Aussaat und Kultur:&#160;September - Juli&#160;
+      </div>
+      <div class="product-field product-field-type-X">
+        Gesundheit:&#160;bei Gicht, Nierenleiden, Rheuma, Blutreinigung,&#160;
+      </div>
+      <div class="product-field product-field-type-P">
+        Verwendung:&#160;
+      </div>
+      <div class="product-field product-field-type-X">
+        F&#228;rben:&#160;f&#228;rbt Wolle zitronengelb bis olivgr&#252;n&#160;
+      </div>
+      <div class="product-field product-field-type-X">
+        Ernte:&#160;Bl&#252;ten, Bl&#228;tter und junge Zweige im Sommer&#160;
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="ybbser-kraeutergarten.at &gt; Index ? ..." ID="ID_735362775" CREATED="1424601757010" MODIFIED="1424601757010" LINK="http://www.ybbser-kraeutergarten.at/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=136&amp;virtuemart_category_id=3&amp;Itemid=57"/>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1676241621" CREATED="1430757308673" MODIFIED="1430757308674"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1402040091" CREATED="1430757308675" MODIFIED="1430757308676"/>
+<node TEXT="http://en.wikipedia.org/wiki/Genista_tinctoria" ID="ID_255378298" CREATED="1432371854619" MODIFIED="1432371854619" LINK="http://en.wikipedia.org/wiki/Genista_tinctoria"/>
+<node TEXT="Dye Source" ID="ID_306713258" CREATED="1432371872999" MODIFIED="1432371886559">
+<font BOLD="true"/>
+<node TEXT="Color - Yellow" ID="ID_1794368042" CREATED="1432371891335" MODIFIED="1432371899450"/>
+<node TEXT="Combine with Woad for Green color" ID="ID_1669077569" CREATED="1432371913602" MODIFIED="1432371923830"/>
+</node>
+</node>
+</node>
+<node STYLE_REF="Genus" ID="ID_692188675" CREATED="1433957455872" MODIFIED="1433957485558"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Lupinus spp.
+    </p>
+    <p>
+      <font size="4">Lupines</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<node STYLE_REF="Species" ID="ID_646580440" CREATED="1433957495964" MODIFIED="1433962253307"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Lupinus albus
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE="Ornamental"/>
+<attribute NAME="Application - Edible" VALUE="Beans"/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE="Forb/herb"/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild Element" VALUE="Nitrogen_Fixer"/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE="120cm"/>
+<attribute NAME="Dimensions - Height Min" VALUE="30cm"/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE="Annual"/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - White Lupin, White Lupine
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1435698451" CREATED="1433957509559" MODIFIED="1433957509560"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_840880339" CREATED="1433957509561" MODIFIED="1433957509562"/>
+<node TEXT="http://en.wikipedia.org/wiki/Lupinus_albus" ID="ID_439275906" CREATED="1433957536994" MODIFIED="1433957536994" LINK="http://en.wikipedia.org/wiki/Lupinus_albus"/>
+</node>
+</node>
+<node STYLE_REF="Genus" ID="ID_1623445590" CREATED="1432395270102" MODIFIED="1434033732909"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Medicago spp.
+    </p>
+    <p>
+      <font size="4">Alfalfa</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="209" VALUE_WIDTH="209"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<node TEXT="Medicago sativa" STYLE_REF="Species" ID="ID_1164932524" CREATED="1432395322175" MODIFIED="1434139277570">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE="Ground Cover"/>
+<attribute NAME="Application" VALUE="Animal Fodder"/>
+<attribute NAME="Application - Edible" VALUE="Seeds"/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
+<attribute NAME="Characteristic" VALUE="Insectary"/>
+<attribute NAME="Characteristic - Allelopathy" VALUE="Self"/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE="Forb/herb"/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE="Drought"/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild" VALUE="Almond"/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE="1m"/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE="Perennial"/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Alfalfa, Lucerne
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_641910629" CREATED="1432395335880" MODIFIED="1432395335881"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1591642373" CREATED="1432395335881" MODIFIED="1432395335882"/>
+<node TEXT="http://en.wikipedia.org/wiki/Alfalfa" ID="ID_61724450" CREATED="1432395365729" MODIFIED="1432395365729" LINK="http://en.wikipedia.org/wiki/Alfalfa"/>
+<node TEXT="Alfalfa is considered an insectary, a place where insects are reared, and has been proposed as helpful to other crops, such as cotton, if the two are interplanted, because the alfalfa harbours predatory and parasitic insects that would protect the other crop.[32] Harvesting the alfalfa by mowing the entire crop area destroys the insect population, but this can be avoided by mowing in strips so that part of the growth remains.[32]" ID="ID_1100826141" CREATED="1432395534877" MODIFIED="1432395536522"/>
+<node TEXT="Alfalfa and bees[edit]&#xa;Alfalfa seed production requires the presence of pollinators when the fields of alfalfa are in bloom.[5] Alfalfa pollination is somewhat problematic, however, because western honey bees, the most commonly used pollinator, are not suitable for this purpose; the pollen-carrying keel of the alfalfa flower trips and strikes pollinating bees on the head, which helps transfer the pollen to the foraging bee.[5] Western honey bees, however, do not like being struck in the head repeatedly and learn to defeat this action by drawing nectar from the side of the flower. The bees thus collect the nectar, but carry no pollen, so do not pollinate the next flower they visit.[50] Because older, experienced bees do not pollinate alfalfa well, most pollination is accomplished by young bees that have not yet learned the trick of robbing the flower without tripping the head-knocking keel. When western honey bees are used to pollinate alfalfa, the beekeeper stocks the field at a very high rate to maximize the number of young bees.[50] Western honey bee colonies may suffer protein stress when working alfalfa only, due to shortage of one of the amino acids comprising the pollen protein, isoleucine. Today, the alfalfa leafcutter bee is increasingly used to circumvent these problems.[51] As a solitary but gregarious bee species, it does not build colonies or store honey, but is a very efficient pollinator of alfalfa flowers.[51] Nesting is in individual tunnels in wooden or plastic material, supplied by the alfalfa seed growers.[50] The leafcutter bees are used in the Pacific Northwest, while western honeybees dominate in California alfalfa seed production.[50]" ID="ID_1503276122" CREATED="1432395803226" MODIFIED="1432395805991"/>
+</node>
+</node>
+<node STYLE_REF="Family(Subfamily)" ID="ID_1661878366" CREATED="1429854538464" MODIFIED="1434033735450"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Mimosoideae
+    </p>
+    <p>
+      <font size="4">Mesquite</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Family(Tribe)" ID="ID_1134924701" CREATED="1429854482574" MODIFIED="1434033914591"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Mimoseae
+    </p>
+    <p>
+      <font size="4">Mesquite</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1407044573" CREATED="1420660136224" MODIFIED="1434033917691"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Prosopis spp.
+    </p>
+    <p>
+      <font size="4">Mesquite</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="117" VALUE_WIDTH="158"/>
 <richcontent TYPE="NOTE">
 
@@ -11147,7 +15579,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -11347,15 +15779,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Acacia spp.&#xa;Thorntree, Wattle" STYLE_REF="Genus" ID="ID_397852154" CREATED="1420657290157" MODIFIED="1432493526488">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<richcontent TYPE="NOTE">
+<node STYLE_REF="Genus" ID="ID_1324219472" CREATED="1429857414317" MODIFIED="1434033737300"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -11363,893 +15787,14 @@
   </head>
   <body>
     <p>
-      Acacia is a genus of approximately 1300 species of trees and shrubs in the Fabaceae, native mainly to Australia and Africa. They are generally xerophytic, low branching, drought deciduous trees frequently armed with thorns on their branches (the genus name derives from the Greek word for thorn). They are nitrogen fixing, and many produce valuable timber or fuel wood, useful gums, edible seeds and flowers, etc. PLACEMENTS&#160;&#160;We will grow Acacia in any suitable location.* CULTURAL CONSIDERATIONS&#160;&#160;Acacias are adapted to climate with a long dry season They form deep root systems and fix nitrogen, creating their own fertility Supplemental water in the first year will also improve establishment rates Ripping a site prior to planting Acacias will encourage deep rooting and speed establishment PLANTING GUIDELINES&#160;&#160;Acacia should be planted when small, as their root systems do not hold well in pots. Deep treepots are best. These should be planted in a well drained site, mulched well, and watered in thoroughly. Rhizobium inoculation is beneficial.
+      Phaseolus spp.
     </p>
     <p>
-      <a href="http://en.wikipedia.org/wiki/Acacia">
-</a>    </p>
-    <p>
-      <a href="http://en.wikipedia.org/wiki/Acacia">
-</a>    </p>
-    <p>
-      <a href="http://en.wikipedia.org/wiki/Acacia">http://en.wikipedia.org/wiki/Acacia</a>
+      <font size="4">Tepary Bean</font>
     </p>
   </body>
 </html>
 </richcontent>
-<node TEXT="Acacia farnesiana,&#xa;Vachellia farnesiana" STYLE_REF="Species" ID="ID_1541063252" CREATED="1429712111269" MODIFIED="1432563691901">
-<attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
-<attribute NAME="Application" VALUE="Tannin"/>
-<attribute NAME="Application" VALUE="Animal Fodder"/>
-<attribute NAME="Application" VALUE="Tannin"/>
-<attribute NAME="Application" VALUE="Ink Source"/>
-<attribute NAME="Application" VALUE="Fragrance Source"/>
-<attribute NAME="Application" VALUE="Bee Fodder"/>
-<attribute NAME="Application - Edible" VALUE="Leaves/Needles"/>
-<attribute NAME="Application - Edible" VALUE="Pods"/>
-<attribute NAME="Application - Fermentation" VALUE=""/>
-<attribute NAME="Application - Medicinal" VALUE=""/>
-<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
-<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE="8"/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE="Shrub"/>
-<attribute NAME="Characteristic - Leaf Type" VALUE="Semi-Evergreen"/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Conditions - Light" VALUE=""/>
-<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
-<attribute NAME="Conditions - Soil Moisture" VALUE="Arid"/>
-<attribute NAME="Conditions - Soil PH" VALUE=""/>
-<attribute NAME="Conditions - Soil Texture" VALUE=""/>
-<attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Dimensions - Height Max" VALUE="8M"/>
-<attribute NAME="Dimensions - Height Min" VALUE="2M"/>
-<attribute NAME="Dimensions - Root Depth" VALUE=""/>
-<attribute NAME="Dimensions - Spacing" VALUE=""/>
-<attribute NAME="Schedule - Bearing Age" VALUE=""/>
-<attribute NAME="Schedule - Duration" VALUE="Perennial"/>
-<attribute NAME="Schedule - Flower Period" VALUE="Late Winter"/>
-<attribute NAME="Schedule - Flower Period" VALUE="Early Spring"/>
-<attribute NAME="Schedule - Flower Period" VALUE="Mid Spring"/>
-<attribute NAME="Schedule - Flower Period" VALUE="Late Spring"/>
-<attribute NAME="Schedule - Flower Period" VALUE="Early Summer"/>
-<attribute NAME="Schedule - Flower Period" VALUE="Mid Summer"/>
-<attribute NAME="Schedule - Flower Period" VALUE="Late Summer"/>
-<attribute NAME="Schedule - Flower Period" VALUE="Early Fall"/>
-<attribute NAME="Schedule - Flower Period" VALUE="Mid Fall"/>
-<attribute NAME="Schedule - Germination Span" VALUE=""/>
-<attribute NAME="Schedule - Harvest Period" VALUE=""/>
-<attribute NAME="Schedule - Lifespan" VALUE=""/>
-<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
-<attribute NAME="Sexuality - Behavior" VALUE=""/>
-<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
-<attribute NAME="Sexuality - Pollination" VALUE=""/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      EN - Sweet Acacia, Needle Bush
-    </p>
-    <p>
-      DE -
-    </p>
-    <p>
-      ES -
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="http://en.wikipedia.org/wiki/Vachellia_farnesiana" ID="ID_526633992" CREATED="1429712469780" MODIFIED="1429712469780" LINK="http://en.wikipedia.org/wiki/Vachellia_farnesiana"/>
-<node TEXT="http://edis.ifas.ufl.edu/st005" ID="ID_208378608" CREATED="1430741032750" MODIFIED="1430741032750" LINK="http://edis.ifas.ufl.edu/st005"/>
-<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_832857093" CREATED="1430753314427" MODIFIED="1430753314429"/>
-<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_347458472" CREATED="1430753314429" MODIFIED="1430753314430"/>
-<node TEXT="http://www.pfaf.org/user/Plant.aspx?LatinName=Acacia+farnesiana" ID="ID_61708194" CREATED="1430753557974" MODIFIED="1430753557974" LINK="http://www.pfaf.org/user/Plant.aspx?LatinName=Acacia+farnesiana"/>
-<node TEXT="An essential oil called Cassie is distilled from the flowers[229, 269]. Cassie absolute is employed in preparation of violet bouquets and is extensively used in European perfumery[269]. Cassie pomades are manufactured in Uttar Pradesh and the Punjab. A deliciously scented essential oil, it has a fragrance of violets[245]. A mature plant 10 years old can yield 9 kg of flowers each year[245]. In a suitable climate, the trees begin to flower from their third year. The perfume is extracted from the flowers in form of concrete or pomade. Macerated flowers are placed in melted purified natural fat and allowed to stand for several hours. They are then replaced by fresh flowers and the process repeated until the fat is saturated with perfume. The fat is then melted, strained and cooled. This constitutes the pomade. Odour is that of violets but more intense. Absolute is prepared by mixing pomade with alcohol (2 - 3 kg to about 4 litres) and allowed to stand for 3 - 4 weeks at about -5&#xb0;C. The alcohol is then separated and distilled over. The extract obtained is an olive-green liquid with strong odour of cassie flowers[269]. Mature trees can yield about 1 kilo of flowers per year[269]. The bark and the fruit are a source of tannin and used in making dyes and inks[227]. The seedpods contain about 23% tannin[240]. The bark, in combination with iron ores and salts, is used as a black dyestuff[269]. A gummy substance obtained from the young pods is used to mend pottery[227, 269]. A mucilage can be manufactured from the gummy sap[229]. A gum exuding from trunk is considered to be superior to gum arabic in arts[269]. The woody branches are used in India as tooth brushes[269]. In suitable climates the plant is grown as a hedge[82]. The trees have also been used for erosion control in sandy soils[269, 272]. Wood - heavy, hard, durable in the soil, close-grained. Used for fencing posts, agricultural implements, pegs, woodenware etc[82, 227, 269]." ID="ID_169404188" CREATED="1430753728889" MODIFIED="1430753734444"/>
-<node TEXT="http://davesgarden.com/guides/pf/go/31848/#b" ID="ID_1465098836" CREATED="1432563810512" MODIFIED="1432563810512" LINK="http://davesgarden.com/guides/pf/go/31848/#b"/>
-</node>
-<node TEXT="Acacia colei" STYLE_REF="Species" ID="ID_268866005" CREATED="1432493602239" MODIFIED="1432493953376">
-<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Application - Edible" VALUE="Seeds"/>
-<attribute NAME="Application - Fermentation" VALUE=""/>
-<attribute NAME="Application - Medicinal" VALUE=""/>
-<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
-<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
-<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE="Drought"/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
-<attribute NAME="Conditions - Light" VALUE=""/>
-<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
-<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
-<attribute NAME="Conditions - Soil PH" VALUE=""/>
-<attribute NAME="Conditions - Soil Texture" VALUE=""/>
-<attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE="Understory"/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Dimensions - Height Max" VALUE="9m"/>
-<attribute NAME="Dimensions - Height Min" VALUE=""/>
-<attribute NAME="Dimensions - Root Depth" VALUE=""/>
-<attribute NAME="Dimensions - Spacing" VALUE=""/>
-<attribute NAME="Schedule - Bearing Age" VALUE=""/>
-<attribute NAME="Schedule - Duration" VALUE=""/>
-<attribute NAME="Schedule - Flower Period" VALUE="Early Summer"/>
-<attribute NAME="Schedule - Germination Span" VALUE=""/>
-<attribute NAME="Schedule - Harvest Period" VALUE=""/>
-<attribute NAME="Schedule - Lifespan" VALUE=""/>
-<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
-<attribute NAME="Sexuality - Behavior" VALUE=""/>
-<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
-<attribute NAME="Sexuality - Pollination" VALUE=""/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      EN - Cole's Wattle
-    </p>
-    <p>
-      ES -
-    </p>
-    <p>
-      CA -
-    </p>
-    <p>
-      DE -
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_758256869" CREATED="1432493605941" MODIFIED="1432493605942"/>
-<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1394965048" CREATED="1432493605942" MODIFIED="1432493605943"/>
-<node TEXT="Cole&#x2019;s wattle is a fast growing, short-lived, nitrogen fixing shrub in the Leguminosae native to Australia. It has been widely planted as a multipurpose tree, particularly in Africa. The seeds are edible, containing 21% protein, 10% fat and 57% carbohydrate. It is useful as windbreak, fuel, soil improvement, and human and animal food. Cold hardiness is not well documented, so it must be considered experimental for One Community." ID="ID_724890788" CREATED="1432493702081" MODIFIED="1432493704605"/>
-<node TEXT="Tolerant of desert conditions&#xa;Native to areas of Australia that have an 8-9 month dry season&#xa;Adaptable to infertile soils and appears to have some salt tolerance&#xa;Has been tested in Africa as a drought-tolerant food source with positive results" ID="ID_1946951503" CREATED="1432493715003" MODIFIED="1432493898115"/>
-</node>
-</node>
-<node TEXT="Albizia spp." STYLE_REF="Genus" ID="ID_169104187" CREATED="1432381494417" MODIFIED="1432381502291">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<node TEXT="Albizia lebbeck" STYLE_REF="Species" ID="ID_421577825" CREATED="1432381506523" MODIFIED="1432381841629">
-<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
-<attribute NAME="Application" VALUE="Shade"/>
-<attribute NAME="Application" VALUE="Coppice - Posts"/>
-<attribute NAME="Application" VALUE="Tannin"/>
-<attribute NAME="Application" VALUE="Saponins"/>
-<attribute NAME="Application - Edible" VALUE=""/>
-<attribute NAME="Application - Fermentation" VALUE=""/>
-<attribute NAME="Application - Medicinal" VALUE=""/>
-<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
-<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
-<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
-<attribute NAME="Conditions - Light" VALUE=""/>
-<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
-<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
-<attribute NAME="Conditions - Soil PH" VALUE=""/>
-<attribute NAME="Conditions - Soil Texture" VALUE=""/>
-<attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Dimensions - Height Max" VALUE=""/>
-<attribute NAME="Dimensions - Height Min" VALUE=""/>
-<attribute NAME="Dimensions - Root Depth" VALUE=""/>
-<attribute NAME="Dimensions - Spacing" VALUE=""/>
-<attribute NAME="Schedule - Bearing Age" VALUE=""/>
-<attribute NAME="Schedule - Duration" VALUE=""/>
-<attribute NAME="Schedule - Flower Period" VALUE=""/>
-<attribute NAME="Schedule - Germination Span" VALUE=""/>
-<attribute NAME="Schedule - Harvest Period" VALUE=""/>
-<attribute NAME="Schedule - Lifespan" VALUE=""/>
-<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
-<attribute NAME="Sexuality - Behavior" VALUE=""/>
-<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
-<attribute NAME="Sexuality - Pollination" VALUE=""/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      EN - East Indian Walnut, Frywood, Indian Siris, Koko, Lebbek, Lebbeck, Lebbektree, Rain Tree, Raom Tree, Rattlepod
-    </p>
-    <p>
-      ES -
-    </p>
-    <p>
-      CA -
-    </p>
-    <p>
-      DE - Lebachbaum, Andamanen-kokko
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1273478709" CREATED="1432381510159" MODIFIED="1432381510160"/>
-<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1268196742" CREATED="1432381510160" MODIFIED="1432381510161"/>
-<node TEXT="http://en.wikipedia.org/wiki/Albizia_lebbeck" ID="ID_1444292791" CREATED="1432381599577" MODIFIED="1432381599577" LINK="http://en.wikipedia.org/wiki/Albizia_lebbeck"/>
-<node TEXT="http://www.tropicalforages.info/key/Forages/Media/Html/Albizia_lebbeck.htm" ID="ID_604454160" CREATED="1432381606993" MODIFIED="1432381606993" LINK="http://www.tropicalforages.info/key/Forages/Media/Html/Albizia_lebbeck.htm"/>
-</node>
-</node>
-<node TEXT="Baptisia spp." STYLE_REF="Genus" ID="ID_1656655064" CREATED="1429808165010" MODIFIED="1432381553031">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<node TEXT="Baptisia australis" STYLE_REF="Species" ID="ID_1357671448" CREATED="1424602084759" MODIFIED="1432567977027">
-<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
-<attribute NAME="Application" VALUE="Dye Source"/>
-<attribute NAME="Application - Edible" VALUE=""/>
-<attribute NAME="Application - Fermentation" VALUE=""/>
-<attribute NAME="Application - Medicinal" VALUE=""/>
-<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
-<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE="Forb/herb"/>
-<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
-<attribute NAME="Conditions - Light" VALUE="Full Sun"/>
-<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
-<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
-<attribute NAME="Conditions - Soil PH" VALUE=""/>
-<attribute NAME="Conditions - Soil Texture" VALUE=""/>
-<attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Dimensions - Height Max" VALUE=""/>
-<attribute NAME="Dimensions - Height Min" VALUE=""/>
-<attribute NAME="Dimensions - Root Depth" VALUE=""/>
-<attribute NAME="Dimensions - Spacing" VALUE=""/>
-<attribute NAME="Schedule - Bearing Age" VALUE=""/>
-<attribute NAME="Schedule - Duration" VALUE="Perennial"/>
-<attribute NAME="Schedule - Flower Period" VALUE=""/>
-<attribute NAME="Schedule - Germination Span" VALUE=""/>
-<attribute NAME="Schedule - Harvest Period" VALUE=""/>
-<attribute NAME="Schedule - Lifespan" VALUE=""/>
-<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
-<attribute NAME="Sexuality - Behavior" VALUE=""/>
-<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
-<attribute NAME="Sexuality - Pollination" VALUE=""/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      EN - Blue Wild Indigo, Indigolupine
-    </p>
-    <p>
-      ES -
-    </p>
-    <p>
-      CA -
-    </p>
-    <p>
-      DE -
-    </p>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_312052410" CREATED="1424602099457" MODIFIED="1424602147669"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      
-    </p>
-    <div class="product-description">
-      Beschreibung
-
-      <h2>
-        <u>Indigolupine - Baptisia australis</u>
-      </h2>
-      <p>
-        &#160;
-      </p>
-      <p>
-        Winterharte F&#228;rber- und Heilpflanze.
-      </p>
-      <p>
-        Das echte Indigo war immer sehr teuer und so f&#228;rbte so manche Schwindler mit der g&#252;nstigeren Indigolupine (F&#228;rberhulse). Die Deckkraft ist gut jedoch das Blau nicht ganz so intensiev.
-      </p>
-      <p>
-        Die Indigolupine ist aber auch eine sehr sch&#246;ne Zierpflanze, mit dunkelblauen Bl&#252;ten im Mai und Juni.
-      </p>
-    </div>
-    <div class="product-fields">
-      <div class="product-field product-field-type-X">
-        Herkunft:&#160;Nordamerika&#160;
-      </div>
-      <div class="product-field product-field-type-X">
-        Standortanspr&#252;che:&#160;Halbschatten, normaler Gartenboden,&#160;
-      </div>
-      <div class="product-field product-field-type-X">
-        Wuchsform:&#160;Winterhart, aufrecht, bis 130 cm hoch,&#160;
-      </div>
-      <div class="product-field product-field-type-X">
-        Aussaat und Kultur:&#160;Mai - Juli, w&#228;chst in der Jugend langsam, ist aber sehr best&#228;ndig,&#160;
-      </div>
-      <div class="product-field product-field-type-P">
-        Verwendung:&#160;
-      </div>
-      <div class="product-field product-field-type-X">
-        Gesundheit:&#160;antibakteriell, antiseptisch,&#160;
-      </div>
-      <div class="product-field product-field-type-X">
-        Naturgarten:&#160;Die Schmetterlingsbl&#252;ten werden von Hummeln gerne besucht.&#160;
-      </div>
-      <div class="product-field product-field-type-X">
-        F&#228;rben:&#160;f&#228;rbt Wolle blau, traditionelle F&#228;rberpflanze der USA und Kanada,&#160;
-      </div>
-      <div class="product-field product-field-type-X">
-        Ernte:&#160;Bl&#228;tter im Fr&#252;hsommer&#160;
-      </div>
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="ybbser-kraeutergarten.at &gt; Index ? ..." ID="ID_276341930" CREATED="1424602156570" MODIFIED="1424602156570" LINK="http://www.ybbser-kraeutergarten.at/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=189&amp;virtuemart_category_id=3&amp;Itemid=57"/>
-<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1768207679" CREATED="1430757308665" MODIFIED="1430757308666"/>
-<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1166909408" CREATED="1430757308667" MODIFIED="1430757308668"/>
-</node>
-</node>
-<node TEXT="Caragana spp.&#xa;Pea Shrub" STYLE_REF="Genus" ID="ID_1040574583" CREATED="1429808054153" MODIFIED="1432381554348">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<node TEXT="Caragana arborescens" STYLE_REF="Species" ID="ID_1969502872" CREATED="1420657535575" MODIFIED="1432567999275">
-<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
-<attribute NAME="Application" VALUE="Ornamental"/>
-<attribute NAME="Application" VALUE="Bonsai"/>
-<attribute NAME="Application" VALUE="Bee Fodder"/>
-<attribute NAME="Application - Edible" VALUE="Flowers"/>
-<attribute NAME="Application - Edible" VALUE="Seeds"/>
-<attribute NAME="Application - Fermentation" VALUE=""/>
-<attribute NAME="Application - Medicinal" VALUE=""/>
-<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
-<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE="Shrub"/>
-<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
-<attribute NAME="Conditions - Light" VALUE=""/>
-<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
-<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
-<attribute NAME="Conditions - Soil PH" VALUE=""/>
-<attribute NAME="Conditions - Soil Texture" VALUE=""/>
-<attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Dimensions - Height Max" VALUE="6M"/>
-<attribute NAME="Dimensions - Height Min" VALUE="2M"/>
-<attribute NAME="Dimensions - Root Depth" VALUE=""/>
-<attribute NAME="Dimensions - Spacing" VALUE=""/>
-<attribute NAME="Schedule - Bearing Age" VALUE=""/>
-<attribute NAME="Schedule - Duration" VALUE="Perennial"/>
-<attribute NAME="Schedule - Flower Period" VALUE=""/>
-<attribute NAME="Schedule - Germination Span" VALUE=""/>
-<attribute NAME="Schedule - Harvest Period" VALUE=""/>
-<attribute NAME="Schedule - Lifespan" VALUE=""/>
-<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
-<attribute NAME="Sexuality - Behavior" VALUE=""/>
-<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
-<attribute NAME="Sexuality - Pollination" VALUE=""/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      EN - Siberian Pea Shrub
-    </p>
-    <p>
-      ES -
-    </p>
-    <p>
-      CA -
-    </p>
-    <p>
-      DE -
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Siberian pea shrub is a perennial shrub from 6 to 20 feet in height in the Leguminosae, native to China and Siberia. The plant produces dense foliage, making a good windbreak. The abundant yellow flowers can be steamed and eaten. Plants fix nitrogen, and have extensive root systems, aiding in erosion control. The high-protein seeds are edible cooked and are also widely used as poultry feed. PLACEMENTS  We will grow Siberian pea shrub in any suitable location.* CULTURAL CONSIDERATIONS  Caragana arborescens are relatively long-lived Can be coppiced repeatedly for mulch and compost material Neutralize various soil types, preparing the ground for more valuable crop Seedlings should be inoculated with Rhizobium to speed growth and enrich the soil Often planted along poultry runs; seeds can drop directly to the birds, eliminating harvesting PLANTING GUIDELINES  Seedlings should be planted out as early as possible to avoid getting root bound in the containers. Dibble tubes or tree pots are best to accommodate the plants tap roots. Inoculate with Rhizobium. After planting, mulch and water until signs of new growth appear. Siberian peashrub seems largely disease and pest free." ID="ID_537622392" CREATED="1420657561288" MODIFIED="1420657563365"/>
-<node TEXT="en.wikipedia.org &gt; Wiki &gt; Caragana arborescens" ID="ID_1704175581" CREATED="1420657584249" MODIFIED="1420657584249" LINK="http://en.wikipedia.org/wiki/Caragana_arborescens"/>
-<node TEXT="hort.purdue.edu &gt; Newcrop &gt; Duke energy &gt; Caragana arborescens" ID="ID_245835038" CREATED="1420657597850" MODIFIED="1420657597850" LINK="http://www.hort.purdue.edu/newcrop/duke_energy/Caragana_arborescens.html"/>
-<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1889935749" CREATED="1430757308747" MODIFIED="1430757308748"/>
-<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_688192035" CREATED="1430757308748" MODIFIED="1430757308749"/>
-</node>
-</node>
-<node TEXT="Ceratonia spp.&#xa;Carob" STYLE_REF="Genus" ID="ID_1663886578" CREATED="1429858739742" MODIFIED="1432381555644">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<node TEXT="Ceratonia siliqua" STYLE_REF="Species" ID="ID_1130418118" CREATED="1420548905430" MODIFIED="1432568015731">
-<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
-<attribute NAME="Application" VALUE="Wind Break"/>
-<attribute NAME="Application" VALUE="Fire Break"/>
-<attribute NAME="Application" VALUE="Animal Fodder"/>
-<attribute NAME="Application - Edible" VALUE="Seeds"/>
-<attribute NAME="Application - Fermentation" VALUE=""/>
-<attribute NAME="Application - Medicinal" VALUE=""/>
-<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
-<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE="Tree"/>
-<attribute NAME="Characteristic - Leaf Type" VALUE="Evergreen"/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
-<attribute NAME="Conditions - Light" VALUE=""/>
-<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
-<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
-<attribute NAME="Conditions - Soil PH" VALUE=""/>
-<attribute NAME="Conditions - Soil Texture" VALUE=""/>
-<attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Dimensions - Height Max" VALUE="15m"/>
-<attribute NAME="Dimensions - Height Min" VALUE=""/>
-<attribute NAME="Dimensions - Root Depth" VALUE=""/>
-<attribute NAME="Dimensions - Spacing" VALUE=""/>
-<attribute NAME="Schedule - Bearing Age" VALUE=""/>
-<attribute NAME="Schedule - Duration" VALUE="Perennial"/>
-<attribute NAME="Schedule - Flower Period" VALUE=""/>
-<attribute NAME="Schedule - Germination Span" VALUE=""/>
-<attribute NAME="Schedule - Harvest Period" VALUE=""/>
-<attribute NAME="Schedule - Lifespan" VALUE=""/>
-<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
-<attribute NAME="Sexuality - Behavior" VALUE="Dioecious"/>
-<attribute NAME="Sexuality - Flower Tyoe" VALUE="Unisexual"/>
-<attribute NAME="Sexuality - Pollination" VALUE="Cross"/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      EN - Carob, St John's-bread, Locust Bean
-    </p>
-    <p>
-      ES -
-    </p>
-    <p>
-      CA -
-    </p>
-    <p>
-      DE -
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Why? &#xf0b7; The fruits of C. siliqua can be used to make syrup or juice, and can also be eaten fresh or dried &#xf0b7; The seeds of this tree, known as locust beans, can be used as a food thickening agent &#xf0b7; The fruit provides fodder for all animals, and the carob seed flour is a nutritious additive for animal foods &#xf0b7; Carob trees have closed-grained wood that provides a fine, pink-coloured timber that is extremely versatile, proving acceptable firewood and yielding good, slow-burning charcoal &#xf0b7; This is a weak nitrogen-fixing tree &#xf0b7; Its extensive root system penetrates rock and soil, and is mineral-mining to the benefit of intercropped plants &#xf0b7; It is fire retardant and evergreen, and thus provides an ideal perimeter windbreak &#xf0b7; The carob grows well with all common fruit trees How? &#xf0b7; Sow seeds when fresh as possible &#xf0b7; Before sowing, the seed must be boiled for 1 minute, then left in cold water to cool for 24 hours - this water should be changed after 12 hours &#xf0b7; Sow the seed outdoors at a depth of 1 cm &#xf0b7; Carob trees are either male or female. Only female&#x2019;s produce fruit - grow only females if there is a male in the neighbourhood (as the flowers require pollination to fruit!) &#xf0b7; Carob trees can grow literally right on the rock" ID="ID_202193085" CREATED="1420549116746" MODIFIED="1420549119399"/>
-<node TEXT="Why?  &#xa;&#xf0b7; The fruits of C. siliqua can be used to make syrup or juice, and can also be eaten fresh  or dried  &#xa;&#xf0b7; The seeds of this tree, known as locust beans, can be used as a food thickening agent  &#xa;&#xf0b7; The fruit provides fodder for all animals, and the carob seed flour is a nutritious additive  for animal foods  &#xa;&#xf0b7; Carob trees have closed-grained wood that provides a fine, pink-coloured timber that is  extremely versatile, proving acceptable firewood and yielding good, slow-burning  charcoal  &#xa;&#xf0b7; This is a weak nitrogen-fixing tree  &#xa;&#xf0b7; Its extensive root system penetrates rock and soil, and is mineral-mining to the benefit of  intercropped plants  &#xf0b7; It is fire retardant and evergreen, and thus provides an ideal perimeter windbreak &#xa; &#xf0b7; The carob grows well with all common fruit trees    &#xa;&#xa;How?  &#xa;&#xf0b7; Sow seeds when fresh as possible  &#xa;&#xf0b7; Before sowing, the seed must be boiled for 1 minute, then left in cold water to cool for 24  hours - this water should be changed after 12 hours &#xa;&#xf0b7; Sow the seed outdoors at a depth of 1 cm  &#xa;&#xf0b7; Carob trees are either male or female. Only female&#x2019;s produce fruit - grow only females if  there is a male in the neighbourhood (as the flowers require pollination to fruit!)  &#xa;&#xf0b7; Carob trees can grow literally right on the rock  " ID="ID_1097683390" CREATED="1395084390501" MODIFIED="1395084855319"/>
-<node TEXT="http://en.wikipedia.org/wiki/Ceratonia_siliqua" ID="ID_313192406" CREATED="1429859134529" MODIFIED="1429859134529" LINK="http://en.wikipedia.org/wiki/Ceratonia_siliqua"/>
-<node TEXT="http://greenharvest.com.au/SeedOrganic/FruitTrees/CarobGrowingInformation.html" ID="ID_669364880" CREATED="1429877728481" MODIFIED="1429877728481" LINK="http://greenharvest.com.au/SeedOrganic/FruitTrees/CarobGrowingInformation.html"/>
-<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_763894701" CREATED="1430757308786" MODIFIED="1430757308787"/>
-<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1128564793" CREATED="1430757308787" MODIFIED="1430757308788"/>
-</node>
-</node>
-<node TEXT="Cercis&#xa;Judas Tree" STYLE_REF="Genus" ID="ID_1379193563" CREATED="1429982076027" MODIFIED="1432395246017">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<node TEXT="Cercis siliquastrum" STYLE_REF="Species" ID="ID_1580215092" CREATED="1429981901865" MODIFIED="1432395233521">
-<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
-<attribute NAME="Application" VALUE="Bee Fodder"/>
-<attribute NAME="Application" VALUE="Ornamental"/>
-<attribute NAME="Application - Edible" VALUE="Flowers"/>
-<attribute NAME="Application - Fermentation" VALUE=""/>
-<attribute NAME="Application - Medicinal" VALUE=""/>
-<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
-<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
-<attribute NAME="Characteristic - Leaf Type" VALUE="Deciduous"/>
-<attribute NAME="Characteristic - Resistance" VALUE="Drought"/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
-<attribute NAME="Conditions - Light" VALUE=""/>
-<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
-<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
-<attribute NAME="Conditions - Soil PH" VALUE=""/>
-<attribute NAME="Conditions - Soil Texture" VALUE=""/>
-<attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Dimensions - Height Max" VALUE="12m"/>
-<attribute NAME="Dimensions - Height Min" VALUE=""/>
-<attribute NAME="Dimensions - Root Depth" VALUE=""/>
-<attribute NAME="Dimensions - Spacing" VALUE="10m"/>
-<attribute NAME="Schedule - Bearing Age" VALUE=""/>
-<attribute NAME="Schedule - Duration" VALUE=""/>
-<attribute NAME="Schedule - Flower Period" VALUE="Mid Spring"/>
-<attribute NAME="Schedule - Germination Span" VALUE=""/>
-<attribute NAME="Schedule - Harvest Period" VALUE=""/>
-<attribute NAME="Schedule - Lifespan" VALUE=""/>
-<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
-<attribute NAME="Sexuality - Behavior" VALUE=""/>
-<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
-<attribute NAME="Sexuality - Pollination" VALUE=""/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      EN - Judas Tree, Love Tree
-    </p>
-    <p>
-      ES -
-    </p>
-    <p>
-      CA -
-    </p>
-    <p>
-      DE -
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_382388745" CREATED="1429981916119" MODIFIED="1429981916123">
-<node TEXT="" ID="ID_841439976" CREATED="1429981938873" MODIFIED="1429981938873"/>
-</node>
-<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_514133457" CREATED="1429981916120" MODIFIED="1429981916121"/>
-</node>
-</node>
-<node TEXT="Cicer spp.&#xa;Garbanzo" STYLE_REF="Genus" ID="ID_476343066" CREATED="1429857096436" MODIFIED="1432381559418">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<node TEXT="Cicer arietinum" STYLE_REF="Species" ID="ID_1781308452" CREATED="1429857050963" MODIFIED="1432568035440">
-<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Application - Edible" VALUE="Beans"/>
-<attribute NAME="Application - Fermentation" VALUE=""/>
-<attribute NAME="Application - Medicinal" VALUE=""/>
-<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
-<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
-<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
-<attribute NAME="Conditions - Light" VALUE=""/>
-<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
-<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
-<attribute NAME="Conditions - Soil PH" VALUE=""/>
-<attribute NAME="Conditions - Soil Texture" VALUE=""/>
-<attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Dimensions - Height Max" VALUE=""/>
-<attribute NAME="Dimensions - Height Min" VALUE=""/>
-<attribute NAME="Dimensions - Root Depth" VALUE=""/>
-<attribute NAME="Dimensions - Spacing" VALUE=""/>
-<attribute NAME="Schedule - Bearing Age" VALUE="100 days"/>
-<attribute NAME="Schedule - Duration" VALUE="Annual"/>
-<attribute NAME="Schedule - Flower Period" VALUE=" "/>
-<attribute NAME="Schedule - Germination Span" VALUE=""/>
-<attribute NAME="Schedule - Harvest Period" VALUE=""/>
-<attribute NAME="Schedule - Lifespan" VALUE=""/>
-<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
-<attribute NAME="Sexuality - Behavior" VALUE=""/>
-<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
-<attribute NAME="Sexuality - Pollination" VALUE=""/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      EN - Chick Pea, Garbanzo Bean
-    </p>
-    <p>
-      ES -
-    </p>
-    <p>
-      CA -
-    </p>
-    <p>
-      DE -
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Desi (small dark" STYLE_REF="Variation" ID="ID_849136723" CREATED="1429857211700" MODIFIED="1429857316100"/>
-<node TEXT="Kabuli (large light)" STYLE_REF="Variation" ID="ID_1240249810" CREATED="1429857245666" MODIFIED="1429857324374"/>
-<node TEXT="Ceci Neri (black)" STYLE_REF="Variation" ID="ID_1584706526" CREATED="1429857276477" MODIFIED="1429857335709"/>
-<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_859921753" CREATED="1430754240267" MODIFIED="1430754240268"/>
-<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1115021178" CREATED="1430754240268" MODIFIED="1430754240269"/>
-<node TEXT="http://www.harvesttotable.com/2009/04/how_to_grow_chickpeas_garbanzo/" ID="ID_722294450" CREATED="1430754358736" MODIFIED="1430754358736" LINK="http://www.harvesttotable.com/2009/04/how_to_grow_chickpeas_garbanzo/"/>
-</node>
-</node>
-<node TEXT="Genista spp.&#xa;Dyer&apos;s Broom" STYLE_REF="Genus" ID="ID_970059746" CREATED="1429797703430" MODIFIED="1432381528998">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<node TEXT="Genista tinctoria" STYLE_REF="Species" ID="ID_1420065356" CREATED="1424601465183" MODIFIED="1432371826444">
-<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
-<attribute NAME="Application" VALUE="Dye Source"/>
-<attribute NAME="Application - Edible" VALUE=""/>
-<attribute NAME="Application - Fermentation" VALUE=""/>
-<attribute NAME="Application - Medicinal" VALUE=""/>
-<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
-<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE="Shrub"/>
-<attribute NAME="Characteristic - Leaf Type" VALUE="Deciduous"/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
-<attribute NAME="Conditions - Light" VALUE=""/>
-<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
-<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
-<attribute NAME="Conditions - Soil PH" VALUE=""/>
-<attribute NAME="Conditions - Soil Texture" VALUE=""/>
-<attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Dimensions - Height Max" VALUE="90cm"/>
-<attribute NAME="Dimensions - Height Min" VALUE="60cm"/>
-<attribute NAME="Dimensions - Root Depth" VALUE=""/>
-<attribute NAME="Dimensions - Spacing" VALUE=""/>
-<attribute NAME="Schedule - Bearing Age" VALUE=""/>
-<attribute NAME="Schedule - Duration" VALUE="Annual"/>
-<attribute NAME="Schedule - Flower Period" VALUE=""/>
-<attribute NAME="Schedule - Germination Span" VALUE=""/>
-<attribute NAME="Schedule - Harvest Period" VALUE=""/>
-<attribute NAME="Schedule - Lifespan" VALUE=""/>
-<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
-<attribute NAME="Sexuality - Behavior" VALUE=""/>
-<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
-<attribute NAME="Sexuality - Pollination" VALUE=""/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      EN - Dyer's Broom, Dyer&#8217;s Greenweed
-    </p>
-    <p>
-      ES -
-    </p>
-    <p>
-      CA -
-    </p>
-    <p>
-      DE - F&#228;rberginster
-    </p>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_797259756" CREATED="1424601679031" MODIFIED="1424601748374"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      
-    </p>
-    <div class="product-description">
-      Beschreibung
-
-      <h2>
-        <strong><u>F&#228;rberginster - Genister tinctoria</u></strong>
-      </h2>
-      <p>
-        Der verholzende Strauch bl&#252;ht von Juni bis September und wird deshalb auch gerne als Zierpflanze angebaut. Absolut anspruchslos und winterhart.
-      </p>
-      <p>
-        Vertr&#228;gt viel Trockenheit und kommt auch in der Natur meist an trockenen H&#228;ngen vor. Der Samen keimt gut und die Kultur ist einfach.
-      </p>
-    </div>
-    <div class="product-fields">
-      <div class="product-field product-field-type-X">
-        Herkunft:&#160;Heimisch&#160;
-      </div>
-      <div class="product-field product-field-type-X">
-        Standortanspr&#252;che:&#160;Sonnig, vertr&#228;gt Trockenheit.&#160;
-      </div>
-      <div class="product-field product-field-type-X">
-        Wuchsform:&#160;D&#252;nntriebiger, &#252;berh&#228;ngender verholzender Stauch. H&#246;he ca 100 cm&#160;
-      </div>
-      <div class="product-field product-field-type-X">
-        Aussaat und Kultur:&#160;September - Juli&#160;
-      </div>
-      <div class="product-field product-field-type-X">
-        Gesundheit:&#160;bei Gicht, Nierenleiden, Rheuma, Blutreinigung,&#160;
-      </div>
-      <div class="product-field product-field-type-P">
-        Verwendung:&#160;
-      </div>
-      <div class="product-field product-field-type-X">
-        F&#228;rben:&#160;f&#228;rbt Wolle zitronengelb bis olivgr&#252;n&#160;
-      </div>
-      <div class="product-field product-field-type-X">
-        Ernte:&#160;Bl&#252;ten, Bl&#228;tter und junge Zweige im Sommer&#160;
-      </div>
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="ybbser-kraeutergarten.at &gt; Index ? ..." ID="ID_735362775" CREATED="1424601757010" MODIFIED="1424601757010" LINK="http://www.ybbser-kraeutergarten.at/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=136&amp;virtuemart_category_id=3&amp;Itemid=57"/>
-<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1676241621" CREATED="1430757308673" MODIFIED="1430757308674"/>
-<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1402040091" CREATED="1430757308675" MODIFIED="1430757308676"/>
-<node TEXT="http://en.wikipedia.org/wiki/Genista_tinctoria" ID="ID_255378298" CREATED="1432371854619" MODIFIED="1432371854619" LINK="http://en.wikipedia.org/wiki/Genista_tinctoria"/>
-<node TEXT="Dye Source" ID="ID_306713258" CREATED="1432371872999" MODIFIED="1432371886559">
-<font BOLD="true"/>
-<node TEXT="Color - Yellow" ID="ID_1794368042" CREATED="1432371891335" MODIFIED="1432371899450"/>
-<node TEXT="Combine with Woad for Green color" ID="ID_1669077569" CREATED="1432371913602" MODIFIED="1432371923830"/>
-</node>
-</node>
-</node>
-<node TEXT="Medicago spp.&#xa;Alfalfa" STYLE_REF="Genus" ID="ID_1623445590" CREATED="1432395270102" MODIFIED="1432395319295">
-<attribute_layout NAME_WIDTH="209" VALUE_WIDTH="209"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<node TEXT="Medicago sativa" STYLE_REF="Species" ID="ID_1164932524" CREATED="1432395322175" MODIFIED="1432395682731">
-<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
-<attribute NAME="Application" VALUE="Ground Cover"/>
-<attribute NAME="Application" VALUE="Animal Fodder"/>
-<attribute NAME="Application - Edible" VALUE="Seeds"/>
-<attribute NAME="Application - Fermentation" VALUE=""/>
-<attribute NAME="Application - Medicinal" VALUE=""/>
-<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
-<attribute NAME="Characteristic" VALUE="Insectary"/>
-<attribute NAME="Characteristic - Allelopathy" VALUE="Self"/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE="Forb/herb"/>
-<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE="Drought"/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
-<attribute NAME="Conditions - Light" VALUE=""/>
-<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
-<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
-<attribute NAME="Conditions - Soil PH" VALUE=""/>
-<attribute NAME="Conditions - Soil Texture" VALUE=""/>
-<attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Dimensions - Height Max" VALUE="1m"/>
-<attribute NAME="Dimensions - Height Min" VALUE=""/>
-<attribute NAME="Dimensions - Root Depth" VALUE=""/>
-<attribute NAME="Dimensions - Spacing" VALUE=""/>
-<attribute NAME="Schedule - Bearing Age" VALUE=""/>
-<attribute NAME="Schedule - Duration" VALUE="Perennial"/>
-<attribute NAME="Schedule - Flower Period" VALUE=""/>
-<attribute NAME="Schedule - Germination Span" VALUE=""/>
-<attribute NAME="Schedule - Harvest Period" VALUE=""/>
-<attribute NAME="Schedule - Lifespan" VALUE=""/>
-<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
-<attribute NAME="Sexuality - Behavior" VALUE=""/>
-<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
-<attribute NAME="Sexuality - Pollination" VALUE=""/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      EN - Alfalfa, Lucerne
-    </p>
-    <p>
-      ES -
-    </p>
-    <p>
-      CA -
-    </p>
-    <p>
-      DE -
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_641910629" CREATED="1432395335880" MODIFIED="1432395335881"/>
-<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1591642373" CREATED="1432395335881" MODIFIED="1432395335882"/>
-<node TEXT="http://en.wikipedia.org/wiki/Alfalfa" ID="ID_61724450" CREATED="1432395365729" MODIFIED="1432395365729" LINK="http://en.wikipedia.org/wiki/Alfalfa"/>
-<node TEXT="Alfalfa is considered an insectary, a place where insects are reared, and has been proposed as helpful to other crops, such as cotton, if the two are interplanted, because the alfalfa harbours predatory and parasitic insects that would protect the other crop.[32] Harvesting the alfalfa by mowing the entire crop area destroys the insect population, but this can be avoided by mowing in strips so that part of the growth remains.[32]" ID="ID_1100826141" CREATED="1432395534877" MODIFIED="1432395536522"/>
-<node TEXT="Alfalfa and bees[edit]&#xa;Alfalfa seed production requires the presence of pollinators when the fields of alfalfa are in bloom.[5] Alfalfa pollination is somewhat problematic, however, because western honey bees, the most commonly used pollinator, are not suitable for this purpose; the pollen-carrying keel of the alfalfa flower trips and strikes pollinating bees on the head, which helps transfer the pollen to the foraging bee.[5] Western honey bees, however, do not like being struck in the head repeatedly and learn to defeat this action by drawing nectar from the side of the flower. The bees thus collect the nectar, but carry no pollen, so do not pollinate the next flower they visit.[50] Because older, experienced bees do not pollinate alfalfa well, most pollination is accomplished by young bees that have not yet learned the trick of robbing the flower without tripping the head-knocking keel. When western honey bees are used to pollinate alfalfa, the beekeeper stocks the field at a very high rate to maximize the number of young bees.[50] Western honey bee colonies may suffer protein stress when working alfalfa only, due to shortage of one of the amino acids comprising the pollen protein, isoleucine. Today, the alfalfa leafcutter bee is increasingly used to circumvent these problems.[51] As a solitary but gregarious bee species, it does not build colonies or store honey, but is a very efficient pollinator of alfalfa flowers.[51] Nesting is in individual tunnels in wooden or plastic material, supplied by the alfalfa seed growers.[50] The leafcutter bees are used in the Pacific Northwest, while western honeybees dominate in California alfalfa seed production.[50]" ID="ID_1503276122" CREATED="1432395803226" MODIFIED="1432395805991"/>
-</node>
-</node>
-<node TEXT="Phaseolus spp.&#xa;Tepary Bean" STYLE_REF="Genus" ID="ID_1324219472" CREATED="1429857414317" MODIFIED="1432381523071">
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
@@ -12278,7 +15823,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -12326,7 +15871,22 @@
 <node TEXT="npr.org &gt; Blogs &gt; Thesalt &gt; 2015 &gt; 03 &gt; 25 &gt; 395096885 &gt; Meet-the-cool-beans-designed-to-beat-climate-change" ID="ID_447323100" CREATED="1427446794313" MODIFIED="1427446794313" LINK="http://www.npr.org/blogs/thesalt/2015/03/25/395096885/meet-the-cool-beans-designed-to-beat-climate-change"/>
 </node>
 </node>
-<node TEXT="Trifolium spp.&#xa;Clover" STYLE_REF="Genus" ID="ID_166904363" CREATED="1429816916521" MODIFIED="1432381520228">
+<node STYLE_REF="Genus" ID="ID_166904363" CREATED="1429816916521" MODIFIED="1434033739233"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Trifolium spp.
+    </p>
+    <p>
+      <font size="4">Clover</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
@@ -12356,7 +15916,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE="Cherry"/>
 <attribute NAME="Data - Guild" VALUE="Apple"/>
 <attribute NAME="Data - Guild" VALUE="Olive"/>
@@ -12414,7 +15974,7 @@
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <richcontent TYPE="NOTE">
@@ -12479,17 +16039,51 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Betulaceae&#xa;Hazel" STYLE_REF="Family" ID="ID_134296958" CREATED="1430915908181" MODIFIED="1430915920975">
-<node TEXT="Corylus spp.&#xa;Hazel" STYLE_REF="Genus" ID="ID_1149450062" CREATED="1430915881224" MODIFIED="1432455039752">
-<attribute_layout NAME_WIDTH="209" VALUE_WIDTH="209"/>
+<node STYLE_REF="Family" ID="ID_134296958" CREATED="1430915908181" MODIFIED="1433759953645"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Betulaceae
+    </p>
+    <p>
+      <font size="4">Hazel</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1149450062" CREATED="1430915881224" MODIFIED="1433759996756"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Corylus spp.
+    </p>
+    <p>
+      <font size="4">Hazel</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE="Juglone (Walnut)"/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE="Walnut"/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -12563,7 +16157,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Corylus avellana" STYLE_REF="Species" ID="ID_652788429" CREATED="1430915827374" MODIFIED="1432392823878">
+<node TEXT="Corylus avellana" STYLE_REF="Species" ID="ID_652788429" CREATED="1430915827374" MODIFIED="1433745031389">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE="Nuts"/>
@@ -12584,7 +16178,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE="Walnut"/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE="12m"/>
@@ -12612,7 +16206,7 @@
       EN - Common Hazel
     </p>
     <p>
-      ES -
+      ES - Avellano
     </p>
     <p>
       CA -
@@ -12628,29 +16222,58 @@
 </node>
 </node>
 </node>
-<node TEXT="Casuarinaceae" STYLE_REF="Family" ID="ID_1787373497" CREATED="1429772882639" MODIFIED="1429772889334">
+<node STYLE_REF="Family" ID="ID_1787373497" CREATED="1429772882639" MODIFIED="1433861943736"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Casuarinaceae
+    </p>
+    <p>
+      <font size="4">Beefwood</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Casuarina spp." STYLE_REF="Genus" ID="ID_212484232" CREATED="1429808014420" MODIFIED="1429808021334">
-<node TEXT="Casuarina equisetifolia" STYLE_REF="Species" ID="ID_1385570859" CREATED="1429772831316" MODIFIED="1432567937177">
-<attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
-<attribute NAME="Application" VALUE=""/>
+<node STYLE_REF="Species" ID="ID_1385570859" CREATED="1429772831316" MODIFIED="1433862036827"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Casuarina equisetifolia
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE="Bonsai"/>
+<attribute NAME="Application" VALUE="Fuel -Slow Burning"/>
 <attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Application - Fermentation" VALUE=""/>
 <attribute NAME="Application - Medicinal" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
 <attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Leaf Type" VALUE="Evergreen"/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE="Frost"/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
 <attribute NAME="Conditions - Light" VALUE=""/>
 <attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
-<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE="Moist"/>
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE="35M"/>
@@ -12692,36 +16315,117 @@
 <node TEXT="http://en.wikipedia.org/wiki/Casuarina_equisetifolia" ID="ID_241401979" CREATED="1429772852617" MODIFIED="1429772852617" LINK="http://en.wikipedia.org/wiki/Casuarina_equisetifolia"/>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_596224586" CREATED="1430735850960" MODIFIED="1430735850972"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1130232606" CREATED="1430735850973" MODIFIED="1430735850973"/>
+<node TEXT="http://www.issg.org/database/species/ecology.asp?si=365" ID="ID_950532920" CREATED="1433861992881" MODIFIED="1433861992881" LINK="http://www.issg.org/database/species/ecology.asp?si=365"/>
 </node>
 </node>
 </node>
-<node TEXT="Fagaceae&#xa;Beeches, Oaks" STYLE_REF="Family" ID="ID_1476499011" CREATED="1429774725911" MODIFIED="1429774747216">
-<node TEXT="Castanea spp.&#xa;Chestnuts" STYLE_REF="Genus" ID="ID_61993171" CREATED="1429774769867" MODIFIED="1431515455524">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<node STYLE_REF="Family" ID="ID_1476499011" CREATED="1429774725911" MODIFIED="1433759955420"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Fagaceae
+    </p>
+    <p>
+      <font size="4">Beeches, Oaks</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_61993171" CREATED="1429774769867" MODIFIED="1433759989866"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Castanea spp.
+    </p>
+    <p>
+      <font size="4">Chestnuts</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 </node>
-<node TEXT="Fagus spp.&#xa;Beeches" STYLE_REF="Genus" ID="ID_570558617" CREATED="1429774820364" MODIFIED="1431515453303">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<node STYLE_REF="Genus" ID="ID_570558617" CREATED="1429774820364" MODIFIED="1433759986363"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Fagus spp.
+    </p>
+    <p>
+      <font size="4">Beeches</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 </node>
-<node TEXT="Quercus .spp&#xa;Oaks" STYLE_REF="Genus" ID="ID_219027989" CREATED="1429634198021" MODIFIED="1432474693662">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<node STYLE_REF="Genus" ID="ID_219027989" CREATED="1429634198021" MODIFIED="1434137006657"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Quercus .spp
+    </p>
+    <p>
+      <font size="4">Oaks</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE="Dye Source"/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE="Juglone (Walnut)"/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE="Walnut"/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -12747,7 +16451,19 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Quercus ilex" STYLE_REF="Species" ID="ID_1858837151" CREATED="1393493309237" MODIFIED="1432474232417">
+<node STYLE_REF="Species" ID="ID_1858837151" CREATED="1393493309237" MODIFIED="1434136997171"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Quercus ilex
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Building Material"/>
 <attribute NAME="Application" VALUE="Mushroom Medium"/>
@@ -12759,21 +16475,24 @@
 <attribute NAME="Application - Medicinal" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Growth Habit" VALUE="Tree"/>
 <attribute NAME="Characteristic - Leaf Type" VALUE="Evergreen"/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE="Juglone (Walnut)"/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
 <attribute NAME="Conditions - Light" VALUE=""/>
 <attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
 <attribute NAME="Conditions - Soil Moisture" VALUE=""/>
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE="Oak - Holly (Quercus ilex)"/>
 <attribute NAME="Data - Guild" VALUE="Walnut"/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE="27m"/>
 <attribute NAME="Dimensions - Height Min" VALUE=""/>
@@ -12978,7 +16697,19 @@
 <node TEXT="http://www.iberianatureforum.com/index.php?topic=3361.0" ID="ID_148447417" CREATED="1431873939866" MODIFIED="1431873939866" LINK="http://www.iberianatureforum.com/index.php?topic=3361.0"/>
 </node>
 </node>
-<node TEXT="Quercus suber" STYLE_REF="Species" ID="ID_27818740" CREATED="1430807555105" MODIFIED="1432369242033">
+<node STYLE_REF="Species" ID="ID_27818740" CREATED="1430807555105" MODIFIED="1434137002202"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Quercus suber
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE=""/>
@@ -12986,20 +16717,23 @@
 <attribute NAME="Application - Medicinal" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE="Juglone (Walnut)"/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
 <attribute NAME="Conditions - Light" VALUE=""/>
 <attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
 <attribute NAME="Conditions - Soil Moisture" VALUE=""/>
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE="Walnut"/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
 <attribute NAME="Dimensions - Height Min" VALUE=""/>
@@ -13040,7 +16774,19 @@
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1292326040" CREATED="1430807576500" MODIFIED="1430807576502"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1272391259" CREATED="1430807576503" MODIFIED="1430807576505"/>
 </node>
-<node TEXT="Quercus coccifera" STYLE_REF="Species" ID="ID_1036587351" CREATED="1432375409430" MODIFIED="1432375588410">
+<node STYLE_REF="Species" ID="ID_1036587351" CREATED="1432375409430" MODIFIED="1434137004024"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Quercus coccifera
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Dye Source"/>
 <attribute NAME="Application - Edible" VALUE=""/>
@@ -13051,6 +16797,7 @@
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Growth Habit" VALUE="Shrub"/>
 <attribute NAME="Characteristic - Leaf Type" VALUE="Evergreen"/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
@@ -13061,7 +16808,9 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE="2m"/>
 <attribute NAME="Dimensions - Height Min" VALUE=""/>
@@ -13109,27 +16858,112 @@
 </node>
 </node>
 </node>
-<node TEXT="Lithocarpus spp.&#xa;Stone Oaks" STYLE_REF="Genus" ID="ID_389541225" CREATED="1429774988194" MODIFIED="1431515459509">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<node STYLE_REF="Genus" ID="ID_389541225" CREATED="1429774988194" MODIFIED="1433759982994"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Lithocarpus spp.
+    </p>
+    <p>
+      <font size="4">Stone Oaks</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 </node>
-<node TEXT="Notholithocarpus spp.&#xa;Tanoaks" STYLE_REF="Genus" ID="ID_1099318895" CREATED="1429775026951" MODIFIED="1431515461218">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<node STYLE_REF="Genus" ID="ID_1099318895" CREATED="1429775026951" MODIFIED="1433759981287"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Notholithocarpus spp.
+    </p>
+    <p>
+      <font size="4">Tanoaks</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 </node>
 </node>
-<node TEXT="Juglandaceae&#xa;Walnuts" STYLE_REF="Family" ID="ID_989825055" CREATED="1429773252192" MODIFIED="1429773279117">
-<node TEXT="Juglans spp.&#xa;Walnut" STYLE_REF="Genus" ID="ID_923981707" CREATED="1429695665265" MODIFIED="1429774853961">
+<node STYLE_REF="Family" ID="ID_989825055" CREATED="1429773252192" MODIFIED="1433759956755"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Juglandaceae
+    </p>
+    <p>
+      <font size="4">Walnuts</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_923981707" CREATED="1429695665265" MODIFIED="1433759965861"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Juglans spp.
+    </p>
+    <p>
+      <font size="4">Walnut</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <node TEXT="Juglans regia" STYLE_REF="Species" ID="ID_1853070006" CREATED="1420549931521" MODIFIED="1432380044730">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Abrasive Powder Source"/>
@@ -13455,17 +17289,51 @@
 </node>
 </node>
 </node>
-<node TEXT="Myricaceae&#xa;Bayberry" STYLE_REF="Family" ID="ID_1866964449" CREATED="1432401113621" MODIFIED="1432401274746">
-<node TEXT="Myrica spp.&#xa;Bayberry, Sweet gale, Wax myrtle" STYLE_REF="Genus" ID="ID_369066569" CREATED="1432401126393" MODIFIED="1432454706911">
-<attribute_layout NAME_WIDTH="209" VALUE_WIDTH="209"/>
+<node STYLE_REF="Family" ID="ID_1866964449" CREATED="1432401113621" MODIFIED="1433759957612"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Myricaceae
+    </p>
+    <p>
+      <font size="4">Bayberry</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_369066569" CREATED="1432401126393" MODIFIED="1433759961613"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Myrica spp.
+    </p>
+    <p>
+      <font size="4">Bayberry, Sweet gale, Wax myrtle</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -13522,7 +17390,22 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Rubiaceae&#xa;Common Madder" STYLE_REF="Family" ID="ID_576907345" CREATED="1432368977323" MODIFIED="1432369027399">
+<node STYLE_REF="Family" ID="ID_576907345" CREATED="1432368977323" MODIFIED="1433759832206"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Rubiaceae
+    </p>
+    <p>
+      <font size="4">Common Madder</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Rubia spp.&#xa;Common Madder" STYLE_REF="Genus" ID="ID_1050542278" CREATED="1432368988693" MODIFIED="1432558747746">
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
@@ -13533,7 +17416,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
@@ -13618,7 +17501,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE="South Africa"/>
 <attribute NAME="Data - Native Regions" VALUE="Southeast Asia"/>
@@ -13682,7 +17565,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -13728,7 +17611,7 @@
 </node>
 </node>
 </node>
-<node STYLE_REF="Order" ID="ID_1373367860" CREATED="1429817929732" MODIFIED="1432650145426"><richcontent TYPE="NODE">
+<node STYLE_REF="Order" ID="ID_1373367860" CREATED="1429817929732" MODIFIED="1434134477288"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -13744,7 +17627,7 @@
   </body>
 </html>
 </richcontent>
-<node STYLE_REF="Family" ID="ID_1832865656" CREATED="1429794313601" MODIFIED="1432375066683" LINK="http://eol.org/pages/4301/overview"><richcontent TYPE="NODE">
+<node STYLE_REF="Family" ID="ID_1832865656" CREATED="1429794313601" MODIFIED="1433759939761"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -13755,18 +17638,54 @@
       Boraginaceae
     </p>
     <p>
-      <font face="sans-serif" color="rgb(37, 37, 37)">F</font>orget-me-not, Borage, Comphrey
+      <font size="4">Forget-me-not, Borage, Comphrey</font>
     </p>
   </body>
 </html>
 </richcontent>
-<node TEXT="Symphytum spp.&#xa;Comphrey" STYLE_REF="Genus" ID="ID_669534104" CREATED="1429794284343" MODIFIED="1430768534114">
-<attribute_layout NAME_WIDTH="193" VALUE_WIDTH="193"/>
+<richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="http://eol.org/pages/4301/overview">http://eol.org/pages/4301/overview</a>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_669534104" CREATED="1429794284343" MODIFIED="1434134484249"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Symphytum spp.
+    </p>
+    <p>
+      <font size="4">Comphrey</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE="Ground Cover"/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE="Dynamic Accumulator"/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE="Walnut"/>
 <attribute NAME="Data - Guild" VALUE="Cherry"/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <node TEXT="Symphytum officinale L." STYLE_REF="Species" ID="ID_1606741686" CREATED="1380001753339" MODIFIED="1432567870869">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Ground Cover"/>
@@ -13788,7 +17707,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE="Cherry"/>
 <attribute NAME="Data - Guild" VALUE="Walnut"/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
@@ -13940,7 +17859,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
@@ -13965,7 +17884,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -14011,18 +17930,51 @@
 </node>
 </node>
 <node TEXT="Calceolariaceae" STYLE_REF="Family" ID="ID_234184522" CREATED="1432389955984" MODIFIED="1432389960432"/>
-<node TEXT="Lamiaceae&#xa;Mint, Lavender, Chia, Rosemary" STYLE_REF="Family" ID="ID_1875196176" CREATED="1429797320867" MODIFIED="1430288077700">
-<node TEXT="Lagochilus spp." STYLE_REF="Genus" ID="ID_1645137094" CREATED="1432389515993" MODIFIED="1432454626598">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<node STYLE_REF="Family" ID="ID_1875196176" CREATED="1429797320867" MODIFIED="1434054567669"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Lamiaceae
+    </p>
+    <p>
+      <font size="4">Mint, Lavender, Chia, Rosemary</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1645137094" CREATED="1432389515993" MODIFIED="1434052783271"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Lagochilus spp.
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE="Central Asia"/>
 <attribute NAME="Data - Native Regions" VALUE="South-Central Asia"/>
 <attribute NAME="Data - Native Regions" VALUE="East Asia"/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -14196,18 +18148,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Nepetoideae&#xa;Chia, Lavender" STYLE_REF="Family(Subfamily)" ID="ID_861610710" CREATED="1432399283943" MODIFIED="1432400283321">
-<node TEXT="Mentheae&#xa;Chia" STYLE_REF="Family(Tribe)" ID="ID_1221369900" CREATED="1432399305061" MODIFIED="1432399332904">
-<node TEXT="Salvia spp.&#xa;Chia, Sage" STYLE_REF="Genus" ID="ID_9466601" CREATED="1429809957453" MODIFIED="1432451562409">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<richcontent TYPE="NOTE">
+<node STYLE_REF="Genus" ID="ID_394122194" CREATED="1434052774758" MODIFIED="1434121907867"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -14215,58 +18156,67 @@
   </head>
   <body>
     <p>
-      Salvia is the largest genus of plants in the mint family, Lamiaceae, with nearly 1000 species of shrubs, herbaceous perennials, and annuals.[3][4][5] Within the Lamiaceae, Salvia is member of the tribe Mentheae within the subfamily Nepetoideae.[3] It is one of several genera commonly referred to as sage.
+      Mentha spp.
     </p>
     <p>
-      <a href="http://en.wikipedia.org/wiki/Salvia">
-</a>    </p>
-    <p>
-      Salvia is a genus of approximately 900 species of herbs or woody shrubs in the Lamiaceae, native to the Old World and the Americas. They are annuals, biennials or perennials. The plants have oil glands that release volatile oils, giving them a strong aroma that varies among the species. Because of these oils, the plants are used in cooking, as companion plants to repel insects, and medicinally.
-    </p>
-    <p>
-      <a href="http://en.wikipedia.org/wiki/Salvia">
-</a>    </p>
-    <p>
-      Some salvia are quite drought tolerant
-    </p>
-    <p>
-      Cultural requirements vary somewhat among the species
-    </p>
-    <p>
-      Salvias generally prefer a sunny position and well drained soil<a href="http://en.wikipedia.org/wiki/Salvia">
-</a>    </p>
-    <p>
-      <a href="http://en.wikipedia.org/wiki/Salvia">
-</a>    </p>
-    <p>
-      <a href="http://en.wikipedia.org/wiki/Salvia">http://en.wikipedia.org/wiki/Salvia</a>
+      <font size="4">Mint</font>
     </p>
   </body>
 </html>
 </richcontent>
-<node TEXT="Salvia hispanica" STYLE_REF="Species" ID="ID_351040015" CREATED="1395070845429" MODIFIED="1432389775034">
-<attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
-<attribute NAME="Application - Edible" VALUE="Seeds"/>
-<attribute NAME="Application - Edible" VALUE="Sprouts"/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="https://www.botanical.com/botanical/mgmh/m/mints-39.html">https://www.botanical.com/botanical/mgmh/m/mints-39.html</a>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Mentha viridis" STYLE_REF="Species" ID="ID_1529913687" CREATED="1434053103599" MODIFIED="1434053261524">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Application - Fermentation" VALUE=""/>
 <attribute NAME="Application - Medicinal" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE="Forb/herb"/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
 <attribute NAME="Conditions - Light" VALUE=""/>
 <attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
 <attribute NAME="Conditions - Soil Moisture" VALUE=""/>
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
 <attribute NAME="Dimensions - Height Min" VALUE=""/>
@@ -14290,30 +18240,203 @@
   </head>
   <body>
     <p>
-      EN - Chia
+      EN - Spearmint
     </p>
     <p>
       ES -
     </p>
     <p>
-      DE -
+      CA -
     </p>
     <p>
-      CA -
+      DE -
     </p>
   </body>
 </html>
 </richcontent>
-<node TEXT="en.wikipedia.org &gt; Wiki &gt; Salvia hispanica" ID="ID_1578383697" CREATED="1395070878324" MODIFIED="1395070878324" LINK="http://en.wikipedia.org/wiki/Salvia_hispanica"/>
-<node TEXT="Chia plants and seeds are very hardy. This is not surprising considering that they thrive in low-moisture areas like California, Nevada, Utah and Arizona. In fact, the danger for chia plants comes with potential over-watering. This is why it is important to grow any chia shrub away from lawns and other thirsty plants.  Chia seeds are mucilaginous. When they get wet, a slippery, mucus layer begins to form. The seeds then become hard to handle. This can happen in as little as five minutes. For this reason, the seeds must be carefully stored and kept dry.  Planting chia seeds simply requires scattering them over soil and raking lightly. If starting these plants in flats, they do best in light, porous soil. Later they should be transplanted to an area that gets a lot of sun.  Chias are what are know as &#x201c;fire following plants.&#x201d; Ancient cultivators found that if they burned the plant after harvest, next year&apos;s crop was more plentiful. Sprinkle some burned remnants of the shrub over newly planted seed to quicken germination.    Read more: http://www.ehow.com/way_5267500_tips-growing-chia-seeds.html#ixzz2wEe2Xdpc" ID="ID_570526843" CREATED="1395070990521" MODIFIED="1395070992198"/>
-<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_75132849" CREATED="1430757308827" MODIFIED="1430757308828"/>
-<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1399915825" CREATED="1430757308828" MODIFIED="1430757308829"/>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1475437365" CREATED="1434053129543" MODIFIED="1434053129545"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1170853967" CREATED="1434053129545" MODIFIED="1434053129547"/>
+</node>
+<node TEXT="Mentha piperita" STYLE_REF="Species" ID="ID_1536033663" CREATED="1434053103602" MODIFIED="1434053282076">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Peppermint
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1651855492" CREATED="1434053132455" MODIFIED="1434053132456"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1565835624" CREATED="1434053132456" MODIFIED="1434053132457"/>
+</node>
+<node TEXT="Mentha pulegium" STYLE_REF="Species" ID="ID_267486268" CREATED="1434053103603" MODIFIED="1434053291695">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Pennyroyal
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_293138363" CREATED="1434053134384" MODIFIED="1434053134385"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_210653072" CREATED="1434053134385" MODIFIED="1434053134386"/>
 </node>
 </node>
-</node>
-<node TEXT="Lavanduleae&#xa;Lavender" STYLE_REF="Family(Tribe)" ID="ID_1135151287" CREATED="1430290133708" MODIFIED="1430754903003">
+<node STYLE_REF="Family(Subfamily)" ID="ID_861610710" CREATED="1432399283943" MODIFIED="1433963605219"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Nepetoideae
+    </p>
+    <p>
+      <font size="4">Lavender</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Family(Tribe)" ID="ID_1135151287" CREATED="1430290133708" MODIFIED="1433963607955"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Lavanduleae
+    </p>
+    <p>
+      <font size="4">Lavender</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="160" VALUE_WIDTH="160"/>
-<node TEXT="Lavandula spp.&#xa;Lavender" STYLE_REF="Genus" ID="ID_1519515009" CREATED="1429797024211" MODIFIED="1432564812673">
+<node STYLE_REF="Genus" ID="ID_1519515009" CREATED="1429797024211" MODIFIED="1433759324200"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Lavandula spp.
+    </p>
+    <p>
+      <font size="4">Lavender</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Fragrance Source"/>
 <attribute NAME="Application" VALUE="Ornamental"/>
@@ -14321,14 +18444,20 @@
 <attribute NAME="Application - Fermentation" VALUE=""/>
 <attribute NAME="Application - Medicinal" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Growth Habit" VALUE="Forb/herb"/>
 <attribute NAME="Characteristic - Leaf Type" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
 <attribute NAME="Conditions - Light" VALUE=""/>
 <attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
 <attribute NAME="Conditions - Soil Moisture" VALUE=""/>
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
 <attribute NAME="Dimensions - Height Min" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE="Annual"/>
@@ -14685,28 +18814,43 @@
 </richcontent>
 <node TEXT="Lavandula" STYLE_REF="Genus(Subgenus)" ID="ID_417306506" CREATED="1429797385856" MODIFIED="1429797393959"/>
 <node TEXT="Fabricia" STYLE_REF="Genus(Subgenus)" ID="ID_1992776325" CREATED="1429797406142" MODIFIED="1429797414677">
-<node TEXT="Lavendula pedunculata" STYLE_REF="Species" ID="ID_701186160" CREATED="1429797217247" MODIFIED="1431515246590">
-<attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
+<node STYLE_REF="Species" ID="ID_701186160" CREATED="1429797217247" MODIFIED="1434090534889"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Lavendula pedunculata
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Application - Fermentation" VALUE=""/>
 <attribute NAME="Application - Medicinal" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
 <attribute NAME="Conditions - Light" VALUE=""/>
 <attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
 <attribute NAME="Conditions - Soil Moisture" VALUE=""/>
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
 <attribute NAME="Dimensions - Height Min" VALUE=""/>
@@ -14730,7 +18874,7 @@
   </head>
   <body>
     <p>
-      EN -
+      EN - Lavender
     </p>
     <p>
       ES -
@@ -14748,7 +18892,7 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1524277949" CREATED="1430755059332" MODIFIED="1430755059333"/>
 <node TEXT="Spain and Portugal" ID="ID_1775574160" CREATED="1431514057264" MODIFIED="1431514059699"/>
 </node>
-<node STYLE_REF="Species" ID="ID_1998645317" CREATED="1430290291409" MODIFIED="1431515246743"><richcontent TYPE="NODE">
+<node STYLE_REF="Species" ID="ID_1998645317" CREATED="1430290291409" MODIFIED="1434090540366"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -14756,32 +18900,35 @@
   </head>
   <body>
     <p>
-      Lavandula multifida<br/>
+      Lavandula multifida
     </p>
   </body>
 </html>
 </richcontent>
-<attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Application - Fermentation" VALUE=""/>
 <attribute NAME="Application - Medicinal" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
 <attribute NAME="Conditions - Light" VALUE=""/>
 <attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
 <attribute NAME="Conditions - Soil Moisture" VALUE=""/>
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
 <attribute NAME="Dimensions - Height Min" VALUE=""/>
@@ -14805,7 +18952,7 @@
   </head>
   <body>
     <p>
-      EN -
+      EN - Lavender
     </p>
     <p>
       ES -
@@ -14828,18 +18975,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Viticoideae Briquet" STYLE_REF="Family(Subfamily)" ID="ID_1277853493" CREATED="1432400299519" MODIFIED="1432400309757">
-<node TEXT="Vitex spp.&#xa;Chastetree" STYLE_REF="Genus" ID="ID_437887698" CREATED="1432400337190" MODIFIED="1432451646086">
-<attribute_layout NAME_WIDTH="209" VALUE_WIDTH="209"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<richcontent TYPE="NOTE">
+<node STYLE_REF="Genus" ID="ID_1844801826" CREATED="1434132466234" MODIFIED="1434132550454"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -14847,46 +18983,246 @@
   </head>
   <body>
     <p>
-      a genus of flowering plants in the family Lamiaceae.[4] It has about 250 species
+      Ocimum spp.
     </p>
     <p>
-      <a href="http://en.wikipedia.org/wiki/Vitex">
-</a>    </p>
-    <p>
-      Vitex is a genus of approximately 24 species of shrubs and small trees formerly in the Verbenaceae, but now transferred to the Lamiaceae. They are cultivated as ornamentals due to their display of flowers in spring, and some provide valuable timber, particularly the African species. Many are used medicinally, and some of the African species produce edible fruits, known as &#8220;chocolate berries&#8221;.
-    </p>
-    <p>
-      <a href="http://en.wikipedia.org/wiki/Vitex">
-</a>    </p>
-    <p>
-      Most plants withstand some drought
-    </p>
-    <p>
-      Vitex species occur from temperate to tropical conditions in a wide range of habitats
-    </p>
-    <p>
-      <a href="http://en.wikipedia.org/wiki/Vitex">
-</a>    </p>
-    <p>
-      <a href="http://en.wikipedia.org/wiki/Vitex">
-</a>    </p>
-    <p>
-      <a href="http://en.wikipedia.org/wiki/Vitex">http://en.wikipedia.org/wiki/Vitex</a>
+      <font size="4">Basil</font>
     </p>
   </body>
 </html>
 </richcontent>
-</node>
-</node>
-<node TEXT="Rosmarinus spp.&#xa;Rosemary" STYLE_REF="Genus" ID="ID_895312317" CREATED="1430288105906" MODIFIED="1432451786832">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<node STYLE_REF="Species" ID="ID_1627623069" CREATED="1434132485293" MODIFIED="1434132533863"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ocimum basilicum
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE="Tomatoe"/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Basil, Thai basil,&#160;&#160;Sweet Basil
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_205324789" CREATED="1434132497248" MODIFIED="1434132497249"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1252739880" CREATED="1434132497250" MODIFIED="1434132497251"/>
+</node>
+</node>
+<node STYLE_REF="Genus" ID="ID_1396131643" CREATED="1433963931981" MODIFIED="1434132554089"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Origanum spp.
+    </p>
+    <p>
+      <font size="4">Oregano</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<node STYLE_REF="Species" ID="ID_1216438955" CREATED="1433963942420" MODIFIED="1433998081048"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Origanum vulgare
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE="Leaves/Needles"/>
+<attribute NAME="Application - Edible" VALUE="Oil"/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE="Forb/herb"/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild Element" VALUE="Pest_Repellant"/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE="80cm"/>
+<attribute NAME="Dimensions - Height Min" VALUE="20cm"/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE="Perennial"/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Oregano
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_459446140" CREATED="1433963947436" MODIFIED="1433963947437"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1911139929" CREATED="1433963947487" MODIFIED="1433963947488"/>
+<node TEXT="http://en.wikipedia.org/wiki/Oregano" ID="ID_1524092571" CREATED="1433998143835" MODIFIED="1433998143835" LINK="http://en.wikipedia.org/wiki/Oregano"/>
+</node>
+</node>
+<node STYLE_REF="Genus" ID="ID_895312317" CREATED="1430288105906" MODIFIED="1433759214106"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Rosmarinus spp.
+    </p>
+    <p>
+      <font size="4">Rosemary</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -14925,7 +19261,19 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Rosmarinus officinalis" STYLE_REF="Species" ID="ID_1188585340" CREATED="1430288116721" MODIFIED="1432389731384">
+<node STYLE_REF="Species" ID="ID_1188585340" CREATED="1430288116721" MODIFIED="1434139255641"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Rosmarinus officinalis
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Bee Fodder"/>
 <attribute NAME="Application" VALUE="Herb/Spice/Condiment"/>
@@ -14937,6 +19285,7 @@
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Leaf Type" VALUE="Evergreen"/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE="Drought"/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
@@ -14947,7 +19296,10 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild" VALUE="Almond"/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
 <attribute NAME="Dimensions - Height Min" VALUE=""/>
@@ -15054,37 +19406,72 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1159499889" CREATED="1430291301628" MODIFIED="1430291301630"/>
 </node>
 </node>
-<node TEXT="Salvia spp.&#xa;Sage" STYLE_REF="Genus" ID="ID_432328548" CREATED="1429814115938" MODIFIED="1432389763095">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<node STYLE_REF="Genus" ID="ID_432328548" CREATED="1429814115938" MODIFIED="1434102706363"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Salvia spp.
+    </p>
+    <p>
+      <font size="4">Sage, Chia</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
-<node TEXT="Salvia officinalis" STYLE_REF="Species" ID="ID_1618280184" CREATED="1383391672382" MODIFIED="1432389753172">
-<attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<node STYLE_REF="Species" ID="ID_1618280184" CREATED="1383391672382" MODIFIED="1433963795923"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Salvia officinalis
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE="Leaves/Needles"/>
 <attribute NAME="Application - Fermentation" VALUE=""/>
 <attribute NAME="Application - Medicinal" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Growth Habit" VALUE="Forb/herb"/>
 <attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
 <attribute NAME="Conditions - Light" VALUE=""/>
 <attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
 <attribute NAME="Conditions - Soil Moisture" VALUE=""/>
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild Element" VALUE="Pest_Repellant"/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
 <attribute NAME="Dimensions - Height Min" VALUE=""/>
@@ -15126,18 +19513,215 @@
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1059947592" CREATED="1430757308833" MODIFIED="1430757308834"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_450674458" CREATED="1430757308835" MODIFIED="1430757308835"/>
 </node>
+<node TEXT="Salvia hispanica" STYLE_REF="Species" ID="ID_351040015" CREATED="1395070845429" MODIFIED="1433962837500">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE="Seeds"/>
+<attribute NAME="Application - Edible" VALUE="Sprouts"/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE="Forb/herb"/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild Element" VALUE="Mulch_Producer"/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Chia
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      DE -
+    </p>
+    <p>
+      CA -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="en.wikipedia.org &gt; Wiki &gt; Salvia hispanica" ID="ID_1578383697" CREATED="1395070878324" MODIFIED="1395070878324" LINK="http://en.wikipedia.org/wiki/Salvia_hispanica"/>
+<node TEXT="Chia plants and seeds are very hardy. This is not surprising considering that they thrive in low-moisture areas like California, Nevada, Utah and Arizona. In fact, the danger for chia plants comes with potential over-watering. This is why it is important to grow any chia shrub away from lawns and other thirsty plants.  Chia seeds are mucilaginous. When they get wet, a slippery, mucus layer begins to form. The seeds then become hard to handle. This can happen in as little as five minutes. For this reason, the seeds must be carefully stored and kept dry.  Planting chia seeds simply requires scattering them over soil and raking lightly. If starting these plants in flats, they do best in light, porous soil. Later they should be transplanted to an area that gets a lot of sun.  Chias are what are know as &#x201c;fire following plants.&#x201d; Ancient cultivators found that if they burned the plant after harvest, next year&apos;s crop was more plentiful. Sprinkle some burned remnants of the shrub over newly planted seed to quicken germination.    Read more: http://www.ehow.com/way_5267500_tips-growing-chia-seeds.html#ixzz2wEe2Xdpc" ID="ID_570526843" CREATED="1395070990521" MODIFIED="1395070992198"/>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_75132849" CREATED="1430757308827" MODIFIED="1430757308828"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1399915825" CREATED="1430757308828" MODIFIED="1430757308829"/>
 </node>
-<node TEXT="Stachys spp.&#xa;Chinese Artichoke" STYLE_REF="Genus" ID="ID_1305245054" CREATED="1432555525892" MODIFIED="1432555628784">
+</node>
+<node STYLE_REF="Genus" ID="ID_366722438" CREATED="1434175863257" MODIFIED="1434175872822"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Satureja spp.
+    </p>
+  </body>
+</html>
+
+</richcontent>
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<node STYLE_REF="Species" ID="ID_563611170" CREATED="1434175875883" MODIFIED="1434176079480"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Satureja hortensis
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE="Bee Fodder"/>
+<attribute NAME="Application - Edible" VALUE="Leaves/Needles"/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE="Forb/herb"/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE="Drought"/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE="45cm"/>
+<attribute NAME="Dimensions - Height Min" VALUE="30cm"/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE="20cm"/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE="Annual"/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Summer Savory
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1356544867" CREATED="1434175885515" MODIFIED="1434175885517"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_429270288" CREATED="1434175885543" MODIFIED="1434175885545"/>
+<node TEXT="https://en.wikipedia.org/wiki/Summer_savory" ID="ID_621863262" CREATED="1434175939203" MODIFIED="1434175939203" LINK="https://en.wikipedia.org/wiki/Summer_savory"/>
+<node TEXT="http://www.gardening.cornell.edu/homegardening/scene0e45.html" ID="ID_1648777317" CREATED="1434175949309" MODIFIED="1434175949309" LINK="http://www.gardening.cornell.edu/homegardening/scene0e45.html"/>
+</node>
+</node>
+<node STYLE_REF="Genus" ID="ID_1305245054" CREATED="1432555525892" MODIFIED="1433759585107"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Stachys spp.
+    </p>
+    <p>
+      <font size="4">Chinese Artichoke</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <node TEXT="Stachys affinis" STYLE_REF="Species" ID="ID_1003518647" CREATED="1432555544243" MODIFIED="1432555681215">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
@@ -15159,7 +19743,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE="China"/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -15205,15 +19789,35 @@
 <node TEXT="Plants like a rich well drained soil in full sun to partial shade&#xa;Tubers are best harvested after the foliage dies back with the first frost" ID="ID_512455877" CREATED="1432555723274" MODIFIED="1432555724421"/>
 </node>
 </node>
-<node TEXT="Thymus spp.&#xa;Thyme" STYLE_REF="Genus" ID="ID_605789799" CREATED="1430756521956" MODIFIED="1432451834029">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<node STYLE_REF="Genus" ID="ID_605789799" CREATED="1430756521956" MODIFIED="1433759588011"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Thymus spp.
+    </p>
+    <p>
+      <font size="4">Thyme</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE="Rose"/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -15227,28 +19831,43 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Thymus vulgaris" STYLE_REF="Species" ID="ID_305279340" CREATED="1430813339641" MODIFIED="1432389794567">
-<attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
+<node STYLE_REF="Species" ID="ID_305279340" CREATED="1430813339641" MODIFIED="1434053646790"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Thymus vulgaris
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Application - Fermentation" VALUE=""/>
 <attribute NAME="Application - Medicinal" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
 <attribute NAME="Conditions - Light" VALUE=""/>
 <attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
 <attribute NAME="Conditions - Soil Moisture" VALUE=""/>
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE="30cm"/>
 <attribute NAME="Dimensions - Height Min" VALUE="15cm"/>
@@ -15272,13 +19891,16 @@
   </head>
   <body>
     <p>
-      EN - Common Thyme, German Thyme, Garden Thyme
+      EN - Common Thyme, German Thyme, Garden Thyme, Thymus
     </p>
     <p>
       ES -
     </p>
     <p>
       DE - Thymian
+    </p>
+    <p>
+      CA -
     </p>
   </body>
 </html>
@@ -15288,18 +19910,121 @@
 <node TEXT="http://en.wikipedia.org/wiki/Thymus_vulgaris" ID="ID_1454131034" CREATED="1430813482620" MODIFIED="1430813482620" LINK="http://en.wikipedia.org/wiki/Thymus_vulgaris"/>
 </node>
 </node>
-</node>
-<node TEXT="Oleaceae&#xa;Olive, Jasmine" STYLE_REF="Family" ID="ID_497961243" CREATED="1429774320119" MODIFIED="1429774560885">
-<node TEXT="Jasminum spp.&#xa;Jasmine" STYLE_REF="Genus" ID="ID_329302053" CREATED="1429809256342" MODIFIED="1432391101433">
-<attribute_layout NAME_WIDTH="209" VALUE_WIDTH="209"/>
+<node TEXT="Viticoideae Briquet" STYLE_REF="Family(Subfamily)" ID="ID_1277853493" CREATED="1432400299519" MODIFIED="1434131221737">
+<node STYLE_REF="Genus" ID="ID_437887698" CREATED="1432400337190" MODIFIED="1433759269444"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Vitex spp.
+    </p>
+    <p>
+      <font size="4">Chastetree</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      a genus of flowering plants in the family Lamiaceae.[4] It has about 250 species
+    </p>
+    <p>
+      <a href="http://en.wikipedia.org/wiki/Vitex">
+</a>    </p>
+    <p>
+      Vitex is a genus of approximately 24 species of shrubs and small trees formerly in the Verbenaceae, but now transferred to the Lamiaceae. They are cultivated as ornamentals due to their display of flowers in spring, and some provide valuable timber, particularly the African species. Many are used medicinally, and some of the African species produce edible fruits, known as &#8220;chocolate berries&#8221;.
+    </p>
+    <p>
+      <a href="http://en.wikipedia.org/wiki/Vitex">
+</a>    </p>
+    <p>
+      Most plants withstand some drought
+    </p>
+    <p>
+      Vitex species occur from temperate to tropical conditions in a wide range of habitats
+    </p>
+    <p>
+      <a href="http://en.wikipedia.org/wiki/Vitex">
+</a>    </p>
+    <p>
+      <a href="http://en.wikipedia.org/wiki/Vitex">
+</a>    </p>
+    <p>
+      <a href="http://en.wikipedia.org/wiki/Vitex">http://en.wikipedia.org/wiki/Vitex</a>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node STYLE_REF="Family" ID="ID_497961243" CREATED="1429774320119" MODIFIED="1433759163253"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Oleaceae
+    </p>
+    <p>
+      <font size="4">Olive, Jasmine</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_329302053" CREATED="1429809256342" MODIFIED="1433759189436"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Jasminum spp.
+    </p>
+    <p>
+      <font size="4">Jasmine</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <node TEXT="Jasminum grandiflorum L." STYLE_REF="Species" ID="ID_199305192" CREATED="1403082953397" MODIFIED="1431515154748">
 <attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
 <attribute NAME="Application" VALUE="Fragrance Source"/>
@@ -15366,16 +20091,35 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_59072385" CREATED="1430757308864" MODIFIED="1430757308865"/>
 </node>
 </node>
-<node TEXT="Forsythia spp.&#xa;Forsythia" STYLE_REF="Genus" ID="ID_1956656072" CREATED="1432391143035" MODIFIED="1432484695256">
-<attribute_layout NAME_WIDTH="209" VALUE_WIDTH="209"/>
+<node STYLE_REF="Genus" ID="ID_1956656072" CREATED="1432391143035" MODIFIED="1433853411616"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Forsythia spp.
+    </p>
+    <p>
+      <font size="4">Forsythia</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE="Juglone (Walnut)"/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -15444,18 +20188,49 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Olea&#xa;Olive" STYLE_REF="Genus" ID="ID_405217598" CREATED="1429774535859" MODIFIED="1432391102715">
-<attribute_layout NAME_WIDTH="209" VALUE_WIDTH="209"/>
+<node STYLE_REF="Genus" ID="ID_405217598" CREATED="1429774535859" MODIFIED="1433853413730"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Olea spp.
+    </p>
+    <p>
+      <font size="4">Olive</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
-<node TEXT="Olea europaea" STYLE_REF="Species" ID="ID_1167677827" CREATED="1382024414068" MODIFIED="1432391115018">
-<attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<node STYLE_REF="Species" ID="ID_1167677827" CREATED="1382024414068" MODIFIED="1433962089547"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Olea europaea
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Craft Wood"/>
 <attribute NAME="Application" VALUE="Building Material"/>
 <attribute NAME="Application - Edible" VALUE="Fruits"/>
@@ -15463,7 +20238,6 @@
 <attribute NAME="Application - Medicinal" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Allelopathy" VALUE="Oleuropein"/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=" "/>
 <attribute NAME="Characteristic - Diseases" VALUE="#ID_1856407949" OBJECT="java.net.URI|#ID_1856407949"/>
 <attribute NAME="Characteristic - Diseases" VALUE="#ID_1580739632" OBJECT="java.net.URI|#ID_1580739632"/>
 <attribute NAME="Characteristic - Diseases" VALUE="#ID_1589386003" OBJECT="java.net.URI|#ID_1589386003"/>
@@ -15473,9 +20247,11 @@
 <attribute NAME="Characteristic - Diseases" VALUE="#ID_251378327" OBJECT="java.net.URI|#ID_251378327"/>
 <attribute NAME="Characteristic - Growth Habit" VALUE="Tree"/>
 <attribute NAME="Characteristic - Leaf Type" VALUE="Evergreen"/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE="Drought"/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=" "/>
 <attribute NAME="Conditions - Light" VALUE="Full Sun"/>
 <attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
 <attribute NAME="Conditions - Soil Moisture" VALUE=""/>
@@ -15484,7 +20260,9 @@
 <attribute NAME="Conditions - Soil Texture" VALUE="Loamy"/>
 <attribute NAME="Conditions - Soil Texture" VALUE="Clay"/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Canopy"/>
 <attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild Element" VALUE="Central_Element"/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
 <attribute NAME="Dimensions - Height Min" VALUE=""/>
@@ -15522,17 +20300,16 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Olive Tree Guild" ID="ID_1146292870" CREATED="1382168276340" MODIFIED="1382168296651">
-<font NAME="SansSerif" SIZE="17" BOLD="true"/>
-</node>
 <node TEXT="wikihow.com &gt; Grow-Olives" ID="ID_1124242169" CREATED="1394950992751" MODIFIED="1394950992751" LINK="http://www.wikihow.com/Grow-Olives"/>
 <node TEXT="mcevoyranch.com &gt; Nursery &gt; Planting a tree" ID="ID_1248096851" CREATED="1394951397888" MODIFIED="1394951397888" LINK="http://www.mcevoyranch.com/nursery/planting_a_tree"/>
 <node TEXT="en.wikipedia.org &gt; Wiki &gt; Olea" ID="ID_1385530924" CREATED="1420659496552" MODIFIED="1420659496552" LINK="http://en.wikipedia.org/wiki/Olea"/>
 <node TEXT="Olea is a genus of approximately 40 species in the Oleaceae, native to warm temperate to subtropical regions of the Old World. The most important species is the olive, Olea europaea. They are slow growing evergreen trees to 40 feet, grown for their edible fruit. Application - Edible fruit is eaten after pickling or pressed for oil. The leaves are eaten in salads, and contain anti-viral flavonoids. PLACEMENTS  We will grow olives in any suitable location.* CULTURAL CONSIDERATIONS  They are subject to some insect pests Olive trees require little care once established The trees are long lived, and extremely drought tolerant Tree should be planted in the warmest micro-climates to succeed at One Community site PLANTING GUIDELINES  Plants should be thoroughly mulched after planting and watered in well. Regular irrigation should continue until signs of new growth appear." ID="ID_1169854489" CREATED="1420659507797" MODIFIED="1420659509613"/>
 <node TEXT="mediterraneangardensociety.org &gt; Olives" ID="ID_672952190" CREATED="1420896416217" MODIFIED="1420896416217" LINK="http://mediterraneangardensociety.org/olives.html"/>
-<node TEXT="https://en.wikipedia.org/wiki/List_of_olive_cultivars" ID="ID_183856007" CREATED="1420999528260" MODIFIED="1420999528260" LINK="https://en.wikipedia.org/wiki/List_of_olive_cultivars"/>
-<node TEXT="Cultivars" ID="ID_1678332114" CREATED="1421000147293" MODIFIED="1429466622409">
-<font NAME="SansSerif" SIZE="16" BOLD="true"/>
+<node TEXT="Olive Tree Guild" ID="ID_1146292870" CREATED="1382168276340" MODIFIED="1433853499810">
+<font NAME="SansSerif" SIZE="15" BOLD="true"/>
+</node>
+<node TEXT="Cultivars" ID="ID_1678332114" CREATED="1421000147293" MODIFIED="1433852119790">
+<font NAME="SansSerif" SIZE="15" BOLD="true"/>
 <node TEXT="Arbequina" ID="ID_397107593" CREATED="1421000163173" MODIFIED="1429466622411">
 <font NAME="SansSerif" SIZE="10" BOLD="true"/>
 <node TEXT="https://en.wikipedia.org/wiki/Arbequina" ID="ID_1566162471" CREATED="1421000240605" MODIFIED="1421000240605" LINK="https://en.wikipedia.org/wiki/Arbequina"/>
@@ -15546,21 +20323,55 @@
 <font NAME="SansSerif" SIZE="10" BOLD="true"/>
 <node TEXT="https://duckduckgo.com/?q=Empeltre+olives&amp;iax=1&amp;ia=images&amp;iai=http%3A%2F%2Fwww.gastroanthropology.com%2F.a%2F6a00e554768e2e8834010536ab5a73970b-800wi" ID="ID_665188499" CREATED="1421000257350" MODIFIED="1421000257350" LINK="https://duckduckgo.com/?q=Empeltre+olives&amp;iax=1&amp;ia=images&amp;iai=http%3A%2F%2Fwww.gastroanthropology.com%2F.a%2F6a00e554768e2e8834010536ab5a73970b-800wi"/>
 </node>
+<node TEXT="https://en.wikipedia.org/wiki/List_of_olive_cultivars" ID="ID_183856007" CREATED="1420999528260" MODIFIED="1420999528260" LINK="https://en.wikipedia.org/wiki/List_of_olive_cultivars"/>
 </node>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_974404776" CREATED="1430309697637" MODIFIED="1430309697639"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1306711796" CREATED="1430309697638" MODIFIED="1430309697638"/>
 </node>
 </node>
-<node TEXT="Syringa spp.&#xa;Lilac" STYLE_REF="Genus" ID="ID_1869491709" CREATED="1431952947327" MODIFIED="1431952968319">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<node STYLE_REF="Genus" ID="ID_1869491709" CREATED="1431952947327" MODIFIED="1433853415585"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Syringa spp.
+    </p>
+    <p>
+      <font size="4">Lilac</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
-<node TEXT="Syringa vulgaris" STYLE_REF="Species" ID="ID_1697795757" CREATED="1431952972422" MODIFIED="1431953291003">
-<attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<node STYLE_REF="Species" ID="ID_1697795757" CREATED="1431952972422" MODIFIED="1433853422660"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Syringa vulgaris
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Ornamental"/>
 <attribute NAME="Application" VALUE="Fragrance Source"/>
 <attribute NAME="Application" VALUE="Bee Fodder"/>
@@ -15569,13 +20380,13 @@
 <attribute NAME="Application - Medicinal" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Growth Habit" VALUE="Shrub"/>
 <attribute NAME="Characteristic - Leaf Type" VALUE="Deciduous"/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
 <attribute NAME="Conditions - Light" VALUE="Full Sun"/>
 <attribute NAME="Conditions - Light" VALUE="Semi-shade"/>
 <attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
@@ -15583,6 +20394,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE="7m"/>
@@ -15627,7 +20439,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Scrophulariaceae&#xa;Figwort" STYLE_REF="Family" ID="ID_1519061835" CREATED="1429792034933" MODIFIED="1429792090583">
+<node STYLE_REF="Family" ID="ID_1519061835" CREATED="1429792034933" MODIFIED="1433759167241"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Scrophulariaceae
+    </p>
+    <p>
+      <font size="4">Figwort</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Verbascum spp." STYLE_REF="Genus" ID="ID_5021959" CREATED="1429792073239" MODIFIED="1429792085352">
 <node TEXT="Verbascum thapsus" STYLE_REF="Species" ID="ID_1297274034" CREATED="1380021046003" MODIFIED="1431693429545">
 <attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
@@ -15707,7 +20534,7 @@
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <richcontent TYPE="NOTE">
@@ -15749,7 +20576,7 @@
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE="South America"/>
 <attribute NAME="Data - Native Regions" VALUE="Central America"/>
@@ -15814,7 +20641,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -15875,9 +20702,54 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Lauraceae&#xa;Avocado" STYLE_REF="Family" ID="ID_245529691" CREATED="1429859462876" MODIFIED="1429859474857">
-<node TEXT="Perseae&#xa;Avocado" STYLE_REF="Family(Tribe)" ID="ID_339962848" CREATED="1429859409763" MODIFIED="1429859426580">
-<node TEXT="Persea spp.&#xa;Avocado" STYLE_REF="Genus" ID="ID_689438653" CREATED="1429859359496" MODIFIED="1429859384476">
+<node STYLE_REF="Family" ID="ID_245529691" CREATED="1429859462876" MODIFIED="1433255900773"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Lauraceae
+    </p>
+    <p>
+      <font size="3">Avocado</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Family(Tribe)" ID="ID_339962848" CREATED="1429859409763" MODIFIED="1433255907765"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Perseae
+    </p>
+    <p>
+      <font size="3">Avocado</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_689438653" CREATED="1429859359496" MODIFIED="1433255913796"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Persea spp.
+    </p>
+    <p>
+      <font size="3">Avocado</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Persea Americana" STYLE_REF="Species" ID="ID_798822507" CREATED="1420550399686" MODIFIED="1432567761281">
 <attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
 <attribute NAME="Application" VALUE=""/>
@@ -15950,119 +20822,6 @@
 </node>
 </node>
 </node>
-<node STYLE_REF="Order" ID="ID_105127487" CREATED="1432556742522" MODIFIED="1432650166312"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Liliales
-    </p>
-    <p>
-      <font size="4">Lilies</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Liliaceae&#xa;Lilies" STYLE_REF="Family" ID="ID_1748431868" CREATED="1432556787843" MODIFIED="1432556863026">
-<node TEXT="Lilioideae&#xa;Lilies" STYLE_REF="Family(Subfamily)" ID="ID_410761488" CREATED="1432556799554" MODIFIED="1432556867532">
-<node TEXT="Lilieae&#xa;Lilies" STYLE_REF="Family(Tribe)" ID="ID_942201311" CREATED="1432556815488" MODIFIED="1432556872013">
-<node TEXT="Lilium spp." STYLE_REF="Genus" ID="ID_27989367" CREATED="1432556831160" MODIFIED="1432557002567">
-<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Schedule - Duration" VALUE=""/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Lilium is a genus of 110 species of bulbous herbaceous perennials in the Liliaceae, native to temperate and subtropical regions of the Old World and North America. They are large herbs from 2 to 6 feet in height, arising from the bulbs. These bulbs are a prized vegetable in parts of Asia, where they are grown on a large scale. They are eaten in summer in China as a health food.&#160;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Good drainage is essential
-    </p>
-    <p>
-      Many lilies prefer neutral to acid soils
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <a href="http://en.wikipedia.org/wiki/Lilium">
-</a>    </p>
-    <p>
-      <a href="http://en.wikipedia.org/wiki/Lilium">http://en.wikipedia.org/wiki/Lilium</a>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node TEXT="Calochortoideae" STYLE_REF="Family(Subfamily)" ID="ID_1069552805" CREATED="1432558153723" MODIFIED="1432558162828">
-<node TEXT="Calochortus spp.&#xa;Mariposa Lilies" STYLE_REF="Genus" ID="ID_311466627" CREATED="1432558176777" MODIFIED="1432558280659">
-<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Schedule - Duration" VALUE=""/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      They are generally carefree
-    </p>
-    <p>
-      The dormant bulbs are planted in fall, and begin growth in the spring
-    </p>
-    <p>
-      <br/>
-      Calochortus is a genus of approximately 70 species of bulbous herbaceous perennials in the Liliaceae, native to western North America to Guatemala. The plants grow to 1 foot from the underground bulb. The bulbs of many species were eaten by Native Americans, and also by Mormon colonizers in Utah in their first years there after a series of crop failures. Calochortus nuttallii is the Utah state flower.&#160;<a href="http://en.wikipedia.org/wiki/Calochortus">
-</a>    </p>
-    <p>
-      <a href="http://en.wikipedia.org/wiki/Calochortus">
-</a>    </p>
-    <p>
-      <a href="http://en.wikipedia.org/wiki/Calochortus">
-</a>    </p>
-    <p>
-      <a href="http://en.wikipedia.org/wiki/Calochortus">http://en.wikipedia.org/wiki/Calochortus</a>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-</node>
 <node STYLE_REF="Order" ID="ID_834572870" CREATED="1429860233420" MODIFIED="1432650173909"><richcontent TYPE="NODE">
 
 <html>
@@ -16079,8 +20838,38 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Annonaceae&#xa;Pawpaw, Papaya, Cherimoya" STYLE_REF="Family" ID="ID_183472660" CREATED="1429860189739" MODIFIED="1429860437828">
-<node TEXT="Asimina spp.&#xa;Pawpaw" STYLE_REF="Genus" ID="ID_1674673658" CREATED="1429859877518" MODIFIED="1429859912128">
+<node STYLE_REF="Family" ID="ID_183472660" CREATED="1429860189739" MODIFIED="1433255837236"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Annonaceae
+    </p>
+    <p>
+      <font size="3">Pawpaw, Papaya, Cherimoya</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1674673658" CREATED="1429859877518" MODIFIED="1433255844428"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Asimina spp.
+    </p>
+    <p>
+      <font size="3">Pawpaw</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Carica papaya" STYLE_REF="Species" ID="ID_1359423090" CREATED="1429859957690" MODIFIED="1432567732494">
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
 <attribute NAME="Application" VALUE=""/>
@@ -16224,7 +21013,22 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_241415218" CREATED="1430757308884" MODIFIED="1430757308884"/>
 </node>
 </node>
-<node TEXT="Annona  spp.&#xa;Cherimoya" STYLE_REF="Genus" ID="ID_156334519" CREATED="1429860373183" MODIFIED="1429860402422">
+<node STYLE_REF="Genus" ID="ID_156334519" CREATED="1429860373183" MODIFIED="1433255851263"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Annona&#160;&#160;spp.
+    </p>
+    <p>
+      <font size="3">Cherimoya</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Annona cherimola" STYLE_REF="Species" ID="ID_1336944163" CREATED="1419062386801" MODIFIED="1432567696811">
 <attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
 <attribute NAME="Application" VALUE=""/>
@@ -16308,8 +21112,38 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Hypericaceae&#xa;St. John&apos;s Wort" STYLE_REF="Family" ID="ID_1604043930" CREATED="1429793764800" MODIFIED="1431076961925">
-<node TEXT="Hypericum spp.&#xa;St John&apos;s Wort" STYLE_REF="Genus" ID="ID_914733943" CREATED="1429793714622" MODIFIED="1431076945719">
+<node STYLE_REF="Family" ID="ID_1604043930" CREATED="1429793764800" MODIFIED="1433255818689"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Hypericaceae
+    </p>
+    <p>
+      <font size="3">St. John's Wort</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_914733943" CREATED="1429793714622" MODIFIED="1433255825489"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Hypericum spp.
+    </p>
+    <p>
+      <font size="3">St John's Wort</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Hyperikum perforatum" STYLE_REF="Species" ID="ID_342924610" CREATED="1424602174533" MODIFIED="1432567675867">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Dye Source"/>
@@ -16331,7 +21165,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -16443,10 +21277,70 @@
 </node>
 </node>
 </node>
-<node TEXT="Euphorbiaceae&#xa;Cassava" STYLE_REF="Family" ID="ID_345655255" CREATED="1431076745236" MODIFIED="1431076904948">
-<node TEXT="Crotonoideae&#xa;Cassava" STYLE_REF="Family(Subfamily)" ID="ID_61296207" CREATED="1431076761705" MODIFIED="1431076897429">
-<node TEXT="Manihoteae&#xa;Cassava" STYLE_REF="Family(Tribe)" ID="ID_4830832" CREATED="1431076788553" MODIFIED="1431076890175">
-<node TEXT="Manihot spp." STYLE_REF="Genus" ID="ID_1354972722" CREATED="1431076729352" MODIFIED="1431076867622">
+<node STYLE_REF="Family" ID="ID_345655255" CREATED="1431076745236" MODIFIED="1433255778648"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Euphorbiaceae
+    </p>
+    <p>
+      <font size="3">Cassava</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Family(Subfamily)" ID="ID_61296207" CREATED="1431076761705" MODIFIED="1433255784894"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Crotonoideae
+    </p>
+    <p>
+      <font size="3">Cassava</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Family(Tribe)" ID="ID_4830832" CREATED="1431076788553" MODIFIED="1433255791294"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Manihoteae
+    </p>
+    <p>
+      <font size="3">Cassava</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1354972722" CREATED="1431076729352" MODIFIED="1433255809300"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Manihot spp.
+    </p>
+    <p>
+      <font size="3">Cassava</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
@@ -16519,7 +21413,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Linaceae&#xa;Flax, Linseed" STYLE_REF="Family" ID="ID_1701332963" CREATED="1431954546041" MODIFIED="1431954599070">
+<node STYLE_REF="Family" ID="ID_1701332963" CREATED="1431954546041" MODIFIED="1433255757319"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Linaceae
+    </p>
+    <p>
+      <font size="3">Flax, Linseed</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="41" VALUE_WIDTH="41"/>
 <node TEXT="Linum spp.&#xa;Flax, Linnseed" STYLE_REF="Genus" ID="ID_1510916421" CREATED="1431954614903" MODIFIED="1431954644011">
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
@@ -16604,7 +21513,7 @@
 <attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <richcontent TYPE="NOTE">
@@ -16714,9 +21623,54 @@
 </node>
 </node>
 </node>
-<node TEXT="Sterculiinae&#xa;Maqui" STYLE_REF="Order(Suborder)" ID="ID_782593482" CREATED="1432523754289" MODIFIED="1432524049473">
-<node TEXT="Elaeocarpaceae&#xa;Maqui" STYLE_REF="Family" ID="ID_1806638050" CREATED="1432523940063" MODIFIED="1432524041801">
-<node TEXT="Aristotelia spp.&#xa;Maqui" STYLE_REF="Genus" ID="ID_1980196936" CREATED="1432523964357" MODIFIED="1432524379347">
+<node STYLE_REF="Order(Suborder)" ID="ID_782593482" CREATED="1432523754289" MODIFIED="1433255736803"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Sterculiinae
+    </p>
+    <p>
+      <font size="3">Maqui</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Family" ID="ID_1806638050" CREATED="1432523940063" MODIFIED="1433103846959"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Elaeocarpaceae
+    </p>
+    <p>
+      <font size="3">Maqui</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1980196936" CREATED="1432523964357" MODIFIED="1433103858839"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Aristotelia spp.
+    </p>
+    <p>
+      <font size="3">Maqui</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
@@ -16724,7 +21678,7 @@
 <attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <richcontent TYPE="NOTE">
@@ -16776,7 +21730,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -16823,8 +21777,119 @@
 </node>
 </node>
 </node>
+<node STYLE_REF="Family" ID="ID_1854854812" CREATED="1433157005222" MODIFIED="1433157109222"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Malvaceae
+    </p>
+    <p>
+      <font size="3">Okra</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1839076093" CREATED="1433157019445" MODIFIED="1433157891384"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Abelmoschus spp
+    </p>
+    <p>
+      <font size="3">Okra</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<node TEXT="Abelmoschus esculentus" STYLE_REF="Species" ID="ID_841247036" CREATED="1433157122539" MODIFIED="1433157154557">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Okra, Gumbo
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_64416595" CREATED="1433157142286" MODIFIED="1433157142287"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1697947753" CREATED="1433157142288" MODIFIED="1433157142289"/>
+<node TEXT="http://www.envfor.nic.in/divisions/csurv/geac/Biology_of_Okra[1].pdf" ID="ID_828978181" CREATED="1433157165400" MODIFIED="1433157165400"/>
 </node>
-<node STYLE_REF="Order" ID="ID_967055811" CREATED="1429855914700" MODIFIED="1432650209024"><richcontent TYPE="NODE">
+</node>
+</node>
+</node>
+<node STYLE_REF="Order" ID="ID_967055811" CREATED="1429855914700" MODIFIED="1433792005562"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -16835,12 +21900,27 @@
       Myrtales
     </p>
     <p>
-      <font size="4">Pomegranite, Eucalyptus</font>
+      <font size="4">Pomegranite, Eucalyptus, Guava</font>
     </p>
   </body>
 </html>
 </richcontent>
-<node TEXT="Myrtaceae&#xa;Eucalyptus, Guava" STYLE_REF="Family" ID="ID_1641062565" CREATED="1429855928177" MODIFIED="1432377576974">
+<node STYLE_REF="Family" ID="ID_1641062565" CREATED="1429855928177" MODIFIED="1433792020162"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Myrtaceae
+    </p>
+    <p>
+      <font size="4">Eucalyptus, Guava</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Eucalyptus spp." STYLE_REF="Genus" ID="ID_131562489" CREATED="1429855836380" MODIFIED="1429855841574">
 <node TEXT="Eucalyptus cinerea" STYLE_REF="Species" ID="ID_772081184" CREATED="1425012769689" MODIFIED="1432377617883">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
@@ -16910,7 +21990,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Acca spp.&#xa;Pineapple Guava" STYLE_REF="Genus" ID="ID_1812975437" CREATED="1429981485006" MODIFIED="1432377514317">
+<node STYLE_REF="Genus" ID="ID_1812975437" CREATED="1429981485006" MODIFIED="1433792047076"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Acca spp.
+    </p>
+    <p>
+      <font size="4">Pineapple Guava</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Acca sellowiana&#xa;Feijoa sellowiana" STYLE_REF="Species" ID="ID_308009725" CREATED="1420549870937" MODIFIED="1432377495486">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
@@ -16977,9 +22072,54 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_319570282" CREATED="1429981344969" MODIFIED="1429981344969"/>
 </node>
 </node>
-<node TEXT="Myrtoideae&#xa;Guava" STYLE_REF="Family(Subfamily)" ID="ID_1996625449" CREATED="1429981610942" MODIFIED="1432377569678">
-<node TEXT="Myrteae&#xa;Guava" STYLE_REF="Family(Tribe)" ID="ID_751659531" CREATED="1429981639945" MODIFIED="1432377563923">
-<node TEXT="Psidium guajava&#xa;Guava" STYLE_REF="Genus" ID="ID_358696729" CREATED="1429981559308" MODIFIED="1432377554274">
+<node STYLE_REF="Family(Subfamily)" ID="ID_1996625449" CREATED="1429981610942" MODIFIED="1433792031266"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Myrtoideae
+    </p>
+    <p>
+      <font size="4">Guava</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Family(Tribe)" ID="ID_751659531" CREATED="1429981639945" MODIFIED="1433792033498"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Myrteae
+    </p>
+    <p>
+      <font size="4">Guava</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_358696729" CREATED="1429981559308" MODIFIED="1433792035853"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Psidium guajava
+    </p>
+    <p>
+      <font size="4">Guava</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Psidium guajava" STYLE_REF="Species" ID="ID_337990503" CREATED="1420550841245" MODIFIED="1432377547632">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
@@ -17046,7 +22186,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Ugni spp.&#xa; Strawberry Myrtle" STYLE_REF="Genus" ID="ID_1119184309" CREATED="1432399817956" MODIFIED="1432454300384">
+<node STYLE_REF="Genus" ID="ID_1119184309" CREATED="1432399817956" MODIFIED="1433792029753"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ugni spp.
+    </p>
+    <p>
+      <font size="4">Strawberry Myrtle</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="209" VALUE_WIDTH="209"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
@@ -17054,7 +22209,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Conditions - Soil Moisture" VALUE="Moist"/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <richcontent TYPE="NOTE">
@@ -17096,9 +22251,51 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Lythraceae&#xa;Pomegranite" STYLE_REF="Family" ID="ID_723805303" CREATED="1429858214941" MODIFIED="1429858228511">
-<node TEXT="Punica spp.&#xa;Pomegranite" STYLE_REF="Genus" ID="ID_1469005987" CREATED="1429858138788" MODIFIED="1432378800119">
-<node TEXT="Punica granatum" STYLE_REF="Species" ID="ID_1607217075" CREATED="1420550796885" MODIFIED="1432378636906">
+<node STYLE_REF="Family" ID="ID_723805303" CREATED="1429858214941" MODIFIED="1433792021674"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Lythraceae
+    </p>
+    <p>
+      <font size="4">Pomegranite</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1469005987" CREATED="1429858138788" MODIFIED="1433792024480"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Punica spp.
+    </p>
+    <p>
+      <font size="4">Pomegranite</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Species" ID="ID_1607217075" CREATED="1420550796885" MODIFIED="1434044399895"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Punica granatum
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Ornamental"/>
 <attribute NAME="Application" VALUE="Dye Source"/>
@@ -17111,6 +22308,7 @@
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Growth Habit" VALUE="Tree"/>
 <attribute NAME="Characteristic - Leaf Type" VALUE="Deciduous"/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
@@ -17121,7 +22319,9 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Canopy"/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
 <attribute NAME="Dimensions - Height Min" VALUE=""/>
@@ -17176,1079 +22376,16 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_356743362" CREATED="1430034150890" MODIFIED="1430034150893"/>
 <node TEXT="http://homeguides.sfgate.com/companion-plants-pomegranates-39139.html" ID="ID_1343480460" CREATED="1430034164670" MODIFIED="1430034164670" LINK="http://homeguides.sfgate.com/companion-plants-pomegranates-39139.html"/>
 <node TEXT="Herbs&#xa;The pomegranate requires bees for pollination; without proper pollination, your tree will not produce fruit. A variety of herbs can attract bees, including dill, cilantro, parsley and mint. Basil, thyme and summer savory also attract bees. It can be especially helpful to allow herbs to flower, because introducing a spectrum of color into your garden keeps bees returning to the area.&#xa;Flowers&#xa;Planting a bed of lavender flowers near a pomegranate tree attracts bees, as will beds with cosmos, coreopsis, zinnias and sunflowers. Many flowers help repel insects harmful to pomegranates as well. Aphids can inflict damage this fruit tree, resulting in rotten spots on fruit, blossom drop and ideal conditions for sooty mold infestation. Choose flowers that repel aphids, such as nasturtiums. You may also opt for flowers that attract beneficial insects that eat aphids, such as ladybugs and lacewings. These insects are especially attracted to daisies and Queen Anne&apos;s lace. Flowers may also be used to bring out the color of pomegranates -- purple passion vine flowers contrast, and jasmine&apos;s white flowers offset the pomegranate&apos;s orange-red flowers.&#xa;Vegetables&#xa;There are several vegetables you can plant near a pomegranate tree that make good companions and help you maintain a truly edible garden. Fennel and leaf celery draw ladybugs and lacewings, both of which will eat the aphids that might damage your pomegranate tree.&#xa;Fruit&#xa;Melons and berries attract bees, another insect beneficial for the pomegranate. Planting a fruit garden near your tree helps ensure proper pollination. Opt for a variegated Calamondin orange as a companion plant to the pomegranate for a visually stunning and edible fruit orchard. The orange blossoms also help to attract bees." ID="ID_474572069" CREATED="1430034189117" MODIFIED="1430034196741"/>
-<node TEXT=" Ink can be made by steeping the leaves in vinegar." ID="ID_82856543" CREATED="1432378654911" MODIFIED="1432378657248"/>
+<node TEXT=" Ink can be made by steeping the leaves in vinegar." ID="ID_82856543" CREATED="1432378654911" MODIFIED="1433235484179">
+<font SIZE="12"/>
+</node>
 <node TEXT="Punica granatum var. Nana" STYLE_REF="Variation" ID="ID_847482400" CREATED="1430070552910" MODIFIED="1430070565637"/>
 <node TEXT="Dye Source" ID="ID_1757630328" CREATED="1432378697072" MODIFIED="1432378702709">
 <font BOLD="true"/>
 <node TEXT="Dye Source Color - Black to Brown to Yellow" ID="ID_1050590049" CREATED="1432378703768" MODIFIED="1432378856371"/>
 <node TEXT="http://www.folkfibers.com/blogs/news/7363630-natural-dyes-pomegranates" ID="ID_1367380026" CREATED="1432378718021" MODIFIED="1432378718021" LINK="http://www.folkfibers.com/blogs/news/7363630-natural-dyes-pomegranates"/>
 </node>
-</node>
-</node>
-</node>
-</node>
-<node STYLE_REF="Order" ID="ID_74247" CREATED="1429982525659" MODIFIED="1432650219259"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Pinales
-    </p>
-    <p>
-      <font size="4">Pines</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Pinaceae&#xa;Pines" STYLE_REF="Family" ID="ID_82423258" CREATED="1429982512490" MODIFIED="1429982563451">
-<node TEXT="Pinus&#xa;Pines" STYLE_REF="Genus" ID="ID_1405141452" CREATED="1429982477289" MODIFIED="1432567522672"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <a href="http://tcpermaculture.com/site/2014/08/04/tapping-the-pine-tree-plant-resins-and-their-uses/">http://tcpermaculture.com/site/2014/08/04/tapping-the-pine-tree-plant-resins-and-their-uses/</a>
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Pinus" STYLE_REF="Genus(Subgenus)" ID="ID_1795190581" CREATED="1429982458336" MODIFIED="1429982470872">
-<node TEXT="Pinus pinea" STYLE_REF="Species" ID="ID_1638727924" CREATED="1424851700984" MODIFIED="1432567549696">
-<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Application - Edible" VALUE="Nuts"/>
-<attribute NAME="Application - Fermentation" VALUE=""/>
-<attribute NAME="Application - Medicinal" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE="Tree"/>
-<attribute NAME="Characteristic - Leaf Type" VALUE="Evergreen"/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
-<attribute NAME="Conditions - Light" VALUE=""/>
-<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
-<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
-<attribute NAME="Conditions - Soil PH" VALUE=""/>
-<attribute NAME="Conditions - Soil Texture" VALUE=""/>
-<attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE="Pine - Stone(Pinus pinea)"/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Dimensions - Height Max" VALUE=""/>
-<attribute NAME="Dimensions - Height Min" VALUE=""/>
-<attribute NAME="Dimensions - Root Depth" VALUE=""/>
-<attribute NAME="Dimensions - Spacing" VALUE=""/>
-<attribute NAME="Schedule - Bearing Age" VALUE=""/>
-<attribute NAME="Schedule - Duration" VALUE="Perennial"/>
-<attribute NAME="Schedule - Flower Period" VALUE=""/>
-<attribute NAME="Schedule - Germination Span" VALUE=""/>
-<attribute NAME="Schedule - Harvest Period" VALUE=""/>
-<attribute NAME="Schedule - Lifespan" VALUE=""/>
-<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
-<attribute NAME="Sexuality - Behavior" VALUE=""/>
-<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
-<attribute NAME="Sexuality - Pollination" VALUE=""/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      EN - Stone Pine
-    </p>
-    <p>
-      ES -
-    </p>
-    <p>
-      CA -
-    </p>
-    <p>
-      DE -
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="en.wikipedia.org &gt; Wiki &gt; Stone pine" ID="ID_1240726456" CREATED="1424851972231" MODIFIED="1424851972231" LINK="http://en.wikipedia.org/wiki/Stone_pine"/>
-<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1022710825" CREATED="1429981701536" MODIFIED="1429981701538"/>
-<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1576650423" CREATED="1429981701537" MODIFIED="1429981701538"/>
-<node TEXT="Stone pine Pinus pinea, like maritime pine, is another largely coastal tree, and has its distribution centered on the Iberian Peninsula. It also occurs in the lower montane zones where there is slightly more precipitation. Forests of Pinus pinea tends to grow on richer soils and usually have well-developed shrub and field layers. Among the more typical shrubs is Clematis flammula, Cistus albidus, Cistus salvifolius, Daphne gnidium, Hedera helix, Pyracantha coccinea, Rubia peregrina and Ulex europaeus, while the field layer commonly includes Lathyrus clymenum, Linum perenne and the orchids Cephalanthera longifolia and Neotinea intacta. Extensive stone pine forests occur, for example, in the Algarve, which has the distinction of being the most southwesterly region of Europe. Here the scrub layer also includes the elegant white flowered broom Lygos monosperma, together withseveral endemic species such as Anchusa calcarea (Boraginaceae), Cistus libanotis and Tuberaria major (Cistaceae)." ID="ID_739850821" CREATED="1430807766232" MODIFIED="1430807782145"/>
-<node TEXT="Typical shrubs in the Stone Pine Forest" ID="ID_1927159318" CREATED="1430807826984" MODIFIED="1430807993719">
-<font BOLD="true"/>
-<node ID="ID_1935299751" CREATED="1430807939824" MODIFIED="1430807939824"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Clematis flammula
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_1207242258" CREATED="1430807939825" MODIFIED="1430807939825"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Cistus albidus,
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_1737025479" CREATED="1430807939829" MODIFIED="1430807939829"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Cistus salvifolius,
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_589541922" CREATED="1430807939831" MODIFIED="1430807939831"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Daphne gnidium,
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_931315089" CREATED="1430807939834" MODIFIED="1430807939834"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Hedera helix,
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_1074526512" CREATED="1430807939836" MODIFIED="1430807939836"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Pyracantha coccinea,
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_1240743072" CREATED="1430807939839" MODIFIED="1430807939839"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Rubia peregrina,
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_1017155702" CREATED="1430807939842" MODIFIED="1430807939842"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Ulex europaeus,
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_904044681" CREATED="1430807939845" MODIFIED="1430807939845"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      while the field layer commonly includes Lathyrus clymenum, Linum perenne and the orchids Cephalanthera longifolia and Neotinea intacta
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="Many coniferous trees, because of their preference for acid soils, heavy shade canopy, and the fact that&#xa;dropped pine needles form a heavy, slow to decompose mulch, make it very challenging to grow other&#xa;plants beneath them.&#xa;Daffodil (Narcissus spp.) and lily of the valley (Convallaria majalis) are two spring bulbs that are adapted&#xa;to these conditions and do well there. Another plant is wild geranium (Geranium maculatum), a hardy&#xa;species which has medicinal use as an astringent.&#xa;Sweet cicely (Myrrhis odorata) is a European herb naturalized in North America that has edible anise&#xa;flavored leaves, seeds, and roots with uses both culinary and medicinal. The roots can be used as a&#xa;vegetable or to treat the flu, while its seeds are used as a topping for baked goods.&#xa;Pruning an evergreen tree allows enough light to reach acid soil lovers such as lingonberries (Vaccinium&#xa;vitis-idaea) and blueberries (Vaccinium corymbosum). Blueberries come in sizes of 6 inches high to 6 feet&#xa;tall. Lingonberries are related to cranberries but grow only to 12 inches tall and do not require wet soils." ID="ID_463433405" CREATED="1430810913641" MODIFIED="1430810918452"/>
-</node>
-<node TEXT="Pinus halepensis" STYLE_REF="Species" ID="ID_1942627146" CREATED="1430812170358" MODIFIED="1432567455826">
-<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Application - Edible" VALUE=""/>
-<attribute NAME="Application - Fermentation" VALUE=""/>
-<attribute NAME="Application - Medicinal" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE="Tree"/>
-<attribute NAME="Characteristic - Leaf Type" VALUE="Evergreen"/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
-<attribute NAME="Conditions - Light" VALUE=""/>
-<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
-<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
-<attribute NAME="Conditions - Soil PH" VALUE=""/>
-<attribute NAME="Conditions - Soil Texture" VALUE=""/>
-<attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE="Pine - Allepo (Pinus halepensis)"/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Dimensions - Height Max" VALUE=""/>
-<attribute NAME="Dimensions - Height Min" VALUE=""/>
-<attribute NAME="Dimensions - Root Depth" VALUE=""/>
-<attribute NAME="Dimensions - Spacing" VALUE=""/>
-<attribute NAME="Schedule - Bearing Age" VALUE=""/>
-<attribute NAME="Schedule - Duration" VALUE=""/>
-<attribute NAME="Schedule - Flower Period" VALUE=""/>
-<attribute NAME="Schedule - Germination Span" VALUE=""/>
-<attribute NAME="Schedule - Harvest Period" VALUE=""/>
-<attribute NAME="Schedule - Lifespan" VALUE=""/>
-<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
-<attribute NAME="Sexuality - Behavior" VALUE=""/>
-<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
-<attribute NAME="Sexuality - Pollination" VALUE=""/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      EN - Aleppo pine
-    </p>
-    <p>
-      ES -
-    </p>
-    <p>
-      CA -
-    </p>
-    <p>
-      DE -
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1303375031" CREATED="1430812174476" MODIFIED="1430812174478"/>
-<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_671822333" CREATED="1430812174478" MODIFIED="1430812174479"/>
-<node TEXT="http://en.wikipedia.org/wiki/Pinus_halepensis" ID="ID_1095006438" CREATED="1430813071986" MODIFIED="1430813071986" LINK="http://en.wikipedia.org/wiki/Pinus_halepensis"/>
-<node TEXT="The resin of the Aleppo pine is used to flavor the Greek wine retsina.&#xa;&#xa;From the pine nuts of the Aleppo pine is made a pudding called asidet zgougou in the Tunisian dialect; it is served in bowls, covered with cream, and topped with almonds and small candies." ID="ID_360945754" CREATED="1430813150524" MODIFIED="1430813153880"/>
-</node>
-<node TEXT="Pinus nigra" STYLE_REF="Species" ID="ID_430396282" CREATED="1430811557568" MODIFIED="1432567469099">
-<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Application - Edible" VALUE=""/>
-<attribute NAME="Application - Fermentation" VALUE=""/>
-<attribute NAME="Application - Medicinal" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE="Tree"/>
-<attribute NAME="Characteristic - Leaf Type" VALUE="Evergreen"/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
-<attribute NAME="Conditions - Light" VALUE=""/>
-<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
-<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
-<attribute NAME="Conditions - Soil PH" VALUE=""/>
-<attribute NAME="Conditions - Soil Texture" VALUE=""/>
-<attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Dimensions - Height Max" VALUE=""/>
-<attribute NAME="Dimensions - Height Min" VALUE=""/>
-<attribute NAME="Dimensions - Root Depth" VALUE=""/>
-<attribute NAME="Dimensions - Spacing" VALUE=""/>
-<attribute NAME="Schedule - Bearing Age" VALUE=""/>
-<attribute NAME="Schedule - Duration" VALUE=""/>
-<attribute NAME="Schedule - Flower Period" VALUE=""/>
-<attribute NAME="Schedule - Germination Span" VALUE=""/>
-<attribute NAME="Schedule - Harvest Period" VALUE=""/>
-<attribute NAME="Schedule - Lifespan" VALUE=""/>
-<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
-<attribute NAME="Sexuality - Behavior" VALUE=""/>
-<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
-<attribute NAME="Sexuality - Pollination" VALUE=""/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      EN - Black Pine
-    </p>
-    <p>
-      ES -
-    </p>
-    <p>
-      CA -
-    </p>
-    <p>
-      DE -
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1057256639" CREATED="1430811563853" MODIFIED="1430811563854"/>
-<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1071343502" CREATED="1430811563855" MODIFIED="1430811563856"/>
-</node>
-<node TEXT="Pinus sylvestris" STYLE_REF="Species" ID="ID_1349449204" CREATED="1430812033291" MODIFIED="1432567483501">
-<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Application - Edible" VALUE=""/>
-<attribute NAME="Application - Fermentation" VALUE=""/>
-<attribute NAME="Application - Medicinal" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE="Tree"/>
-<attribute NAME="Characteristic - Leaf Type" VALUE="Evergreen"/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
-<attribute NAME="Conditions - Light" VALUE=""/>
-<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
-<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
-<attribute NAME="Conditions - Soil PH" VALUE=""/>
-<attribute NAME="Conditions - Soil Texture" VALUE=""/>
-<attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Dimensions - Height Max" VALUE=""/>
-<attribute NAME="Dimensions - Height Min" VALUE=""/>
-<attribute NAME="Dimensions - Root Depth" VALUE=""/>
-<attribute NAME="Dimensions - Spacing" VALUE=""/>
-<attribute NAME="Schedule - Bearing Age" VALUE=""/>
-<attribute NAME="Schedule - Duration" VALUE=""/>
-<attribute NAME="Schedule - Flower Period" VALUE=""/>
-<attribute NAME="Schedule - Germination Span" VALUE=""/>
-<attribute NAME="Schedule - Harvest Period" VALUE=""/>
-<attribute NAME="Schedule - Lifespan" VALUE=""/>
-<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
-<attribute NAME="Sexuality - Behavior" VALUE=""/>
-<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
-<attribute NAME="Sexuality - Pollination" VALUE=""/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      EN - Scots Pines
-    </p>
-    <p>
-      ES -
-    </p>
-    <p>
-      CA -
-    </p>
-    <p>
-      DE -
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_522239854" CREATED="1430812037106" MODIFIED="1430812037107"/>
-<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1871088779" CREATED="1430812037108" MODIFIED="1430812037109"/>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="Araucariaceae" STYLE_REF="Family" ID="ID_495154868" CREATED="1429983752509" MODIFIED="1429983833186">
-<node TEXT="Araucaria spp." STYLE_REF="Genus" ID="ID_1202813060" CREATED="1429983731310" MODIFIED="1429983795378">
-<node TEXT="Araucaria bidwillii" STYLE_REF="Species" ID="ID_1505211826" CREATED="1385533551667" MODIFIED="1432567426867">
-<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Application - Edible" VALUE=""/>
-<attribute NAME="Application - Fermentation" VALUE=""/>
-<attribute NAME="Application - Medicinal" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE="Tree"/>
-<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
-<attribute NAME="Conditions - Light" VALUE=""/>
-<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
-<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
-<attribute NAME="Conditions - Soil PH" VALUE=""/>
-<attribute NAME="Conditions - Soil Texture" VALUE=""/>
-<attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Dimensions - Height Max" VALUE=""/>
-<attribute NAME="Dimensions - Height Min" VALUE=""/>
-<attribute NAME="Dimensions - Root Depth" VALUE=""/>
-<attribute NAME="Dimensions - Spacing" VALUE=""/>
-<attribute NAME="Schedule - Bearing Age" VALUE=""/>
-<attribute NAME="Schedule - Duration" VALUE="Perennial"/>
-<attribute NAME="Schedule - Flower Period" VALUE=""/>
-<attribute NAME="Schedule - Germination Span" VALUE=""/>
-<attribute NAME="Schedule - Harvest Period" VALUE=""/>
-<attribute NAME="Schedule - Lifespan" VALUE=""/>
-<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
-<attribute NAME="Sexuality - Behavior" VALUE=""/>
-<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
-<attribute NAME="Sexuality - Pollination" VALUE=""/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      EN - Bunya-Bunya Pine
-    </p>
-    <p>
-      ES -
-    </p>
-    <p>
-      CA -
-    </p>
-    <p>
-      DE -
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="permaculturenews.org &gt; 2013 &gt; 11 &gt; 27 &gt; The-bunya-bunya-pine-araucaria-bidwillii" ID="ID_1135412636" CREATED="1385533566863" MODIFIED="1385533566863" LINK="http://permaculturenews.org/2013/11/27/the-bunya-bunya-pine-araucaria-bidwillii/"/>
-<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1377404287" CREATED="1429981696600" MODIFIED="1429981696602"/>
-<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_799317619" CREATED="1429981696601" MODIFIED="1429981696601"/>
-<node TEXT="http://en.wikipedia.org/wiki/Araucaria_bidwillii" ID="ID_498427758" CREATED="1429983942430" MODIFIED="1429983942430" LINK="http://en.wikipedia.org/wiki/Araucaria_bidwillii"/>
-</node>
-</node>
-</node>
-<node TEXT="Cupressaceae&#xa;Junipers" STYLE_REF="Family" ID="ID_1264461745" CREATED="1430813657533" MODIFIED="1430813715910">
-<node TEXT="Juniperus spp." STYLE_REF="Genus" ID="ID_1995162860" CREATED="1430813692669" MODIFIED="1432567371413">
-<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Application - Edible" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE="Walnut"/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Schedule - Duration" VALUE=""/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p style="white-space: normal; text-transform: none; margin-right: 0px; color: rgb(37, 37, 37); word-spacing: 0px; font-variant: normal; text-align: start; font-weight: normal; letter-spacing: normal; margin-left: 0px; font-family: sans-serif; font-style: normal; margin-top: 0; margin-bottom: 0; line-height: 22.3999996185303px; font-size: 14px; text-indent: 0px; background-color: rgb(255, 255, 255)" charset="utf-8">
-      As to be expected from the wide range,&#160;Juniperus oxycedrus&#160;is very variable. One recent study[4][6][7]&#160;splits it into three species, though other authorities[1]&#160;do not accept this:
-    </p>
-    <p style="white-space: normal; text-transform: none; margin-right: 0px; color: rgb(37, 37, 37); word-spacing: 0px; font-variant: normal; text-align: start; font-weight: normal; letter-spacing: normal; margin-left: 0px; font-family: sans-serif; font-style: normal; margin-top: 0; margin-bottom: 0; line-height: 22.3999996185303px; font-size: 14px; text-indent: 0px; background-color: rgb(255, 255, 255)" charset="utf-8">
-      
-    </p>
-    <ul style="text-indent: 0px; padding-top: 0px; font-weight: normal; text-transform: none; line-height: 1.5em; color: rgb(37, 37, 37); padding-right: 0px; margin-top: 0; font-variant: normal; letter-spacing: normal; word-spacing: 0px; margin-right: 0px; padding-bottom: 0px; font-style: normal; list-style-image: url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20width%3D%225%22%20height%3D%2213%22%3E%0A%3Ccircle%20cx%3D%222.5%22%20cy%3D%229.5%22%20r%3D%222.5%22%20fill%3D%22%2300528c%22%2F%3E%0A%3C%2Fsvg%3E%0A); background-color: rgb(255, 255, 255); text-align: start; padding-left: 0px; white-space: normal; list-style-type: disc; margin-left: 0; margin-bottom: 0px; font-size: 14px; font-family: sans-serif">
-      <li style="margin-bottom: 0">
-        <i><b>Juniperus oxycedrus</b></i><span class="Apple-converted-space">&#160;</span>L. -<span class="Apple-converted-space">&#160;</span><b>Western prickly juniper</b>. Southwest Europe, in eastern Portugal and<span class="Apple-converted-space">&#160;</span><font color="rgb(11, 0, 128)"><a style="color: rgb(11, 0, 128); background-image: null; background-attachment: scroll; background-repeat: repeat; text-decoration: none; background-position: null" title="Spain" href="http://en.wikipedia.org/wiki/Spain">Spain</a></font><span class="Apple-converted-space">&#160;</span>east to southern<span class="Apple-converted-space">&#160;</span><font color="rgb(11, 0, 128)"><a style="color: rgb(11, 0, 128); background-image: null; background-attachment: scroll; background-repeat: repeat; text-decoration: none; background-position: null" title="France" href="http://en.wikipedia.org/wiki/France">France</a></font>, northwest<span class="Apple-converted-space">&#160;</span><font color="rgb(11, 0, 128)"><a style="color: rgb(11, 0, 128); background-image: null; background-attachment: scroll; background-repeat: repeat; text-decoration: none; background-position: null" title="Italy" href="http://en.wikipedia.org/wiki/Italy">Italy</a></font>,<font color="rgb(11, 0, 128)"><a style="color: rgb(11, 0, 128); background-image: null; background-attachment: scroll; background-repeat: repeat; text-decoration: none; background-position: null" title="Corsica" href="http://en.wikipedia.org/wiki/Corsica">Corsica</a></font>, and<span class="Apple-converted-space">&#160;</span><font color="rgb(11, 0, 128)"><a style="color: rgb(11, 0, 128); background-image: null; background-attachment: scroll; background-repeat: repeat; text-decoration: none; background-position: null" title="Sardinia" href="http://en.wikipedia.org/wiki/Sardinia">Sardinia</a></font>, and northwest Africa from Morocco east to<span class="Apple-converted-space">&#160;</span><font color="rgb(11, 0, 128)"><a style="color: rgb(11, 0, 128); background-image: null; background-attachment: scroll; background-repeat: repeat; text-decoration: none; background-position: null" title="Tunisia" href="http://en.wikipedia.org/wiki/Tunisia">Tunisia</a></font>. Leaves long (10&#8211;20&#160;mm), narrow-based; cones smooth.
-      </li>
-      <li style="margin-bottom: 0">
-        
-      </li>
-    </ul>
-    <ul style="text-indent: 0px; padding-top: 0px; font-weight: normal; text-transform: none; line-height: 1.5em; color: rgb(37, 37, 37); padding-right: 0px; margin-top: 0; font-variant: normal; letter-spacing: normal; word-spacing: 0px; margin-right: 0px; padding-bottom: 0px; font-style: normal; list-style-image: url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20width%3D%225%22%20height%3D%2213%22%3E%0A%3Ccircle%20cx%3D%222.5%22%20cy%3D%229.5%22%20r%3D%222.5%22%20fill%3D%22%2300528c%22%2F%3E%0A%3C%2Fsvg%3E%0A); background-color: rgb(255, 255, 255); text-align: start; padding-left: 0px; white-space: normal; list-style-type: disc; margin-left: 0; margin-bottom: 0px; font-size: 14px; font-family: sans-serif">
-      <li style="margin-bottom: 0">
-        <b><i>Juniperus navicularis</i></b><span class="Apple-converted-space">&#160;</span>Gand. (syn.<span class="Apple-converted-space">&#160;</span><i>J. oxycedrus</i><span class="Apple-converted-space">&#160;</span>subsp.<span class="Apple-converted-space">&#160;</span><i>transtagana</i>) -<span class="Apple-converted-space">&#160;</span><b>Portuguese prickly juniper</b>. Coastal southwest Portugal. Leaves short (5&#8211;12&#160;mm); cones smooth.
-      </li>
-      <li style="margin-bottom: 0">
-        
-      </li>
-    </ul>
-    <ul style="text-indent: 0px; padding-top: 0px; font-weight: normal; text-transform: none; line-height: 1.5em; color: rgb(37, 37, 37); padding-right: 0px; margin-top: 0; font-variant: normal; letter-spacing: normal; word-spacing: 0px; margin-right: 0px; padding-bottom: 0px; font-style: normal; list-style-image: url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20width%3D%225%22%20height%3D%2213%22%3E%0A%3Ccircle%20cx%3D%222.5%22%20cy%3D%229.5%22%20r%3D%222.5%22%20fill%3D%22%2300528c%22%2F%3E%0A%3C%2Fsvg%3E%0A); background-color: rgb(255, 255, 255); text-align: start; padding-left: 0px; white-space: normal; list-style-type: disc; margin-left: 0; margin-bottom: 0px; font-size: 14px; font-family: sans-serif">
-      <li style="margin-bottom: 0">
-        <b><i>Juniperus deltoides</i></b><span class="Apple-converted-space">&#160;</span>R.P.Adams -<span class="Apple-converted-space">&#160;</span><b>Eastern prickly juniper</b>. Central Italy east to Iran and Israel. Leaves long (10&#8211;20&#160;mm), broad-based; cones with raised scale edges.
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Juniperus oxycedrus" STYLE_REF="Species" ID="ID_237481968" CREATED="1430813651021" MODIFIED="1432567405915">
-<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
-<attribute NAME="Application" VALUE="Craft Wood"/>
-<attribute NAME="Application" VALUE="Wind Break"/>
-<attribute NAME="Application - Edible" VALUE=""/>
-<attribute NAME="Application - Fermentation" VALUE=""/>
-<attribute NAME="Application - Medicinal" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
-<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE="Juglone (Walnut)"/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
-<attribute NAME="Conditions - Light" VALUE=""/>
-<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
-<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
-<attribute NAME="Conditions - Soil PH" VALUE=""/>
-<attribute NAME="Conditions - Soil Texture" VALUE=""/>
-<attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Dimensions - Height Max" VALUE=""/>
-<attribute NAME="Dimensions - Height Min" VALUE=""/>
-<attribute NAME="Dimensions - Root Depth" VALUE=""/>
-<attribute NAME="Dimensions - Spacing" VALUE=""/>
-<attribute NAME="Schedule - Bearing Age" VALUE=""/>
-<attribute NAME="Schedule - Duration" VALUE=""/>
-<attribute NAME="Schedule - Flower Period" VALUE=""/>
-<attribute NAME="Schedule - Germination Span" VALUE=""/>
-<attribute NAME="Schedule - Harvest Period" VALUE=""/>
-<attribute NAME="Schedule - Lifespan" VALUE=""/>
-<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
-<attribute NAME="Sexuality - Behavior" VALUE=""/>
-<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
-<attribute NAME="Sexuality - Pollination" VALUE=""/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      EN - Juniper
-    </p>
-    <p>
-      ES - Sabina
-    </p>
-    <p>
-      CA -
-    </p>
-    <p>
-      DE -
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1621307823" CREATED="1430813654934" MODIFIED="1430813654935"/>
-<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1592622031" CREATED="1430813654935" MODIFIED="1430813654936"/>
-</node>
-</node>
-</node>
-</node>
-<node STYLE_REF="Order" ID="ID_740043936" CREATED="1429796523052" MODIFIED="1432650234964"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Poales
-    </p>
-    <p>
-      <font size="4">River Cane, Erdmandeln, Maize</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Cyperaceae&#xa;Erdmandeln" STYLE_REF="Family" ID="ID_1096851596" CREATED="1429796505468" MODIFIED="1429809908168">
-<node TEXT="Cyperus spp.&#xa;Erdmandeln" STYLE_REF="Genus" ID="ID_1489066081" CREATED="1429796443335" MODIFIED="1429809921090">
-<node TEXT="Cyperus esculentus" STYLE_REF="Species" ID="ID_1531160482" CREATED="1403074335390" MODIFIED="1432567186256">
-<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Application - Edible" VALUE="Root"/>
-<attribute NAME="Application - Edible" VALUE="Leaves/Needles"/>
-<attribute NAME="Application - Edible" VALUE="Oil"/>
-<attribute NAME="Application - Fermentation" VALUE=""/>
-<attribute NAME="Application - Medicinal" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE="Forb/herb"/>
-<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
-<attribute NAME="Conditions - Light" VALUE="Full Sun"/>
-<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
-<attribute NAME="Conditions - Soil Moisture" VALUE="Moist"/>
-<attribute NAME="Conditions - Soil PH" VALUE="Acidic"/>
-<attribute NAME="Conditions - Soil PH" VALUE="Neutral"/>
-<attribute NAME="Conditions - Soil PH" VALUE="Alkaline"/>
-<attribute NAME="Conditions - Soil Texture" VALUE="Sandy"/>
-<attribute NAME="Conditions - Soil Texture" VALUE="Loamy"/>
-<attribute NAME="Conditions - Soil Texture" VALUE="Clay"/>
-<attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Dimensions - Height Max" VALUE=""/>
-<attribute NAME="Dimensions - Height Min" VALUE=""/>
-<attribute NAME="Dimensions - Root Depth" VALUE=""/>
-<attribute NAME="Dimensions - Spacing" VALUE=""/>
-<attribute NAME="Schedule - Bearing Age" VALUE=""/>
-<attribute NAME="Schedule - Duration" VALUE=""/>
-<attribute NAME="Schedule - Flower Period" VALUE=""/>
-<attribute NAME="Schedule - Germination Span" VALUE=""/>
-<attribute NAME="Schedule - Harvest Period" VALUE=""/>
-<attribute NAME="Schedule - Lifespan" VALUE=""/>
-<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
-<attribute NAME="Sexuality - Behavior" VALUE=""/>
-<attribute NAME="Sexuality - Flower Tyoe" VALUE="Hermaphrodite"/>
-<attribute NAME="Sexuality - Pollination" VALUE=""/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      EN - Earth Almond
-    </p>
-    <p>
-      ES - Chufas
-    </p>
-    <p>
-      CA -
-    </p>
-    <p>
-      DE - Erdmandeln
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="chufa.com &gt; How-to-grow" ID="ID_813735473" CREATED="1403074366818" MODIFIED="1403074366818" LINK="http://www.chufa.com/how-to-grow.htm"/>
-<node TEXT="en.wikipedia.org &gt; Wiki &gt; Cyperus esculentus" ID="ID_486262963" CREATED="1403074408143" MODIFIED="1403074408143" LINK="http://en.wikipedia.org/wiki/Cyperus_esculentus"/>
-<node TEXT="pfaf.org &gt; User &gt; Plant ? ..." ID="ID_910343476" CREATED="1429194147913" MODIFIED="1429194147913" LINK="http://www.pfaf.org/user/plant.aspx?LatinName=Cyperus+esculentus"/>
-<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1556589676" CREATED="1430757308924" MODIFIED="1430757308925"/>
-<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1374451528" CREATED="1430757308925" MODIFIED="1430757308926"/>
-</node>
-</node>
-</node>
-<node TEXT="Poaceae&#xa;Grass, Maize" STYLE_REF="Family" ID="ID_1748142760" CREATED="1429809824429" MODIFIED="1431074610764">
-<node TEXT="Arundo spp.&#xa;River Cane" STYLE_REF="Genus" ID="ID_1206211933" CREATED="1429809734208" MODIFIED="1429809754148">
-<node TEXT="Arundo Donax" STYLE_REF="Species" ID="ID_962753330" CREATED="1409816782713" MODIFIED="1432567135049">
-<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
-<attribute NAME="Application" VALUE="Building Material"/>
-<attribute NAME="Application" VALUE="Fiber - Weaving"/>
-<attribute NAME="Application - Edible" VALUE=""/>
-<attribute NAME="Application - Fermentation" VALUE=""/>
-<attribute NAME="Application - Medicinal" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE="Graminoid"/>
-<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
-<attribute NAME="Conditions - Light" VALUE=""/>
-<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
-<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
-<attribute NAME="Conditions - Soil PH" VALUE=""/>
-<attribute NAME="Conditions - Soil Texture" VALUE=""/>
-<attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Dimensions - Height Max" VALUE=""/>
-<attribute NAME="Dimensions - Height Min" VALUE=""/>
-<attribute NAME="Dimensions - Root Depth" VALUE=""/>
-<attribute NAME="Dimensions - Spacing" VALUE=""/>
-<attribute NAME="Schedule - Bearing Age" VALUE=""/>
-<attribute NAME="Schedule - Duration" VALUE="Annual"/>
-<attribute NAME="Schedule - Flower Period" VALUE=""/>
-<attribute NAME="Schedule - Germination Span" VALUE=""/>
-<attribute NAME="Schedule - Harvest Period" VALUE=""/>
-<attribute NAME="Schedule - Lifespan" VALUE=""/>
-<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
-<attribute NAME="Sexuality - Behavior" VALUE=""/>
-<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
-<attribute NAME="Sexuality - Pollination" VALUE=""/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      EN - Giant River Cane
-    </p>
-    <p>
-      ES -
-    </p>
-    <p>
-      CA -
-    </p>
-    <p>
-      DE -
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Arundo Donax 2007 (Movie)" ID="ID_1323293325" CREATED="1409816893152" MODIFIED="1429466622792">
-<font NAME="SansSerif" SIZE="10" BOLD="true"/>
-<node TEXT="https://www.youtube.com/watch?v=a_G5hyUefFs" ID="ID_1101500716" CREATED="1409816849696" MODIFIED="1409816849696" LINK="https://www.youtube.com/watch?v=a_G5hyUefFs"/>
-</node>
-<node TEXT="https://www.youtube.com/watch?v=lNeLbkE2ILw" ID="ID_705733788" CREATED="1409817413801" MODIFIED="1409817413801" LINK="https://www.youtube.com/watch?v=lNeLbkE2ILw"/>
-<node TEXT="practicalplants.org &gt; Wiki &gt; Arundo donax" ID="ID_709450759" CREATED="1409818169521" MODIFIED="1409818169521" LINK="http://practicalplants.org/wiki/Arundo_donax"/>
-<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_414336998" CREATED="1430757308930" MODIFIED="1430757308931"/>
-<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_440224643" CREATED="1430757308931" MODIFIED="1430757308932"/>
-</node>
-</node>
-<node TEXT="Triticum spp.&#xa;Wheat" STYLE_REF="Genus" ID="ID_134793178" CREATED="1429810611618" MODIFIED="1429810778879">
-<node TEXT="Triticum turgidum&#xa;Triticum turanicum" STYLE_REF="Species" ID="ID_1841531177" CREATED="1395070865909" MODIFIED="1432567030945">
-<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Application - Edible" VALUE="Seeds"/>
-<attribute NAME="Application - Fermentation" VALUE=""/>
-<attribute NAME="Application - Medicinal" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE="Graminoid"/>
-<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
-<attribute NAME="Conditions - Light" VALUE=""/>
-<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
-<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
-<attribute NAME="Conditions - Soil PH" VALUE=""/>
-<attribute NAME="Conditions - Soil Texture" VALUE=""/>
-<attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Dimensions - Height Max" VALUE=""/>
-<attribute NAME="Dimensions - Height Min" VALUE=""/>
-<attribute NAME="Dimensions - Root Depth" VALUE=""/>
-<attribute NAME="Dimensions - Spacing" VALUE=""/>
-<attribute NAME="Schedule - Bearing Age" VALUE=""/>
-<attribute NAME="Schedule - Duration" VALUE="Annual"/>
-<attribute NAME="Schedule - Flower Period" VALUE=""/>
-<attribute NAME="Schedule - Germination Span" VALUE=""/>
-<attribute NAME="Schedule - Harvest Period" VALUE=""/>
-<attribute NAME="Schedule - Lifespan" VALUE=""/>
-<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
-<attribute NAME="Sexuality - Behavior" VALUE=""/>
-<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
-<attribute NAME="Sexuality - Pollination" VALUE=""/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      EN - Kamut, Khorasan Wheat
-    </p>
-    <p>
-      ES -
-    </p>
-    <p>
-      CA -
-    </p>
-    <p>
-      DE -
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="en.wikipedia.org &gt; Wiki &gt; Khorasan wheat" ID="ID_1361990508" CREATED="1395071105712" MODIFIED="1395071105712" LINK="http://en.wikipedia.org/wiki/Khorasan_wheat"/>
-<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_773698281" CREATED="1430757308936" MODIFIED="1430757308937"/>
-<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1895258553" CREATED="1430757308937" MODIFIED="1430757308938"/>
-</node>
-<node TEXT="Triticum durum&#xa;Triticum turgidum subsp. durum" STYLE_REF="Species" ID="ID_1217888273" CREATED="1429811282888" MODIFIED="1432567052130">
-<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Application - Edible" VALUE=""/>
-<attribute NAME="Application - Fermentation" VALUE=""/>
-<attribute NAME="Application - Medicinal" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
-<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
-<attribute NAME="Conditions - Light" VALUE=""/>
-<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
-<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
-<attribute NAME="Conditions - Soil PH" VALUE=""/>
-<attribute NAME="Conditions - Soil Texture" VALUE=""/>
-<attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Dimensions - Height Max" VALUE=""/>
-<attribute NAME="Dimensions - Height Min" VALUE=""/>
-<attribute NAME="Dimensions - Root Depth" VALUE=""/>
-<attribute NAME="Dimensions - Spacing" VALUE=""/>
-<attribute NAME="Schedule - Bearing Age" VALUE=""/>
-<attribute NAME="Schedule - Duration" VALUE=""/>
-<attribute NAME="Schedule - Flower Period" VALUE=""/>
-<attribute NAME="Schedule - Germination Span" VALUE=""/>
-<attribute NAME="Schedule - Harvest Period" VALUE=""/>
-<attribute NAME="Schedule - Lifespan" VALUE=""/>
-<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
-<attribute NAME="Sexuality - Behavior" VALUE=""/>
-<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
-<attribute NAME="Sexuality - Pollination" VALUE=""/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      EN - Durum wheat
-    </p>
-    <p>
-      ES -
-    </p>
-    <p>
-      CA -
-    </p>
-    <p>
-      DE -
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1459051075" CREATED="1430757308941" MODIFIED="1430757308942"/>
-<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_229153921" CREATED="1430757308943" MODIFIED="1430757308943"/>
-</node>
-</node>
-<node TEXT="Hordeum spp.&#xa;Barley" STYLE_REF="Genus" ID="ID_1438086052" CREATED="1429810917427" MODIFIED="1429810941335">
-<node TEXT="Black Barley&#xa;(?)" STYLE_REF="Species" ID="ID_1134458548" CREATED="1429810967243" MODIFIED="1432567059242">
-<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Application - Edible" VALUE=""/>
-<attribute NAME="Application - Fermentation" VALUE=""/>
-<attribute NAME="Application - Medicinal" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
-<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
-<attribute NAME="Conditions - Light" VALUE=""/>
-<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
-<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
-<attribute NAME="Conditions - Soil PH" VALUE=""/>
-<attribute NAME="Conditions - Soil Texture" VALUE=""/>
-<attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Dimensions - Height Max" VALUE=""/>
-<attribute NAME="Dimensions - Height Min" VALUE=""/>
-<attribute NAME="Dimensions - Root Depth" VALUE=""/>
-<attribute NAME="Dimensions - Spacing" VALUE=""/>
-<attribute NAME="Schedule - Bearing Age" VALUE=""/>
-<attribute NAME="Schedule - Duration" VALUE=""/>
-<attribute NAME="Schedule - Flower Period" VALUE=""/>
-<attribute NAME="Schedule - Germination Span" VALUE=""/>
-<attribute NAME="Schedule - Harvest Period" VALUE=""/>
-<attribute NAME="Schedule - Lifespan" VALUE=""/>
-<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
-<attribute NAME="Sexuality - Behavior" VALUE=""/>
-<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
-<attribute NAME="Sexuality - Pollination" VALUE=""/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      EN -
-    </p>
-    <p>
-      ES -
-    </p>
-    <p>
-      CA -
-    </p>
-    <p>
-      DE -
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Black barley  &#xa;The most nutritious of all barleys. Unlike most grains it has no inedible hull, so when harvested the nutrition-packed hull remains intact. Rich in fibre and minerals. Its eye-catching colour, texture and flavour make it brilliant for salads and pilafs." ID="ID_1558892557" CREATED="1429811023939" MODIFIED="1429811028802"/>
-<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1614991221" CREATED="1430757308947" MODIFIED="1430757308948"/>
-<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_131946331" CREATED="1430757308948" MODIFIED="1430757308949"/>
-</node>
-</node>
-<node TEXT="Panicoideae&#xa;Maize" STYLE_REF="Family(Subfamily)" ID="ID_1250612778" CREATED="1431074669187" MODIFIED="1431074706310">
-<node TEXT="Zea spp.&#xa;Maize" STYLE_REF="Genus" ID="ID_349139570" CREATED="1431074628513" MODIFIED="1431074736392">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<node TEXT="Zea mays subsp. mays" STYLE_REF="Species" ID="ID_1853379141" CREATED="1431074640626" MODIFIED="1432567086419">
-<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
-<attribute NAME="Application" VALUE=""/>
-<attribute NAME="Application - Edible" VALUE=""/>
-<attribute NAME="Application - Fermentation" VALUE=""/>
-<attribute NAME="Application - Medicinal" VALUE=""/>
-<attribute NAME="Characteristic" VALUE=""/>
-<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Characteristic - Diseases" VALUE=""/>
-<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
-<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
-<attribute NAME="Characteristic - Resistance" VALUE=""/>
-<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
-<attribute NAME="Conditions - Light" VALUE=""/>
-<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
-<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
-<attribute NAME="Conditions - Soil PH" VALUE=""/>
-<attribute NAME="Conditions - Soil Texture" VALUE=""/>
-<attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
-<attribute NAME="Data - Native Regions" VALUE=""/>
-<attribute NAME="Dimensions - Height Max" VALUE=""/>
-<attribute NAME="Dimensions - Height Min" VALUE=""/>
-<attribute NAME="Dimensions - Root Depth" VALUE=""/>
-<attribute NAME="Dimensions - Spacing" VALUE=""/>
-<attribute NAME="Schedule - Bearing Age" VALUE=""/>
-<attribute NAME="Schedule - Duration" VALUE=""/>
-<attribute NAME="Schedule - Flower Period" VALUE=""/>
-<attribute NAME="Schedule - Germination Span" VALUE=""/>
-<attribute NAME="Schedule - Harvest Period" VALUE=""/>
-<attribute NAME="Schedule - Lifespan" VALUE=""/>
-<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
-<attribute NAME="Sexuality - Behavior" VALUE=""/>
-<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
-<attribute NAME="Sexuality - Pollination" VALUE=""/>
-<richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      EN - Maize, Corn
-    </p>
-    <p>
-      ES -
-    </p>
-    <p>
-      CA -
-    </p>
-    <p>
-      DE -
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1807091774" CREATED="1431074647007" MODIFIED="1431074647009"/>
-<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_113878358" CREATED="1431074647026" MODIFIED="1431074647028"/>
-<node TEXT="http://en.wikipedia.org/wiki/Maize" ID="ID_1258148256" CREATED="1431074805547" MODIFIED="1431074805547" LINK="http://en.wikipedia.org/wiki/Maize"/>
-<node TEXT="http://www.colostate.edu/Dept/CoopExt/4dmg/VegFruit/corn.htm" ID="ID_809291734" CREATED="1431074812560" MODIFIED="1431074812560" LINK="http://www.colostate.edu/Dept/CoopExt/4dmg/VegFruit/corn.htm"/>
-<node TEXT="Dent corn (Zea mays var. indentata)" STYLE_REF="Variation" ID="ID_781650927" CREATED="1431074933488" MODIFIED="1431074947228">
-<node TEXT="http://en.wikipedia.org/wiki/Dent_corn" ID="ID_66670097" CREATED="1431074955825" MODIFIED="1431074955825" LINK="http://en.wikipedia.org/wiki/Dent_corn"/>
-</node>
-<node TEXT="Popcorn (Zea mays var. everta)" STYLE_REF="Variation" ID="ID_465712179" CREATED="1431075488545" MODIFIED="1431075509304">
-<node TEXT="http://en.wikipedia.org/wiki/Popcorn" ID="ID_1764391538" CREATED="1431075515882" MODIFIED="1431075515882" LINK="http://en.wikipedia.org/wiki/Popcorn"/>
-</node>
-<node TEXT="Flint corn (Zea mays indurata)" STYLE_REF="Variation" ID="ID_290103749" CREATED="1431075553320" MODIFIED="1431075561614">
-<node TEXT="http://en.wikipedia.org/wiki/Flint_corn" ID="ID_1639417781" CREATED="1431075567393" MODIFIED="1431075567393" LINK="http://en.wikipedia.org/wiki/Flint_corn"/>
-</node>
-<node TEXT="Sweet corn (Zea mays convar. saccharata var. rugosa)" STYLE_REF="Variation" ID="ID_504945248" CREATED="1431075643462" MODIFIED="1431075652090">
-<node TEXT="http://en.wikipedia.org/wiki/Sweet_corn" ID="ID_97746142" CREATED="1431075658879" MODIFIED="1431075658879" LINK="http://en.wikipedia.org/wiki/Sweet_corn"/>
-</node>
-<node TEXT="Waxy Corn (Zea mays var. ceratina)" STYLE_REF="Variation" ID="ID_1736039117" CREATED="1431076101373" MODIFIED="1431076127746">
-<node TEXT="http://en.wikipedia.org/wiki/Waxy_corn" ID="ID_913501317" CREATED="1431076134118" MODIFIED="1431076134118" LINK="http://en.wikipedia.org/wiki/Waxy_corn"/>
-</node>
-<node TEXT="Pod corn (Zea mays var. tunicata Larra&#xf1;aga ex A. St. Hil)" STYLE_REF="Variation" ID="ID_635661798" CREATED="1431076244790" MODIFIED="1431076258582">
-<node TEXT="http://en.wikipedia.org/wiki/Pod_corn" ID="ID_1870346607" CREATED="1431076268674" MODIFIED="1431076268674" LINK="http://en.wikipedia.org/wiki/Pod_corn"/>
-</node>
-<node TEXT="Striped maize: Zea mays var. japonica" STYLE_REF="Variation" ID="ID_1319816447" CREATED="1431076289564" MODIFIED="1431076297115"/>
-<node TEXT="Flour corn ( Zea mays var. amylacea)" STYLE_REF="Variation" ID="ID_518210810" CREATED="1431076321684" MODIFIED="1431076334003"/>
-</node>
+<node TEXT="http://homeguides.sfgate.com/kind-soil-pomegranates-40936.html" ID="ID_1176999819" CREATED="1433235474381" MODIFIED="1433235474381" LINK="http://homeguides.sfgate.com/kind-soil-pomegranates-40936.html"/>
 </node>
 </node>
 </node>
@@ -18292,7 +22429,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -18349,7 +22486,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Schedule - Duration" VALUE=""/>
@@ -18375,7 +22512,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE="4M"/>
@@ -18429,7 +22566,7 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE="North Africa"/>
 <attribute NAME="Data - Native Regions" VALUE="Greece"/>
@@ -18502,7 +22639,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE="30cm"/>
@@ -18547,8 +22684,38 @@
 </node>
 </node>
 </node>
-<node TEXT="Papaveraceae&#xa;Poppies" STYLE_REF="Family" ID="ID_970882632" CREATED="1429793589445" MODIFIED="1429793604675">
-<node TEXT="Papaver spp.&#xa;Poppies" STYLE_REF="Genus" ID="ID_791828479" CREATED="1429793550017" MODIFIED="1429793573265">
+<node STYLE_REF="Family" ID="ID_970882632" CREATED="1429793589445" MODIFIED="1433255533844"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Papaveraceae
+    </p>
+    <p>
+      <font size="3">Poppies</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_791828479" CREATED="1429793550017" MODIFIED="1433255541990"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Papaver spp.
+    </p>
+    <p>
+      <font size="3">Poppies</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Papaver somniferum" STYLE_REF="Species" ID="ID_1343813522" CREATED="1429082771902" MODIFIED="1432566943826">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Ornamental"/>
@@ -18570,7 +22737,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE="Neutral"/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -18638,7 +22805,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -18685,7 +22852,7 @@
 </node>
 </node>
 </node>
-<node STYLE_REF="Order" ID="ID_360404784" CREATED="1429794236915" MODIFIED="1432650413963"><richcontent TYPE="NODE">
+<node STYLE_REF="Order" ID="ID_360404784" CREATED="1429794236915" MODIFIED="1433792001859"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -18701,15 +22868,45 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Cannabaceae&#xa;Nettle Tree, Hckberry" STYLE_REF="Family" ID="ID_229451012" CREATED="1430115391196" MODIFIED="1432393230570">
-<node TEXT="Celtis spp.&#xa;Nettle Tree, Hackberry" STYLE_REF="Genus" ID="ID_654045108" CREATED="1430115464454" MODIFIED="1432454158150">
+<node STYLE_REF="Family" ID="ID_229451012" CREATED="1430115391196" MODIFIED="1433255407629"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cannabaceae
+    </p>
+    <p>
+      <font size="3">Nettle Tree, Hckberry</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_654045108" CREATED="1430115464454" MODIFIED="1433255419105"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Celtis spp.
+    </p>
+    <p>
+      <font size="3">Nettle Tree, Hackberry</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="209" VALUE_WIDTH="209"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE="Drought"/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <richcontent TYPE="NOTE">
@@ -18768,7 +22965,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -18814,8 +23011,38 @@
 </node>
 </node>
 </node>
-<node TEXT="Elaeagnaceae&#xa;Sea Buckthorn, Goumi, Buffaloberry" STYLE_REF="Family" ID="ID_445527612" CREATED="1429807947444" MODIFIED="1432399749268">
-<node TEXT="Hippophae spp.&#xa;Sea Buckthorn" STYLE_REF="Genus" ID="ID_1723312989" CREATED="1429807896156" MODIFIED="1432454093237">
+<node STYLE_REF="Family" ID="ID_445527612" CREATED="1429807947444" MODIFIED="1433255402754"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Elaeagnaceae
+    </p>
+    <p>
+      <font size="3">Sea Buckthorn, Goumi, Buffaloberry</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1723312989" CREATED="1429807896156" MODIFIED="1433255435454"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Hippophae spp.
+    </p>
+    <p>
+      <font size="3">Sea Buckthorn</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
@@ -18916,7 +23143,22 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_386566150" CREATED="1430757308989" MODIFIED="1430757308989"/>
 </node>
 </node>
-<node TEXT="Elaeagnus spp.&#xa;Goumi" STYLE_REF="Genus" ID="ID_1774524978" CREATED="1429944989547" MODIFIED="1432454038450">
+<node STYLE_REF="Genus" ID="ID_1774524978" CREATED="1429944989547" MODIFIED="1433255427699"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Elaeagnus spp.
+    </p>
+    <p>
+      <font size="3"><b>Goumi</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE="Nitrogen Fixer"/>
@@ -19161,7 +23403,7 @@
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <richcontent TYPE="NOTE">
@@ -19225,7 +23467,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -19269,8 +23511,38 @@
 </node>
 </node>
 </node>
-<node TEXT="Moraceae&#xa;Mulberries, Maulbeerbaum, Figs" STYLE_REF="Family" ID="ID_1665316200" CREATED="1429687896704" MODIFIED="1429858669399">
-<node TEXT="Morus&#xa;Mulberry, Maulbeerbaum" STYLE_REF="Genus" ID="ID_1539961165" CREATED="1420550330968" MODIFIED="1432453827898">
+<node STYLE_REF="Family" ID="ID_1665316200" CREATED="1429687896704" MODIFIED="1433255398158"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Moraceae
+    </p>
+    <p>
+      <font size="3">Mulberries, Maulbeerbaum, Figs</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1539961165" CREATED="1420550330968" MODIFIED="1433758224122"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Morus
+    </p>
+    <p>
+      <font size="3">Mulberry, Maulbeerbaum</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
 <attribute NAME="Application" VALUE="Craft Wood"/>
 <attribute NAME="Characteristic" VALUE=""/>
@@ -19342,7 +23614,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE="Walnut"/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -19407,7 +23679,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE="Walnut"/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -19471,7 +23743,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE="Walnut"/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -19514,7 +23786,22 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_139447024" CREATED="1430068001769" MODIFIED="1430068001770"/>
 </node>
 </node>
-<node TEXT="Maclura spp.&#xa;Osage Orange" STYLE_REF="Genus" ID="ID_355189112" CREATED="1429808841921" MODIFIED="1431516889648">
+<node STYLE_REF="Genus" ID="ID_355189112" CREATED="1429808841921" MODIFIED="1433758228101"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Maclura spp.
+    </p>
+    <p>
+      <font size="3">Osage Orange</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
@@ -19592,30 +23879,75 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_942064739" CREATED="1430757309013" MODIFIED="1430757309014"/>
 </node>
 </node>
-<node TEXT="Ficeae&#xa;Figs" STYLE_REF="Family(Tribe)" ID="ID_928518475" CREATED="1429858373326" MODIFIED="1429858419393">
-<node TEXT="Ficus spp.&#xa;Figs" STYLE_REF="Genus" ID="ID_1539183155" CREATED="1429858341927" MODIFIED="1429858359844">
-<node TEXT="Ficus caricat" STYLE_REF="Species" ID="ID_834764978" CREATED="1420658566209" MODIFIED="1431517182270">
-<attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
+<node STYLE_REF="Family(Tribe)" ID="ID_928518475" CREATED="1429858373326" MODIFIED="1433758265178"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ficeae
+    </p>
+    <p>
+      <font size="3">Figs</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1539183155" CREATED="1429858341927" MODIFIED="1433758270047"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ficus spp.
+    </p>
+    <p>
+      <font size="3">Figs</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Species" ID="ID_834764978" CREATED="1420658566209" MODIFIED="1434053546491"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ficus caricat
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE="Fruits"/>
 <attribute NAME="Application - Fermentation" VALUE=""/>
 <attribute NAME="Application - Medicinal" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Growth Habit" VALUE="Tree"/>
 <attribute NAME="Characteristic - Leaf Type" VALUE="Deciduous"/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
 <attribute NAME="Conditions - Light" VALUE=""/>
 <attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
 <attribute NAME="Conditions - Soil Moisture" VALUE=""/>
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Shrub"/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
 <attribute NAME="Dimensions - Height Min" VALUE=""/>
@@ -19662,7 +23994,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Rhamnaceae&#xa;Buckthorn" STYLE_REF="Family" ID="ID_1598956349" CREATED="1429806203858" MODIFIED="1429808698342">
+<node STYLE_REF="Family" ID="ID_1598956349" CREATED="1429806203858" MODIFIED="1433255393759"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Rhamnaceae
+    </p>
+    <p>
+      <font size="3">Buckthorn</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Ceanothus spp." STYLE_REF="Genus" ID="ID_1167999036" CREATED="1429805907651" MODIFIED="1432453504741">
 <attribute_layout NAME_WIDTH="209" VALUE_WIDTH="209"/>
 <attribute NAME="Application" VALUE=""/>
@@ -19670,7 +24017,7 @@
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <richcontent TYPE="NOTE">
@@ -19773,14 +24120,29 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1481565362" CREATED="1430757308979" MODIFIED="1430757308980"/>
 </node>
 </node>
-<node TEXT="Rhamnus spp.&#xa;Mediterranean Buckthorn" STYLE_REF="Genus" ID="ID_1022759082" CREATED="1432372808956" MODIFIED="1432453439645">
+<node STYLE_REF="Genus" ID="ID_1022759082" CREATED="1432372808956" MODIFIED="1433758234827"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Rhamnus spp.
+    </p>
+    <p>
+      <font size="3">Mediterranean Buckthorn</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="209" VALUE_WIDTH="209"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <node TEXT="Rhamnus alaternus" STYLE_REF="Species" ID="ID_403571131" CREATED="1432372829760" MODIFIED="1432453431953">
@@ -19885,10 +24247,10 @@
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
-<node TEXT=" Ziziphus lotus" STYLE_REF="Species" ID="ID_1032945144" CREATED="1420553265658" MODIFIED="1431516785449">
+<node TEXT="Ziziphus jujuba&#xa;Ziziphus lotus&#xa;Zizyphus zizyphus" STYLE_REF="Species" ID="ID_1032945144" CREATED="1420553265658" MODIFIED="1433852601080">
 <attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
 <attribute NAME="Application" VALUE="Living Fence/Hedge"/>
 <attribute NAME="Application - Edible" VALUE="Fruits"/>
@@ -19909,7 +24271,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE="5M"/>
 <attribute NAME="Dimensions - Height Min" VALUE="2M"/>
@@ -19953,8 +24315,38 @@
 </node>
 </node>
 </node>
-<node TEXT="Rosaceae&#xa;Roses, Blackberries, Rasberries, Pomes, Stonefruit" STYLE_REF="Family" ID="ID_1814057239" CREATED="1429511993486" MODIFIED="1430063482689">
-<node TEXT="Amygdaloideae&#xa;Stone Fruits, Apples, Medlar" STYLE_REF="Family(Subfamily)" ID="ID_1723367792" CREATED="1429695322356" MODIFIED="1429905470448" LINK="http://en.wikipedia.org/wiki/Amygdaloideae">
+<node STYLE_REF="Family" ID="ID_1814057239" CREATED="1429511993486" MODIFIED="1433255382839"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Rosaceae
+    </p>
+    <p>
+      <font size="3">Roses, Blackberries, Rasberries, Pomes, Stonefruit</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Family(Subfamily)" ID="ID_1723367792" CREATED="1429695322356" MODIFIED="1433253283028" LINK="http://en.wikipedia.org/wiki/Amygdaloideae"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Amygdaloideae
+    </p>
+    <p>
+      <font size="3">Stone Fruits, Apples, Medlar</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Prunus spp.&#xa;Drupe - Stone Fruits" STYLE_REF="Genus" ID="ID_1696183882" CREATED="1406307708403" MODIFIED="1430816118873">
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
 <attribute NAME="Application" VALUE=""/>
@@ -20090,7 +24482,19 @@
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1734728780" CREATED="1430062463301" MODIFIED="1430062463303"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_431380336" CREATED="1430062463301" MODIFIED="1430062463302"/>
 </node>
-<node TEXT="Prunus dulcis" STYLE_REF="Species" ID="ID_1035956469" CREATED="1380481821521" MODIFIED="1431517355765">
+<node STYLE_REF="Species" ID="ID_1035956469" CREATED="1380481821521" MODIFIED="1434053381813"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Prunus dulcis
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Ornamental"/>
 <attribute NAME="Application - Edible" VALUE="Fruits"/>
@@ -20098,20 +24502,23 @@
 <attribute NAME="Application - Medicinal" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Allelopathy" VALUE=""/>
-<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE="#ID_489711268" OBJECT="java.net.URI|#ID_489711268"/>
 <attribute NAME="Characteristic - Growth Habit" VALUE="Tree"/>
 <attribute NAME="Characteristic - Leaf Type" VALUE="Deciduous"/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
 <attribute NAME="Conditions - Light" VALUE=""/>
 <attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
 <attribute NAME="Conditions - Soil Moisture" VALUE=""/>
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Canopy"/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
 <attribute NAME="Dimensions - Height Min" VALUE=""/>
@@ -20570,7 +24977,7 @@
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE="Drought"/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE="Asia"/>
 <richcontent TYPE="NOTE">
@@ -20608,7 +25015,26 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Maleae&#xa;(Apple Tribe)&#xa;Apples, Pears, Medlar, Sorbus" STYLE_REF="Family(Tribe)" ID="ID_202202842" CREATED="1429853939661" MODIFIED="1432453314497"><richcontent TYPE="NOTE">
+<node STYLE_REF="Family(Tribe)" ID="ID_202202842" CREATED="1429853939661" MODIFIED="1432883709285"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Maleae
+    </p>
+    <p>
+      <font size="3">- (Apple Tribe) </font>
+    </p>
+    <p>
+      <font size="3">- Apples, Pears, Medlar, Sorbus</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -20621,7 +25047,26 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Malinae&#xa;(Pome)&#xa;Apples, Pears, Medlar, Sorbus" STYLE_REF="Family(Subtribe)" ID="ID_885278413" CREATED="1428263122214" MODIFIED="1432453384505" LINK="http://en.wikipedia.org/wiki/Pome"><richcontent TYPE="NOTE">
+<node STYLE_REF="Family(Subtribe)" ID="ID_885278413" CREATED="1428263122214" MODIFIED="1432883718951" LINK="http://en.wikipedia.org/wiki/Pome"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Malinae
+    </p>
+    <p>
+      <font size="3">- (Pome) </font>
+    </p>
+    <p>
+      <font size="3">- Apples, Pears, Medlar, Sorbus</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -20634,14 +25079,29 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Amelanchier spp.&#xa;Shadbush, Shadwood or Shadblow, Serviceberry" STYLE_REF="Genus" ID="ID_446329553" CREATED="1429807292206" MODIFIED="1432566766833">
+<node STYLE_REF="Genus" ID="ID_446329553" CREATED="1429807292206" MODIFIED="1432883843461"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Amelanchier spp.
+    </p>
+    <p>
+      <font size="3">- Shadblow, Serviceberry</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="209" VALUE_WIDTH="209"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <richcontent TYPE="NOTE">
@@ -20732,14 +25192,29 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_758621622" CREATED="1430757309096" MODIFIED="1430757309096"/>
 </node>
 </node>
-<node TEXT="Cydonia spp.&#xa;Quince" STYLE_REF="Genus" ID="ID_994632177" CREATED="1430063641454" MODIFIED="1432485463374">
+<node STYLE_REF="Genus" ID="ID_994632177" CREATED="1430063641454" MODIFIED="1432883859382"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cydonia spp.
+    </p>
+    <p>
+      <font size="3">- Quince</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="209" VALUE_WIDTH="209"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <node TEXT="Cydonia oblonga" STYLE_REF="Species" ID="ID_1186237787" CREATED="1429693381453" MODIFIED="1431517599356">
@@ -20808,14 +25283,29 @@
 <node TEXT="Some summer irrigation is helpful in dry climates&#xa;They are subject to many of the same pests and diseases&#xa;Trees are cultivated much like apples and pears, to which they are related" ID="ID_378957381" CREATED="1432392775206" MODIFIED="1432392776474"/>
 </node>
 </node>
-<node TEXT="Eriobotrya spp.&#xa;Loquat" STYLE_REF="Genus" ID="ID_950782110" CREATED="1429854029267" MODIFIED="1432485460114">
+<node STYLE_REF="Genus" ID="ID_950782110" CREATED="1429854029267" MODIFIED="1432883868807"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Eriobotrya spp.
+    </p>
+    <p>
+      <font size="3">- Loquat</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="209" VALUE_WIDTH="209"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <node TEXT="Eriobotrya japonica" STYLE_REF="Species" ID="ID_1826590538" CREATED="1420549767660" MODIFIED="1431517614009">
@@ -20893,25 +25383,55 @@
 <node TEXT="&#xf0b7; Delicious fruits &#xf0b7; Good species for beekeeping &#xf0b7; Excellent timber &#xf0b7; Good windbreak &#xf0b7; Evergreen and therefore leaf interception during a good rainy season &#xf0b7; Ornamental species &#xf0b7; Quite drought resistant &#xf0b7; Tolerates light frosts" ID="ID_1784289430" CREATED="1420549780915" MODIFIED="1420549783140"/>
 </node>
 </node>
-<node TEXT="Malus spp.&#xa;Apples" STYLE_REF="Genus" ID="ID_1473683141" CREATED="1429692582085" MODIFIED="1432485457627">
+<node STYLE_REF="Genus" ID="ID_1473683141" CREATED="1429692582085" MODIFIED="1432883766679"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Malus spp.
+    </p>
+    <p>
+      <font size="3">- Apples</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="209" VALUE_WIDTH="209"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 </node>
-<node TEXT="Mespilus spp.&#xa;Medlar" STYLE_REF="Genus" ID="ID_863089157" CREATED="1429853987114" MODIFIED="1432485455459">
+<node STYLE_REF="Genus" ID="ID_863089157" CREATED="1429853987114" MODIFIED="1432883778615"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Mespilus spp.
+    </p>
+    <p>
+      <font size="3">- Medlar</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="209" VALUE_WIDTH="209"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <node TEXT="Mespilus germanica" STYLE_REF="Species" ID="ID_1134716039" CREATED="1416238109499" MODIFIED="1431517562629">
@@ -20993,7 +25513,7 @@
 <attribute NAME="Characteristic - Growth Habit" VALUE="Shrub"/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE="Edge"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Edge"/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <richcontent TYPE="NOTE">
@@ -21048,14 +25568,29 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Pyrus spp.&#xa;Pears" STYLE_REF="Genus" ID="ID_541874044" CREATED="1429692696442" MODIFIED="1432485453377">
+<node STYLE_REF="Genus" ID="ID_541874044" CREATED="1429692696442" MODIFIED="1432883795311"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Pyrus spp.
+    </p>
+    <p>
+      <font size="3">- Pears</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="209" VALUE_WIDTH="209"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <node TEXT="Pyrus communis sativa" STYLE_REF="Species" ID="ID_1463598829" CREATED="1428263135790" MODIFIED="1431517579564">
@@ -21127,7 +25662,22 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1964973377" CREATED="1430757309066" MODIFIED="1430757309067"/>
 </node>
 </node>
-<node TEXT="Sorbus spp.&#xa;Service Trees" STYLE_REF="Genus" ID="ID_688241449" CREATED="1420660533622" MODIFIED="1432566539488">
+<node STYLE_REF="Genus" ID="ID_688241449" CREATED="1420660533622" MODIFIED="1432883810712"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Sorbus spp.
+    </p>
+    <p>
+      <font size="3">- Service Trees</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
@@ -21375,7 +25925,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Crataegus spp.&#xa;Hawthorn" STYLE_REF="Genus" ID="ID_1608143773" CREATED="1430069528109" MODIFIED="1431517196449">
+<node STYLE_REF="Genus" ID="ID_1608143773" CREATED="1430069528109" MODIFIED="1433253278420"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Crataegus spp.
+    </p>
+    <p>
+      <font size="3">Hawthorn</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
@@ -21512,15 +26077,38 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1520086085" CREATED="1430757309100" MODIFIED="1430757309101"/>
 </node>
 </node>
-<node TEXT="Rosa spp.&#xa;Rose" STYLE_REF="Genus" ID="ID_1776565615" CREATED="1394951976874" MODIFIED="1432566662693">
-<attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
+<node STYLE_REF="Genus" ID="ID_1776565615" CREATED="1394951976874" MODIFIED="1434132784582"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Rosa spp.
+    </p>
+    <p>
+      <font size="4">Rose</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE="Rose"/>
 <attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -21541,10 +26129,13 @@
       
     </p>
     <p>
-      <a href="en.wikipedia.org%20%3E%20Wiki%20%3E%20Rose">en.wikipedia.org &gt; Wiki &gt; Rose</a>
+      <a href="en.wikipedia.org%20%3E%20Wiki%20%3E%20Rose">en.wikipedia.org &gt; Wiki &gt; Rose </a>
     </p>
     <p>
       
+    </p>
+    <p>
+      <a href="http://www.bhg.com/gardening/flowers/roses/solving-rose-nutrient-problems/" target="_blank">~&#160;http://www.bhg.com/gardening/flowers/roses/solving-rose-nutrient-problems/ </a>
     </p>
   </body>
 </html>
@@ -21618,11 +26209,30 @@
 <node TEXT="https://en.wikipedia.org/wiki/Rosa_%C3%97_damascena" ID="ID_701171570" CREATED="1421842477325" MODIFIED="1421842477325" LINK="https://en.wikipedia.org/wiki/Rosa_%C3%97_damascena"/>
 <node TEXT="practicalplants.org &gt; Wiki &gt; Rosa x damascena" ID="ID_1762670866" CREATED="1421842609481" MODIFIED="1421842609481" LINK="http://practicalplants.org/wiki/Rosa_x_damascena"/>
 <node TEXT="Two varieties - Summer bloom and Autumn bloom" ID="ID_194905970" CREATED="1429079465794" MODIFIED="1429079479560"/>
+<node TEXT="http://extension.illinois.edu/roses/water.cfm" ID="ID_755420602" CREATED="1433253357929" MODIFIED="1433253357929" LINK="http://extension.illinois.edu/roses/water.cfm"/>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1718668330" CREATED="1430757309023" MODIFIED="1430757309024"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1972211739" CREATED="1430757309024" MODIFIED="1430757309025"/>
 </node>
 </node>
-<node TEXT="Rubus spp.&#xa;Brambles&#xa;(Cane Fruit, Blackberries, Rasberries, Dewberries)" STYLE_REF="Genus" ID="ID_1358071713" CREATED="1429512084809" MODIFIED="1432484342746">
+<node STYLE_REF="Genus" ID="ID_1358071713" CREATED="1429512084809" MODIFIED="1433253312715"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Rubus spp.
+    </p>
+    <p>
+      <font size="3">Cane Fruit, Blackberries, Rasberries, Dewberries </font>
+    </p>
+    <p>
+      <font size="2">Brambles</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
@@ -21857,8 +26467,38 @@
 <node TEXT="Dewberry" ID="ID_1785119635" CREATED="1430421210266" MODIFIED="1430421215533"/>
 </node>
 </node>
-<node TEXT="Urticaceae&#xa;Nettles" STYLE_REF="Family" ID="ID_1389286493" CREATED="1429794198491" MODIFIED="1429818338350">
-<node TEXT="Urtica spp.&#xa;Nettles" STYLE_REF="Genus" ID="ID_1262165848" CREATED="1429794167029" MODIFIED="1429818331388">
+<node STYLE_REF="Family" ID="ID_1389286493" CREATED="1429794198491" MODIFIED="1433255388691"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Urticaceae
+    </p>
+    <p>
+      <font size="3">Nettles</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1262165848" CREATED="1429794167029" MODIFIED="1433758244067"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Urtica spp.
+    </p>
+    <p>
+      <font size="3">Nettles</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Urtica dioica" STYLE_REF="Species" ID="ID_828312634" CREATED="1380020858842" MODIFIED="1431516737547">
 <attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
 <attribute NAME="Application" VALUE="Ground Cover"/>
@@ -21947,7 +26587,22 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Rutaceae&#xa;Citrus, Sichuan Pepper" STYLE_REF="Family" ID="ID_593471986" CREATED="1429773873292" MODIFIED="1429878749866">
+<node STYLE_REF="Family" ID="ID_593471986" CREATED="1429773873292" MODIFIED="1433255453300"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Rutaceae
+    </p>
+    <p>
+      <font size="3">Citrus, Sichuan Pepper</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Acmadenia spp." STYLE_REF="Genus" ID="ID_1789690767" CREATED="1432384872506" MODIFIED="1432452581304">
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
 <attribute NAME="Application" VALUE=""/>
@@ -22129,7 +26784,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Agathosma spp." STYLE_REF="Genus" ID="ID_130587152" CREATED="1432388814271" MODIFIED="1432452447191">
+<node TEXT="Agathosma spp." STYLE_REF="Genus" ID="ID_130587152" CREATED="1432388814271" MODIFIED="1433746946536">
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
@@ -22586,9 +27241,293 @@
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="Helvetica" DESTINATION="ID_130587152" STARTINCLINATION="40;0;" ENDINCLINATION="40;45;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
-<node TEXT="Murraya spp.&#xa;Mock Orange" STYLE_REF="Genus" ID="ID_1068286701" CREATED="1429790477904" MODIFIED="1432388854276">
+<node TEXT="Citrus spp." STYLE_REF="Genus" ID="ID_1160880152" CREATED="1433746949665" MODIFIED="1433746968375">
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<node TEXT="Citrus australasica" STYLE_REF="Species" ID="ID_1218574168" CREATED="1433746977426" MODIFIED="1433747260313">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE="Shrub"/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE="Moist"/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE="7m"/>
+<attribute NAME="Dimensions - Height Min" VALUE="2m"/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Finger LIme
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1583201094" CREATED="1433746982456" MODIFIED="1433746982458"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1841821356" CREATED="1433746982474" MODIFIED="1433746982476"/>
+<node TEXT="http://en.wikipedia.org/wiki/Citrus_australasica" ID="ID_1487122118" CREATED="1433747008009" MODIFIED="1433747008009" LINK="http://en.wikipedia.org/wiki/Citrus_australasica"/>
+</node>
+<node TEXT="Citrus bergamia" STYLE_REF="Species" ID="ID_1189966198" CREATED="1433747292150" MODIFIED="1433747319631">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Bergamot Orange
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1341481971" CREATED="1433747305158" MODIFIED="1433747305159"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_811216517" CREATED="1433747305160" MODIFIED="1433747305161"/>
+<node TEXT="http://en.wikipedia.org/wiki/Bergamot_orange" ID="ID_415645070" CREATED="1433747334722" MODIFIED="1433747334722" LINK="http://en.wikipedia.org/wiki/Bergamot_orange"/>
+</node>
+<node TEXT="Citrus medica" STYLE_REF="Species" ID="ID_1292084367" CREATED="1433747507497" MODIFIED="1433747628016">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE="Moist"/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Citron
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1802585381" CREATED="1433747511558" MODIFIED="1433747511559"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1422083934" CREATED="1433747511560" MODIFIED="1433747511561"/>
+<node TEXT="http://www.edenproject.com/learn/for-everyone/plant-profiles/citron" ID="ID_140880366" CREATED="1433747573263" MODIFIED="1433747573263" LINK="http://www.edenproject.com/learn/for-everyone/plant-profiles/citron"/>
+</node>
+<node TEXT="Citrus limetta" STYLE_REF="Species" ID="ID_373672005" CREATED="1433747669306" MODIFIED="1433747726908">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Sweet Lime, Sweet Lemon, Sweet Limetta
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1812553487" CREATED="1433747684241" MODIFIED="1433747684242"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1489449673" CREATED="1433747684242" MODIFIED="1433747684243"/>
+</node>
+</node>
+<node STYLE_REF="Genus" ID="ID_1068286701" CREATED="1429790477904" MODIFIED="1433255514888"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Murraya spp.
+    </p>
+    <p>
+      <font size="3">Mock Orange </font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
@@ -22802,7 +27741,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Anacardiaceae&#xa;Sumacs, Pistacio, Mastic, Pepper Tree" STYLE_REF="Family" ID="ID_1978087623" CREATED="1429771438822" MODIFIED="1429771792630">
+<node STYLE_REF="Family" ID="ID_1978087623" CREATED="1429771438822" MODIFIED="1433255458026"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Anacardiaceae
+    </p>
+    <p>
+      <font size="3">Sumacs, Pistacio, Mastic, Pepper Tree</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Operculicarya decaryi" STYLE_REF="Species" ID="ID_473241731" CREATED="1429771019218" MODIFIED="1431516582882">
 <attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
 <attribute NAME="Application" VALUE=""/>
@@ -22870,7 +27824,22 @@
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1969957073" CREATED="1430756984044" MODIFIED="1430756984046"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1651106075" CREATED="1430756984046" MODIFIED="1430756984048"/>
 </node>
-<node TEXT="Pistacia .spp&#xa;Mastic, Pistachio" STYLE_REF="Genus" ID="ID_584085737" CREATED="1429634541239" MODIFIED="1432388547513">
+<node STYLE_REF="Genus" ID="ID_584085737" CREATED="1429634541239" MODIFIED="1433255485004"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Pistacia .spp
+    </p>
+    <p>
+      <font size="3">Mastic, Pistachio</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
@@ -23070,7 +28039,22 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_228034671" CREATED="1430756984776" MODIFIED="1430756984777"/>
 </node>
 </node>
-<node TEXT="Rhus spp.&#xa;Sumacs" STYLE_REF="Genus" ID="ID_1192957542" CREATED="1429771605847" MODIFIED="1431516513958">
+<node STYLE_REF="Genus" ID="ID_1192957542" CREATED="1429771605847" MODIFIED="1433255491566"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Rhus spp.
+    </p>
+    <p>
+      <font size="3">Sumacs</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
@@ -23144,7 +28128,22 @@
 <node TEXT="http://www.readytogrow.co.uk/item_pages/fruit/rhus_integrifolia.html" ID="ID_1328605804" CREATED="1431202500351" MODIFIED="1431202500351" LINK="http://www.readytogrow.co.uk/item_pages/fruit/rhus_integrifolia.html"/>
 </node>
 </node>
-<node TEXT="Schinus spp.&#xa;Pepper Tree" STYLE_REF="Genus" ID="ID_15447567" CREATED="1420660379153" MODIFIED="1432566381717">
+<node STYLE_REF="Genus" ID="ID_15447567" CREATED="1420660379153" MODIFIED="1433255497309"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Schinus spp.
+    </p>
+    <p>
+      <font size="3">Pepper Tree</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
@@ -23249,15 +28248,45 @@
 </node>
 </node>
 </node>
-<node TEXT="Sapindaceae&#xa;Soapberry" STYLE_REF="Family" ID="ID_1015996884" CREATED="1429984551600" MODIFIED="1432400666926">
-<node TEXT="Sapindus spp.&#xa;Soapberry" STYLE_REF="Genus" ID="ID_739899048" CREATED="1429983976455" MODIFIED="1432400640148">
+<node STYLE_REF="Family" ID="ID_1015996884" CREATED="1429984551600" MODIFIED="1433255463770"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Sapindaceae
+    </p>
+    <p>
+      <font size="3">Soapberry</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_739899048" CREATED="1429983976455" MODIFIED="1433255477297"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Sapindus spp.
+    </p>
+    <p>
+      <font size="3">Soapberry</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="209" VALUE_WIDTH="209"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <node TEXT="Sapindus saponaria" STYLE_REF="Species" ID="ID_817139020" CREATED="1429982781903" MODIFIED="1432400591108">
@@ -23281,7 +28310,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -23363,7 +28392,7 @@
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <richcontent TYPE="NOTE">
@@ -23400,7 +28429,7 @@
 <attribute NAME="Conditions - Soil PH" VALUE=""/>
 <attribute NAME="Conditions - Soil Texture" VALUE=""/>
 <attribute NAME="Data - Conservation Status" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <attribute NAME="Dimensions - Height Max" VALUE=""/>
@@ -23454,7 +28483,7 @@
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
 <richcontent TYPE="NOTE">
@@ -23513,8 +28542,38 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Grossulariaceae&#xa;Currants and Gooseberry" STYLE_REF="Family" ID="ID_1886675499" CREATED="1429713874486" MODIFIED="1429713919025">
-<node TEXT="Ribes spp.  &#xa;Black Currant, Red Currant, White Currant, and Gooseberry" STYLE_REF="Genus" ID="ID_272551808" CREATED="1429472495847" MODIFIED="1432452265603" LINK="http://en.wikipedia.org/wiki/Ribes">
+<node STYLE_REF="Family" ID="ID_1886675499" CREATED="1429713874486" MODIFIED="1434136841977"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Grossulariaceae
+    </p>
+    <p>
+      <font size="4">Currants and Gooseberry</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_272551808" CREATED="1429472495847" MODIFIED="1434136843823" LINK="http://en.wikipedia.org/wiki/Ribes"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ribes spp.&#160;&#160;
+    </p>
+    <p>
+      <font size="4">Black Currant, Red Currant, White Currant, and Gooseberry</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
@@ -23767,7 +28826,25 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Solanaceae&#xa;Nightshades - Potatoe, Tomatoe, Chillie, Bell Pepper, Tobacco" STYLE_REF="Family" ID="ID_1405228473" CREATED="1429690114183" MODIFIED="1430311596524">
+<node STYLE_REF="Family" ID="ID_1405228473" CREATED="1429690114183" MODIFIED="1433251932499"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Solanaceae<font size="3">&#160;</font>
+    </p>
+    <p>
+      <font size="3">Potatoe, Tomatoe, Chillie, Bell Pepper, Tobacco </font>
+    </p>
+    <p>
+      <font size="2">Nightshades</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Fabiana spp." STYLE_REF="Genus" ID="ID_453557542" CREATED="1432391312078" MODIFIED="1432450888879">
 <attribute_layout NAME_WIDTH="209" VALUE_WIDTH="209"/>
 <attribute NAME="Application" VALUE=""/>
@@ -23775,7 +28852,7 @@
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE="South America"/>
 <richcontent TYPE="NOTE">
@@ -23912,7 +28989,22 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Capsicum spp.&#xa;Peppers" STYLE_REF="Genus" ID="ID_1767241838" CREATED="1430310215081" MODIFIED="1431515936296">
+<node STYLE_REF="Genus" ID="ID_1767241838" CREATED="1430310215081" MODIFIED="1433253048225"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Capsicum spp.
+    </p>
+    <p>
+      <font size="3">Bell Pepper, Chillie</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
@@ -23920,7 +29012,26 @@
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
-<node TEXT="Capsicum annuum" STYLE_REF="Species" ID="ID_1238749389" CREATED="1430310237129" MODIFIED="1431516004608">
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="http://www.floresflowers.com/opera/Peppers.html">http://www.floresflowers.com/opera/Peppers.html </a>
+    </p>
+    <p>
+      <a href="http://www.floresflowers.com/opera/Peppers.html">
+</a>    </p>
+    <p>
+      <a href="http://en.wikipedia.org/wiki/Capsicum_annuum">http://en.wikipedia.org/wiki/Capsicum_annuum</a>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Capsicum annuum" STYLE_REF="Species" ID="ID_1238749389" CREATED="1430310237129" MODIFIED="1433252071218">
 <attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE=""/>
@@ -23981,9 +29092,305 @@
 </richcontent>
 <node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1459458471" CREATED="1430310243065" MODIFIED="1430310243067"/>
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1763430265" CREATED="1430310243066" MODIFIED="1430310243066"/>
+<node TEXT="http://en.wikipedia.org/wiki/Capsicum_annuum" ID="ID_686488678" CREATED="1433251970473" MODIFIED="1433251970473" LINK="http://en.wikipedia.org/wiki/Capsicum_annuum"/>
+<node TEXT="Capsicum annuum var. annuum" STYLE_REF="Variation" ID="ID_1941092240" CREATED="1433252107002" MODIFIED="1433252439094">
+<attribute_layout NAME_WIDTH="210" VALUE_WIDTH="210"/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN -
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Seed Purchase" STYLE_REF="Purchase" ID="ID_1764756539" CREATED="1433252112957" MODIFIED="1433252112958"/>
+</node>
+<node TEXT="Capsicum annuum var. glabriusculum" STYLE_REF="Variation" ID="ID_1927805152" CREATED="1433252107002" MODIFIED="1433252430070">
+<attribute_layout NAME_WIDTH="210" VALUE_WIDTH="210"/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Bird Pepper
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Seed Purchase" STYLE_REF="Purchase" ID="ID_1382176290" CREATED="1433252115213" MODIFIED="1433252115214"/>
+<node TEXT="http://en.wikipedia.org/wiki/Capsicum_annuum_var._glabriusculum" ID="ID_1308719134" CREATED="1433252173508" MODIFIED="1433252173508" LINK="http://en.wikipedia.org/wiki/Capsicum_annuum_var._glabriusculum"/>
+</node>
+<node TEXT="Capsicum annuum var. bola (aka var. &#xf1;ora)" STYLE_REF="Variation" ID="ID_406546505" CREATED="1433252107003" MODIFIED="1433252421259">
+<attribute_layout NAME_WIDTH="210" VALUE_WIDTH="210"/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN -
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Seed Purchase" STYLE_REF="Purchase" ID="ID_866987131" CREATED="1433252116941" MODIFIED="1433252116942"/>
 </node>
 </node>
-<node TEXT="Lycium spp.&#xa;Goji Berry" STYLE_REF="Genus" ID="ID_1068552902" CREATED="1429690868481" MODIFIED="1432450787394">
+<node TEXT="Capsicum baccatum" STYLE_REF="Species" ID="ID_410069513" CREATED="1433252615430" MODIFIED="1433252650109">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Chili Pepper
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_378500494" CREATED="1433252619188" MODIFIED="1433252619189"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1285417084" CREATED="1433252619190" MODIFIED="1433252619191"/>
+<node TEXT="http://en.wikipedia.org/wiki/Capsicum_baccatum" ID="ID_758935660" CREATED="1433252676211" MODIFIED="1433252676211" LINK="http://en.wikipedia.org/wiki/Capsicum_baccatum"/>
+</node>
+<node TEXT="Capsicum chinense" STYLE_REF="Species" ID="ID_1486176301" CREATED="1433252716495" MODIFIED="1433252767271">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Yellow Lantern Chili
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_927905428" CREATED="1433252724450" MODIFIED="1433252724451"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_857148507" CREATED="1433252724451" MODIFIED="1433252724452"/>
+<node TEXT="http://en.wikipedia.org/wiki/Capsicum_chinense" ID="ID_341969023" CREATED="1433252903357" MODIFIED="1433252903357" LINK="http://en.wikipedia.org/wiki/Capsicum_chinense"/>
+</node>
+<node TEXT="Capsicum pubescens" STYLE_REF="Species" ID="ID_1021373273" CREATED="1433252830436" MODIFIED="1433252889656">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Rukutu, Ruqutu, Luqutu
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_505924624" CREATED="1433252845736" MODIFIED="1433252845737"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1485976081" CREATED="1433252845737" MODIFIED="1433252845738"/>
+<node TEXT="http://en.wikipedia.org/wiki/Capsicum_pubescens" ID="ID_1515297701" CREATED="1433252897432" MODIFIED="1433252897432" LINK="http://en.wikipedia.org/wiki/Capsicum_pubescens"/>
+</node>
+</node>
+<node STYLE_REF="Genus" ID="ID_1068552902" CREATED="1429690868481" MODIFIED="1433251875609"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Lycium spp.
+    </p>
+    <p>
+      <font size="3">Goji Berry</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
 <attribute NAME="Application" VALUE="Living Fence/Hedge"/>
 <attribute NAME="Characteristic" VALUE=""/>
@@ -24155,7 +29562,22 @@
 <node TEXT="http://tcpermaculture.blogspot.com.es/2011/12/permaculture-plants-goji-berry.html" ID="ID_293492673" CREATED="1430066484572" MODIFIED="1430066484572" LINK="http://tcpermaculture.blogspot.com.es/2011/12/permaculture-plants-goji-berry.html"/>
 </node>
 </node>
-<node TEXT="Nicotiana spp.&#xa;Tabacco" STYLE_REF="Genus" ID="ID_318288570" CREATED="1429636338847" MODIFIED="1431515934962">
+<node STYLE_REF="Genus" ID="ID_318288570" CREATED="1429636338847" MODIFIED="1433251880085"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Nicotiana spp.
+    </p>
+    <p>
+      <font size="3">Tabacco</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
@@ -24379,7 +29801,25 @@
 <node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_181798136" CREATED="1430757309199" MODIFIED="1430757309200"/>
 </node>
 </node>
-<node TEXT="Solanum spp.&#xa;(Nightshades)" STYLE_REF="Genus" ID="ID_1816402295" CREATED="1429691767410" MODIFIED="1431515933366">
+<node STYLE_REF="Genus" ID="ID_1816402295" CREATED="1429691767410" MODIFIED="1433251909188"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Solanum spp.
+    </p>
+    <p>
+      <font size="3">Tomatoe, Potatoe, Eggplant</font>
+    </p>
+    <p>
+      <font size="2">Nightshades </font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <attribute_layout NAME_WIDTH="207" VALUE_WIDTH="207"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
@@ -24455,8 +29895,11 @@
 <node TEXT="Walnut" ID="ID_331362958" CREATED="1430913402443" MODIFIED="1430913407280"/>
 <node TEXT="Olive" ID="ID_1139541690" CREATED="1430913408795" MODIFIED="1430913413910"/>
 </node>
+<node TEXT="http://eatlocalgrown.com/article/13883-genius-idea-to-grow-tomatoes.html" ID="ID_974787711" CREATED="1433136960609" MODIFIED="1433136960609" LINK="http://eatlocalgrown.com/article/13883-genius-idea-to-grow-tomatoes.html"/>
+<node TEXT="http://www.yara.us/agriculture/crops/tomato/key-facts/role-of-nitrogen/" ID="ID_996649186" CREATED="1433251636130" MODIFIED="1433251636130" LINK="http://www.yara.us/agriculture/crops/tomato/key-facts/role-of-nitrogen/"/>
+<node TEXT="http://homeguides.sfgate.com/fertilize-tomato-plants-coffee-grounds-35715.html" ID="ID_844584807" CREATED="1433255282639" MODIFIED="1433255282639" LINK="http://homeguides.sfgate.com/fertilize-tomato-plants-coffee-grounds-35715.html"/>
 </node>
-<node TEXT="Solanum tuberosum L." STYLE_REF="Species" ID="ID_1716535978" CREATED="1430309903815" MODIFIED="1431516150968">
+<node TEXT="Solanum tuberosum L." STYLE_REF="Species" ID="ID_1716535978" CREATED="1430309903815" MODIFIED="1433100050651">
 <attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Application - Edible" VALUE="Tuber"/>
@@ -24510,7 +29953,7 @@
       CA -
     </p>
     <p>
-      DE - Erdapfel, kartofel
+      DE - Erdapfel, Kartofel
     </p>
   </body>
 </html>
@@ -24522,6 +29965,9 @@
 <node TEXT="Avoid planting potatoes with&#xa;tomatoes,&#xa;sunflowers,&#xa;raspberries,&#xa;pumpkins,&#xa;squash,&#xa;and cucumbers.&#xa;These plants seem to increase potatoes susceptibility to blight." ID="ID_258713930" CREATED="1430810637478" MODIFIED="1430810668136"/>
 </node>
 <node TEXT="Don&apos;t plant potatoes in an area that has been planted with any other Solanaceous crops in the last two years. This includes tomatoes, peppers, and eggplant." ID="ID_1745237228" CREATED="1430810729476" MODIFIED="1430810732521"/>
+<node TEXT="http://en.wikipedia.org/wiki/Potato" ID="ID_1994077" CREATED="1433100026953" MODIFIED="1433100026953" LINK="http://en.wikipedia.org/wiki/Potato"/>
+<node TEXT="http://thehomesteadsurvival.com/how-to-make-seed-potatoes-starts-for-your-garden/" ID="ID_1524211924" CREATED="1433100037757" MODIFIED="1433100037757" LINK="http://thehomesteadsurvival.com/how-to-make-seed-potatoes-starts-for-your-garden/"/>
+<node TEXT="http://www.apartmenttherapy.com/how-to-grow-100-pounds-of-potatoes-in-4-square-feet-81760" ID="ID_1394814236" CREATED="1433136869026" MODIFIED="1433136869026" LINK="http://www.apartmenttherapy.com/how-to-grow-100-pounds-of-potatoes-in-4-square-feet-81760"/>
 </node>
 <node TEXT="Solanum melongena" STYLE_REF="Species" ID="ID_1849948907" CREATED="1430310694960" MODIFIED="1431516195995">
 <attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
@@ -24604,8 +30050,38 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Vitaceae&#xa;Grape" STYLE_REF="Family" ID="ID_721176054" CREATED="1429809658820" MODIFIED="1429809671167">
-<node TEXT="Vitis spp.&#xa;Grape" STYLE_REF="Genus" ID="ID_432794599" CREATED="1429809587088" MODIFIED="1429809607254">
+<node STYLE_REF="Family" ID="ID_721176054" CREATED="1429809658820" MODIFIED="1433100613834"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Vitaceae
+    </p>
+    <p>
+      <font size="3">- Grape</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_432794599" CREATED="1429809587088" MODIFIED="1433100624593"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Vitis spp.
+    </p>
+    <p>
+      <font size="3">- Grape</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Vitis vinifera" STYLE_REF="Species" ID="ID_1115399269" CREATED="1382699316121" MODIFIED="1432566218165">
 <attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
 <attribute NAME="Application" VALUE=""/>
@@ -24689,8 +30165,38 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Zygophyllaceae&#xa;Soap Berry" STYLE_REF="Family" ID="ID_1139583196" CREATED="1429980850920" MODIFIED="1430120327063">
-<node TEXT="Balanites spp.&#xa;Soap Berry" STYLE_REF="Genus" ID="ID_540205454" CREATED="1429906180035" MODIFIED="1430120338124">
+<node STYLE_REF="Family" ID="ID_1139583196" CREATED="1429980850920" MODIFIED="1433100643514"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Zygophyllaceae
+    </p>
+    <p>
+      <font size="3">- Soap Berry</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_540205454" CREATED="1429906180035" MODIFIED="1433100655984"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Balanites spp.
+    </p>
+    <p>
+      <font size="3">- Soap Berry</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="Balanites aegyptiaca" STYLE_REF="Species" ID="ID_1273207818" CREATED="1420549189105" MODIFIED="1432566202717">
 <attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
 <attribute NAME="Application" VALUE="Living Fence/Hedge"/>
@@ -24763,19 +30269,329 @@
 </node>
 </node>
 </node>
-<node TEXT="Gnetopsida" STYLE_REF="Class" ID="ID_918448960" CREATED="1432392202897" MODIFIED="1432392210154">
-<node TEXT="Ephedrales" STYLE_REF="Order" ID="ID_228281828" CREATED="1432392243858" MODIFIED="1432392248010">
-<node TEXT="Ephedraceae" STYLE_REF="Family" ID="ID_1775661301" CREATED="1432392256668" MODIFIED="1432392270284">
-<node TEXT="Ephedra spp." STYLE_REF="Genus" ID="ID_1085310241" CREATED="1432392271937" MODIFIED="1432451074324">
-<attribute_layout NAME_WIDTH="209" VALUE_WIDTH="209"/>
+<node STYLE_REF="Class" ID="ID_244730922" CREATED="1433790428370" MODIFIED="1434131407330"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Liliopsida
+    </p>
+    <p>
+      <font size="4">Monocots</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="http://botit.botany.wisc.edu/courses/systematics/Phyla/Magnoliophyta/Liliopsida.html">http://botit.botany.wisc.edu/courses/systematics/Phyla/Magnoliophyta/Liliopsida.html</a>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Order" ID="ID_1813569596" CREATED="1429859738088" MODIFIED="1432649280164"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Arecales
+    </p>
+    <p>
+      <font size="4">Date Palm</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Family" ID="ID_1066898203" CREATED="1429859604281" MODIFIED="1433760389713"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Arecaceae
+    </p>
+    <p>
+      <font size="4">Date Palm</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1321332596" CREATED="1429859570579" MODIFIED="1433760392173"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Phoenix spp.
+    </p>
+    <p>
+      <font size="4">Date Palm</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<node TEXT="Phoenix dactylifera" STYLE_REF="Species" ID="ID_1895382776" CREATED="1420550548540" MODIFIED="1432569467800">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE="Fruits"/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE="Tree"/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE="Perennial"/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Date Palm
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#xf0b7; Sugar-rich fruits are a valuable cash crop &#xf0b7; Ground seeds softened by soaking in water can be used as forage for camels, goats, horses, and poultry &#xf0b7; Strong trunks are used as construction timber &#xf0b7; Leaves are applied in sand dune stabilization and for thatching &#xf0b7; Trees are grown to reclaim salt-affected lands &#xf0b7; Mature trees are suitable for intercropping &#xf0b7; Salt tolerant &#xf0b7; Very drought resistant; grows with 100 mm annual rainfall &#xf0b7; Tender to prolonged frost" ID="ID_1610344162" CREATED="1420550561747" MODIFIED="1420550563695"/>
+<node TEXT="Phoenix dactylifera, the date palm, is a desert-adapted tree native to the eastern Mediterranean. It is a single-trunked dioecious species with blue-green fronds. The pale yellow spathes of female flowers are wind pollinated in nature or hand pollinated in cultivation. These clusters of the berries are known as dates. Dates have been cultivated in the Middle East for thousands of years. PLACEMENTS  We will grow dates in any suitable location.* CULTURAL CONSIDERATIONS  The propagation of offshoots is a slow and labor-intensive process The propagation of offshoots has limited the spread of date culture Tissue culture is an affordable way for more acreage to be planted Dates are propagated by offshoots that occur on the trunk of the palm The propagation of offshoots used to be only way to reproduce improved cultivars Tissue culture is a newly viable method of producing large quantities of planting stock PLANTING GUIDELINES  Plants should be thoroughly mulched after planting and watered in well. Regular irrigation should continue until signs of new growth appear. Although dates are very drought tolerant, they do require some subsurface moisture." ID="ID_1739692772" CREATED="1420659599427" MODIFIED="1420659600646"/>
+<node TEXT="en.wikipedia.org &gt; Wiki &gt; Date palm" ID="ID_97054948" CREATED="1420659616929" MODIFIED="1420659616929" LINK="http://en.wikipedia.org/wiki/Date_palm"/>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_730882181" CREATED="1430757308219" MODIFIED="1430757308221"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1097379274" CREATED="1430757308223" MODIFIED="1430757308225"/>
+</node>
+</node>
+</node>
+</node>
+<node STYLE_REF="Order" ID="ID_729864640" CREATED="1429817682289" MODIFIED="1432650075984"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Dioscoreales
+    </p>
+    <p>
+      <font size="4">Turtle Back Plant</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Dioscoreaceae" STYLE_REF="Family" ID="ID_392793060" CREATED="1429817657158" MODIFIED="1429817660845">
+<node TEXT="Dioscorea spp." STYLE_REF="Genus" ID="ID_1733288097" CREATED="1429817605735" MODIFIED="1429817612245">
+<node TEXT="Dioscorea elephantipis" STYLE_REF="Species" ID="ID_1389368527" CREATED="1429716955635" MODIFIED="1432565740268">
+<attribute_layout NAME_WIDTH="246" VALUE_WIDTH="246"/>
+<attribute NAME="Application" VALUE="Ornamental"/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE="Deciduous"/>
+<attribute NAME="Characteristic - Resistance" VALUE="Drought"/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE="Semi-shade"/>
+<attribute NAME="Conditions - Light" VALUE="Shade"/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE="1M"/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE="Perennial"/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE="Dioecious"/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Turtle Back Plant, Elephant's foot
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="http://www.plantzafrica.com/plantcd/dioscoreleph.htm" ID="ID_1255992214" CREATED="1429717124966" MODIFIED="1429717124966" LINK="http://www.plantzafrica.com/plantcd/dioscoreleph.htm"/>
+<node TEXT="Do not over water when it is dormant in the dry period ( when it has no leaves)" ID="ID_1187393769" CREATED="1429717318488" MODIFIED="1429717340948"/>
+<node TEXT="https://toptropicals.com/catalog/uid/dioscorea_elephantipes.htm" ID="ID_1188315426" CREATED="1429717597042" MODIFIED="1429717597042" LINK="https://toptropicals.com/catalog/uid/dioscorea_elephantipes.htm"/>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1273721093" CREATED="1430757308584" MODIFIED="1430757308585"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1795005430" CREATED="1430757308585" MODIFIED="1430757308587"/>
+</node>
+</node>
+</node>
+</node>
+<node STYLE_REF="Order" ID="ID_105127487" CREATED="1432556742522" MODIFIED="1432650166312"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Liliales
+    </p>
+    <p>
+      <font size="4">Lilies</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Family" ID="ID_1748431868" CREATED="1432556787843" MODIFIED="1433255861870"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Liliaceae
+    </p>
+    <p>
+      <font size="3">Lilies</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Family(Subfamily)" ID="ID_410761488" CREATED="1432556799554" MODIFIED="1433255870130"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Lilioideae
+    </p>
+    <p>
+      <font size="3">Lilies</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Family(Tribe)" ID="ID_942201311" CREATED="1432556815488" MODIFIED="1433255876884"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Lilieae
+    </p>
+    <p>
+      <font size="3">Lilies</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Lilium spp." STYLE_REF="Genus" ID="ID_27989367" CREATED="1432556831160" MODIFIED="1432557002567">
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
 <attribute NAME="Application" VALUE=""/>
 <attribute NAME="Characteristic" VALUE=""/>
 <attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
 <attribute NAME="Characteristic - Resistance" VALUE=""/>
 <attribute NAME="Characteristic - Sensitivity" VALUE=""/>
-<attribute NAME="Data - Food Forest Position" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
 <attribute NAME="Data - Guild" VALUE=""/>
 <attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -24784,241 +30600,25 @@
   </head>
   <body>
     <p>
-      Ephedra is a genus of gymnosperm shrubs, the only genus in its family, Ephedraceae, and order, Ephedrales. The various species of Ephedra are widespread in many lands, native to southwestern North America, southern Europe, northern Africa, and southwest and central Asia, northern China, and western South America.[2]
-    </p>
-    <p>
-      <a href="http://en.wikipedia.org/wiki/Ephedra_(plant)">
-</a>    </p>
-    <p>
-      Ephedra is a genus of approximately 50 species of dioecious gymnosperm shrubs in the Ephedraceae, native to arid regions of the Northern Hemisphere and South America. They are evergreen herbs to 3 feet in height. The fruits are edible although bland, and the seeds are eaten after parching, and roasted as a coffee substitute. The herb is used medicinally to treat asthma and urinary infections.
+      Lilium is a genus of 110 species of bulbous herbaceous perennials in the Liliaceae, native to temperate and subtropical regions of the Old World and North America. They are large herbs from 2 to 6 feet in height, arising from the bulbs. These bulbs are a prized vegetable in parts of Asia, where they are grown on a large scale. They are eaten in summer in China as a health food.&#160;
     </p>
     <p>
       
     </p>
     <p>
-      The plants are drought tolerant
+      Good drainage is essential
     </p>
     <p>
-      If grown for the fruit and seed, male and female plants must be present<a href="http://en.wikipedia.org/wiki/Ephedra_(plant)">
+      Many lilies prefer neutral to acid soils
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <a href="http://en.wikipedia.org/wiki/Lilium">
 </a>    </p>
     <p>
-      <a href="http://en.wikipedia.org/wiki/Ephedra_(plant)">
-</a>    </p>
-    <p>
-      <a href="http://en.wikipedia.org/wiki/Ephedra_(plant)">http://en.wikipedia.org/wiki/Ephedra_(plant) </a>
-    </p>
-    <p>
-      <a href="http://en.wikipedia.org/wiki/Ephedra_(plant)">
-</a>    </p>
-    <p>
-      <b>Species</b>
-    </p>
-    <p>
-      Ephedra alata Decne &#8211; North Africa, Arabian Peninsula
-    </p>
-    <p>
-      Ephedra altissima Desf. &#8211; North Africa, Canary Islands
-    </p>
-    <p>
-      Ephedra americana Humb. &amp; Bonpl. ex Willd. &#8211; Bolivia, Ecuador, Peru, Argentina, Chile
-    </p>
-    <p>
-      Ephedra antisyphilitica Berland ex C.A.Meyer &#8211; Clapweed, Erect Ephedra &#8211; Texas, Oklahoma, New Mexico, Nuevo Le&#243;n, Coahuila, Chihuahua
-    </p>
-    <p>
-      Ephedra aphylla Forssk. &#8211; eastern Mediterranean from Libya and Cyprus to the Persian Gulf
-    </p>
-    <p>
-      Ephedra &#215; arenicola H.C.Cutler &#8211; Arizona, Utah (hybrid, E. cutleri &#215; E. torreyana)
-    </p>
-    <p>
-      Ephedra aspera Engelm. ex S.Wats. &#8211; Boundary Ephedra, Pitamoreal &#8211; Texas, New Mexico, Arizona, Utah, Nevada, California, Chihuahua, Durango, Zacatecas, Sinaloa, Sonora, Baja California
-    </p>
-    <p>
-      Ephedra aurantiaca Takht. &amp; Pachom. &#8211; Caucasus, Kazakhstan, Turkmenistan
-    </p>
-    <p>
-      Ephedra boelckei F.A.Roig &#8211; Argentina
-    </p>
-    <p>
-      Ephedra botschantzevii Pachom. &#8211; Kazakhstan, Tuva region of Siberia
-    </p>
-    <p>
-      Ephedra breana Phil. &#8211; Peru, Bolivia, Chile, Argentina
-    </p>
-    <p>
-      Ephedra brevifoliata Ghahr. &#8211; Iran
-    </p>
-    <p>
-      Ephedra californica S.Wats. &#8211; California Ephedra, California Jointfir &#8211; California, western Arizona, Baja California
-    </p>
-    <p>
-      Ephedra chilensis C.Presl &#8211; Chile, Argentina
-    </p>
-    <p>
-      Ephedra compacta Rose &#8211; widespread in much of Mexico
-    </p>
-    <p>
-      Ephedra coryi E.L.Reed &#8211; Cory's Ephedra &#8211; Texas, New Mexico
-    </p>
-    <p>
-      Ephedra cutleri Peebles &#8211; Navajo Ephedra, Cutler's Ephedra, Cutler Mormon-tea, Cutler's Jointfir &#8211; Colorado, Utah, Arizona, New Mexico, Wyoming
-    </p>
-    <p>
-      Ephedra dahurica Turcz. &#8211; Siberia, Mongolia
-    </p>
-    <p>
-      Ephedra dawuensis Y.Yang &#8211; Sichuan
-    </p>
-    <p>
-      Ephedra distachya L. &#8211; Joint-pine, Jointfir &#8211; southern Europe and central Asia from Portugal to Kazakhstan
-    </p>
-    <p>
-      Ephedra &#215; eleutherolepis V.A.Nikitin &#8211; Tajikistan (hybrid E. intermedia &#215; E. strobilacea)
-    </p>
-    <p>
-      Ephedra equisetina Bunge &#8211; Ma huang &#8211; Caucasus, Central Asia, Siberia, Mongolia, Gansu, Hebei, Inner Mongolia, Ningxia, Qinghai, Shanxi, Xinjiang
-    </p>
-    <p>
-      Ephedra fasciculata A.Nelson &#8211; Arizona Ephedra, Arizona Jointfir, Desert Mormon-tea &#8211; Arizona, California, Nevada, Utah
-    </p>
-    <p>
-      Ephedra fedtschenkoae Paulsen &#8211; Central Asia, Siberia, Mongolia, Xinjiang
-    </p>
-    <p>
-      Ephedra foeminea Forssk. &#8211; North Africa, Somalia, Balkans, Italy, Middle East; naturalized in Santa Barbara County of California
-    </p>
-    <p>
-      Ephedra foliata Boiss. ex C.A.Mey. &#8211; North Africa, Somalia, Middle East, India
-    </p>
-    <p>
-      Ephedra fragilis Desf. &#8211; Mediterranean, Canary Islands, Madeira
-    </p>
-    <p>
-      Ephedra frustillata Miers &#8211; Patagonian Ephedra &#8211; Chile, Argentina
-    </p>
-    <p>
-      Ephedra funerea Coville &amp; Morton &#8211; Death Valley Ephedra, Death Valley Jointfir &#8211; California, Arizona, Nevada
-    </p>
-    <p>
-      Ephedra gerardiana Wallich ex C.A.Meyer &#8211; Gerard's Jointfir, Shan Ling Ma Huang &#8211; Himalayas, Tibet, Yunnan, Siberia, Central Asia
-    </p>
-    <p>
-      Ephedra glauca Regel &#8211; Iran, Central Asia, Mongolia
-    </p>
-    <p>
-      Ephedra holoptera Riedl &#8211; Iran
-    </p>
-    <p>
-      Ephedra intermedia Schrenk &amp; C.A.Meyer &#8211; China, Siberia, Central Asia, Himalayas, Iran, Pakistan
-    </p>
-    <p>
-      Ephedra &#215; intermixta H.C.Cutler &#8211; New Mexico (hybrid E. trifurca &#215; E. torreyana)
-    </p>
-    <p>
-      Ephedra kardangensis P.Sharma &amp; P.L.Uniyal &#8211; western Himalayas
-    </p>
-    <p>
-      Ephedra khurikensis P.Sharma &amp; P.L.Uniyal &#8211; western Himalayas
-    </p>
-    <p>
-      Ephedra laristanica Assadi &#8211; Iran
-    </p>
-    <p>
-      Ephedra likiangensis Florin &#8211; Guizhou, Sichuan, Tibet, Yunnan
-    </p>
-    <p>
-      Ephedra lomatolepis Schrenk &#8211; Kazakhstan, Tuva region of Siberia
-    </p>
-    <p>
-      Ephedra major Host &#8211; Mediterranean, Middle East, Central Asia; from Canary Islands to Kashmir
-    </p>
-    <p>
-      Ephedra milleri Freitag &amp; Maier-St. &#8211; Oman, Yemen
-    </p>
-    <p>
-      Ephedra minuta Florin &#8211; Qinghai, Sichuan
-    </p>
-    <p>
-      Ephedra monosperma C.A.Meyer &#8211; Siberia, Mongolia, much of China including Tibet and Xinjiang
-    </p>
-    <p>
-      Ephedra multiflora Phil. ex Stapf &#8211; Chile, Argentina
-    </p>
-    <p>
-      Ephedra nevadensis S.Wats. &#8211; Nevada Ephedra, Nevada Jointfir, Nevada Mormon-tea &#8211; Baja California, California, Arizona, Nevada, Utah, Oregon
-    </p>
-    <p>
-      Ephedra ochreata Miers &#8211; Argentina
-    </p>
-    <p>
-      Ephedra oxyphylla Riedl &#8211; Afghanistan
-    </p>
-    <p>
-      Ephedra pachyclada Boiss. &#8211; Middle East from Sinai and Yemen to Pakistan
-    </p>
-    <p>
-      Ephedra pedunculata Engelm. ex S.Wats. &#8211; Vine Ephedra, Vine Jointfir &#8211; Texas, Chihuahua, Coahuila, Durango, San Luis Potos&#237;, Nuevo Le&#243;n, Zacatecas
-    </p>
-    <p>
-      Ephedra pentandra Pachom. &#8211; Iran
-    </p>
-    <p>
-      Ephedra przewalskii Stapf &#8211; Central Asia, Mongolia, Pakistan, Gansu, Inner Mongolia, Ningxia, Qinghai, Tibet
-    </p>
-    <p>
-      Ephedra pseudodistachya Pachom. &#8211; Siberia, Mongolia
-    </p>
-    <p>
-      Ephedra regeliana Florin &#8211; Xi Zi Ma Huang &#8211; Central Asia, Siberia, Pakistan, Xinjiang
-    </p>
-    <p>
-      Ephedra rhytidosperma Pachom. &#8211; Gansu, Inner Mongolia, Ningxia, Mongolia
-    </p>
-    <p>
-      Ephedra rituensis Y.Yang, D.Z.Fu &amp; G.H.Zhu &#8211; Qinghai, Xinjiang, Tibet
-    </p>
-    <p>
-      Ephedra rupestris Benth. &#8211; Ecuador, Peru, Bolivia, Argentina
-    </p>
-    <p>
-      Ephedra sarcocarpa Aitch. &amp; Hemsl. -Pakiostan, Afghanistan
-    </p>
-    <p>
-      Ephedra sinica Stapf &#8211; Cao Ma Huang, Chinese ephedra &#8211; Mongolia, Siberia, Primorye, Manchuria
-    </p>
-    <p>
-      Ephedra somalensis Freitag &amp; Maier-St. &#8211; Somalia, Eritrea
-    </p>
-    <p>
-      Ephedra strobilacea Bunge &#8211; Iran, Central Asia
-    </p>
-    <p>
-      Ephedra sumlingensis P.Sharma &amp; P.L.Uniyal &#8211; western Himalayas
-    </p>
-    <p>
-      Ephedra tilhoana Maire &#8211; Chad
-    </p>
-    <p>
-      Ephedra torreyana S.Wats. &#8211; Torrey's Ephedra, Torrey's Jointfir, Torrey's Mormon-tea, Ca&#241;utillo &#8211; Nevada, Utah, Colorado, Arizona, New Mexico, Texas, Chihuahua
-    </p>
-    <p>
-      Ephedra transitoria Riedl &#8211; Iraq, Syria, Palestine, Saudi Arabia
-    </p>
-    <p>
-      Ephedra triandra Tul. -Bolivia, Argentina
-    </p>
-    <p>
-      Ephedra trifurca Torrey ex S.Wats. &#8211; Longleaf Ephedra, Longleaf Jointfir, Longleaf Mormon-tea, Popotilla, Teposote &#8211; California, Arizona, New Mexico, Texas, Chihuahua, Sonora, Baja California
-    </p>
-    <p>
-      Ephedra tweedieana C.A.Mey. &#8211; Brazil, Argentina, Uruguay
-    </p>
-    <p>
-      Ephedra viridis Coville &#8211; Green Ephedra, Green Mormon-tea &#8211; California, Nevada, Utah, Arizona, New Mexico, Colorado, Wyoming, South Dakota, Oregon
-    </p>
-    <p>
-      Ephedra vvedenskyi Pachom. &#8211; Iran, Caucasus, Turkmenistan
+      <a href="http://en.wikipedia.org/wiki/Lilium">http://en.wikipedia.org/wiki/Lilium</a>
     </p>
   </body>
 </html>
@@ -25026,6 +30626,1645 @@
 </node>
 </node>
 </node>
+<node TEXT="Calochortoideae" STYLE_REF="Family(Subfamily)" ID="ID_1069552805" CREATED="1432558153723" MODIFIED="1432558162828">
+<node STYLE_REF="Genus" ID="ID_311466627" CREATED="1432558176777" MODIFIED="1433255887437"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Calochortus spp.
+    </p>
+    <p>
+      <font size="3">Mariposa Lilies</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      They are generally carefree
+    </p>
+    <p>
+      The dormant bulbs are planted in fall, and begin growth in the spring
+    </p>
+    <p>
+      <br/>
+      Calochortus is a genus of approximately 70 species of bulbous herbaceous perennials in the Liliaceae, native to western North America to Guatemala. The plants grow to 1 foot from the underground bulb. The bulbs of many species were eaten by Native Americans, and also by Mormon colonizers in Utah in their first years there after a series of crop failures. Calochortus nuttallii is the Utah state flower.&#160;<a href="http://en.wikipedia.org/wiki/Calochortus">
+</a>    </p>
+    <p>
+      <a href="http://en.wikipedia.org/wiki/Calochortus">
+</a>    </p>
+    <p>
+      <a href="http://en.wikipedia.org/wiki/Calochortus">
+</a>    </p>
+    <p>
+      <a href="http://en.wikipedia.org/wiki/Calochortus">http://en.wikipedia.org/wiki/Calochortus</a>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node STYLE_REF="Order" ID="ID_740043936" CREATED="1429796523052" MODIFIED="1432650234964"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Poales
+    </p>
+    <p>
+      <font size="4">River Cane, Erdmandeln, Maize</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Family" ID="ID_1096851596" CREATED="1429796505468" MODIFIED="1434046478450"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cyperaceae
+    </p>
+    <p>
+      <font size="4">Erdmandeln</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1489066081" CREATED="1429796443335" MODIFIED="1434046482117"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cyperus spp.
+    </p>
+    <p>
+      <font size="4">Erdmandeln</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Cyperus esculentus" STYLE_REF="Species" ID="ID_1531160482" CREATED="1403074335390" MODIFIED="1432567186256">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE="Root"/>
+<attribute NAME="Application - Edible" VALUE="Leaves/Needles"/>
+<attribute NAME="Application - Edible" VALUE="Oil"/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE="Forb/herb"/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE="Full Sun"/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE="Moist"/>
+<attribute NAME="Conditions - Soil PH" VALUE="Acidic"/>
+<attribute NAME="Conditions - Soil PH" VALUE="Neutral"/>
+<attribute NAME="Conditions - Soil PH" VALUE="Alkaline"/>
+<attribute NAME="Conditions - Soil Texture" VALUE="Sandy"/>
+<attribute NAME="Conditions - Soil Texture" VALUE="Loamy"/>
+<attribute NAME="Conditions - Soil Texture" VALUE="Clay"/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE="Hermaphrodite"/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Earth Almond
+    </p>
+    <p>
+      ES - Chufas
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE - Erdmandeln
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="chufa.com &gt; How-to-grow" ID="ID_813735473" CREATED="1403074366818" MODIFIED="1403074366818" LINK="http://www.chufa.com/how-to-grow.htm"/>
+<node TEXT="en.wikipedia.org &gt; Wiki &gt; Cyperus esculentus" ID="ID_486262963" CREATED="1403074408143" MODIFIED="1403074408143" LINK="http://en.wikipedia.org/wiki/Cyperus_esculentus"/>
+<node TEXT="pfaf.org &gt; User &gt; Plant ? ..." ID="ID_910343476" CREATED="1429194147913" MODIFIED="1429194147913" LINK="http://www.pfaf.org/user/plant.aspx?LatinName=Cyperus+esculentus"/>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1556589676" CREATED="1430757308924" MODIFIED="1430757308925"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1374451528" CREATED="1430757308925" MODIFIED="1430757308926"/>
+</node>
+</node>
+</node>
+<node STYLE_REF="Family" ID="ID_1748142760" CREATED="1429809824429" MODIFIED="1433255567108"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Poaceae
+    </p>
+    <p>
+      <font size="3">Grass, Maize</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1206211933" CREATED="1429809734208" MODIFIED="1434046464120"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Arundo spp.
+    </p>
+    <p>
+      <font size="4">River Cane</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<node TEXT="Arundo Donax" STYLE_REF="Species" ID="ID_962753330" CREATED="1409816782713" MODIFIED="1432567135049">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE="Building Material"/>
+<attribute NAME="Application" VALUE="Fiber - Weaving"/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE="Graminoid"/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE="Annual"/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Giant River Cane
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Arundo Donax 2007 (Movie)" ID="ID_1323293325" CREATED="1409816893152" MODIFIED="1429466622792">
+<font NAME="SansSerif" SIZE="10" BOLD="true"/>
+<node TEXT="https://www.youtube.com/watch?v=a_G5hyUefFs" ID="ID_1101500716" CREATED="1409816849696" MODIFIED="1409816849696" LINK="https://www.youtube.com/watch?v=a_G5hyUefFs"/>
+</node>
+<node TEXT="https://www.youtube.com/watch?v=lNeLbkE2ILw" ID="ID_705733788" CREATED="1409817413801" MODIFIED="1409817413801" LINK="https://www.youtube.com/watch?v=lNeLbkE2ILw"/>
+<node TEXT="practicalplants.org &gt; Wiki &gt; Arundo donax" ID="ID_709450759" CREATED="1409818169521" MODIFIED="1409818169521" LINK="http://practicalplants.org/wiki/Arundo_donax"/>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_414336998" CREATED="1430757308930" MODIFIED="1430757308931"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_440224643" CREATED="1430757308931" MODIFIED="1430757308932"/>
+</node>
+</node>
+<node STYLE_REF="Genus" ID="ID_134793178" CREATED="1429810611618" MODIFIED="1434046462905"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Triticum spp.
+    </p>
+    <p>
+      <font size="4">Wheat</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<node TEXT="Triticum turgidum&#xa;Triticum turanicum" STYLE_REF="Species" ID="ID_1841531177" CREATED="1395070865909" MODIFIED="1432567030945">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE="Seeds"/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE="Graminoid"/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE="Annual"/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Kamut, Khorasan Wheat
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="en.wikipedia.org &gt; Wiki &gt; Khorasan wheat" ID="ID_1361990508" CREATED="1395071105712" MODIFIED="1395071105712" LINK="http://en.wikipedia.org/wiki/Khorasan_wheat"/>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_773698281" CREATED="1430757308936" MODIFIED="1430757308937"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1895258553" CREATED="1430757308937" MODIFIED="1430757308938"/>
+</node>
+<node TEXT="Triticum durum&#xa;Triticum turgidum subsp. durum" STYLE_REF="Species" ID="ID_1217888273" CREATED="1429811282888" MODIFIED="1432567052130">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Durum wheat
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1459051075" CREATED="1430757308941" MODIFIED="1430757308942"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_229153921" CREATED="1430757308943" MODIFIED="1430757308943"/>
+</node>
+</node>
+<node STYLE_REF="Genus" ID="ID_1438086052" CREATED="1429810917427" MODIFIED="1434046461441"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Hordeum spp.
+    </p>
+    <p>
+      <font size="4">Barley</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<node TEXT="Black Barley&#xa;(?)" STYLE_REF="Species" ID="ID_1134458548" CREATED="1429810967243" MODIFIED="1432567059242">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN -
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Black barley  &#xa;The most nutritious of all barleys. Unlike most grains it has no inedible hull, so when harvested the nutrition-packed hull remains intact. Rich in fibre and minerals. Its eye-catching colour, texture and flavour make it brilliant for salads and pilafs." ID="ID_1558892557" CREATED="1429811023939" MODIFIED="1429811028802"/>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1614991221" CREATED="1430757308947" MODIFIED="1430757308948"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_131946331" CREATED="1430757308948" MODIFIED="1430757308949"/>
+</node>
+</node>
+<node STYLE_REF="Family(Subfamily)" ID="ID_1250612778" CREATED="1431074669187" MODIFIED="1434046488508"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Panicoideae
+    </p>
+    <p>
+      <font size="4">Maize, Lemongrass</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_349139570" CREATED="1431074628513" MODIFIED="1434137562257"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Zea spp.
+    </p>
+    <p>
+      <font size="4">Maize</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE="Three Sisters"/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<node STYLE_REF="Species" ID="ID_1853379141" CREATED="1431074640626" MODIFIED="1434137540524"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Zea mays subsp. mays
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE="Three Sisters"/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Maize, Corn
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1807091774" CREATED="1431074647007" MODIFIED="1431074647009"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_113878358" CREATED="1431074647026" MODIFIED="1431074647028"/>
+<node TEXT="http://en.wikipedia.org/wiki/Maize" ID="ID_1258148256" CREATED="1431074805547" MODIFIED="1431074805547" LINK="http://en.wikipedia.org/wiki/Maize"/>
+<node TEXT="http://www.colostate.edu/Dept/CoopExt/4dmg/VegFruit/corn.htm" ID="ID_809291734" CREATED="1431074812560" MODIFIED="1431074812560" LINK="http://www.colostate.edu/Dept/CoopExt/4dmg/VegFruit/corn.htm"/>
+<node TEXT="Dent corn (Zea mays var. indentata)" STYLE_REF="Variation" ID="ID_781650927" CREATED="1431074933488" MODIFIED="1431074947228">
+<node TEXT="http://en.wikipedia.org/wiki/Dent_corn" ID="ID_66670097" CREATED="1431074955825" MODIFIED="1431074955825" LINK="http://en.wikipedia.org/wiki/Dent_corn"/>
+</node>
+<node TEXT="Popcorn (Zea mays var. everta)" STYLE_REF="Variation" ID="ID_465712179" CREATED="1431075488545" MODIFIED="1431075509304">
+<node TEXT="http://en.wikipedia.org/wiki/Popcorn" ID="ID_1764391538" CREATED="1431075515882" MODIFIED="1431075515882" LINK="http://en.wikipedia.org/wiki/Popcorn"/>
+</node>
+<node TEXT="Flint corn (Zea mays indurata)" STYLE_REF="Variation" ID="ID_290103749" CREATED="1431075553320" MODIFIED="1431075561614">
+<node TEXT="http://en.wikipedia.org/wiki/Flint_corn" ID="ID_1639417781" CREATED="1431075567393" MODIFIED="1431075567393" LINK="http://en.wikipedia.org/wiki/Flint_corn"/>
+</node>
+<node TEXT="Sweet corn (Zea mays convar. saccharata var. rugosa)" STYLE_REF="Variation" ID="ID_504945248" CREATED="1431075643462" MODIFIED="1431075652090">
+<node TEXT="http://en.wikipedia.org/wiki/Sweet_corn" ID="ID_97746142" CREATED="1431075658879" MODIFIED="1431075658879" LINK="http://en.wikipedia.org/wiki/Sweet_corn"/>
+</node>
+<node TEXT="Waxy Corn (Zea mays var. ceratina)" STYLE_REF="Variation" ID="ID_1736039117" CREATED="1431076101373" MODIFIED="1431076127746">
+<node TEXT="http://en.wikipedia.org/wiki/Waxy_corn" ID="ID_913501317" CREATED="1431076134118" MODIFIED="1431076134118" LINK="http://en.wikipedia.org/wiki/Waxy_corn"/>
+</node>
+<node TEXT="Pod corn (Zea mays var. tunicata Larra&#xf1;aga ex A. St. Hil)" STYLE_REF="Variation" ID="ID_635661798" CREATED="1431076244790" MODIFIED="1431076258582">
+<node TEXT="http://en.wikipedia.org/wiki/Pod_corn" ID="ID_1870346607" CREATED="1431076268674" MODIFIED="1431076268674" LINK="http://en.wikipedia.org/wiki/Pod_corn"/>
+</node>
+<node TEXT="Striped maize: Zea mays var. japonica" STYLE_REF="Variation" ID="ID_1319816447" CREATED="1431076289564" MODIFIED="1431076297115"/>
+<node TEXT="Flour corn ( Zea mays var. amylacea)" STYLE_REF="Variation" ID="ID_518210810" CREATED="1431076321684" MODIFIED="1431076334003"/>
+</node>
+</node>
+<node STYLE_REF="Genus" ID="ID_1386021907" CREATED="1434046446750" MODIFIED="1434137697065"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cymbopogon spp
+    </p>
+    <p>
+      <font size="4">Lemongrass</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="http://en.wikipedia.org/wiki/Cymbopogon">http://en.wikipedia.org/wiki/Cymbopogon</a>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Species" ID="ID_1342048818" CREATED="1434052513541" MODIFIED="1434052543350"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cymbopogon schoenanthus
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Pests" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild" VALUE="Olive"/>
+<attribute NAME="Data - Guild Element" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Lemongrass
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_107187190" CREATED="1434052516959" MODIFIED="1434052516961"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_203895010" CREATED="1434052516962" MODIFIED="1434052516963"/>
+<node TEXT="http://en.wikipedia.org/wiki/Cymbopogon_schoenanthus" ID="ID_1003373830" CREATED="1434052558066" MODIFIED="1434052558066" LINK="http://en.wikipedia.org/wiki/Cymbopogon_schoenanthus"/>
+<node TEXT="http://www.tomsofmaine.com/ingredients/overlay/cymbopogon-schoenanthus-deodorancy" ID="ID_323286496" CREATED="1434052611753" MODIFIED="1434052611753" LINK="http://www.tomsofmaine.com/ingredients/overlay/cymbopogon-schoenanthus-deodorancy"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node STYLE_REF="Division" ID="ID_1924374424" CREATED="1433788621241" MODIFIED="1433789542224"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Pinophyta
+    </p>
+    <p>
+      <font size="4">Pines, Conifers</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<hook NAME="FirstGroupNode"/>
+<richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="http://en.wikipedia.org/wiki/Pinophyta">http://en.wikipedia.org/wiki/Pinophyta </a>
+    </p>
+    <p>
+      <a href="http://botit.botany.wisc.edu/courses/systematics/Phyla/Coniferophyta/Coniferophyta.html">http://botit.botany.wisc.edu/courses/systematics/Phyla/Coniferophyta/Coniferophyta.html</a>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Class" ID="ID_714213894" CREATED="1433788581333" MODIFIED="1433788868268"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Pinopsida
+    </p>
+    <p>
+      <font size="4">Pines, Conifers</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Order" ID="ID_74247" CREATED="1429982525659" MODIFIED="1433791604180"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Pinales
+    </p>
+    <p>
+      <font size="4">Pines, Conifers</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="http://conifersociety.org/conifers/">http://conifersociety.org/conifers/</a>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Araucariaceae" STYLE_REF="Family" ID="ID_495154868" CREATED="1429983752509" MODIFIED="1429983833186">
+<node TEXT="Araucaria spp." STYLE_REF="Genus" ID="ID_1202813060" CREATED="1429983731310" MODIFIED="1429983795378">
+<node TEXT="Araucaria bidwillii" STYLE_REF="Species" ID="ID_1505211826" CREATED="1385533551667" MODIFIED="1432567426867">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE="Tree"/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE="Perennial"/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Bunya-Bunya Pine
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="permaculturenews.org &gt; 2013 &gt; 11 &gt; 27 &gt; The-bunya-bunya-pine-araucaria-bidwillii" ID="ID_1135412636" CREATED="1385533566863" MODIFIED="1385533566863" LINK="http://permaculturenews.org/2013/11/27/the-bunya-bunya-pine-araucaria-bidwillii/"/>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1377404287" CREATED="1429981696600" MODIFIED="1429981696602"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_799317619" CREATED="1429981696601" MODIFIED="1429981696601"/>
+<node TEXT="http://en.wikipedia.org/wiki/Araucaria_bidwillii" ID="ID_498427758" CREATED="1429983942430" MODIFIED="1429983942430" LINK="http://en.wikipedia.org/wiki/Araucaria_bidwillii"/>
+</node>
+</node>
+</node>
+<node STYLE_REF="Family" ID="ID_1264461745" CREATED="1430813657533" MODIFIED="1433788332670"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cupressaceae
+    </p>
+    <p>
+      <font size="3">Junipers, Cypress</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1995162860" CREATED="1430813692669" MODIFIED="1434136885954"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Juniperus spp.
+    </p>
+    <p>
+      <font size="4">Juniper</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="225" VALUE_WIDTH="225"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE="Walnut"/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="white-space: normal; text-transform: none; margin-right: 0px; color: rgb(37, 37, 37); word-spacing: 0px; font-variant: normal; text-align: start; font-weight: normal; letter-spacing: normal; margin-left: 0px; font-family: sans-serif; font-style: normal; margin-top: 0; margin-bottom: 0; line-height: 22.3999996185303px; font-size: 14px; text-indent: 0px; background-color: rgb(255, 255, 255)" charset="utf-8">
+      As to be expected from the wide range,&#160;Juniperus oxycedrus&#160;is very variable. One recent study[4][6][7]&#160;splits it into three species, though other authorities[1]&#160;do not accept this:
+    </p>
+    <p style="white-space: normal; text-transform: none; margin-right: 0px; color: rgb(37, 37, 37); word-spacing: 0px; font-variant: normal; text-align: start; font-weight: normal; letter-spacing: normal; margin-left: 0px; font-family: sans-serif; font-style: normal; margin-top: 0; margin-bottom: 0; line-height: 22.3999996185303px; font-size: 14px; text-indent: 0px; background-color: rgb(255, 255, 255)" charset="utf-8">
+      
+    </p>
+    <ul style="text-indent: 0px; padding-top: 0px; font-weight: normal; text-transform: none; line-height: 1.5em; color: rgb(37, 37, 37); padding-right: 0px; margin-top: 0; font-variant: normal; letter-spacing: normal; word-spacing: 0px; margin-right: 0px; padding-bottom: 0px; font-style: normal; list-style-image: url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20width%3D%225%22%20height%3D%2213%22%3E%0A%3Ccircle%20cx%3D%222.5%22%20cy%3D%229.5%22%20r%3D%222.5%22%20fill%3D%22%2300528c%22%2F%3E%0A%3C%2Fsvg%3E%0A); background-color: rgb(255, 255, 255); text-align: start; padding-left: 0px; white-space: normal; list-style-type: disc; margin-left: 0; margin-bottom: 0px; font-size: 14px; font-family: sans-serif">
+      <li style="margin-bottom: 0">
+        <i><b>Juniperus oxycedrus</b></i><span class="Apple-converted-space">&#160;</span>L. -<span class="Apple-converted-space">&#160;</span><b>Western prickly juniper</b>. Southwest Europe, in eastern Portugal and<span class="Apple-converted-space">&#160;</span><font color="rgb(11, 0, 128)"><a style="color: rgb(11, 0, 128); background-image: null; background-attachment: scroll; background-repeat: repeat; text-decoration: none; background-position: null" title="Spain" href="http://en.wikipedia.org/wiki/Spain">Spain</a></font><span class="Apple-converted-space">&#160;</span>east to southern<span class="Apple-converted-space">&#160;</span><font color="rgb(11, 0, 128)"><a style="color: rgb(11, 0, 128); background-image: null; background-attachment: scroll; background-repeat: repeat; text-decoration: none; background-position: null" title="France" href="http://en.wikipedia.org/wiki/France">France</a></font>, northwest<span class="Apple-converted-space">&#160;</span><font color="rgb(11, 0, 128)"><a style="color: rgb(11, 0, 128); background-image: null; background-attachment: scroll; background-repeat: repeat; text-decoration: none; background-position: null" title="Italy" href="http://en.wikipedia.org/wiki/Italy">Italy</a></font>,<font color="rgb(11, 0, 128)"><a style="color: rgb(11, 0, 128); background-image: null; background-attachment: scroll; background-repeat: repeat; text-decoration: none; background-position: null" title="Corsica" href="http://en.wikipedia.org/wiki/Corsica">Corsica</a></font>, and<span class="Apple-converted-space">&#160;</span><font color="rgb(11, 0, 128)"><a style="color: rgb(11, 0, 128); background-image: null; background-attachment: scroll; background-repeat: repeat; text-decoration: none; background-position: null" title="Sardinia" href="http://en.wikipedia.org/wiki/Sardinia">Sardinia</a></font>, and northwest Africa from Morocco east to<span class="Apple-converted-space">&#160;</span><font color="rgb(11, 0, 128)"><a style="color: rgb(11, 0, 128); background-image: null; background-attachment: scroll; background-repeat: repeat; text-decoration: none; background-position: null" title="Tunisia" href="http://en.wikipedia.org/wiki/Tunisia">Tunisia</a></font>. Leaves long (10&#8211;20&#160;mm), narrow-based; cones smooth.
+      </li>
+      <li style="margin-bottom: 0">
+        
+      </li>
+    </ul>
+    <ul style="text-indent: 0px; padding-top: 0px; font-weight: normal; text-transform: none; line-height: 1.5em; color: rgb(37, 37, 37); padding-right: 0px; margin-top: 0; font-variant: normal; letter-spacing: normal; word-spacing: 0px; margin-right: 0px; padding-bottom: 0px; font-style: normal; list-style-image: url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20width%3D%225%22%20height%3D%2213%22%3E%0A%3Ccircle%20cx%3D%222.5%22%20cy%3D%229.5%22%20r%3D%222.5%22%20fill%3D%22%2300528c%22%2F%3E%0A%3C%2Fsvg%3E%0A); background-color: rgb(255, 255, 255); text-align: start; padding-left: 0px; white-space: normal; list-style-type: disc; margin-left: 0; margin-bottom: 0px; font-size: 14px; font-family: sans-serif">
+      <li style="margin-bottom: 0">
+        <b><i>Juniperus navicularis</i></b><span class="Apple-converted-space">&#160;</span>Gand. (syn.<span class="Apple-converted-space">&#160;</span><i>J. oxycedrus</i><span class="Apple-converted-space">&#160;</span>subsp.<span class="Apple-converted-space">&#160;</span><i>transtagana</i>) -<span class="Apple-converted-space">&#160;</span><b>Portuguese prickly juniper</b>. Coastal southwest Portugal. Leaves short (5&#8211;12&#160;mm); cones smooth.
+      </li>
+      <li style="margin-bottom: 0">
+        
+      </li>
+    </ul>
+    <ul style="text-indent: 0px; padding-top: 0px; font-weight: normal; text-transform: none; line-height: 1.5em; color: rgb(37, 37, 37); padding-right: 0px; margin-top: 0; font-variant: normal; letter-spacing: normal; word-spacing: 0px; margin-right: 0px; padding-bottom: 0px; font-style: normal; list-style-image: url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20width%3D%225%22%20height%3D%2213%22%3E%0A%3Ccircle%20cx%3D%222.5%22%20cy%3D%229.5%22%20r%3D%222.5%22%20fill%3D%22%2300528c%22%2F%3E%0A%3C%2Fsvg%3E%0A); background-color: rgb(255, 255, 255); text-align: start; padding-left: 0px; white-space: normal; list-style-type: disc; margin-left: 0; margin-bottom: 0px; font-size: 14px; font-family: sans-serif">
+      <li style="margin-bottom: 0">
+        <b><i>Juniperus deltoides</i></b><span class="Apple-converted-space">&#160;</span>R.P.Adams -<span class="Apple-converted-space">&#160;</span><b>Eastern prickly juniper</b>. Central Italy east to Iran and Israel. Leaves long (10&#8211;20&#160;mm), broad-based; cones with raised scale edges.
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Juniperus oxycedrus" STYLE_REF="Species" ID="ID_237481968" CREATED="1430813651021" MODIFIED="1432567405915">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE="Craft Wood"/>
+<attribute NAME="Application" VALUE="Wind Break"/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE=""/>
+<attribute NAME="Characteristic - Leaf Type" VALUE=""/>
+<attribute NAME="Characteristic - Resistance" VALUE="Juglone (Walnut)"/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Juniper
+    </p>
+    <p>
+      ES - Sabina
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1621307823" CREATED="1430813654934" MODIFIED="1430813654935"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1592622031" CREATED="1430813654935" MODIFIED="1430813654936"/>
+</node>
+</node>
+</node>
+<node STYLE_REF="Family" ID="ID_82423258" CREATED="1429982512490" MODIFIED="1433255637896"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Pinaceae
+    </p>
+    <p>
+      <font size="3">Pines</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node STYLE_REF="Genus" ID="ID_1405141452" CREATED="1429982477289" MODIFIED="1433255648625"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Pinus
+    </p>
+    <p>
+      <font size="3">Pines</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="http://tcpermaculture.com/site/2014/08/04/tapping-the-pine-tree-plant-resins-and-their-uses/">http://tcpermaculture.com/site/2014/08/04/tapping-the-pine-tree-plant-resins-and-their-uses/</a>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Pinus" STYLE_REF="Genus(Subgenus)" ID="ID_1795190581" CREATED="1429982458336" MODIFIED="1429982470872">
+<node TEXT="Pinus pinea" STYLE_REF="Species" ID="ID_1638727924" CREATED="1424851700984" MODIFIED="1432567549696">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE="Nuts"/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE="Tree"/>
+<attribute NAME="Characteristic - Leaf Type" VALUE="Evergreen"/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE="Pine - Stone(Pinus pinea)"/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE="Perennial"/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Stone Pine
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="en.wikipedia.org &gt; Wiki &gt; Stone pine" ID="ID_1240726456" CREATED="1424851972231" MODIFIED="1424851972231" LINK="http://en.wikipedia.org/wiki/Stone_pine"/>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1022710825" CREATED="1429981701536" MODIFIED="1429981701538"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1576650423" CREATED="1429981701537" MODIFIED="1429981701538"/>
+<node TEXT="Stone pine Pinus pinea, like maritime pine, is another largely coastal tree, and has its distribution centered on the Iberian Peninsula. It also occurs in the lower montane zones where there is slightly more precipitation. Forests of Pinus pinea tends to grow on richer soils and usually have well-developed shrub and field layers. Among the more typical shrubs is Clematis flammula, Cistus albidus, Cistus salvifolius, Daphne gnidium, Hedera helix, Pyracantha coccinea, Rubia peregrina and Ulex europaeus, while the field layer commonly includes Lathyrus clymenum, Linum perenne and the orchids Cephalanthera longifolia and Neotinea intacta. Extensive stone pine forests occur, for example, in the Algarve, which has the distinction of being the most southwesterly region of Europe. Here the scrub layer also includes the elegant white flowered broom Lygos monosperma, together withseveral endemic species such as Anchusa calcarea (Boraginaceae), Cistus libanotis and Tuberaria major (Cistaceae)." ID="ID_739850821" CREATED="1430807766232" MODIFIED="1430807782145"/>
+<node TEXT="Typical shrubs in the Stone Pine Forest" ID="ID_1927159318" CREATED="1430807826984" MODIFIED="1430807993719">
+<font BOLD="true"/>
+<node ID="ID_1935299751" CREATED="1430807939824" MODIFIED="1430807939824"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Clematis flammula
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1207242258" CREATED="1430807939825" MODIFIED="1430807939825"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cistus albidus,
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1737025479" CREATED="1430807939829" MODIFIED="1430807939829"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cistus salvifolius,
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_589541922" CREATED="1430807939831" MODIFIED="1430807939831"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Daphne gnidium,
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_931315089" CREATED="1430807939834" MODIFIED="1430807939834"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Hedera helix,
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1074526512" CREATED="1430807939836" MODIFIED="1430807939836"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Pyracantha coccinea,
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1240743072" CREATED="1430807939839" MODIFIED="1430807939839"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Rubia peregrina,
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1017155702" CREATED="1430807939842" MODIFIED="1430807939842"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ulex europaeus,
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_904044681" CREATED="1430807939845" MODIFIED="1430807939845"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      while the field layer commonly includes Lathyrus clymenum, Linum perenne and the orchids Cephalanthera longifolia and Neotinea intacta
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Many coniferous trees, because of their preference for acid soils, heavy shade canopy, and the fact that&#xa;dropped pine needles form a heavy, slow to decompose mulch, make it very challenging to grow other&#xa;plants beneath them.&#xa;Daffodil (Narcissus spp.) and lily of the valley (Convallaria majalis) are two spring bulbs that are adapted&#xa;to these conditions and do well there. Another plant is wild geranium (Geranium maculatum), a hardy&#xa;species which has medicinal use as an astringent.&#xa;Sweet cicely (Myrrhis odorata) is a European herb naturalized in North America that has edible anise&#xa;flavored leaves, seeds, and roots with uses both culinary and medicinal. The roots can be used as a&#xa;vegetable or to treat the flu, while its seeds are used as a topping for baked goods.&#xa;Pruning an evergreen tree allows enough light to reach acid soil lovers such as lingonberries (Vaccinium&#xa;vitis-idaea) and blueberries (Vaccinium corymbosum). Blueberries come in sizes of 6 inches high to 6 feet&#xa;tall. Lingonberries are related to cranberries but grow only to 12 inches tall and do not require wet soils." ID="ID_463433405" CREATED="1430810913641" MODIFIED="1430810918452"/>
+</node>
+<node TEXT="Pinus halepensis" STYLE_REF="Species" ID="ID_1942627146" CREATED="1430812170358" MODIFIED="1432567455826">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE="Tree"/>
+<attribute NAME="Characteristic - Leaf Type" VALUE="Evergreen"/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE="Pine - Allepo (Pinus halepensis)"/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Aleppo pine
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1303375031" CREATED="1430812174476" MODIFIED="1430812174478"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_671822333" CREATED="1430812174478" MODIFIED="1430812174479"/>
+<node TEXT="http://en.wikipedia.org/wiki/Pinus_halepensis" ID="ID_1095006438" CREATED="1430813071986" MODIFIED="1430813071986" LINK="http://en.wikipedia.org/wiki/Pinus_halepensis"/>
+<node TEXT="The resin of the Aleppo pine is used to flavor the Greek wine retsina.&#xa;&#xa;From the pine nuts of the Aleppo pine is made a pudding called asidet zgougou in the Tunisian dialect; it is served in bowls, covered with cream, and topped with almonds and small candies." ID="ID_360945754" CREATED="1430813150524" MODIFIED="1430813153880"/>
+</node>
+<node TEXT="Pinus nigra" STYLE_REF="Species" ID="ID_430396282" CREATED="1430811557568" MODIFIED="1432567469099">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE="Tree"/>
+<attribute NAME="Characteristic - Leaf Type" VALUE="Evergreen"/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Black Pine
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_1057256639" CREATED="1430811563853" MODIFIED="1430811563854"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1071343502" CREATED="1430811563855" MODIFIED="1430811563856"/>
+</node>
+<node TEXT="Pinus sylvestris" STYLE_REF="Species" ID="ID_1349449204" CREATED="1430812033291" MODIFIED="1432567483501">
+<attribute_layout NAME_WIDTH="245" VALUE_WIDTH="245"/>
+<attribute NAME="Application" VALUE=""/>
+<attribute NAME="Application - Edible" VALUE=""/>
+<attribute NAME="Application - Fermentation" VALUE=""/>
+<attribute NAME="Application - Medicinal" VALUE=""/>
+<attribute NAME="Characteristic" VALUE=""/>
+<attribute NAME="Characteristic - Allelopathy" VALUE=""/>
+<attribute NAME="Characteristic - Diseases" VALUE=""/>
+<attribute NAME="Characteristic - Growth Habit" VALUE="Tree"/>
+<attribute NAME="Characteristic - Leaf Type" VALUE="Evergreen"/>
+<attribute NAME="Characteristic - Resistance" VALUE=""/>
+<attribute NAME="Characteristic - Sensitivity" VALUE=""/>
+<attribute NAME="Characteristic - Toxicity" VALUE=""/>
+<attribute NAME="Conditions - Hardiness Zones" VALUE=""/>
+<attribute NAME="Conditions - Light" VALUE=""/>
+<attribute NAME="Conditions - Soil Characteristics" VALUE=""/>
+<attribute NAME="Conditions - Soil Moisture" VALUE=""/>
+<attribute NAME="Conditions - Soil PH" VALUE=""/>
+<attribute NAME="Conditions - Soil Texture" VALUE=""/>
+<attribute NAME="Data - Conservation Status" VALUE=""/>
+<attribute NAME="Data - Food Forest Layer" VALUE=""/>
+<attribute NAME="Data - Guild" VALUE=""/>
+<attribute NAME="Data - Native Regions" VALUE=""/>
+<attribute NAME="Dimensions - Height Max" VALUE=""/>
+<attribute NAME="Dimensions - Height Min" VALUE=""/>
+<attribute NAME="Dimensions - Root Depth" VALUE=""/>
+<attribute NAME="Dimensions - Spacing" VALUE=""/>
+<attribute NAME="Schedule - Bearing Age" VALUE=""/>
+<attribute NAME="Schedule - Duration" VALUE=""/>
+<attribute NAME="Schedule - Flower Period" VALUE=""/>
+<attribute NAME="Schedule - Germination Span" VALUE=""/>
+<attribute NAME="Schedule - Harvest Period" VALUE=""/>
+<attribute NAME="Schedule - Lifespan" VALUE=""/>
+<attribute NAME="Schedule - Sowing Date (Week)" VALUE=""/>
+<attribute NAME="Sexuality - Behavior" VALUE=""/>
+<attribute NAME="Sexuality - Flower Tyoe" VALUE=""/>
+<attribute NAME="Sexuality - Pollination" VALUE=""/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EN - Scots Pines
+    </p>
+    <p>
+      ES -
+    </p>
+    <p>
+      CA -
+    </p>
+    <p>
+      DE -
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Compatible Plantings" STYLE_REF="Compatible" ID="ID_522239854" CREATED="1430812037106" MODIFIED="1430812037107"/>
+<node TEXT="Incompatible Plantings" STYLE_REF="Compatible" ID="ID_1871088779" CREATED="1430812037108" MODIFIED="1430812037109"/>
+</node>
+</node>
+</node>
+</node>
+<node STYLE_REF="Family" ID="ID_1996413235" CREATED="1433788277780" MODIFIED="1433788306093"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Taxaceae
+    </p>
+    <p>
+      <font size="4">Yew</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node STYLE_REF="Division" ID="ID_100476829" CREATED="1433789617852" MODIFIED="1433789900433"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Polypodiophyta
+    </p>
+    <p>
+      <font size="4">Ferns</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="http://botit.botany.wisc.edu/courses/systematics/Phyla/Pterophyta/Pterophyta.html">http://botit.botany.wisc.edu/courses/systematics/Phyla/Pterophyta/Pterophyta.html</a>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node STYLE_REF="Division" ID="ID_1053286122" CREATED="1433790142100" MODIFIED="1433790328133"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Psilotophyta
+    </p>
+    <p>
+      <font size="4">Wisk Ferns</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS" HIDDEN="true">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="http://botit.botany.wisc.edu/courses/systematics/Phyla/Psilophyta/Psilophyta.html">http://botit.botany.wisc.edu/courses/systematics/Phyla/Psilophyta/Psilophyta.html</a>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node TEXT="Lists" POSITION="left" ID="ID_1696484509" CREATED="1429639619904" MODIFIED="1429639634978">
@@ -25745,6 +32984,2523 @@
 <node TEXT="http://bioguia.es/las-230-plantas-medicinales-mas-efectivas-y-sus-usos-compartelo-para-que-se-sepa/" ID="ID_1389038650" CREATED="1432878014932" MODIFIED="1432878014932" LINK="http://bioguia.es/las-230-plantas-medicinales-mas-efectivas-y-sus-usos-compartelo-para-que-se-sepa/"/>
 </node>
 </node>
+<node TEXT="Guilds/Companion Planting" POSITION="left" ID="ID_490756108" CREATED="1433921940793" MODIFIED="1433960672098">
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="18" BOLD="true"/>
+<node TEXT="Guilds" ID="ID_555884129" CREATED="1382440953531" MODIFIED="1434138418758">
+<font NAME="SansSerif" SIZE="18" BOLD="true"/>
+<attribute_layout NAME_WIDTH="97" VALUE_WIDTH="156"/>
+<node TEXT="Three Sisters" STYLE_REF="Guild" ID="ID_873829420" CREATED="1382441012697" MODIFIED="1434132134119">
+<node TEXT="Notes" ID="ID_308964176" CREATED="1434131704181" MODIFIED="1434131716023">
+<font SIZE="14" BOLD="true"/>
+<node TEXT="Corns, Beans, Squash" ID="ID_162925958" CREATED="1382441032641" MODIFIED="1382441039849"/>
+<node TEXT="http://blogs.cornell.edu/garden/get-activities/signature-projects/the-three-sisters-exploring-an-iroquois-garden/how-to-plant-the-three-sisters/" ID="ID_1563905230" CREATED="1431009176349" MODIFIED="1431009176349" LINK="http://blogs.cornell.edu/garden/get-activities/signature-projects/the-three-sisters-exploring-an-iroquois-garden/how-to-plant-the-three-sisters/"/>
+<node TEXT="http://rodaleinstitute.org/the-three-sistersand-that-fourth-sister-no-one-really-talks-about/" ID="ID_140567117" CREATED="1431030177065" MODIFIED="1431030177065" LINK="http://rodaleinstitute.org/the-three-sistersand-that-fourth-sister-no-one-really-talks-about/"/>
+<node TEXT="Yes, the sweet and dent corns will cross, to the detriment of the sweet corn and probably the dent corn too. I&apos;m not sure.&#xa;&#xa;The stalks of sweet corn are too weak to support beans. Indians used dent or flint corn, which have stronger stalks. I believe sweet corns are a modern development and would not have been an option anyway.&#xa;&#xa;Some pole beans are known as cornfield beans. Those would be obvious choices for a three sisters planting. I think most pole beans, except for ones with very tall, heavy growth would be suitable.&#xa;&#xa;I believe all of the vegetables in a three sisters system were grown mainly for winter storage -- dry beans, winter squash and corn for meal. Field corn picked at the right stage of development can be used as roasting ears however and some dry bean varieties are good at the snap bean or shelly stages.&#xa;&#xa;I plan to have a three sisters garden this year. Let&apos;s share info. I&apos;ve done a lot of research but I&apos;m not sure everything I&apos;ve written above is correct. I welcome corrections." ID="ID_1944584519" CREATED="1434137946703" MODIFIED="1434137949170"/>
+</node>
+<node TEXT="Membership" STYLE_REF="Guild Membership" ID="ID_1176322335" CREATED="1433854219838" MODIFIED="1433998473734">
+<node STYLE_REF="Guild Member Genus" ID="ID_1161648296" CREATED="1434138432417" MODIFIED="1434138432440" LINK="#ID_349139570"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Zea spp.</b>
+    </p>
+    <p>
+      <font size="2">Maize</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_160563331" CREATED="1434138432348" MODIFIED="1434138432416" LINK="#ID_1725461636"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Phaseolus acutifolius</b>
+    </p>
+    <p>
+      <font size="2">EN - Tepary bean</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Nitrogen_Fixer"/>
+</node>
+</node>
+</node>
+<node TEXT="Tomatoe" STYLE_REF="Guild" ID="ID_785071788" CREATED="1382537461627" MODIFIED="1434132255862">
+<node TEXT="Notes" ID="ID_459518538" CREATED="1434131704181" MODIFIED="1434131716023">
+<font SIZE="14" BOLD="true"/>
+<node TEXT="Marigold, Basil," ID="ID_1118825966" CREATED="1434132258356" MODIFIED="1434132260166"/>
+</node>
+<node TEXT="Membership" STYLE_REF="Guild Membership" ID="ID_477409400" CREATED="1433854219838" MODIFIED="1433998473734">
+<node STYLE_REF="Guild Member Species" ID="ID_1327956161" CREATED="1434132579367" MODIFIED="1434132579428" LINK="#ID_1884928932"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Calendula officinalis</b>
+    </p>
+    <p>
+      <font size="2">EN - Marigold</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE - Ringelblume</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Pest_Repellant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_279981282" CREATED="1434132579428" MODIFIED="1434132579469" LINK="#ID_1627623069"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Ocimum basilicum</b>
+    </p>
+    <p>
+      <font size="2">EN - Basil, Thai basil,&#160;&#160;Sweet Basil</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+</node>
+</node>
+<node TEXT="Rose" STYLE_REF="Guild" ID="ID_702416964" CREATED="1434131867002" MODIFIED="1434132134116">
+<node TEXT="Notes" ID="ID_820872279" CREATED="1434131704181" MODIFIED="1434131716023">
+<font SIZE="14" BOLD="true"/>
+</node>
+<node TEXT="Membership" STYLE_REF="Guild Membership" ID="ID_1886597604" CREATED="1433854219838" MODIFIED="1433998473734">
+<node STYLE_REF="Guild Member Genus" ID="ID_1732266977" CREATED="1434135047660" MODIFIED="1434135047911" LINK="#ID_203429227"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Petroselinum&#160;&#160;spp.</b>
+    </p>
+    <p>
+      <font size="2">Parsely</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Genus" ID="ID_1242778610" CREATED="1434135047912" MODIFIED="1434135048021" LINK="#ID_605789799"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Thymus spp.</b>
+    </p>
+    <p>
+      <font size="2">Thyme</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Genus" ID="ID_558012474" CREATED="1434135048022" MODIFIED="1434135048061" LINK="#ID_1776565615"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Rosa spp.</b>
+    </p>
+    <p>
+      <font size="2">Rose</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+</node>
+</node>
+<node TEXT="Hazelnut" STYLE_REF="Guild" ID="ID_1456943249" CREATED="1431082974268" MODIFIED="1434137381295">
+<node TEXT="Notes" ID="ID_1529532053" CREATED="1434131704181" MODIFIED="1434131716023">
+<font SIZE="14" BOLD="true"/>
+<node TEXT="White Oak/Hazelnut guild:&#xa;&#xa;Oregon White Oak (aka garry oak, aka quercus garryana)&#xa;California Hazelnut (Corylus cornuta)&#xa;Pacific Madrone (Arbutus mensiesii)&#xa;Mazzard Cherry (Prunus avium)&#xa;Black Hawthorn (Craitugus douglasii)&#xa;Saskatoon ServiceBerry (Amelanchier alniflora)&#xa;Creambush oceanspray (Holodiscus discolour)&#xa;Round leaved Snowberry (Symphoricarpos albus)&#xa;Thimbleberry (Rubus parviflorus)&#xa;Trailing Blackberry (Rubus ursinus)&#xa;Sweetbriar Rose (Rosa ursinus)&#xa;Broad petaled strawberry (Fragaria virginiana)&#xa;Verba buena (Saturgeja douglasii)&#xa;Sweet cicely (Osmorhiza chilensis)&#xa;American Vetch (Vicia americana) (Nitrogen fixer)" ID="ID_732751777" CREATED="1431083052377" MODIFIED="1431083059304"/>
+</node>
+<node TEXT="Membership" STYLE_REF="Guild Membership" ID="ID_243840187" CREATED="1433854219838" MODIFIED="1433998473734">
+<node STYLE_REF="Guild Member Species" ID="ID_765810020" CREATED="1434138489045" MODIFIED="1434138489120" LINK="#ID_1906369701"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Vicia americana</b>
+    </p>
+    <p>
+      <font size="2">EN - American Vetch</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Groundcover"/>
+<attribute NAME="Data - Guild Element" VALUE="Nitrogen_Fixer"/>
+</node>
+</node>
+</node>
+<node TEXT="Oak - Holly (Quercus ilex)" STYLE_REF="Guild" ID="ID_1515911585" CREATED="1434131602792" MODIFIED="1434131626148">
+<node TEXT="Notes" ID="ID_310188683" CREATED="1434131704181" MODIFIED="1434131716023">
+<font SIZE="14" BOLD="true"/>
+</node>
+<node TEXT="Membership" STYLE_REF="Guild Membership" ID="ID_431987709" CREATED="1433854219838" MODIFIED="1433998473734">
+<node STYLE_REF="Guild Member Species" ID="ID_47109565" CREATED="1434138840511" MODIFIED="1434138840553" LINK="#ID_774851359"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Bupleurum fruticosum</b>
+    </p>
+    <p>
+      <font size="2">EN - Thoroughwax, Shrubby Hare's Ear, Matabou, Matabosc, Delfilla, Costilla de Buey, Matabuey</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_611516015" CREATED="1434138840553" MODIFIED="1434138840578" LINK="#ID_1183969850"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Asparagus acutifolius</b>
+    </p>
+    <p>
+      <font size="2">EN - Wild Asparagus</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Genus" ID="ID_1075332365" CREATED="1434138840579" MODIFIED="1434138840602" LINK="#ID_11729403"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Arbutus spp.</b>
+    </p>
+    <p>
+      <font size="2">Shepards Cherry</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1265434719" CREATED="1434138840603" MODIFIED="1434138840630" LINK="#ID_1858837151"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Quercus ilex</b>
+    </p>
+    <p>
+      <font size="2">EN - Holly Oak, Holm Oak, Encina</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+</node>
+</node>
+<node TEXT="Walnut" STYLE_REF="Guild" ID="ID_453095160" CREATED="1431083117481" MODIFIED="1434131583259">
+<node TEXT="Notes" ID="ID_1815063678" CREATED="1434131704181" MODIFIED="1434131716023">
+<font SIZE="14" BOLD="true"/>
+<node TEXT="Something is needed to help feed the soil with Nitrogen and the perfect candidates are members of the Elaegnus genus. My personal favourite is the goumi bush (Elaegnus multiflora) which has yummy edible berries that feed both humans and birds." ID="ID_760676859" CREATED="1431083146395" MODIFIED="1431083246223"/>
+</node>
+<node TEXT="Membership" STYLE_REF="Guild Membership" ID="ID_1861755493" CREATED="1433854219838" MODIFIED="1433998473734">
+<node STYLE_REF="Guild Member Genus" ID="ID_1260599718" CREATED="1434136903020" MODIFIED="1434136903720" LINK="#ID_106055882"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Armoracia spp.</b>
+    </p>
+    <p>
+      <font size="2">Horseradish</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1799680432" CREATED="1434136903721" MODIFIED="1434136903759" LINK="#ID_1166428335"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Robinia pseudoacacia</b>
+    </p>
+    <p>
+      <font size="2">EN - Black Locust, False Acacia</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Canopy"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Genus" ID="ID_759733402" CREATED="1434136903759" MODIFIED="1434136903788" LINK="#ID_1149450062"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Corylus spp.</b>
+    </p>
+    <p>
+      <font size="2">Hazel</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Genus" ID="ID_862024126" CREATED="1434136903789" MODIFIED="1434136903820" LINK="#ID_219027989"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Quercus .spp</b>
+    </p>
+    <p>
+      <font size="2">Oaks</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1376276154" CREATED="1434136903821" MODIFIED="1434136903859" LINK="#ID_1853070006"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Juglans regia</b>
+    </p>
+    <p>
+      <font size="2">EN - Walnut</font>
+    </p>
+    <p>
+      <font size="2">ES - Nogal</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Genus" ID="ID_1333535034" CREATED="1434136903859" MODIFIED="1434136903889" LINK="#ID_669534104"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Symphytum spp.</b>
+    </p>
+    <p>
+      <font size="2">Comphrey</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1113609750" CREATED="1434136903890" MODIFIED="1434136903923" LINK="#ID_1017400613"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Elaeagnus umbellata</b>
+    </p>
+    <p>
+      <font size="2">EN - Japanese Silverberry, Umbellata Oleaster, Autumn Olive, Autumn Elaeagnus, Spreading Oleaster</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1942661325" CREATED="1434136903924" MODIFIED="1434136903957" LINK="#ID_645001756"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Elaeagnus &#215; ebbingei</b>
+    </p>
+    <p>
+      <font size="2">EN - Ebbinge's silverberry</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Genus" ID="ID_628320166" CREATED="1434136903957" MODIFIED="1434136903987" LINK="#ID_1539961165"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Morus</b>
+    </p>
+    <p>
+      <font size="2">Mulberry, Maulbeerbaum</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_362095982" CREATED="1434136903987" MODIFIED="1434136904019" LINK="#ID_1386772800"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Prunus serotina</b>
+    </p>
+    <p>
+      <font size="2">EN - Black Cherry</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1632106760" CREATED="1434136904020" MODIFIED="1434136904054" LINK="#ID_1090029561"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Amelanchier lamarckii</b>
+    </p>
+    <p>
+      <font size="2">EN - Service Berry, Goose Berry&#160;&#160;</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_65814245" CREATED="1434136904055" MODIFIED="1434136904107" LINK="#ID_1186237787"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Cydonia oblonga</b>
+    </p>
+    <p>
+      <font size="2">EN - Quince</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1416995682" CREATED="1434136904107" MODIFIED="1434136904140" LINK="#ID_218489546"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Rubus idaeus L.</b>
+    </p>
+    <p>
+      <font size="2">EN - Red Rasberry</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_578773743" CREATED="1434136904141" MODIFIED="1434136904176" LINK="#ID_353486060"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Rubus occidentalis L.</b>
+    </p>
+    <p>
+      <font size="2">EN - Black Rasberry</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Genus" ID="ID_619558963" CREATED="1434136904176" MODIFIED="1434136904208" LINK="#ID_272551808"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Ribes spp.&#160;&#160;</b>
+    </p>
+    <p>
+      <font size="2">Black Currant, Red Currant, White Currant, and Gooseberry</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Genus" ID="ID_897616302" CREATED="1434136904208" MODIFIED="1434136904239" LINK="#ID_1995162860"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Juniperus spp.</b>
+    </p>
+    <p>
+      <font size="2">Juniper</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+</node>
+</node>
+<node TEXT="Pine - Allepo (Pinus halepensis)" STYLE_REF="Guild" ID="ID_1476683015" CREATED="1431325216905" MODIFIED="1434131461298">
+<node TEXT="Notes" ID="ID_667817173" CREATED="1434131704181" MODIFIED="1434131716023">
+<font SIZE="14" BOLD="true"/>
+<node TEXT="http://tcpermaculture.com/site/2014/08/04/tapping-the-pine-tree-plant-resins-and-their-uses/" ID="ID_1453318091" CREATED="1431325231123" MODIFIED="1431325231123" LINK="http://tcpermaculture.com/site/2014/08/04/tapping-the-pine-tree-plant-resins-and-their-uses/"/>
+<node TEXT="Pine Nuts" ID="ID_568386839" CREATED="1420653937529" MODIFIED="1429466625259">
+<font NAME="SansSerif" SIZE="16" BOLD="true"/>
+<node TEXT="Should be acid loving plants" ID="ID_1030801547" CREATED="1420653979032" MODIFIED="1420653990984">
+<font NAME="SansSerif" SIZE="10" BOLD="true"/>
+</node>
+<node TEXT="Blueberries" ID="ID_1493274013" CREATED="1420653956743" MODIFIED="1420653977191">
+<font NAME="SansSerif" SIZE="10" BOLD="true"/>
+</node>
+<node TEXT="Rose" ID="ID_148680326" CREATED="1420653992502" MODIFIED="1420653995724">
+<font NAME="SansSerif" SIZE="10" BOLD="true"/>
+</node>
+</node>
+</node>
+<node TEXT="Membership" STYLE_REF="Guild Membership" ID="ID_898301424" CREATED="1433854219838" MODIFIED="1433998473734">
+<node STYLE_REF="Guild Member Species" ID="ID_682599694" CREATED="1434137407190" MODIFIED="1434137407264" LINK="#ID_1970690252"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Vaccinium corymbosum</b>
+    </p>
+    <p>
+      <font size="2">EN - Blueberry</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_64851765" CREATED="1434137407265" MODIFIED="1434137407343" LINK="#ID_1479026221"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Vaccinium vitis-idaea</b>
+    </p>
+    <p>
+      <font size="2">EN - Lingonberries</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1969657754" CREATED="1434137407344" MODIFIED="1434137407401" LINK="#ID_1942627146"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Pinus halepensis</b>
+    </p>
+    <p>
+      <font size="2">EN - Aleppo pine</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+</node>
+</node>
+<node TEXT="Pine - Stone(Pinus pinea)" STYLE_REF="Guild" ID="ID_1166199111" CREATED="1434131377421" MODIFIED="1434131471481">
+<node TEXT="Notes" ID="ID_1888853466" CREATED="1434131704181" MODIFIED="1434131716023">
+<font SIZE="14" BOLD="true"/>
+</node>
+<node TEXT="Membership" STYLE_REF="Guild Membership" ID="ID_299408712" CREATED="1434131514390" MODIFIED="1434131539648">
+<node STYLE_REF="Guild Member Species" ID="ID_1474570237" CREATED="1434137424195" MODIFIED="1434137424279" LINK="#ID_1638727924"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Pinus pinea</b>
+    </p>
+    <p>
+      <font size="2">EN - Stone Pine</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+</node>
+</node>
+<node TEXT="Olive" STYLE_REF="Guild" ID="ID_954721056" CREATED="1382443775966" MODIFIED="1433998454247">
+<node TEXT="Notes" ID="ID_1732623009" CREATED="1433960899273" MODIFIED="1433960910500">
+<font SIZE="14" BOLD="true"/>
+<node TEXT="permies.com &gt; T &gt; 3968 &gt; Permaculture &gt; Olive-Tree-Guild" ID="ID_1658597230" CREATED="1382443809751" MODIFIED="1382443809751" LINK="http://www.permies.com/t/3968/permaculture/Olive-Tree-Guild"/>
+<node TEXT="http://www.permies.com/t/3968/permaculture/Olive-Tree-Guild" ID="ID_292156700" CREATED="1433852078811" MODIFIED="1433852078811" LINK="http://www.permies.com/t/3968/permaculture/Olive-Tree-Guild"/>
+<node TEXT="https://jordanorganicgardening.wordpress.com/2012/09/05/olive-tree-guild/" ID="ID_1299377847" CREATED="1433918484500" MODIFIED="1433918484500" LINK="https://jordanorganicgardening.wordpress.com/2012/09/05/olive-tree-guild/"/>
+<node ID="ID_665120915" CREATED="1382443990639" MODIFIED="1382443990639"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span class="postbody">I've read purslane is a good groundcover in the olive guild, although there are lots of options in the portulaca family that might be better-adapted or tastier.<br /><br /><a href="http://www.permies.com/t/997/chickens/best-perennial-chicken-feed" title="the best perennial chicken feed" class="api" target="_new">Chickens</a> are definitely worth considering, I've heard they get a lot out of olive fruit &amp; pits. </span>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_991616707" CREATED="1382444105971" MODIFIED="1431325491486"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span class="postbody">Oleuropein is one chemical of note in olive. The only reference I found to allelopathic effects of oleuropein was from jasmine, and it inhibited some seeds from germinating and slowed cell division in onion root cells. Olive is loaded with that compound, and it isn't just in the fruit... the leaves are rich in it, the roots contain it also (not sure how much). </span>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="i can tell you that under my plants I have seen spontaneous plants of the allium family, wild leaks very similar to the ones one puts annually but smaller, wild daucus carota, mint and other aromatic plants." ID="ID_712253978" CREATED="1433854169083" MODIFIED="1433854171935"/>
+<node TEXT="Be careful about planting anything that&apos;s going to hamper the use of nets for harvesting ie plants with spikes and thorns." ID="ID_1681596305" CREATED="1433918572009" MODIFIED="1433918573420"/>
+<node TEXT="Olivada (dittrichia viscosa) as its known in this part of Spain. According to research done at the University of Granada (sorry no link) olivada is supposed to attract insects that attack the Olive fly which is a major pest in these parts but be warned the plant is very invasive." ID="ID_460151676" CREATED="1433877521839" MODIFIED="1433877521839"/>
+</node>
+<node TEXT="Membership" STYLE_REF="Guild Membership" ID="ID_1342195915" CREATED="1433854219838" MODIFIED="1433998473734">
+<node STYLE_REF="Guild Member Species" ID="ID_1926222697" CREATED="1434131302968" MODIFIED="1434131302990" LINK="#ID_1167677827"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Olea europaea</b>
+    </p>
+    <p>
+      <font size="2">EN - Olive</font>
+    </p>
+    <p>
+      <font size="2">ES - Aceitune</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Canopy"/>
+<attribute NAME="Data - Guild Element" VALUE="Central_Element"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1062269676" CREATED="1434131302880" MODIFIED="1434131302903" LINK="#ID_1216438955"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Origanum vulgare</b>
+    </p>
+    <p>
+      <font size="2">EN - Oregano</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Pest_Repellant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_353500974" CREATED="1434131302604" MODIFIED="1434131302627" LINK="#ID_207111386"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Cynara cardunculus</b>
+    </p>
+    <p>
+      <font size="2">EN - Artichoke</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Mulch_Producer"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_431784085" CREATED="1434131302579" MODIFIED="1434131302604" LINK="#ID_506159385"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Daucus carota</b>
+    </p>
+    <p>
+      <font size="2">EN - Wild Carrot, Bird's Nest, Bishop's Lace, Queen Anne's Lace</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Rhizosphere_(Root)"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Genus" ID="ID_1696314407" CREATED="1434131302652" MODIFIED="1434131302671" LINK="#ID_331913501"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Portulaca spp.</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1858253584" CREATED="1434131302672" MODIFIED="1434131302697" LINK="#ID_1130418118"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Ceratonia siliqua</b>
+    </p>
+    <p>
+      <font size="2">EN - Carob, St John's-bread, Locust Bean</font>
+    </p>
+    <p>
+      <font size="2">ES - Algarrobo</font>
+    </p>
+    <p>
+      <font size="2">CA - Garrofer, Garrofa</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Canopy"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1201822952" CREATED="1434131302741" MODIFIED="1434131302763" LINK="#ID_112610225"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Lathyrus odoratus</b>
+    </p>
+    <p>
+      <font size="2">EN - Sweet pea</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Genus" ID="ID_1876519880" CREATED="1434131302787" MODIFIED="1434131302827" LINK="#ID_394122194"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Mentha spp.</b>
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1062667752" CREATED="1434131302827" MODIFIED="1434131302854" LINK="#ID_701186160"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Lavendula pedunculata</b>
+    </p>
+    <p>
+      <font size="2">EN - Lavender</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1891565168" CREATED="1434131302854" MODIFIED="1434131302880" LINK="#ID_1998645317"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Lavandula multifida</b>
+    </p>
+    <p>
+      <font size="2">EN - Lavender</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1573964925" CREATED="1434131302904" MODIFIED="1434131302926" LINK="#ID_1188585340"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Rosmarinus officinalis</b>
+    </p>
+    <p>
+      <font size="2">EN - Rosemary</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Genus" ID="ID_1640641920" CREATED="1434131302926" MODIFIED="1434131302945" LINK="#ID_432328548"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Salvia spp.</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1000355758" CREATED="1434131302945" MODIFIED="1434131302968" LINK="#ID_305279340"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Thymus vulgaris</b>
+    </p>
+    <p>
+      <font size="2">EN - Common Thyme, German Thyme, Garden Thyme, Thymus</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">DE - Thymian</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_835126353" CREATED="1434131302990" MODIFIED="1434131303015" LINK="#ID_1607217075"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Punica granatum</b>
+    </p>
+    <p>
+      <font size="2">EN - Pomegranite</font>
+    </p>
+    <p>
+      <font size="2">ES -&#160;&#160;Granada</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE - Granatapfel</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Canopy"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_708620624" CREATED="1434131303015" MODIFIED="1434131303038" LINK="#ID_834764978"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Ficus caricat</b>
+    </p>
+    <p>
+      <font size="2">EN - Fig</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Shrub"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_494843153" CREATED="1434131303039" MODIFIED="1434131303064" LINK="#ID_1032945144"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Ziziphus jujuba</b>
+    </p>
+    <p>
+      <b>Ziziphus lotus</b>
+    </p>
+    <p>
+      <b>Zizyphus zizyphus</b>
+    </p>
+    <p>
+      <font size="2">EN - Jujube</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_404530094" CREATED="1434131303064" MODIFIED="1434131303088" LINK="#ID_1035956469"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Prunus dulcis</b>
+    </p>
+    <p>
+      <font size="2">EN - Almond</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Canopy"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_119287258" CREATED="1434131303088" MODIFIED="1434131303109" LINK="#ID_1342048818"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Cymbopogon schoenanthus</b>
+    </p>
+    <p>
+      <font size="2">EN - Lemongrass</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_44553822" CREATED="1434131302627" MODIFIED="1434131302652" LINK="#ID_77038610"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Dittrichia viscosa</b>
+    </p>
+    <p>
+      <font size="2">EN - False Yellowhead, Sticky Fleabane, Woody Fleabane Yellow Fleabane</font>
+    </p>
+    <p>
+      <font size="2">ES - Olivada</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Pest_Predator_Host"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1223510632" CREATED="1434131302697" MODIFIED="1434131302718" LINK="#ID_111863568"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Vicia sativa</b>
+    </p>
+    <p>
+      <font size="2">EN - Common Vetch, Tare</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE - Wicke</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Nitrogen_Fixer"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1184246984" CREATED="1434131302719" MODIFIED="1434131302740" LINK="#ID_1718682434"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Vicia villosa</b>
+    </p>
+    <p>
+      <font size="2">EN - Hairy Vetch, Fodder Vetch,&#160;&#160;Winter Vetch</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE - Winter Wicke</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Nitrogen_Fixer"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_147834627" CREATED="1434131302763" MODIFIED="1434131302787" LINK="#ID_646580440"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Lupinus albus</b>
+    </p>
+    <p>
+      <font size="2">EN - White Lupin, White Lupine</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Nitrogen_Fixer"/>
+</node>
+</node>
+</node>
+<node TEXT="Almond" STYLE_REF="Guild" ID="ID_746778892" CREATED="1382444256211" MODIFIED="1434131698688">
+<node TEXT="Notes" ID="ID_692244143" CREATED="1434131704181" MODIFIED="1434131716023">
+<font SIZE="14" BOLD="true"/>
+<node TEXT="permies.com &gt; T &gt; 9861 &gt; Plants &gt; Mediterranean-climate-almond-guild" ID="ID_261057462" CREATED="1382444338764" MODIFIED="1382444341019" LINK="http://www.permies.com/t/9861/plants/Mediterranean-climate-almond-guild"/>
+<node ID="ID_1530958585" CREATED="1382444273424" MODIFIED="1382444273424"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span class="postbody">almonds being in the peach family probably could use any peach guild plants...it sounds like a very well done guild to me. </span>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1452105270" CREATED="1382444356521" MODIFIED="1382444356521"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span class="postbody">It's almost spring here, so the almond (planted 18 months ago) has just started blooming and putting on new growth.&#160; The bed is about 2.5 metres in diameter, and in it I have broad beans, fennel, borage, shallots, lucerne (alfalfa), red clover, mizuna, garlic (normal and russian), and a few other things.&#160; Also comfrey and horseradish, but they haven't really come back from the winter yet.&#160; I planted some alpine strawberries in here the other day as well, trying to build up the ground layer a bit more.&#160; I have avoided root crops, except for the horseradish which is an infrequent harvest, as I do not want to disturb the feeder roots of the almond too much.&#160; The whole group is working great together and I am really happy with the variety of plants and their rapid growth, even over winter.&#160; This is one of the best examples of guilds in my garden at the moment and it is good to be able to see how theory translates into practice.<br /><br />Most of these plants have come from scattered seed during the autumn.&#160; The broad bean seeds were pushed just under the surface.&#160; I have needed to do a little weeding, mainly Soursob (Oxalis), but it has been far less weedy than other areas, I assume due to the dense vegetation here.&#160; I also trim the borage to allow other plants to grow, as it tends to get enormous.&#160; The trimmings go to my <a href="http://www.permies.com/t/997/chickens/best-perennial-chicken-feed" title="the best perennial chicken feed" class="api" target="_new">chickens</a> for composting, and presumably generate <a href="http://www.permies.com/t/8652/permaculture/colorado-potato-beetles-vs-permaculture#78939" title="what is the difference between organic and permaculture?" class="api" target="_new">organic</a> matter from the plant casting off root mass.<br /><br />Although I have not really planned this guild, but done it in a piecemeal fashion, I think it has achieved a relatively good mix of layers and functions.&#160; The broad beans provide a yield and also add nitrogen into the soil, as do the clover and lucerne (I trim this periodically over summer in its growth phase).&#160; The borage provides cover and rapid growth, adding organic matter, as well as silicon and potassium[1].&#160; Mizuna is providing human and chicken food.&#160; Shallots repel pests and are a <a href="http://www.permies.com/t/997/chickens/best-perennial-chicken-feed" title="the best perennial chicken feed" class="api" target="_new">perennial</a> food source, if left to spread or replanted.&#160; The fennel accumulates Na, N and P[1], is a perennial food source, and attracts a ton of insects when it flowers.&#160; Many of these are great fodder for my bees too, particularly the borage and broad beans.&#160; Of course, they love the almond flowers too.</span>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="permies.com &gt; T &gt; 9861 &gt; Plants &gt; Mediterranean-climate-almond-guild" ID="ID_1353524863" CREATED="1429464846868" MODIFIED="1429464846868" LINK="http://www.permies.com/t/9861/plants/Mediterranean-climate-almond-guild"/>
+</node>
+<node TEXT="Membership" STYLE_REF="Guild Membership" ID="ID_419399519" CREATED="1433854219838" MODIFIED="1433998473734"/>
+</node>
+<node TEXT="Pomegranite" STYLE_REF="Guild" ID="ID_1308049285" CREATED="1433942965292" MODIFIED="1434131734313">
+<node TEXT="Notes" ID="ID_1779701404" CREATED="1434131704181" MODIFIED="1434131716023">
+<font SIZE="14" BOLD="true"/>
+</node>
+<node TEXT="Membership" STYLE_REF="Guild Membership" ID="ID_1133181788" CREATED="1433854219838" MODIFIED="1433998473734">
+<node STYLE_REF="Guild Member Species" ID="ID_236003677" CREATED="1434131302968" MODIFIED="1434131302990" LINK="#ID_1167677827"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Olea europaea</b>
+    </p>
+    <p>
+      <font size="2">EN - Olive</font>
+    </p>
+    <p>
+      <font size="2">ES - Aceitune</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Canopy"/>
+<attribute NAME="Data - Guild Element" VALUE="Central_Element"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1745550109" CREATED="1434131302880" MODIFIED="1434131302903" LINK="#ID_1216438955"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Origanum vulgare</b>
+    </p>
+    <p>
+      <font size="2">EN - Oregano</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Pest_Repellant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1793919479" CREATED="1434131302604" MODIFIED="1434131302627" LINK="#ID_207111386"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Cynara cardunculus</b>
+    </p>
+    <p>
+      <font size="2">EN - Artichoke</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Mulch_Producer"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_555085631" CREATED="1434131302579" MODIFIED="1434131302604" LINK="#ID_506159385"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Daucus carota</b>
+    </p>
+    <p>
+      <font size="2">EN - Wild Carrot, Bird's Nest, Bishop's Lace, Queen Anne's Lace</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Rhizosphere_(Root)"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Genus" ID="ID_4745095" CREATED="1434131302652" MODIFIED="1434131302671" LINK="#ID_331913501"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Portulaca spp.</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1822754623" CREATED="1434131302672" MODIFIED="1434131302697" LINK="#ID_1130418118"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Ceratonia siliqua</b>
+    </p>
+    <p>
+      <font size="2">EN - Carob, St John's-bread, Locust Bean</font>
+    </p>
+    <p>
+      <font size="2">ES - Algarrobo</font>
+    </p>
+    <p>
+      <font size="2">CA - Garrofer, Garrofa</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Canopy"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1120655887" CREATED="1434131302741" MODIFIED="1434131302763" LINK="#ID_112610225"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Lathyrus odoratus</b>
+    </p>
+    <p>
+      <font size="2">EN - Sweet pea</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Genus" ID="ID_291062399" CREATED="1434131302787" MODIFIED="1434131302827" LINK="#ID_394122194"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Mentha spp.</b>
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_269627487" CREATED="1434131302827" MODIFIED="1434131302854" LINK="#ID_701186160"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Lavendula pedunculata</b>
+    </p>
+    <p>
+      <font size="2">EN - Lavender</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1394934519" CREATED="1434131302854" MODIFIED="1434131302880" LINK="#ID_1998645317"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Lavandula multifida</b>
+    </p>
+    <p>
+      <font size="2">EN - Lavender</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1825241013" CREATED="1434131302904" MODIFIED="1434131302926" LINK="#ID_1188585340"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Rosmarinus officinalis</b>
+    </p>
+    <p>
+      <font size="2">EN - Rosemary</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Genus" ID="ID_796733714" CREATED="1434131302926" MODIFIED="1434131302945" LINK="#ID_432328548"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Salvia spp.</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_60779438" CREATED="1434131302945" MODIFIED="1434131302968" LINK="#ID_305279340"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Thymus vulgaris</b>
+    </p>
+    <p>
+      <font size="2">EN - Common Thyme, German Thyme, Garden Thyme, Thymus</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">DE - Thymian</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_783195646" CREATED="1434131302990" MODIFIED="1434131303015" LINK="#ID_1607217075"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Punica granatum</b>
+    </p>
+    <p>
+      <font size="2">EN - Pomegranite</font>
+    </p>
+    <p>
+      <font size="2">ES -&#160;&#160;Granada</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE - Granatapfel</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Canopy"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1136016296" CREATED="1434131303015" MODIFIED="1434131303038" LINK="#ID_834764978"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Ficus caricat</b>
+    </p>
+    <p>
+      <font size="2">EN - Fig</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Shrub"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1472498011" CREATED="1434131303039" MODIFIED="1434131303064" LINK="#ID_1032945144"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Ziziphus jujuba</b>
+    </p>
+    <p>
+      <b>Ziziphus lotus</b>
+    </p>
+    <p>
+      <b>Zizyphus zizyphus</b>
+    </p>
+    <p>
+      <font size="2">EN - Jujube</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Compatible_Plant"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1243468983" CREATED="1434131303064" MODIFIED="1434131303088" LINK="#ID_1035956469"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Prunus dulcis</b>
+    </p>
+    <p>
+      <font size="2">EN - Almond</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Canopy"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1753860674" CREATED="1434131303088" MODIFIED="1434131303109" LINK="#ID_1342048818"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Cymbopogon schoenanthus</b>
+    </p>
+    <p>
+      <font size="2">EN - Lemongrass</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Compatible_Plant"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1093765920" CREATED="1434131302627" MODIFIED="1434131302652" LINK="#ID_77038610"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Dittrichia viscosa</b>
+    </p>
+    <p>
+      <font size="2">EN - False Yellowhead, Sticky Fleabane, Woody Fleabane Yellow Fleabane</font>
+    </p>
+    <p>
+      <font size="2">ES - Olivada</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Pest_Predator_Host"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1868491827" CREATED="1434131302697" MODIFIED="1434131302718" LINK="#ID_111863568"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Vicia sativa</b>
+    </p>
+    <p>
+      <font size="2">EN - Common Vetch, Tare</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE - Wicke</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Nitrogen_Fixer"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_1017256671" CREATED="1434131302719" MODIFIED="1434131302740" LINK="#ID_1718682434"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Vicia villosa</b>
+    </p>
+    <p>
+      <font size="2">EN - Hairy Vetch, Fodder Vetch,&#160;&#160;Winter Vetch</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE - Winter Wicke</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Nitrogen_Fixer"/>
+</node>
+<node STYLE_REF="Guild Member Species" ID="ID_595809324" CREATED="1434131302763" MODIFIED="1434131302787" LINK="#ID_646580440"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Lupinus albus</b>
+    </p>
+    <p>
+      <font size="2">EN - White Lupin, White Lupine</font>
+    </p>
+    <p>
+      <font size="2">ES -</font>
+    </p>
+    <p>
+      <font size="2">CA -</font>
+    </p>
+    <p>
+      <font size="2">DE -</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<attribute_layout NAME_WIDTH="200" VALUE_WIDTH="250"/>
+<attribute NAME="Data - Food Forest Layer" VALUE="Herbacious"/>
+<attribute NAME="Data - Guild Element" VALUE="Nitrogen_Fixer"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Companion planting" ID="ID_1683444692" CREATED="1433856690010" MODIFIED="1433856702143">
+<font SIZE="18" BOLD="true"/>
+<node TEXT="Notes" ID="ID_881996297" CREATED="1434176299676" MODIFIED="1434176308802">
+<font SIZE="17" BOLD="true"/>
+<node TEXT="Often times when we talk about Companion Planting we discuss the plants that play nice together and should always be planted side-by-side in our gardens. Not too often do we talk about those plants that just don&#x2019;t get along. It&#x2019;s like we are gossiping about the neighbors or something. I mean, even though we love having sunflowers in the neighborhood they sure don&#x2019;t play well with others. They emit a toxin from their roots that inhibits other plants from growing too close to them as they want all the nutrients in the surrounding soil. Who knew? Well, I&#x2019;m here to give you the dish on what plants to NOT plant together when you are companion planting, even if they would look just perfect in your vegetable or herb garden next to each other. &#xa;&#xa;Anything in the bean family, whether it is string green beans or bush beans all the way to lima beans don&#x2019;t get along with quite a few other vegetables. Their biggest nemeses in the garden are chives, garlic, leeks, and onions. They are not fans of bulb-type vegetables! Beans also don&#x2019;t do well with peppers, either the sweet green peppers or their fiery cousins the jalape&#xf1;os. &#xa;&#xa;One plant that I was shocked that beans don&#x2019;t get along with are marigolds, which are typically crowd pleasers as they deter pests. In fact, all the plants that the bean family shuns are those that deter pests. Go figure! Peas are cousins to beans and they also loathe the bulb veggies including chives, garlic, leeks, and onions. Both broccoli and cauliflower have a few enemies in the vegetable world. They are not fans of peppers, all types of squash including yellow squash and even pumpkins. How they don&#x2019;t care for strawberries or tomatoes I will never know, but they don&#x2019;t. It seems the cool season crops of broccoli and cauliflower have something against those fruits and veggies that like it a little hotter to grow. Besides cauliflower and broccoli, steer clear of planting cilantro and cucumbers near tomatoes. Dill and carrots would rather be at other ends of the planter bed too. So now you know too who would rather stay on their own sides of the garden! &#xa;&#xa;To sum it all up &#x2013; when companion planting: &#xa;&#xa;&#x9;Beans: Don&#x2019;t plant near chives, garlic, leeks, onions, peppers, marigolds &#xa;&#xa;&#x9;Peas:  Don&#x2019;t plant near chives, garlic, leeks, onions, peppers &#xa;&#xa;&#x9;Broccoli and Cauliflower: Don&#x2019;t plant near peppers, squash, strawberries, tomatoes &#xa;&#xa;&#x9;Tomatoes:  Don&#x2019;t plant near broccoli, cauliflower, cilantro, cucumbers &#xa;&#xa;&#x9;Dill: Don&#x2019;t plant near carrots Sunflowers need to be planted at least 12 inches away from any other plant.  &#xa;&#xa;Read more at http://momsneedtoknow.com/companion-planting-plant-together/#tUgffG7X0O9eRwhs.99" ID="ID_1640437388" CREATED="1397053463946" MODIFIED="1429466624186">
+<node TEXT="momsneedtoknow.com &gt; Companion-planting-plant-together &gt; #tUgffG7X0O9eRwhs" ID="ID_1176602943" CREATED="1397053604535" MODIFIED="1397053604535" LINK="http://momsneedtoknow.com/companion-planting-plant-together/#tUgffG7X0O9eRwhs.99"/>
+</node>
+<node TEXT="Asparagus and Strawberries" ID="ID_968875196" CREATED="1422038113207" MODIFIED="1429466624195">
+<font NAME="SansSerif" SIZE="10" BOLD="true"/>
+<node TEXT="Our asparagus crowns are planted 12&quot;-16&quot; deep with roots that go deeper... that&apos;s not shallow. I know new varieties tell you to plant them in as little as 6&quot; of soil, but you can go deeper. We normally plant thin, shallow rooted annuals like nasturtiums and the likes, in the bed, that will do well but still give the asparagus the space to come up. Strawberries might be shallow, but can root out and run quite profusely. I&apos;d worry about them blocking potential asparagus shoots. But I suppose if you are weeding your berries out every year growing hybrids, unlike our wild varieties, you&apos;d probably keep the rooting under control." ID="ID_341554028" CREATED="1422038135304" MODIFIED="1422038137181"/>
+<node TEXT="suggest that it is a good idea. Other sources on permies.com generally say that they are both shallowly rooted and compete with each other. One source even had actual experience saying that they are not compatible. One data point is not enough to define a trend, so I ask you my fellow permaculturalists of reddit: Does anybody else have experience with this combination? Does anybody have any ideas on how to grow both in the same area?" ID="ID_1305508754" CREATED="1422038160748" MODIFIED="1422038162921"/>
+</node>
+<node TEXT="Asperegus and Tomatoes but check that because asperegus likes 7 to alkilyne and tomatoes lke slightly acid" ID="ID_578509100" CREATED="1397563862598" MODIFIED="1397563955741"/>
+<node TEXT="Good list! I&#x2019;d add that if you can, keep sunflowers in a completely different garden from tomatoes because stinkbugs will come for the sunflowers but really feast on your tomatoes and ruin them. Read more at http://momsneedtoknow.com/companion-planting-plant-together/#tUgffG7X0O9eRwhs.99" ID="ID_1590855424" CREATED="1397053648967" MODIFIED="1397053651074"/>
+<node TEXT="Wormwood and nasturtiums protects cabbages" ID="ID_954584000" CREATED="1395293598379" MODIFIED="1395293619926"/>
+<node TEXT="Single stem plants like onion , garlic, and chives are planted well among leafy vegatables like lettuce because of space and pest control" ID="ID_49420182" CREATED="1395293316714" MODIFIED="1395293360898"/>
+<node TEXT="Radishes, Lettuce, Peppers" ID="ID_1789846009" CREATED="1382441255540" MODIFIED="1382441271079"/>
+<node TEXT="Brussel Sprouts, Parsley, Spinach, Celery" ID="ID_1349195604" CREATED="1382441226325" MODIFIED="1382441251312"/>
+<node TEXT="Peppers, Basel, Tomotoes" ID="ID_1643150740" CREATED="1382441211981" MODIFIED="1382441224934"/>
+<node TEXT="Garlic and Oinions arond Cabbage and plants that are seceptable to moths . Interupts the flight and oders deter" ID="ID_1585994229" CREATED="1382440660746" MODIFIED="1382440692649">
+<font NAME="SansSerif" SIZE="10" BOLD="true"/>
+</node>
+</node>
+<node TEXT="Diagrams" ID="ID_1664181420" CREATED="1434176319693" MODIFIED="1434176331312">
+<font SIZE="17" BOLD="true"/>
+<node TEXT="Companion planting - AvantGardenDecor.com 1" ID="ID_658327878" CREATED="1434176347772" MODIFIED="1434177611044">
+<font BOLD="true"/>
+<node TEXT="" ID="ID_644443799" CREATED="1434176364898" MODIFIED="1434176379324">
+<hook URI="Plant_Knowledge_Base_Resources/Guilds:Companion_Planting/Companion-Planting-Guide1.jpg" SIZE="1.2407835" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Companion planting - AvantGardenDecor.com 2" ID="ID_368349927" CREATED="1434176347772" MODIFIED="1434177625436">
+<font BOLD="true"/>
+<node TEXT="" ID="ID_400274967" CREATED="1434176364898" MODIFIED="1434176450201">
+<hook URI="Plant_Knowledge_Base_Resources/Guilds:Companion_Planting/Companion-Planting-Guide2.jpg" SIZE="1.1983007" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Planting care and harvesting - AvantGardenDecor.com 3" ID="ID_1705182618" CREATED="1434176347772" MODIFIED="1434177637596">
+<font BOLD="true"/>
+<node TEXT="" ID="ID_668746992" CREATED="1434176364898" MODIFIED="1434176519777">
+<hook URI="Plant_Knowledge_Base_Resources/Guilds:Companion_Planting/Companion-Planting-Guide3.jpg" SIZE="1.1161739" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Growing Companions" ID="ID_143914282" CREATED="1434177099743" MODIFIED="1434177655763">
+<font BOLD="true"/>
+<node TEXT="" ID="ID_1235633262" CREATED="1434177111808" MODIFIED="1434177183232">
+<hook URI="Plant_Knowledge_Base_Resources/Guilds:Companion_Planting/companion%20plants%20-%20what%20to%20grow%20with%20what.jpg" SIZE="1.7666188" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Garden plant compatibility chart" ID="ID_585501669" CREATED="1434177447761" MODIFIED="1434177454125">
+<font BOLD="true"/>
+<node TEXT="" ID="ID_1882518906" CREATED="1434177455368" MODIFIED="1434177468799">
+<hook URI="Plant_Knowledge_Base_Resources/Guilds:Companion_Planting/Garden%20plant%20compatibility%20chart.jpeg" SIZE="1.4383665" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Candidates" ID="ID_1888293000" CREATED="1431083261766" MODIFIED="1431083279997">
+<font SIZE="17" BOLD="true"/>
+<node TEXT="Shrubs" ID="ID_658500786" CREATED="1431083285886" MODIFIED="1431083303480">
+<font SIZE="16" BOLD="true"/>
+<node TEXT="Next is the shrub layer. This layer consists of flowering, fruiting, wildlife attracting and other useful shrubs.&#xa;&#xa;American Cranberry&#xa;Aronia (Chokeberry)&#xa;Autumn Olive&#xa;Blackberry&#xa;Blueberry&#xa;Buffaloberry&#xa;Currant (grows well in a walnut guild)&#xa;Elderberry&#xa;False Indigo&#xa;Gooseberry&#xa;Goumi (Nitrogen Fixer)&#xa;Hackberry (Allelopath(inhibits grasses), grows well in a walnut grove)&#xa;Hansen&apos;s Bush Cherry&#xa;Highbush Cranberry&#xa;Indigo&#xa;Japanese Barberry&#xa;Jostaberry&#xa;Nanking Cherry&#xa;Pinapple Guava&#xa;Raspberry&#xa;Red Azarole&#xa;Rugose Rose&#xa;Russian Olive&#xa;Sea Buckthorn&#xa;Sericeberry (Saskatoon berry)&#xa;Siberian Pea Shrub&#xa;Summersweet Clethra&#xa;Witch Hazel&#xa;&#xa;All of these shrubs except indigo, guaca and the buckthorn have wildlife value, in that they attract wildlife. All are edible except Buffaloberry, False Indigo, Hackberry, Indigo, Japanese Barbery, clethra and the Hazel.&#xa;&#xa;The bold faced plants are nitrogen fixers." ID="ID_631744476" CREATED="1431083304893" MODIFIED="1431083311066"/>
+</node>
+<node TEXT="Trees/Lower Trees" ID="ID_1956406814" CREATED="1431083353727" MODIFIED="1431083370919">
+<font SIZE="16" BOLD="true"/>
+<node TEXT="Therefore, the same ideas can hold true but, instead of dense plantings, the food forest is designed in layers. The first layer is the Tall tree layer, located at the back of the property in what is called zone 3. Zone thee requires the least amount of maintenance and be basically left to grow on it&apos;s own, peraps being mowed a couple of times a year. The tall trees should be underplanted with a ground cover to help build the soil. A good mix is Annuel Rye, Clover (nitrogen fixing), yarrow, dill and fennel. Perhaps a few scatterings of daikon to break up any hard packed soil. This mix will enrich the soil with nitrogen, and provide a healthy mulch when mowed and attract beneficial insects.&#xa;Acacia&#xa;American Chestnut&#xa;Apple&#xa;Asian Pear&#xa;Black Locust&#xa;Black Walnut&#xa;Buartnut&#xa;Bur Oak&#xa;Butternut&#xa;Cherry&#xa;Cinese Chjestnut&#xa;European Pear&#xa;Heartnut&#xa;Hickory&#xa;Honey Locust&#xa;Mesquite&#xa;peach&#xa;Pecan&#xa;Plum&#xa;Walnut&#xa;&#xa;The second layer is the Low Tree Layer this consists of of many of the same trees as in the the tall tree layer but, in dwarf and semi dwarf form.&#xa;One small note: the trees can still be planted in guilds in both these layers but, the garden (forest) is not guild centered. It is meant to function as a mega guild where each part nuritious the other.&#xa;Almond&#xa;Apple (dwarf or semi dwarf)&#xa;Apricot&#xa;Bamboo&#xa;Crabapple&#xa;Cornelian Cherry Dogwood&#xa;Fig&#xa;Filbert/hazelnut&#xa;Golden Chain Tree (Nitrogen Fixer)&#xa;Hawthorn&#xa;Jujube&#xa;Loquat&#xa;Mayhaw&#xa;Medlar&#xa;Mountain Ash&#xa;Mulberry&#xa;Pawpaw&#xa;Peach (dwarf or semi dwarf)&#xa;Pecan&#xa;Persimmon&#xa;Pomegranate" ID="ID_481811330" CREATED="1431083371753" MODIFIED="1431083376762"/>
+</node>
+<node ID="ID_488699367" CREATED="1382443716531" MODIFIED="1429466625221"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      
+    </p>
+    <p style="margin-left: 0in; margin-bottom: 0pt; margin-top: 0in; margin-right: 0in" class="MsoNormal">
+      <font face="Times New Roman" color="#000000" size="3"><b>UNDERSTORY AND GUILD&#160;PLANTS&#160;FOR&#160;MEDITERRANEAN&#160;FOOD&#160; FORESTS</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_1668410939" CREATED="1382443589417" MODIFIED="1420556295895"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>UNDERSTORY AND GUILD&#160;PLANTS&#160;FOR&#160;MEDITERRANEAN&#160;FOOD&#160; FORESTS</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman">&#160;</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman">Linda Buzzell-Saltzman</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman">&#160;</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman">Once our fruit trees are planted in their water-saving basins in a budding Mediterranean food forest, it's now time to think about what else to plant in these usually-moist wells and swales. Or up the trees? Or nearby? We need these companion plants to increase our food and medicine yield, and also to enrich the soil, provide habitat, pull up minerals and other nutrients from deep in the earth, draw nitrogen from the air and bring it into the soil, attract beneficial insects to control pests, create shade for delicate roots -- and to provide beauty, a critical psychological and spiritual yield in every garden.</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman">&#160;</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <i><font size="5" color="#000000" face="Times New Roman">Thanks to the members of the Permaculture Guild of Santa Barbara&#160;and the Santa Barbara&#160;Organic&#160;Garden&#160;Club for their ideas and input. Additions and corrections are welcome. Please email </font><a target="_blank" gdf-obfuscated-mailto="2jrUe4FfQmAJ" href="javascript:"><font size="5" color="#0000ff" face="Times New Roman">lbuzzell@aol.com</font></a><font size="5" color="#000000" face="Times New Roman">&#160; &#160;Especially welcome would be input on what plants do best under specific fruit trees - so far I don't have much information on that.</font></i>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman">&#160;</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>BERRIES</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>Blueberry. </b>To grow well here, they need acid soil, so a container is often the best solution, since Santa Barbara&#160;soil and water tend to be alkaline.&#160; One gardener we know waters hers with a very dilute solution of white vinegar, plus puts pine needles, coffee grounds around the plant. Best in Mediterranean climates are the low-chill varieties like 'Misty,''O'Neal,' 'Sharpblue'</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>Cane berries. </b>&#160;Upright cane berries are fun to pop in here and there as understory plants and they take some shade. But we found out the hard way that you probably don&#8217;t want to put in sprawling, thorny berries (especially blackberry) that sucker underground &#8211; they pop up all over the yard and are hard to eradicate.&#160; When we buy new berries we limit ourselves to thornless varieties and our current favorites are 'Navajo' and 'Apache,' although the thorny varieties that still linger in our garden - and will probably be there for hundreds of years as they're ineradicable - taste best. So we live with them and enjoy the berries.</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>Elderberry</b>. &#160;Shrub.<b>&#160;</b>There is a California&#160;native variety. Produces edible fragrant white flowers (used to make elderberry syrup and wine) and edible small blue berries that the birds love. Ripe berries are safe to eat but leaves, twigs, branches, seeds and roots are toxic. &#160;Has medicinal uses. We use our elderberry as a sacrificial plant attracting birds away from other fruit trees.</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>Lemonade Berry </b>(native). <i>Rhus integrifolia</i>. Can also control erosion.</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>&#160;</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>BULBS AND ROOT CROPS</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <i><font size="5" color="#000000" face="Times New Roman">Placement of these may take special care, as you don't want to plant them too close to delicate tree roots.&#160; </font></i>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>Carrots</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>Edible canna</b>.</font><font size="5" color="black" face="Times New Roman">&#160;<i>Canna edulis</i>&#160;&#8211;Achira.</font><font size="5" color="#000000" face="Times New Roman"><b>&#160; </b>Flowers are smaller than most cannas and the root is edible, can be chopped and sauteed like potato.</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>Onions</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>Potato</b>&#160;and <b>sweet potato</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman">&#160;</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>EDIBLE FLOWERS (note: most fruit trees, veggies and herbs also have edible flowers. Always triple check the safety of any flower before eating!)</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>Daylilies</b>. <i>Hemerocallis species</i>. Buds are used in Chinese stir fry, Petals in salad.</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>Nasturtium</b>&#160;(flowers, young leaves and buds that may be pickled like capers) Let the plants die back in place. They will reseed and form a straw mulch.</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>Roses</b>&#160;(yield petals for salads, sandwiches, syrups, desserts; rose hips for tea, syrups, jam)</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>Scarlet runner bean</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>Scented geranium</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>&#160;</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>HERBS </b>(most have edible flowers in addition to other uses)</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <b>Borage</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Chili peppers</b>, including<b>&#160;tree chili</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Cilantro</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Garlic</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Italian parsley</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Lavender</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Lemon balm</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Lemon verbena. </b>A drought tolerant shrub with delicious leaves for tea.</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Mint. </b>Some fear its vigorous, spreading roots, but we welcome it into dryer areas as ground cover, autumn bee food and a source of fresh leaves for cooking and tea.</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Mustard </b>(young leaves can be stir fried, flowers are edible, plus seeds for making mustard)</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Pineapple sage </b>(leaves and flowers make delicious herbal tea)</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Oregano</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Rosemary</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Sage</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman">&#160;</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>SHRUBS/Understory trees</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>Guava.</b>&#160;<em>Psidium</em>&#160; Tropical shrubs native to Mexico, Central and South America&#160;that yield white, yellow or pink fruit. Not to be confused with Pineapple Guava (<em>Feijoa</em>) <em>Psidium guajava</em>&#160; (apple guava) is one tasty variety. Also try lemon guava and strawberry guava.&#160;&#160;&#160;&#160;&#160;&#160; </font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman">&#160;</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>VEGGIES </b>(there's no way to name them all - it's fun to experiment to see what likes the soil under and around your fruit trees. Our favorites are those that overwinter and/or reseed themselves)</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>Artichokes</b>. Plant away from tree roots, in baskets as the gophers love them.</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>Brassicas</b>&#160;like broccoli, kale, collard greens.</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>Chard</b>.</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>Dandelions</b>. Leaves are great in salads and so good for us. Small birds like the seed heads.</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>Fava beans</b>&#160;and other beans.</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>New Zealand&#160;spinach</b>.</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman">&#160;</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>VINES </b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman">We often forget about vertical space in the garden, but it's nice to increase your yield by growing edible vines up fruit trees, on walls and over arbors, fences and hedges.</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; text-indent: 0.3in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="black" face="Times New Roman"><b>Grapes.</b></font><i><font size="5" color="#000000" face="Times New Roman">&#160;Note: the Permaculture Guild of Santa Barbara&#160; has a separate list of recommended table and wine grapes for our area. Contact </font><a target="_blank" gdf-obfuscated-mailto="2jrUe4FfQmAJ" href="javascript:"><font size="5" color="#0000ff" face="Times New Roman">lbuzzell@aol.com</font></a><font size="5" color="#000000" face="Times New Roman">&#160;for details</font></i>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="black" face="Times New Roman"><b>Passion Fruit</b>. A garden member says &#8220;mine is simply rampant, productive and&#160;trouble free; gets little to no supplemental water.&#8221; The juice can be used to make a spectacular salad dressing (served at Los Arroyos on Coast Village Road&#160;in their tropical salad).</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="black" face="Times New Roman">&#160;</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>MISCELLANEOUS</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>Bamboo. </b>Use clumping instead of running kinds to avoid it taking over your garden. Bamboo shoots are a delicacy in Asia.</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>Pepino melon</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>Sacrificial plants.&#160; </b>In permaculture designs we often plant trees, shrubs and other plants that are nitrogen-accumulators, &quot;nurse&quot; plants or fruit-providers for animals that might otherwise eat our crops. When they have performed their function, we &quot;chop and drop&quot; them around our fruit trees as a nutritious mulch.</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>Yucca</b>.&#160; We&#8217;ve read that yucca yields edible fruit and flower buds.&#160; Anyone have more info on this?</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman">&#160;</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>BENEFICIAL ATTRACTORS AND NUTRIENT ACCUMULATORS</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>Ceanothus</b>. Shrubs and ground covers that fix nitrogen in the soil<b>.</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>Salvia, ornamental</b>. These are treasures in the Mediterranean forest garden.</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>Tagetes lemmonii</b>. Golden color is lovely in fall.</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman">&#160;</font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman"><b>GROUND COVER</b></font>
+    </p>
+    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
+      <font size="5" color="#000000" face="Times New Roman">Easy-to-grow <b>succulents</b>&#160;can provide temporary ground cover for delicate roots. They can act as a living mulch until other plants take over that function. This crop is often free, as gardeners who have ground-cover sedums always have too many and are glad to share. Pelargoniums and lantana are other easy, colorful ground cover that can be removed as needed..</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 <node TEXT="Identification Aids/Classification/Description Terms" POSITION="left" ID="ID_365633680" CREATED="1427352191792" MODIFIED="1429683747726">
 <font NAME="SansSerif" SIZE="19" BOLD="true"/>
 <node TEXT="This knowledge base leans towards the Integrated Taxonomic Information System (ITIS) when possible" LOCALIZED_STYLE_REF="styles.important" ID="ID_73029615" CREATED="1430122749881" MODIFIED="1430289076363">
@@ -26055,6 +35811,7 @@
 <font NAME="SansSerif" SIZE="17" BOLD="true"/>
 <node TEXT="modernfarmer.com &gt; 2013 &gt; 07 &gt; Straw-bale-gardening" ID="ID_161958779" CREATED="1424085110768" MODIFIED="1424085110768" LINK="http://modernfarmer.com/2013/07/straw-bale-gardening/"/>
 <node TEXT="Two weeks before you plant, you have to get the bales cooking. This means wetting and fertilizing the bales for roughly 10 days to start composting the inner straw. For the first six days, put down 3 cups of organic fertilizer per bale every other day, and water the bales to push the fertilizer down and thoroughly saturate the straw. On the off days, simply water the bales. (Tip: try to ignore the neighbors staring suspiciously from their windows.) Days 7 through 9, lay down 1.5 cups of organic fertilizer each day and water. Day 10 put down 3 cups with phosphorus and potassium (bone or fish meal mixed with 50% wood ash works like a charm).  If you stick your finger into your bales, they&#x2019;ll be hot and moist. You&#x2019;ll start to see some &#x201c;peppering&#x201d; &#x2014; black soil-like clumps that signal the beginning of the composting that will continue through the growing season. If mushrooms sprout up, rejoice &#x2014; they won&#x2019;t harm your plants; it means the straw is decomposing as it should." ID="ID_1167392143" CREATED="1424085180704" MODIFIED="1424085182619"/>
+<node TEXT="https://www.youtube.com/watch?v=uXtylj7P7OE&amp;feature=youtu.be" ID="ID_880835416" CREATED="1433243487045" MODIFIED="1433243487045" LINK="https://www.youtube.com/watch?v=uXtylj7P7OE&amp;feature=youtu.be"/>
 </node>
 </node>
 <node TEXT="Keyhole Gardens" ID="ID_639636533" CREATED="1380172539759" MODIFIED="1429466624153">
@@ -26086,509 +35843,6 @@
 </node>
 <node TEXT="Planting" ID="ID_1018170890" CREATED="1380026272378" MODIFIED="1429683346224">
 <font NAME="SansSerif" SIZE="18" BOLD="true"/>
-<node TEXT="Interplanting/Companion/Guilds" ID="ID_1367089353" CREATED="1382440649529" MODIFIED="1431082773676">
-<font NAME="SansSerif" SIZE="18" BOLD="true"/>
-<node TEXT="Garlic and Oinions arond Cabbage and plants that are seceptable to moths . Interupts the flight and oders deter" ID="ID_1585994229" CREATED="1382440660746" MODIFIED="1382440692649">
-<font NAME="SansSerif" SIZE="10" BOLD="true"/>
-</node>
-<node TEXT="Peppers, Basel, Tomotoes" ID="ID_1643150740" CREATED="1382441211981" MODIFIED="1382441224934"/>
-<node TEXT="Brussel Sprouts, Parsley, Spinach, Celery" ID="ID_1349195604" CREATED="1382441226325" MODIFIED="1382441251312"/>
-<node TEXT="Radishes, Lettuce, Peppers" ID="ID_1789846009" CREATED="1382441255540" MODIFIED="1382441271079"/>
-<node TEXT="Single stem plants like onion , garlic, and chives are planted well among leafy vegatables like lettuce because of space and pest control" ID="ID_49420182" CREATED="1395293316714" MODIFIED="1395293360898"/>
-<node TEXT="Wormwood and nasturtiums protects cabbages" ID="ID_954584000" CREATED="1395293598379" MODIFIED="1395293619926"/>
-<node TEXT="Often times when we talk about Companion Planting we discuss the plants that play nice together and should always be planted side-by-side in our gardens. Not too often do we talk about those plants that just don&#x2019;t get along. It&#x2019;s like we are gossiping about the neighbors or something. I mean, even though we love having sunflowers in the neighborhood they sure don&#x2019;t play well with others. They emit a toxin from their roots that inhibits other plants from growing too close to them as they want all the nutrients in the surrounding soil. Who knew? Well, I&#x2019;m here to give you the dish on what plants to NOT plant together when you are companion planting, even if they would look just perfect in your vegetable or herb garden next to each other. &#xa;&#xa;Anything in the bean family, whether it is string green beans or bush beans all the way to lima beans don&#x2019;t get along with quite a few other vegetables. Their biggest nemeses in the garden are chives, garlic, leeks, and onions. They are not fans of bulb-type vegetables! Beans also don&#x2019;t do well with peppers, either the sweet green peppers or their fiery cousins the jalape&#xf1;os. &#xa;&#xa;One plant that I was shocked that beans don&#x2019;t get along with are marigolds, which are typically crowd pleasers as they deter pests. In fact, all the plants that the bean family shuns are those that deter pests. Go figure! Peas are cousins to beans and they also loathe the bulb veggies including chives, garlic, leeks, and onions. Both broccoli and cauliflower have a few enemies in the vegetable world. They are not fans of peppers, all types of squash including yellow squash and even pumpkins. How they don&#x2019;t care for strawberries or tomatoes I will never know, but they don&#x2019;t. It seems the cool season crops of broccoli and cauliflower have something against those fruits and veggies that like it a little hotter to grow. Besides cauliflower and broccoli, steer clear of planting cilantro and cucumbers near tomatoes. Dill and carrots would rather be at other ends of the planter bed too. So now you know too who would rather stay on their own sides of the garden! &#xa;&#xa;To sum it all up &#x2013; when companion planting: &#xa;&#xa;&#x9;Beans: Don&#x2019;t plant near chives, garlic, leeks, onions, peppers, marigolds &#xa;&#xa;&#x9;Peas:  Don&#x2019;t plant near chives, garlic, leeks, onions, peppers &#xa;&#xa;&#x9;Broccoli and Cauliflower: Don&#x2019;t plant near peppers, squash, strawberries, tomatoes &#xa;&#xa;&#x9;Tomatoes:  Don&#x2019;t plant near broccoli, cauliflower, cilantro, cucumbers &#xa;&#xa;&#x9;Dill: Don&#x2019;t plant near carrots Sunflowers need to be planted at least 12 inches away from any other plant.  &#xa;&#xa;Read more at http://momsneedtoknow.com/companion-planting-plant-together/#tUgffG7X0O9eRwhs.99" ID="ID_1640437388" CREATED="1397053463946" MODIFIED="1429466624186">
-<node TEXT="momsneedtoknow.com &gt; Companion-planting-plant-together &gt; #tUgffG7X0O9eRwhs" ID="ID_1176602943" CREATED="1397053604535" MODIFIED="1397053604535" LINK="http://momsneedtoknow.com/companion-planting-plant-together/#tUgffG7X0O9eRwhs.99"/>
-</node>
-<node TEXT="Good list! I&#x2019;d add that if you can, keep sunflowers in a completely different garden from tomatoes because stinkbugs will come for the sunflowers but really feast on your tomatoes and ruin them. Read more at http://momsneedtoknow.com/companion-planting-plant-together/#tUgffG7X0O9eRwhs.99" ID="ID_1590855424" CREATED="1397053648967" MODIFIED="1397053651074"/>
-<node TEXT="Asperegus and Tomatoes but check that because asperegus likes 7 to alkilyne and tomatoes lke slightly acid" ID="ID_578509100" CREATED="1397563862598" MODIFIED="1397563955741"/>
-<node TEXT="Asparagus and Strawberries" ID="ID_968875196" CREATED="1422038113207" MODIFIED="1429466624195">
-<font NAME="SansSerif" SIZE="10" BOLD="true"/>
-<node TEXT="Our asparagus crowns are planted 12&quot;-16&quot; deep with roots that go deeper... that&apos;s not shallow. I know new varieties tell you to plant them in as little as 6&quot; of soil, but you can go deeper. We normally plant thin, shallow rooted annuals like nasturtiums and the likes, in the bed, that will do well but still give the asparagus the space to come up. Strawberries might be shallow, but can root out and run quite profusely. I&apos;d worry about them blocking potential asparagus shoots. But I suppose if you are weeding your berries out every year growing hybrids, unlike our wild varieties, you&apos;d probably keep the rooting under control." ID="ID_341554028" CREATED="1422038135304" MODIFIED="1422038137181"/>
-<node TEXT="suggest that it is a good idea. Other sources on permies.com generally say that they are both shallowly rooted and compete with each other. One source even had actual experience saying that they are not compatible. One data point is not enough to define a trend, so I ask you my fellow permaculturalists of reddit: Does anybody else have experience with this combination? Does anybody have any ideas on how to grow both in the same area?" ID="ID_1305508754" CREATED="1422038160748" MODIFIED="1422038162921"/>
-</node>
-<node TEXT="Guilds" ID="ID_555884129" CREATED="1382440953531" MODIFIED="1431082760693">
-<font NAME="SansSerif" SIZE="18" BOLD="true"/>
-<node TEXT="Tree Compatibility - Guild" ID="ID_1039980834" CREATED="1382167803838" MODIFIED="1431082989355">
-<font NAME="SansSerif" SIZE="17" BOLD="true"/>
-<node TEXT="Mediteranean" ID="ID_1561697132" CREATED="1382443441901" MODIFIED="1431082996971">
-<font NAME="SansSerif" SIZE="16" BOLD="true"/>
-<node ID="ID_488699367" CREATED="1382443716531" MODIFIED="1429466625221"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      
-    </p>
-    <p style="margin-left: 0in; margin-bottom: 0pt; margin-top: 0in; margin-right: 0in" class="MsoNormal">
-      <font face="Times New Roman" color="#000000" size="3"><b>UNDERSTORY AND GUILD&#160;PLANTS&#160;FOR&#160;MEDITERRANEAN&#160;FOOD&#160; FORESTS</b></font>
-    </p>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_1668410939" CREATED="1382443589417" MODIFIED="1420556295895"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>UNDERSTORY AND GUILD&#160;PLANTS&#160;FOR&#160;MEDITERRANEAN&#160;FOOD&#160; FORESTS</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman">&#160;</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman">Linda Buzzell-Saltzman</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman">&#160;</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman">Once our fruit trees are planted in their water-saving basins in a budding Mediterranean food forest, it's now time to think about what else to plant in these usually-moist wells and swales. Or up the trees? Or nearby? We need these companion plants to increase our food and medicine yield, and also to enrich the soil, provide habitat, pull up minerals and other nutrients from deep in the earth, draw nitrogen from the air and bring it into the soil, attract beneficial insects to control pests, create shade for delicate roots -- and to provide beauty, a critical psychological and spiritual yield in every garden.</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman">&#160;</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <i><font size="5" color="#000000" face="Times New Roman">Thanks to the members of the Permaculture Guild of Santa Barbara&#160;and the Santa Barbara&#160;Organic&#160;Garden&#160;Club for their ideas and input. Additions and corrections are welcome. Please email </font><a target="_blank" gdf-obfuscated-mailto="2jrUe4FfQmAJ" href="javascript:"><font size="5" color="#0000ff" face="Times New Roman">lbuzzell@aol.com</font></a><font size="5" color="#000000" face="Times New Roman">&#160; &#160;Especially welcome would be input on what plants do best under specific fruit trees - so far I don't have much information on that.</font></i>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman">&#160;</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>BERRIES</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>Blueberry. </b>To grow well here, they need acid soil, so a container is often the best solution, since Santa Barbara&#160;soil and water tend to be alkaline.&#160; One gardener we know waters hers with a very dilute solution of white vinegar, plus puts pine needles, coffee grounds around the plant. Best in Mediterranean climates are the low-chill varieties like 'Misty,''O'Neal,' 'Sharpblue'</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>Cane berries. </b>&#160;Upright cane berries are fun to pop in here and there as understory plants and they take some shade. But we found out the hard way that you probably don&#8217;t want to put in sprawling, thorny berries (especially blackberry) that sucker underground &#8211; they pop up all over the yard and are hard to eradicate.&#160; When we buy new berries we limit ourselves to thornless varieties and our current favorites are 'Navajo' and 'Apache,' although the thorny varieties that still linger in our garden - and will probably be there for hundreds of years as they're ineradicable - taste best. So we live with them and enjoy the berries.</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>Elderberry</b>. &#160;Shrub.<b>&#160;</b>There is a California&#160;native variety. Produces edible fragrant white flowers (used to make elderberry syrup and wine) and edible small blue berries that the birds love. Ripe berries are safe to eat but leaves, twigs, branches, seeds and roots are toxic. &#160;Has medicinal uses. We use our elderberry as a sacrificial plant attracting birds away from other fruit trees.</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>Lemonade Berry </b>(native). <i>Rhus integrifolia</i>. Can also control erosion.</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>&#160;</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>BULBS AND ROOT CROPS</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <i><font size="5" color="#000000" face="Times New Roman">Placement of these may take special care, as you don't want to plant them too close to delicate tree roots.&#160; </font></i>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>Carrots</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>Edible canna</b>.</font><font size="5" color="black" face="Times New Roman">&#160;<i>Canna edulis</i>&#160;&#8211;Achira.</font><font size="5" color="#000000" face="Times New Roman"><b>&#160; </b>Flowers are smaller than most cannas and the root is edible, can be chopped and sauteed like potato.</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>Onions</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>Potato</b>&#160;and <b>sweet potato</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman">&#160;</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>EDIBLE FLOWERS (note: most fruit trees, veggies and herbs also have edible flowers. Always triple check the safety of any flower before eating!)</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>Daylilies</b>. <i>Hemerocallis species</i>. Buds are used in Chinese stir fry, Petals in salad.</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>Nasturtium</b>&#160;(flowers, young leaves and buds that may be pickled like capers) Let the plants die back in place. They will reseed and form a straw mulch.</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>Roses</b>&#160;(yield petals for salads, sandwiches, syrups, desserts; rose hips for tea, syrups, jam)</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>Scarlet runner bean</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>Scented geranium</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>&#160;</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>HERBS </b>(most have edible flowers in addition to other uses)</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <b>Borage</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Chili peppers</b>, including<b>&#160;tree chili</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Cilantro</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Garlic</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Italian parsley</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Lavender</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Lemon balm</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Lemon verbena. </b>A drought tolerant shrub with delicious leaves for tea.</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Mint. </b>Some fear its vigorous, spreading roots, but we welcome it into dryer areas as ground cover, autumn bee food and a source of fresh leaves for cooking and tea.</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Mustard </b>(young leaves can be stir fried, flowers are edible, plus seeds for making mustard)</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Pineapple sage </b>(leaves and flowers make delicious herbal tea)</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Oregano</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Rosemary</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Sage</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman">&#160;</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>SHRUBS/Understory trees</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>Guava.</b>&#160;<em>Psidium</em>&#160; Tropical shrubs native to Mexico, Central and South America&#160;that yield white, yellow or pink fruit. Not to be confused with Pineapple Guava (<em>Feijoa</em>) <em>Psidium guajava</em>&#160; (apple guava) is one tasty variety. Also try lemon guava and strawberry guava.&#160;&#160;&#160;&#160;&#160;&#160; </font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman">&#160;</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>VEGGIES </b>(there's no way to name them all - it's fun to experiment to see what likes the soil under and around your fruit trees. Our favorites are those that overwinter and/or reseed themselves)</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>Artichokes</b>. Plant away from tree roots, in baskets as the gophers love them.</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>Brassicas</b>&#160;like broccoli, kale, collard greens.</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>Chard</b>.</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>Dandelions</b>. Leaves are great in salads and so good for us. Small birds like the seed heads.</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>Fava beans</b>&#160;and other beans.</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.5in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>New Zealand&#160;spinach</b>.</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman">&#160;</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>VINES </b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman">We often forget about vertical space in the garden, but it's nice to increase your yield by growing edible vines up fruit trees, on walls and over arbors, fences and hedges.</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; text-indent: 0.3in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="black" face="Times New Roman"><b>Grapes.</b></font><i><font size="5" color="#000000" face="Times New Roman">&#160;Note: the Permaculture Guild of Santa Barbara&#160; has a separate list of recommended table and wine grapes for our area. Contact </font><a target="_blank" gdf-obfuscated-mailto="2jrUe4FfQmAJ" href="javascript:"><font size="5" color="#0000ff" face="Times New Roman">lbuzzell@aol.com</font></a><font size="5" color="#000000" face="Times New Roman">&#160;for details</font></i>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="black" face="Times New Roman"><b>Passion Fruit</b>. A garden member says &#8220;mine is simply rampant, productive and&#160;trouble free; gets little to no supplemental water.&#8221; The juice can be used to make a spectacular salad dressing (served at Los Arroyos on Coast Village Road&#160;in their tropical salad).</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="black" face="Times New Roman">&#160;</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>MISCELLANEOUS</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>Bamboo. </b>Use clumping instead of running kinds to avoid it taking over your garden. Bamboo shoots are a delicacy in Asia.</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>Pepino melon</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>Sacrificial plants.&#160; </b>In permaculture designs we often plant trees, shrubs and other plants that are nitrogen-accumulators, &quot;nurse&quot; plants or fruit-providers for animals that might otherwise eat our crops. When they have performed their function, we &quot;chop and drop&quot; them around our fruit trees as a nutritious mulch.</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>Yucca</b>.&#160; We&#8217;ve read that yucca yields edible fruit and flower buds.&#160; Anyone have more info on this?</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman">&#160;</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>BENEFICIAL ATTRACTORS AND NUTRIENT ACCUMULATORS</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>Ceanothus</b>. Shrubs and ground covers that fix nitrogen in the soil<b>.</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>Salvia, ornamental</b>. These are treasures in the Mediterranean forest garden.</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>Tagetes lemmonii</b>. Golden color is lovely in fall.</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0.3in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman">&#160;</font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman"><b>GROUND COVER</b></font>
-    </p>
-    <p class="MsoNormal" style="margin-top: 0in; margin-left: 0in; margin-right: 0in; margin-bottom: 0pt">
-      <font size="5" color="#000000" face="Times New Roman">Easy-to-grow <b>succulents</b>&#160;can provide temporary ground cover for delicate roots. They can act as a living mulch until other plants take over that function. This crop is often free, as gardeners who have ground-cover sedums always have too many and are glad to share. Pelargoniums and lantana are other easy, colorful ground cover that can be removed as needed..</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="Olive" ID="ID_954721056" CREATED="1382443775966" MODIFIED="1431083002107">
-<font NAME="SansSerif" SIZE="15" BOLD="true"/>
-<node TEXT="permies.com &gt; T &gt; 3968 &gt; Permaculture &gt; Olive-Tree-Guild" ID="ID_1658597230" CREATED="1382443809751" MODIFIED="1382443809751" LINK="http://www.permies.com/t/3968/permaculture/Olive-Tree-Guild"/>
-<node ID="ID_213058287" CREATED="1382443864888" MODIFIED="1382443864888"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <span class="postbody">In my olive grove I have rosemary, lavender, thymus, oregano, artichoke, lemongrass beneath olives. They also love the company of almonds and figs. </span>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_1118582112" CREATED="1382443924368" MODIFIED="1429466625254"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      My favorite planting combination is almond or fig behind and higher than the olive and punica granatum or Zizyphus zizyphus (sorry don't know the english names) in front of and lower than the olive respective to the sunlight directon.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Wild asparagus is also a great plant to have in the olive grove delicious and very healthy asks nothing, likes stress.
-    </p>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_387445142" CREATED="1382443965537" MODIFIED="1382443965537"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <span class="postbody">I looked up punica granatum... is pomegranate... to wonderful. I have 2 trees and I think I will try and get some going off of them to put there too.<br /><br />I also looked up Zizyphus zizyphus ..... is the Jujube... that is a plant that has interested me for some time, I will see if I can get it too to add to my guild.<br /></span>
-
-    <blockquote class="uncited">
-      <div>
-        Ziziphus Jujuba is a fruit found in the hills and mountains of India. Its medicinal benefits are mentioned in Ayurveda and Chinese Medicine.This article tries to gain further insight on this herbal fruit.<br /><br />Knowledge Gained from Research about Zizuphus Jujuba:<br /><br />&#160; &#160; * The component ziziphin, found in this herb is a Triterpene Saponin Glycoside.<br />&#160; &#160; * Triterpene Saponin Glycosides (TSGs) are chemical compounds with healing properties.<br />&#160; &#160; * Betulinic acid is a component which protects the cells in the body from virus.<br />&#160; &#160; * It has anti- inflammatory and anti-malarial properties.<br />&#160; &#160; * It is recently discovered as a potential anticancer agent too.<br />&#160; &#160; * Japanese research has proved that this herb can improve liver functions.<br /><br />Benefits of different parts of Ziziphus Jujuba:<br /><br />The Leaves:<br /><br />The leaves of this herb are astringent. It means that the leaves can narrow the blood vessels in the tissue and stop bleeding.They can reduce fever and prvent hair loss too.<br /><br />The Seeds:<br /><br />The seeds can induce sleep, reduce anxiety and prevent stomachache. Treatment of palpitations, nervous exhaustion and excessive perspiration is also possible using them. They prevent nausea and abdominal pain in pregnancy.<br /><br />The Roots:<br /><br />The root is dried and powdered. It is used in the treatment of fevers and dyspepsia. When the powder is applied on wounds and ulcers,they heal quickly.<br /><br />The Fruits:<br /><br />The dried fruits purify the blood and help in digestion. They are found beneficial in the treatment of hysteria, anemia, chronic fatigue, loss of appetite, diarrhea, and irritability.<br /><br />The Barks:<br /><br />The barks is made into a bitter decoction and taken to get relief from gingivitis. Paste made from the bark can be applied on sores. Juice prepared from the root bark is said to provide relief from rheumatism and gout.
-      </div>
-    </blockquote>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node ID="ID_665120915" CREATED="1382443990639" MODIFIED="1382443990639"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <span class="postbody">I've read purslane is a good groundcover in the olive guild, although there are lots of options in the portulaca family that might be better-adapted or tastier.<br /><br /><a href="http://www.permies.com/t/997/chickens/best-perennial-chicken-feed" title="the best perennial chicken feed" class="api" target="_new">Chickens</a> are definitely worth considering, I've heard they get a lot out of olive fruit &amp; pits. </span>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_991616707" CREATED="1382444105971" MODIFIED="1431325491486"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <span class="postbody">Oleuropein is one chemical of note in olive. The only reference I found to allelopathic effects of oleuropein was from jasmine, and it inhibited some seeds from germinating and slowed cell division in onion root cells. Olive is loaded with that compound, and it isn't just in the fruit... the leaves are rich in it, the roots contain it also (not sure how much). </span>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="Almond" ID="ID_746778892" CREATED="1382444256211" MODIFIED="1431083002109">
-<font NAME="SansSerif" SIZE="15" BOLD="true"/>
-<node TEXT="permies.com &gt; T &gt; 9861 &gt; Plants &gt; Mediterranean-climate-almond-guild" ID="ID_261057462" CREATED="1382444338764" MODIFIED="1382444341019" LINK="http://www.permies.com/t/9861/plants/Mediterranean-climate-almond-guild"/>
-<node ID="ID_1530958585" CREATED="1382444273424" MODIFIED="1382444273424"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <span class="postbody">almonds being in the peach family probably could use any peach guild plants...it sounds like a very well done guild to me. </span>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_1452105270" CREATED="1382444356521" MODIFIED="1382444356521"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <span class="postbody">It's almost spring here, so the almond (planted 18 months ago) has just started blooming and putting on new growth.&#160; The bed is about 2.5 metres in diameter, and in it I have broad beans, fennel, borage, shallots, lucerne (alfalfa), red clover, mizuna, garlic (normal and russian), and a few other things.&#160; Also comfrey and horseradish, but they haven't really come back from the winter yet.&#160; I planted some alpine strawberries in here the other day as well, trying to build up the ground layer a bit more.&#160; I have avoided root crops, except for the horseradish which is an infrequent harvest, as I do not want to disturb the feeder roots of the almond too much.&#160; The whole group is working great together and I am really happy with the variety of plants and their rapid growth, even over winter.&#160; This is one of the best examples of guilds in my garden at the moment and it is good to be able to see how theory translates into practice.<br /><br />Most of these plants have come from scattered seed during the autumn.&#160; The broad bean seeds were pushed just under the surface.&#160; I have needed to do a little weeding, mainly Soursob (Oxalis), but it has been far less weedy than other areas, I assume due to the dense vegetation here.&#160; I also trim the borage to allow other plants to grow, as it tends to get enormous.&#160; The trimmings go to my <a href="http://www.permies.com/t/997/chickens/best-perennial-chicken-feed" title="the best perennial chicken feed" class="api" target="_new">chickens</a> for composting, and presumably generate <a href="http://www.permies.com/t/8652/permaculture/colorado-potato-beetles-vs-permaculture#78939" title="what is the difference between organic and permaculture?" class="api" target="_new">organic</a> matter from the plant casting off root mass.<br /><br />Although I have not really planned this guild, but done it in a piecemeal fashion, I think it has achieved a relatively good mix of layers and functions.&#160; The broad beans provide a yield and also add nitrogen into the soil, as do the clover and lucerne (I trim this periodically over summer in its growth phase).&#160; The borage provides cover and rapid growth, adding organic matter, as well as silicon and potassium[1].&#160; Mizuna is providing human and chicken food.&#160; Shallots repel pests and are a <a href="http://www.permies.com/t/997/chickens/best-perennial-chicken-feed" title="the best perennial chicken feed" class="api" target="_new">perennial</a> food source, if left to spread or replanted.&#160; The fennel accumulates Na, N and P[1], is a perennial food source, and attracts a ton of insects when it flowers.&#160; Many of these are great fodder for my bees too, particularly the borage and broad beans.&#160; Of course, they love the almond flowers too.</span>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="permies.com &gt; T &gt; 9861 &gt; Plants &gt; Mediterranean-climate-almond-guild" ID="ID_1353524863" CREATED="1429464846868" MODIFIED="1429464846868" LINK="http://www.permies.com/t/9861/plants/Mediterranean-climate-almond-guild"/>
-</node>
-<node TEXT="Thoughts On Combinations" ID="ID_108273233" CREATED="1420653918656" MODIFIED="1431083002109">
-<font NAME="SansSerif" SIZE="15" BOLD="true"/>
-</node>
-<node TEXT="Mediterranean Understory &amp; Guild Plants for Food Forests " ID="ID_1802504720" CREATED="1382444668979" MODIFIED="1429466625339">
-<font NAME="SansSerif" SIZE="13" BOLD="true"/>
-<node TEXT="greenbeanconnection.wordpress.com &gt; 2011 &gt; 12 &gt; 09 &gt; Mediterranean-understory-guild-plants-for-food-forests-part-2" ID="ID_1559592475" CREATED="1382444647956" MODIFIED="1382444647956" LINK="http://greenbeanconnection.wordpress.com/2011/12/09/mediterranean-understory-guild-plants-for-food-forests-part-2/"/>
-<node ID="ID_715107526" CREATED="1382444717177" MODIFIED="1382444717177"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Once our fruit trees are planted in their water-saving basins in a budding Mediterranean food forest, it&#8217;s now time to think about what else to plant in these usually moist&#160;wells and swales. Or up the trees? Or nearby? We need these companion plants to increase our food and medicine yield, and also to enrich the soil, provide habitat, pull up minerals and other nutrients from deep in the earth, draw nitrogen from the air and bring it into the soil, attract beneficial insects to control pests, create shade for delicate roots &#8212; and to provide beauty, a critical psychological and spiritual yield in every garden.
-    </p>
-    <p>
-      Thanks to the members of the Permaculture Guild of Santa Barbara and the Santa Barbara Organic Garden Club for their ideas and input. <strong>Additions and corrections are welcome.&#160; Please email&#160;<a href="mailto:lbuzzell@aol.com">lbuzzell@aol.com</a>.</strong>&#160; Especially welcome would be input on what plants do best under specific fruit trees &#8211; so far I don&#8217;t have much information on that.
-    </p>
-    <p>
-      BERRIES<br /><strong>Blueberry</strong>. To grow well here, they need acid soil, so a container is often the best solution, since Santa Barbara soil and water tend to be alkaline. One gardener we know waters hers with a very dilute solution of white vinegar, plus puts pine needles, coffee grounds around the plant. Best in Mediterranean climates are the low-chill varieties like &#8216;Misty,&#8221;O&#8217;Neal,&#8217; &#8216;Sharpblue&#8217;<br /><strong>Cane berries.</strong>&#160;Upright cane berries are fun to pop in here and there as understory plants and they take some shade. But we found out the hard way that you probably don&#8217;t want to put in sprawling, thorny berries (especially blackberry) that sucker underground&#160;&#8211; they pop up all over the yard and are hard to eradicate. When we buy new berries we limit ourselves to thornless varieties and our current favorites are &#8216;Navajo&#8217; and &#8216;Apache,&#8217; although the thorny varieties that still linger in our garden &#8211; and will probably be there for hundreds of years as they&#8217;re ineradicable &#8211; taste best. So we live with them and enjoy the berries.<br /><strong>Elderberry</strong>. Shrub. There is a California native variety. Produces edible fragrant white flowers (used to make elderberry syrup and wine) and edible small blue berries that the birds love. Ripe berries are safe to eat but leaves, twigs, branches, seeds and roots are toxic. Has medicinal uses. We use our elderberry as a sacrificial plant attracting birds away from other fruit trees.<br /><strong>Lemonade Berry</strong>&#160;(native). Rhus integrifolia. Can also control erosion.
-    </p>
-    <p>
-      BULBS AND ROOT CROPS<br />Placement of these may take special care, as you don&#8217;t want to plant them too close to delicate tree roots.<br />Carrots<br />Edible canna. Canna edulis&#160;&#8211;Achira. Flowers are smaller than most cannas&#160;and the root is edible, can be chopped and saut&#233;ed like potato.<br />Onions<br />Potato and sweet potato
-    </p>
-    <p>
-      EDIBLE FLOWERS (note: most fruit trees, veggies and herbs also have edible flowers. <u><span style="text-decoration: underline">Always triple check the safety of any flower before eating!</span></u><br />Daylilies. Hemerocallis species. Buds are used in Chinese stir fry, Petals in salad.<br />Nasturtium (flowers, young leaves and buds that may be pickled like capers) Let the plants die back in place. They will reseed and form a straw mulch.<br />Roses (yield petals for salads, sandwiches, syrups, desserts; rose hips for tea, syrups, jam)<br />Scarlet runner bean<br />Scented geranium
-    </p>
-    <p>
-      HERBS (most have edible flowers in addition to other uses)<br />Borage<br />Chili peppers, including tree chili<br />Cilantro<br />Garlic<br />Italian parsley<br />Lavender<br />Lemon balm<br />Lemon verbena. A drought tolerant shrub with delicious leaves for tea.<br />Mint. Some fear its vigorous, spreading roots, but we welcome it into drier areas as ground cover, autumn bee food and a source of fresh leaves for cooking and tea.<br />Mustard (young leaves can be stir fried, flowers are edible, plus seeds for making mustard)<br />Pineapple sage (leaves and flowers make delicious herbal tea)<br />Oregano<br />Rosemary<br />Sage
-    </p>
-    <p>
-      SHRUBS/Understory trees<br />Guava. Psidium Tropical shrubs native to Mexico, Central and South America that yield white, yellow or pink fruit. Not to be confused with Pineapple Guava (Feijoa) Psidium guajava (apple guava) is one tasty variety. Also try lemon guava and strawberry guava.
-    </p>
-    <p>
-      VEGGIES (there&#8217;s no way to name them all &#8211; it&#8217;s fun to experiment to see what likes the soil under and around your fruit trees. Our favorites are those that overwinter and/or reseed themselves)<br />Artichokes. Plant away from tree roots, in baskets as the gophers love them.<br />Brassicas like broccoli, kale, collard greens.<br />Chard.<br />Dandelions. Leaves are great in salads and so good for us. Small birds like the seed heads.<br />Fava beans and other beans.<br />New Zealand spinach.
-    </p>
-    <p>
-      VINES<br />We often forget about vertical space in the garden, but it&#8217;s nice to increase your yield by growing edible vines up fruit trees, on walls and over arbors, fences and hedges.<br /><strong>Grapes</strong>. Note: the Permaculture Guild of Santa Barbara has a separate list of recommended table and wine grapes for our area. Contact&#160;<a href="mailto:lbuzzell@aol.com">lbuzzell@aol.com</a>&#160;for details<br /><strong>Passion Fruit</strong>. A garden member says &#8220;mine is simply rampant, productive and trouble-free; gets little to no supplemental water.&#8221; The juice can be used to make a spectacular salad dressing (served at Los Arroyos on Coast Village Road in their tropical salad).
-    </p>
-    <p>
-      MISCELLANEOUS<br /><strong>Bamboo</strong>. Use clumping instead of running kinds to avoid it taking over your garden. Bamboo shoots are a delicacy in Asia.<br /><strong>Pepino melon.</strong><br /><strong>Sacrificial plants</strong>. In permaculture designs we often plant trees, shrubs and other plants that are nitrogen-accumulators, &#8220;nurse&#8221; plants or fruit-providers for animals that might otherwise eat our crops. When they have performed their function, we &#8220;chop and drop&#8221; them around our fruit trees as a nutritious mulch.<br /><strong>Yucca.</strong>&#160;We&#8217;ve read that yucca yields edible fruit and flower buds. Anyone have more info on this?
-    </p>
-    <p>
-      BENEFICIAL ATTRACTORS AND NUTRIENT ACCUMULATORS<br />Ceanothus. Shrubs and ground covers that fix nitrogen in the soil.<br />Salvia, ornamental. These are treasures in the Mediterranean forest garden.<br />Tagetes lemmonii. Golden color is lovely in fall.
-    </p>
-    <p>
-      GROUND COVER<br />Easy-to-grow succulents can provide temporary ground cover for delicate roots. They can act as a living mulch until other plants take over that function. This crop is often free, as gardeners who have ground-cover sedums always have too many and are glad to share.<br />Pelargoniums&#160;and lantana are other easy, colorful ground cover that can be removed as needed.
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node TEXT="White Oak/Hazelnut" ID="ID_1456943249" CREATED="1431082974268" MODIFIED="1431083015848">
-<font SIZE="16" BOLD="true"/>
-<node TEXT="White Oak/Hazelnut guild:&#xa;&#xa;Oregon White Oak (aka garry oak, aka quercus garryana)&#xa;California Hazelnut (Corylus cornuta)&#xa;Pacific Madrone (Arbutus mensiesii)&#xa;Mazzard Cherry (Prunus avium)&#xa;Black Hawthorn (Craitugus douglasii)&#xa;Saskatoon ServiceBerry (Amelanchier alniflora)&#xa;Creambush oceanspray (Holodiscus discolour)&#xa;Round leaved Snowberry (Symphoricarpos albus)&#xa;Thimbleberry (Rubus parviflorus)&#xa;Trailing Blackberry (Rubus ursinus)&#xa;Sweetbriar Rose (Rosa ursinus)&#xa;Broad petaled strawberry (Fragaria virginiana)&#xa;Verba buena (Saturgeja douglasii)&#xa;Sweet cicely (Osmorhiza chilensis)&#xa;American Vetch (Vicia americana) (Nitrogen fixer)" ID="ID_732751777" CREATED="1431083052377" MODIFIED="1431083059304"/>
-</node>
-<node TEXT="Walnut" ID="ID_453095160" CREATED="1431083117481" MODIFIED="1431083128822">
-<font SIZE="16" BOLD="true"/>
-<node TEXT="Something is needed to help feed the soil with Nitrogen and the perfect candidates are members of the Elaegnus genus. My personal favourite is the goumi bush (Elaegnus multiflora) which has yummy edible berries that feed both humans and birds." ID="ID_760676859" CREATED="1431083146395" MODIFIED="1431083246223"/>
-</node>
-<node TEXT="Pine" ID="ID_1476683015" CREATED="1431325216905" MODIFIED="1431325229584">
-<font SIZE="16" BOLD="true"/>
-<node TEXT="http://tcpermaculture.com/site/2014/08/04/tapping-the-pine-tree-plant-resins-and-their-uses/" ID="ID_1453318091" CREATED="1431325231123" MODIFIED="1431325231123" LINK="http://tcpermaculture.com/site/2014/08/04/tapping-the-pine-tree-plant-resins-and-their-uses/"/>
-<node TEXT="Pine Nuts" ID="ID_568386839" CREATED="1420653937529" MODIFIED="1429466625259">
-<font NAME="SansSerif" SIZE="16" BOLD="true"/>
-<node TEXT="Should be acid loving plants" ID="ID_1030801547" CREATED="1420653979032" MODIFIED="1420653990984">
-<font NAME="SansSerif" SIZE="10" BOLD="true"/>
-</node>
-<node TEXT="Blueberries" ID="ID_1493274013" CREATED="1420653956743" MODIFIED="1420653977191">
-<font NAME="SansSerif" SIZE="10" BOLD="true"/>
-</node>
-<node TEXT="Rose" ID="ID_148680326" CREATED="1420653992502" MODIFIED="1420653995724">
-<font NAME="SansSerif" SIZE="10" BOLD="true"/>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="Plant Compatibility - Guild" ID="ID_1377926764" CREATED="1382440996514" MODIFIED="1431083023715">
-<font NAME="SansSerif" SIZE="17" BOLD="true"/>
-<node TEXT="Three Sisters" ID="ID_873829420" CREATED="1382441012697" MODIFIED="1431083025586">
-<font NAME="SansSerif" SIZE="16" BOLD="true"/>
-<node TEXT="Corns, Beans, Squash" ID="ID_162925958" CREATED="1382441032641" MODIFIED="1382441039849"/>
-<node TEXT="http://blogs.cornell.edu/garden/get-activities/signature-projects/the-three-sisters-exploring-an-iroquois-garden/how-to-plant-the-three-sisters/" ID="ID_1563905230" CREATED="1431009176349" MODIFIED="1431009176349" LINK="http://blogs.cornell.edu/garden/get-activities/signature-projects/the-three-sisters-exploring-an-iroquois-garden/how-to-plant-the-three-sisters/"/>
-<node TEXT="http://rodaleinstitute.org/the-three-sistersand-that-fourth-sister-no-one-really-talks-about/" ID="ID_140567117" CREATED="1431030177065" MODIFIED="1431030177065" LINK="http://rodaleinstitute.org/the-three-sistersand-that-fourth-sister-no-one-really-talks-about/"/>
-</node>
-<node TEXT="Marigold, Basil, Tomatoe" ID="ID_785071788" CREATED="1382537461627" MODIFIED="1431083026777">
-<font NAME="SansSerif" SIZE="16" BOLD="true"/>
-</node>
-</node>
-<node TEXT="Elements" ID="ID_437002192" CREATED="1382441160078" MODIFIED="1431083033642">
-<font NAME="SansSerif" SIZE="17" BOLD="true"/>
-<node TEXT="Nitrogen FIxers" ID="ID_145299876" CREATED="1382441169366" MODIFIED="1431083039498">
-<font NAME="SansSerif" SIZE="16" BOLD="true"/>
-</node>
-<node TEXT="Mulch Maker" ID="ID_972326762" CREATED="1382441335698" MODIFIED="1431083039500">
-<font NAME="SansSerif" SIZE="16" BOLD="true"/>
-</node>
-<node TEXT="Insectiary Plants" ID="ID_791772584" CREATED="1382441348530" MODIFIED="1431083039500">
-<font NAME="SansSerif" SIZE="16" BOLD="true"/>
-</node>
-<node TEXT="Soil Buster" ID="ID_723056841" CREATED="1382441363673" MODIFIED="1431083039501">
-<font NAME="SansSerif" SIZE="16" BOLD="true"/>
-</node>
-<node TEXT="Barrier Plants" ID="ID_101618550" CREATED="1382441374818" MODIFIED="1431083039501">
-<font NAME="SansSerif" SIZE="16" BOLD="true"/>
-</node>
-</node>
-<node TEXT="Candidates" ID="ID_1888293000" CREATED="1431083261766" MODIFIED="1431083279997">
-<font SIZE="17" BOLD="true"/>
-<node TEXT="Shrubs" ID="ID_658500786" CREATED="1431083285886" MODIFIED="1431083303480">
-<font SIZE="16" BOLD="true"/>
-<node TEXT="Next is the shrub layer. This layer consists of flowering, fruiting, wildlife attracting and other useful shrubs.&#xa;&#xa;American Cranberry&#xa;Aronia (Chokeberry)&#xa;Autumn Olive&#xa;Blackberry&#xa;Blueberry&#xa;Buffaloberry&#xa;Currant (grows well in a walnut guild)&#xa;Elderberry&#xa;False Indigo&#xa;Gooseberry&#xa;Goumi (Nitrogen Fixer)&#xa;Hackberry (Allelopath(inhibits grasses), grows well in a walnut grove)&#xa;Hansen&apos;s Bush Cherry&#xa;Highbush Cranberry&#xa;Indigo&#xa;Japanese Barberry&#xa;Jostaberry&#xa;Nanking Cherry&#xa;Pinapple Guava&#xa;Raspberry&#xa;Red Azarole&#xa;Rugose Rose&#xa;Russian Olive&#xa;Sea Buckthorn&#xa;Sericeberry (Saskatoon berry)&#xa;Siberian Pea Shrub&#xa;Summersweet Clethra&#xa;Witch Hazel&#xa;&#xa;All of these shrubs except indigo, guaca and the buckthorn have wildlife value, in that they attract wildlife. All are edible except Buffaloberry, False Indigo, Hackberry, Indigo, Japanese Barbery, clethra and the Hazel.&#xa;&#xa;The bold faced plants are nitrogen fixers." ID="ID_631744476" CREATED="1431083304893" MODIFIED="1431083311066"/>
-</node>
-<node TEXT="Trees/Lower Trees" ID="ID_1956406814" CREATED="1431083353727" MODIFIED="1431083370919">
-<font SIZE="16" BOLD="true"/>
-<node TEXT="Therefore, the same ideas can hold true but, instead of dense plantings, the food forest is designed in layers. The first layer is the Tall tree layer, located at the back of the property in what is called zone 3. Zone thee requires the least amount of maintenance and be basically left to grow on it&apos;s own, peraps being mowed a couple of times a year. The tall trees should be underplanted with a ground cover to help build the soil. A good mix is Annuel Rye, Clover (nitrogen fixing), yarrow, dill and fennel. Perhaps a few scatterings of daikon to break up any hard packed soil. This mix will enrich the soil with nitrogen, and provide a healthy mulch when mowed and attract beneficial insects.&#xa;Acacia&#xa;American Chestnut&#xa;Apple&#xa;Asian Pear&#xa;Black Locust&#xa;Black Walnut&#xa;Buartnut&#xa;Bur Oak&#xa;Butternut&#xa;Cherry&#xa;Cinese Chjestnut&#xa;European Pear&#xa;Heartnut&#xa;Hickory&#xa;Honey Locust&#xa;Mesquite&#xa;peach&#xa;Pecan&#xa;Plum&#xa;Walnut&#xa;&#xa;The second layer is the Low Tree Layer this consists of of many of the same trees as in the the tall tree layer but, in dwarf and semi dwarf form.&#xa;One small note: the trees can still be planted in guilds in both these layers but, the garden (forest) is not guild centered. It is meant to function as a mega guild where each part nuritious the other.&#xa;Almond&#xa;Apple (dwarf or semi dwarf)&#xa;Apricot&#xa;Bamboo&#xa;Crabapple&#xa;Cornelian Cherry Dogwood&#xa;Fig&#xa;Filbert/hazelnut&#xa;Golden Chain Tree (Nitrogen Fixer)&#xa;Hawthorn&#xa;Jujube&#xa;Loquat&#xa;Mayhaw&#xa;Medlar&#xa;Mountain Ash&#xa;Mulberry&#xa;Pawpaw&#xa;Peach (dwarf or semi dwarf)&#xa;Pecan&#xa;Persimmon&#xa;Pomegranate" ID="ID_481811330" CREATED="1431083371753" MODIFIED="1431083376762"/>
-</node>
-</node>
-</node>
-</node>
 <node TEXT="Moon Cycle/Planting Calenders" ID="ID_361906385" CREATED="1382890758642" MODIFIED="1429466624196">
 <font NAME="SansSerif" SIZE="18" BOLD="true"/>
 <node TEXT="the-gardeners-calendar.co.uk &gt; Moon planting" ID="ID_1579537167" CREATED="1382890770004" MODIFIED="1382890770004" LINK="http://www.the-gardeners-calendar.co.uk/moon_planting.asp"/>
@@ -26955,15 +36209,16 @@
 </node>
 <node TEXT="Soil" ID="ID_1935216485" CREATED="1373432922424" MODIFIED="1429683346226">
 <font NAME="SansSerif" SIZE="18" BOLD="true"/>
-<node TEXT="Chrcoal/Bio-char" ID="ID_1281130721" CREATED="1373432945950" MODIFIED="1431082673597">
+<node TEXT="Charcoal/Bio-char/Ash" ID="ID_1281130721" CREATED="1373432945950" MODIFIED="1433228569566">
 <font NAME="SansSerif" SIZE="17" BOLD="true"/>
 <node TEXT="Bio-char" ID="ID_121685605" CREATED="1373433174873" MODIFIED="1429466624274">
 <font NAME="SansSerif" SIZE="18" BOLD="true"/>
 <node TEXT="youtube.com &gt; Watch ? ..." ID="ID_1465632975" CREATED="1373432960503" MODIFIED="1373432960503" LINK="http://www.youtube.com/watch?v=s3f1T_BgzzE"/>
 </node>
+<node TEXT="Wood Ash" ID="ID_288121470" CREATED="1433228571978" MODIFIED="1433228595765">
+<font SIZE="18" BOLD="true"/>
+<node TEXT="http://www.growveg.com/growblogpost.aspx?id=217" ID="ID_188688685" CREATED="1433228600962" MODIFIED="1433228600962" LINK="http://www.growveg.com/growblogpost.aspx?id=217"/>
 </node>
-<node TEXT="Texture" ID="ID_1896035929" CREATED="1382459042659" MODIFIED="1431082671445">
-<font NAME="SansSerif" SIZE="17" BOLD="true"/>
 </node>
 <node TEXT="Composting/Vermaculture" ID="ID_562356187" CREATED="1382891381580" MODIFIED="1431082668892">
 <font NAME="SansSerif" SIZE="17" BOLD="true"/>
@@ -27009,6 +36264,7 @@
 <node TEXT="Cloth can be used (clothing, dryer lint, even a futon)" ID="ID_1223688153" CREATED="1383371652511" MODIFIED="1383371681773"/>
 </node>
 <node TEXT="backyardabundance.org &gt; LinkClick ? ..." ID="ID_162806535" CREATED="1424866911231" MODIFIED="1424866911231" LINK="http://www.backyardabundance.org/LinkClick.aspx?fileticket=RqQcxBR7EHM%3d&amp;tabid=74"/>
+<node TEXT="http://permaculturenews.org/2011/04/02/everything-you-need-to-know-about-composting-with-worms/?utm_campaign=shareaholic&amp;utm_medium=facebook&amp;utm_source=socialnetwork" STYLE_REF="Very Good" ID="ID_653603284" CREATED="1433429010866" MODIFIED="1433429078937" LINK="http://permaculturenews.org/2011/04/02/everything-you-need-to-know-about-composting-with-worms/?utm_campaign=shareaholic&amp;utm_medium=facebook&amp;utm_source=socialnetwork"/>
 </node>
 <node TEXT="PH and nutrient values for composte materials" ID="ID_76251045" CREATED="1394952084951" MODIFIED="1429466624294">
 <font NAME="SansSerif" SIZE="18" BOLD="true"/>
@@ -27680,6 +36936,8 @@
 <node TEXT="nativeseeds.org" ID="ID_95697757" CREATED="1427446921678" MODIFIED="1427446921678" LINK="http://www.nativeseeds.org/"/>
 </node>
 <node TEXT="http://www.readytogrow.co.uk/index.htm" ID="ID_212810143" CREATED="1431176560294" MODIFIED="1431176560294" LINK="http://www.readytogrow.co.uk/index.htm"/>
+<node TEXT="R&#xfc;hlemann&apos;s Kr&#xe4;uter &amp; Duftpflanzen" ID="ID_536557258" CREATED="1433655323495" MODIFIED="1433655358669" LINK="http://www.kraeuter-und-duftpflanzen.de/"/>
+<node TEXT="http://vivergil.es/es/" ID="ID_1875479735" CREATED="1433919522802" MODIFIED="1433919522802" LINK="http://vivergil.es/es/"/>
 </node>
 </node>
 <node TEXT="Tree Nursery/Tree School" ID="ID_1450622530" CREATED="1431410530502" MODIFIED="1431410549495">
@@ -27690,6 +36948,62 @@
 <font SIZE="18" BOLD="true"/>
 <node TEXT="Diseases" ID="ID_1354971778" CREATED="1430310939396" MODIFIED="1430310951775">
 <font SIZE="17" BOLD="true"/>
+<node TEXT="Armillaria Root Rot" ID="ID_251378327" CREATED="1430332931490" MODIFIED="1430333098061">
+<font SIZE="16" BOLD="true"/>
+</node>
+<node TEXT="Artichoke curly dwarf virus" ID="ID_1393661430" CREATED="1433956062454" MODIFIED="1433956105639">
+<font SIZE="16" BOLD="true"/>
+<node ID="ID_1390877244" CREATED="1433956068329" MODIFIED="1433956079135"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      
+    </p>
+    <h4>
+      Artichoke curly dwarf virus<br/>Artichoke curly dwarf virus (ACDV)
+    </h4>
+    <h5>
+      Symptoms
+    </h5>
+    <div class="symptoms">
+      Plant growth reduced; plant lacking vigor; leaves may be distorted with dark necrotic spots and/or patches; deformed buds
+    </div>
+    <h5>
+      Cause
+    </h5>
+    <div class="cause">
+      Virus
+    </div>
+    <h5>
+      Comments
+    </h5>
+    <div class="comments">
+      Currently not known how virus is spread; use disease free crowns to propagate or certified seed
+    </div>
+    <div class="management">
+      <h5>
+        Management
+      </h5>
+      Use only certified planting material; remove and destroy infected plants to limit spread<br/>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Cercospora Leaf Spot" ID="ID_1614105497" CREATED="1430332912100" MODIFIED="1430333087923">
+<font SIZE="16" BOLD="true"/>
+</node>
+<node TEXT="Diplodia Canker" ID="ID_168059675" CREATED="1430332888938" MODIFIED="1430333074827">
+<font SIZE="16" BOLD="true"/>
+</node>
+<node TEXT="Olive Knot" ID="ID_847544070" CREATED="1430332703453" MODIFIED="1430333059181">
+<font SIZE="16" BOLD="true"/>
+</node>
 <node TEXT="Peach Tree Leaf Curl" ID="ID_489711268" CREATED="1430307249591" MODIFIED="1430762568247" LINK="#ID_1167677827">
 <attribute_layout NAME_WIDTH="146" VALUE_WIDTH="204"/>
 <attribute NAME="Disease Treatment" VALUE="#ID_57460350" OBJECT="java.net.URI|#ID_57460350"/>
@@ -27698,32 +37012,144 @@
 <node TEXT="The most successful means of treating leaf curl organically is spraying with a Trichoderma mix, which is a natural organic fungus which feeds on the other fungus. Whereas copper applications often defoliates the tree, Trichoderma will only attack the area where the leaf curl is on the leaf, the remaining section remains intact and continues to grow. Regular applications of Trichoderma can eliminate leaf curl completely. Trichoderma should be applied at leaf burst and then 2 or 3 times through the season. However as a living organic substance Trichoderma cannot be applied in conjunction with chemical applications." ID="ID_360788715" CREATED="1430307277323" MODIFIED="1430307277323"/>
 <node TEXT="http://en.wikipedia.org/wiki/Leaf_curl" ID="ID_831098693" CREATED="1430307284770" MODIFIED="1430307284770" LINK="http://en.wikipedia.org/wiki/Leaf_curl"/>
 </node>
-<node TEXT="Verticillium Wilt" ID="ID_1856407949" CREATED="1430309464326" MODIFIED="1430311553042">
-<font SIZE="16" BOLD="true"/>
-<node TEXT="http://www.oliveoilsource.com/page/disease-control#verticillium" ID="ID_278543951" CREATED="1430309603962" MODIFIED="1430309603962" LINK="http://www.oliveoilsource.com/page/disease-control#verticillium"/>
-<node TEXT="Verticillium wilt is a serious fungal disease in olives for which there is no cure. It is caused by Verticillium dahliae. It is found around the world. Symptoms appear when leaves on one or more branches of the tree suddenly wilt early in the growing season; the leaves stick to the dead branch, unlike the symptoms of Armillaria root rot, in which defoliation appears gradually and the leaves drop out of the canopy. This process intensifies as the season progresses. Trees die after repeated attacks over several years. Infections increase with tree age as root systems enlarge and explore larger volumes of contaminated soil. Note that darkening of xylem tissue, a key symptom for distinguishing Verticillium wilt in many crops, is frequently not apparent in olives.&#xa;&#xa;The fungus survives as microsclerotia (dark, multi-celled structures the size of a grain of sand) from season to season in the soil and probably in the roots of infected trees. They remain quiescent in the soil until roots approach within a few millimeters, stimulating them to germinate and penetrate the root. There they grow into the vascular tissue of the tree, plugging the tissue and causing sudden wilting and the death of limbs and entire trees. There must be many microsclerotia to actually cause the disease.&#xa;&#xa;In early summer the fungus can be readily isolated from diseased tissue in infected trees. The most effective management strategies to protect the trees are those taken before planting. When considering a new site for an olive grove, avoid land that has been planted for a number of years to crops that are highly susceptible to Verticillium wilt, such as cotton, cucurbits, eggplant, peppers, potato, or tomato. The Verticillium wilt pathogen is usually present in these soils. Soils containing over one microsclerotia per gram of soil should be avoided.&#xa;&#xa;Inoculum levels can be reduced before planting by soil solarization {link to olictionary definition}, flooding the fields during summer, growing several seasons of grass cover crops (rye, corn, or sudangrass) or a combination of these treatments. Whether any of these practices are sufficient to make much of a difference is unknown. Resistant spores have been documented to survive for at least 30 years in the soil. When replanting in an area where susceptible perennials were previously grown, remove as many roots of the trees or vines as possible. A resistant rootstock is not available, although some tolerance has been reported in the cultivar Ascolano." ID="ID_616341951" CREATED="1430309615973" MODIFIED="1430309620012"/>
-</node>
-<node TEXT="Phytophthora Rot" ID="ID_1580739632" CREATED="1430331668104" MODIFIED="1430333031421">
-<font SIZE="16" BOLD="true"/>
-</node>
 <node TEXT="Peacock Spot" ID="ID_1589386003" CREATED="1430332524791" MODIFIED="1430333052069">
 <font SIZE="16" BOLD="true"/>
 </node>
-<node TEXT="Olive Knot" ID="ID_847544070" CREATED="1430332703453" MODIFIED="1430333059181">
-<font SIZE="16" BOLD="true"/>
-</node>
-<node TEXT="Diplodia Canker" ID="ID_168059675" CREATED="1430332888938" MODIFIED="1430333074827">
-<font SIZE="16" BOLD="true"/>
-</node>
-<node TEXT="Cercospora Leaf Spot" ID="ID_1614105497" CREATED="1430332912100" MODIFIED="1430333087923">
-<font SIZE="16" BOLD="true"/>
-</node>
-<node TEXT="Armillaria Root Rot" ID="ID_251378327" CREATED="1430332931490" MODIFIED="1430333098061">
+<node TEXT="Phytophthora Rot" ID="ID_1580739632" CREATED="1430331668104" MODIFIED="1430333031421">
 <font SIZE="16" BOLD="true"/>
 </node>
 <node TEXT="Powdery Mildew" ID="ID_1448505388" CREATED="1432876709367" MODIFIED="1432876718971">
 <font SIZE="16" BOLD="true"/>
 <node TEXT="Likewise, you can coat cucurbit plants with baking soda or milk solution to control powdery mildew, and use immune-boosting compost tea to prevent blight on tomatoes" ID="ID_1528195546" CREATED="1432876720638" MODIFIED="1432876722258"/>
+</node>
+<node TEXT="Verticillium Wilt" ID="ID_1856407949" CREATED="1430309464326" MODIFIED="1430311553042">
+<font SIZE="16" BOLD="true"/>
+<node TEXT="http://www.oliveoilsource.com/page/disease-control#verticillium" ID="ID_278543951" CREATED="1430309603962" MODIFIED="1430309603962" LINK="http://www.oliveoilsource.com/page/disease-control#verticillium"/>
+<node TEXT="Verticillium wilt is a serious fungal disease in olives for which there is no cure. It is caused by Verticillium dahliae. It is found around the world. Symptoms appear when leaves on one or more branches of the tree suddenly wilt early in the growing season; the leaves stick to the dead branch, unlike the symptoms of Armillaria root rot, in which defoliation appears gradually and the leaves drop out of the canopy. This process intensifies as the season progresses. Trees die after repeated attacks over several years. Infections increase with tree age as root systems enlarge and explore larger volumes of contaminated soil. Note that darkening of xylem tissue, a key symptom for distinguishing Verticillium wilt in many crops, is frequently not apparent in olives.&#xa;&#xa;The fungus survives as microsclerotia (dark, multi-celled structures the size of a grain of sand) from season to season in the soil and probably in the roots of infected trees. They remain quiescent in the soil until roots approach within a few millimeters, stimulating them to germinate and penetrate the root. There they grow into the vascular tissue of the tree, plugging the tissue and causing sudden wilting and the death of limbs and entire trees. There must be many microsclerotia to actually cause the disease.&#xa;&#xa;In early summer the fungus can be readily isolated from diseased tissue in infected trees. The most effective management strategies to protect the trees are those taken before planting. When considering a new site for an olive grove, avoid land that has been planted for a number of years to crops that are highly susceptible to Verticillium wilt, such as cotton, cucurbits, eggplant, peppers, potato, or tomato. The Verticillium wilt pathogen is usually present in these soils. Soils containing over one microsclerotia per gram of soil should be avoided.&#xa;&#xa;Inoculum levels can be reduced before planting by soil solarization {link to olictionary definition}, flooding the fields during summer, growing several seasons of grass cover crops (rye, corn, or sudangrass) or a combination of these treatments. Whether any of these practices are sufficient to make much of a difference is unknown. Resistant spores have been documented to survive for at least 30 years in the soil. When replanting in an area where susceptible perennials were previously grown, remove as many roots of the trees or vines as possible. A resistant rootstock is not available, although some tolerance has been reported in the cultivar Ascolano." ID="ID_616341951" CREATED="1430309615973" MODIFIED="1430309620012"/>
+</node>
+<node TEXT="Bacterial crown rot" ID="ID_854017814" CREATED="1433956642442" MODIFIED="1433956646423">
+<font SIZE="16" BOLD="true"/>
+<node ID="ID_654614764" CREATED="1433956173379" MODIFIED="1433956641020"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="padding-bottom: 30px" id="diseases">
+      <h4>
+        Bacterial crown rot<br/><i>Erwinia chrysanthemi</i>
+      </h4>
+      <h5>
+        Symptoms
+      </h5>
+      <div class="symptoms">
+        Stunted plant growth; wilted leaves in high temperatures; plant collapse; new leaves do not expand and turn brown and dry; crown tissue becomes soft and rots; black discoloration when cross-section of stem taken
+      </div>
+      <h5>
+        Cause
+      </h5>
+      <div class="cause">
+        Bacterium
+      </div>
+      <h5>
+        Comments
+      </h5>
+      <div class="comments">
+        May be spread by cutting tools; digging and splitting crowns may cause new plantings to become infected<br/>
+      </div>
+      <div class="management">
+        <h5>
+          Management
+        </h5>
+        Do not use infected crowns as planting material; start plants from seed or disease free transplants
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Botrytis rot or gray mold" ID="ID_166769471" CREATED="1433956666510" MODIFIED="1433956671034">
+<font SIZE="16" BOLD="true"/>
+<node ID="ID_1528774708" CREATED="1433956231340" MODIFIED="1433956663598"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="padding-bottom: 30px" id="diseases">
+      <h4>
+        Botrytis rot or gray mold<br/><i>Botrytis cinerea</i>
+      </h4>
+      <div id="links-disease-29">
+        <div class="medium-images">
+          <div style="display: inline-block">
+            <a href="http://s3.amazonaws.com/plantvillage/images/pics/000/000/582/large/Gray_mold_on_cardoon.jpg?1369423286" target="_blank" data-description="by William M. Brown Jr., Bugwood.org
+Licensed by Creative Commons
+Attribution 3.0
+http://www.forestryimages.org/browse/detail.cfm?imgnum=5356791" title="Gray mold on closely related Cardoon" data-gallery="#blueimp-gallery-disease-29"><img src="http://s3.amazonaws.com/plantvillage/images/pics/000/000/582/medium/Gray_mold_on_cardoon.jpg?1369423286" alt="Gray_mold_on_cardoon.jpg" class="img-rounded"/>
+            </a><br/>
+            
+
+            <div class="image_caption">
+              Gray mold on closely related Cardoon
+            </div>
+          </div>
+        </div>
+        <div class="medium-images">
+          
+        </div>
+        <div class="medium-images">
+          
+        </div>
+      </div>
+      <div id="blueimp-gallery-disease-29" class="blueimp-gallery">
+        <div class="slides">
+          
+        </div>
+        <h3 class="title">
+          
+        </h3>
+        <p class="description">
+          
+        </p>
+        <a class="prev">&#8249;</a>&#160;<a class="next">&#8250;</a>&#160;<a class="close">&#215;</a>&#160;<a class="play-pause">
+</a>
+        <ol class="indicator">
+          
+        </ol>
+      </div>
+      <h5>
+        Symptoms
+      </h5>
+      <div class="symptoms">
+        Crown of plant slimy and foul smelling; fuzzy white to gray mold present
+      </div>
+      <h5>
+        Cause
+      </h5>
+      <div class="cause">
+        Fungus
+      </div>
+      <h5>
+        Comments
+      </h5>
+      <div class="comments">
+        More prevalent when rainfall is high
+      </div>
+      <div class="management">
+        <h5>
+          Management
+        </h5>
+        Plant in light, well-draining, fertile soils; avoid overcrowding plants and planting seeds too deeply; do not wet foliage when watering, water plants at base; remove crop debris from soil after harvest
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node TEXT="Treatments" ID="ID_1051697640" CREATED="1430310958634" MODIFIED="1430310968109">
@@ -27744,13 +37170,836 @@
 </node>
 </node>
 </node>
+<node TEXT="Prevention" ID="ID_1723547572" CREATED="1433792258058" MODIFIED="1433792265214">
+<font SIZE="17" BOLD="true"/>
 <node TEXT="http://www.highmowingseeds.com/blog/5-simple-tricks-for-preventing-pests-disease/" ID="ID_1307484840" CREATED="1432876973461" MODIFIED="1432876973461" LINK="http://www.highmowingseeds.com/blog/5-simple-tricks-for-preventing-pests-disease/"/>
 </node>
-<node TEXT="Pests/Treatments" ID="ID_1874372707" CREATED="1432368085359" MODIFIED="1432368104871">
+</node>
+<node TEXT="Pests/Treatments/Prevention" ID="ID_1874372707" CREATED="1432368085359" MODIFIED="1433792212704">
 <font SIZE="18" BOLD="true"/>
-<node TEXT="Where you can&#x2019;t cover, you can coat. Cucumber beetles and squash bugs can be deterred by dipping seedlings in kaolin-clay solution &#x2013; but it must be reapplied after heavy rains to continue protecting the plants." ID="ID_840717160" CREATED="1432876944949" MODIFIED="1432876958693"/>
-<node TEXT="Covering cucurbits like cucumbers and squash until they begin flowering keeps out cucumber beetles and squash bugs. It can be used to keep plantings of peppers and eggplants warmer, helping them grow and produce faster. For pest prevention, it&#x2019;s essential that all the edges of the row cover are completely buried &#x2013; even a small opening is enough to allow an army of flea beetles in." ID="ID_427115103" CREATED="1432876959453" MODIFIED="1432876967439"/>
+<node TEXT="Prevention" ID="ID_1643632423" CREATED="1433792216116" MODIFIED="1433792223946">
+<font SIZE="17" BOLD="true"/>
 <node TEXT="http://www.highmowingseeds.com/blog/5-simple-tricks-for-preventing-pests-disease/" ID="ID_801484151" CREATED="1432876968586" MODIFIED="1432876968586" LINK="http://www.highmowingseeds.com/blog/5-simple-tricks-for-preventing-pests-disease/"/>
+<node TEXT="Covering cucurbits like cucumbers and squash until they begin flowering keeps out cucumber beetles and squash bugs. It can be used to keep plantings of peppers and eggplants warmer, helping them grow and produce faster. For pest prevention, it&#x2019;s essential that all the edges of the row cover are completely buried &#x2013; even a small opening is enough to allow an army of flea beetles in." ID="ID_427115103" CREATED="1432876959453" MODIFIED="1432876967439"/>
+<node TEXT="Where you can&#x2019;t cover, you can coat. Cucumber beetles and squash bugs can be deterred by dipping seedlings in kaolin-clay solution &#x2013; but it must be reapplied after heavy rains to continue protecting the plants." ID="ID_840717160" CREATED="1432876944949" MODIFIED="1432876958693"/>
+<node TEXT="Beneficial Insects" ID="ID_699874273" CREATED="1433914952762" MODIFIED="1433914965287">
+<font SIZE="16" BOLD="true"/>
+<node TEXT="Mirid bugs of the genus Macrolophus are mainly predatory bugs that eat an assortment of pests." ID="ID_1071233213" CREATED="1433914856779" MODIFIED="1433914883736"/>
+<node TEXT="The advantage of the interactions&#xa;between D. viscosa and mirid bugs of the genus&#xa;Macrolophus is, is that the predator is zoophytophagous&#xa;and feeds on both pests and plant sap (Castan&#xe9; et al., 2004;&#xa;Ingegno et al., 2011). This way, the predators can complete&#xa;their nymphal development even in the absence of prey;&#xa;although nymphal development is faster if prey is available" ID="ID_169514227" CREATED="1433918225270" MODIFIED="1433918229367"/>
+</node>
+<node TEXT="Beneficial Plants - Predator Hosts" ID="ID_1270149431" CREATED="1433915948688" MODIFIED="1433918250837">
+<font SIZE="16" BOLD="true"/>
+<node TEXT=" D. viscosa is the most important&#xa;natural host plant conserving and augmenting the&#xa;predators of the genus Macrolophus, w" ID="ID_678590757" CREATED="1433916039888" MODIFIED="1433916045375"/>
+</node>
+<node TEXT="&#x2022; Killing root parasites or pests:&#xa;&#xa;(e.g. Tagetes marigolds fumigate soils against nematodes and grasses, while Crotalaria [Australian Bird Plant] disables nematodes that damage citrus and solanum plants [e.g. potatoe, tomatoe, eggplant, capsicum]).&#xa;&#xa;&#x2022;    Hosting predators:&#xa;&#xa;Many predators of garden pests (e.g. wasps) only hunt to feed their offspring, themselves being wholly nectar feeders. Providing forage for adult stages is thus part of companion planting for a bug free garden (most small flowered plants provide this, including umbelliferous plants such as carrots, parsnip, fennel, dill and coriander, and others like various daisies, acacias and tamarisk).&#xa;&#xa;&#x2022;    Remove pest habitat:&#xa;&#xa;Larval forms of orchard pests such as fruit fly flourish and multiply in fallen fruit, so seasonally introducing a forager such as pigs or poultry aids in pest control while adding fertilizer (and tilth if left too long) to soil.&#xa;&#xa;&#x2022;    Prey on or deter pests:&#xa;&#xa;Insect eating birds (e.g. honey-eaters) can be encouraged by planting a few nectar producing and insect hosting plants (e.g. buddleia, banksias, dryandras, fuschias, callistemon, salvia) scattered around your orchard and vegetable growing zones.&#xa;&#xa;Eagles and other birds of prey can be kept around to deter parrots and other fruit spoilers by keeping rabbits, pigeons or guinea pigs in your orchard. Alternatively, hawk kites flown overhead can be even more effective if not overused. A single alpaca or donkey amongst your sheep will keep foxes away.&#xa;&#xa;Most duck breeds (not muscovy) will clean up slugs and snails and can be ranged through your food producing areas periodically when their appetite for seedlings will not compromise your yield." ID="ID_1249888248" CREATED="1433916488178" MODIFIED="1433916769421">
+<node TEXT="http://www.small-farm-permaculture-and-sustainable-living.com/fruit_tree_companion_planting.html" ID="ID_496028899" CREATED="1433916777113" MODIFIED="1433916777113" LINK="http://www.small-farm-permaculture-and-sustainable-living.com/fruit_tree_companion_planting.html"/>
+</node>
+</node>
+<node TEXT="Treatments" ID="ID_1041063504" CREATED="1433792147087" MODIFIED="1433792157885">
+<font SIZE="17" BOLD="true"/>
+<node TEXT="Natural Pesticides" ID="ID_690028605" CREATED="1434176781228" MODIFIED="1434176799669">
+<font SIZE="16" BOLD="true"/>
+<node TEXT="Clove" ID="ID_1550179132" CREATED="1434176802156" MODIFIED="1434176811326">
+<font BOLD="true"/>
+</node>
+<node TEXT="Eucalyptus" ID="ID_1200186497" CREATED="1434176814123" MODIFIED="1434176821294">
+<font BOLD="true"/>
+</node>
+<node TEXT="Orange" ID="ID_1884625460" CREATED="1434176822010" MODIFIED="1434176829010">
+<font BOLD="true"/>
+</node>
+<node TEXT="Cinnamon" ID="ID_1551469697" CREATED="1434176838059" MODIFIED="1434176854910">
+<font BOLD="true"/>
+</node>
+<node TEXT="Bay Leaves" ID="ID_1804532456" CREATED="1434176859778" MODIFIED="1434176865469">
+<font BOLD="true"/>
+</node>
+<node TEXT="Baking soda" ID="ID_1373848128" CREATED="1434176868506" MODIFIED="1434176874085">
+<font BOLD="true"/>
+</node>
+<node TEXT="Neem" ID="ID_1586532638" CREATED="1434176877010" MODIFIED="1434176880317">
+<font BOLD="true"/>
+</node>
+<node TEXT="Cayenne Pepper" ID="ID_906227176" CREATED="1434176883920" MODIFIED="1434176892571">
+<font BOLD="true"/>
+</node>
+<node TEXT="Oak leaf" ID="ID_77127246" CREATED="1434176896529" MODIFIED="1434176902140">
+<font BOLD="true"/>
+<node TEXT="Oak leaf compost tea helps prevent all sucking insects" ID="ID_187228828" CREATED="1433792171032" MODIFIED="1433792196451"/>
+</node>
+</node>
+<node TEXT="For specific pests" ID="ID_124992247" CREATED="1434176922777" MODIFIED="1434176937690">
+<font SIZE="16" BOLD="true"/>
+<node TEXT="Olive Fly" ID="ID_1824990568" CREATED="1433874558676" MODIFIED="1433874573247">
+<font SIZE="16" BOLD="true"/>
+<node TEXT="http://www.oliveoilsource.com/page/olive-fly-control" ID="ID_26913376" CREATED="1433874541026" MODIFIED="1433874541026" LINK="http://www.oliveoilsource.com/page/olive-fly-control"/>
+<node TEXT="The Spanish &#x201c;OLIPE&#x201d; Trap" ID="ID_763295930" CREATED="1433875808356" MODIFIED="1433875811342">
+<font BOLD="true"/>
+<node TEXT="http://cesonoma.ucdavis.edu/files/27233.pdf" ID="ID_1402513064" CREATED="1433875821160" MODIFIED="1433875821160" LINK="http://cesonoma.ucdavis.edu/files/27233.pdf"/>
+</node>
+<node TEXT="http://www.ipm.ucdavis.edu/PMG/PESTNOTES/pn74112.html" ID="ID_906690132" CREATED="1433876399835" MODIFIED="1433876399835" LINK="http://www.ipm.ucdavis.edu/PMG/PESTNOTES/pn74112.html"/>
+<node TEXT="http://www.permies.com/t/16976/bugs/Permaculturally-Growing-Olives-Dakos-Bactrocera" ID="ID_662565301" CREATED="1433918942991" MODIFIED="1433918942991" LINK="http://www.permies.com/t/16976/bugs/Permaculturally-Growing-Olives-Dakos-Bactrocera"/>
+</node>
+<node TEXT="Aphid" ID="ID_479767297" CREATED="1434127238672" MODIFIED="1434127247803">
+<font SIZE="16" BOLD="true"/>
+<node TEXT="Aphids have a number of natural enemies, and these insects are much better at controlling aphids than any other method available to gardeners. Pampering and nurturing their natural enemies is an excellent method of organic aphid control. Introduce beneficial bugs, like lacewings and ladybugs, to your garden as a natural way to kill aphids. Nearby plantings of mint, fennel, dill, yarrow, and dandelions will help attract these insects to your garden." ID="ID_797468217" CREATED="1434127208755" MODIFIED="1434127222373"/>
+<node TEXT="Grow plants for a homemade aphid control. Plants such as the following are attractive to aphids and good for organic aphid control. Growing these far from other garden plants will lure aphids away and keep the garden aphid-free." ID="ID_1762788664" CREATED="1434127521576" MODIFIED="1434127521576">
+<node ID="ID_1780571622" CREATED="1434127501811" MODIFIED="1434127501811" LINK="http://www.gardeningknowhow.com/ornamental/flowers/nasturtium/growing-nasturtiums.htm"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul style="background-color: rgb(255, 255, 255); border-right-style: none; margin-left: 0px; border-bottom-width: 0px; font-weight: normal; word-spacing: 0px; margin-bottom: 0; padding-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0; border-left-width: 0px; text-indent: 0px; list-style: disc; border-right-width: 0px; letter-spacing: normal; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; color: rgb(51, 51, 51); padding-right: 0px; font-size: 1.1em; font-variant: normal; margin-right: 0; text-transform: none; white-space: normal; padding-top: 0px; border-left-style: none; text-align: start; vertical-align: baseline; font-style: normal" charset="utf-8">
+      <li style="border-right-style: none; margin-left: 0px; border-bottom-width: 0px; font-weight: normal; margin-bottom: 0px; padding-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0px; border-left-width: 0px; border-right-width: 0px; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; padding-right: 0px; font-size: 1.1em; font-variant: inherit; margin-right: 0px; padding-top: 0px; border-left-style: none; vertical-align: baseline; font-style: inherit">
+        <font color="rgb(0, 0, 255)" face="Oxygen, sans-serif, Arial, Helvetica" size="inherit"><a style="border-right-style: none; margin-left: 0px; text-decoration: underline; border-bottom-width: 0px; font-weight: 400; padding-bottom: 0px; margin-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0px; border-left-width: 0px; border-right-width: 0px; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; padding-right: 0px; color: rgb(0, 0, 255); font-size: inherit; font-variant: inherit; margin-right: 0px; padding-top: 0px; border-left-style: none; vertical-align: baseline; font-style: inherit" href="http://www.gardeningknowhow.com/ornamental/flowers/nasturtium/growing-nasturtiums.htm"><u>Nasturtium</u></a></font>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_659831242" CREATED="1434127501815" MODIFIED="1434127501815" LINK="http://www.gardeningknowhow.com/ornamental/flowers/asters/growing-asters.htm"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul style="background-color: rgb(255, 255, 255); border-right-style: none; margin-left: 0px; border-bottom-width: 0px; font-weight: normal; word-spacing: 0px; margin-bottom: 0; padding-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0; border-left-width: 0px; text-indent: 0px; list-style: disc; border-right-width: 0px; letter-spacing: normal; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; color: rgb(51, 51, 51); padding-right: 0px; font-size: 1.1em; font-variant: normal; margin-right: 0; text-transform: none; white-space: normal; padding-top: 0px; border-left-style: none; text-align: start; vertical-align: baseline; font-style: normal" charset="utf-8">
+      <li style="border-right-style: none; margin-left: 0px; border-bottom-width: 0px; font-weight: normal; margin-bottom: 0px; padding-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0px; border-left-width: 0px; border-right-width: 0px; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; padding-right: 0px; font-size: 1.1em; font-variant: inherit; margin-right: 0px; padding-top: 0px; border-left-style: none; vertical-align: baseline; font-style: inherit">
+        <font color="rgb(0, 0, 255)" face="Oxygen, sans-serif, Arial, Helvetica" size="inherit"><a style="border-right-style: none; margin-left: 0px; text-decoration: underline; border-bottom-width: 0px; font-weight: 400; padding-bottom: 0px; margin-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0px; border-left-width: 0px; border-right-width: 0px; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; padding-right: 0px; color: rgb(0, 0, 255); font-size: inherit; font-variant: inherit; margin-right: 0px; padding-top: 0px; border-left-style: none; vertical-align: baseline; font-style: inherit" href="http://www.gardeningknowhow.com/ornamental/flowers/asters/growing-asters.htm"><u>Aster</u></a></font>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1021407832" CREATED="1434127501829" MODIFIED="1434127501829" LINK="http://www.gardeningknowhow.com/ornamental/flowers/chrysanthemum/growing-chrysanthemum-flowers.htm"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul style="background-color: rgb(255, 255, 255); border-right-style: none; margin-left: 0px; border-bottom-width: 0px; font-weight: normal; word-spacing: 0px; margin-bottom: 0; padding-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0; border-left-width: 0px; text-indent: 0px; list-style: disc; border-right-width: 0px; letter-spacing: normal; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; color: rgb(51, 51, 51); padding-right: 0px; font-size: 1.1em; font-variant: normal; margin-right: 0; text-transform: none; white-space: normal; padding-top: 0px; border-left-style: none; text-align: start; vertical-align: baseline; font-style: normal" charset="utf-8">
+      <li style="border-right-style: none; margin-left: 0px; border-bottom-width: 0px; font-weight: normal; margin-bottom: 0px; padding-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0px; border-left-width: 0px; border-right-width: 0px; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; padding-right: 0px; font-size: 1.1em; font-variant: inherit; margin-right: 0px; padding-top: 0px; border-left-style: none; vertical-align: baseline; font-style: inherit">
+        <font color="rgb(0, 0, 255)" face="Oxygen, sans-serif, Arial, Helvetica" size="inherit"><a style="border-right-style: none; margin-left: 0px; text-decoration: underline; border-bottom-width: 0px; font-weight: 400; padding-bottom: 0px; margin-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0px; border-left-width: 0px; border-right-width: 0px; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; padding-right: 0px; color: rgb(0, 0, 255); font-size: inherit; font-variant: inherit; margin-right: 0px; padding-top: 0px; border-left-style: none; vertical-align: baseline; font-style: inherit" href="http://www.gardeningknowhow.com/ornamental/flowers/chrysanthemum/growing-chrysanthemum-flowers.htm"><u>Mum</u></a></font>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1661105734" CREATED="1434127501837" MODIFIED="1434127501837" LINK="http://www.gardeningknowhow.com/ornamental/flowers/cosmos/growing-cosmos.htm"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul style="background-color: rgb(255, 255, 255); border-right-style: none; margin-left: 0px; border-bottom-width: 0px; font-weight: normal; word-spacing: 0px; margin-bottom: 0; padding-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0; border-left-width: 0px; text-indent: 0px; list-style: disc; border-right-width: 0px; letter-spacing: normal; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; color: rgb(51, 51, 51); padding-right: 0px; font-size: 1.1em; font-variant: normal; margin-right: 0; text-transform: none; white-space: normal; padding-top: 0px; border-left-style: none; text-align: start; vertical-align: baseline; font-style: normal" charset="utf-8">
+      <li style="border-right-style: none; margin-left: 0px; border-bottom-width: 0px; font-weight: normal; margin-bottom: 0px; padding-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0px; border-left-width: 0px; border-right-width: 0px; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; padding-right: 0px; font-size: 1.1em; font-variant: inherit; margin-right: 0px; padding-top: 0px; border-left-style: none; vertical-align: baseline; font-style: inherit">
+        <font color="rgb(0, 0, 255)" face="Oxygen, sans-serif, Arial, Helvetica" size="inherit"><a style="border-right-style: none; margin-left: 0px; text-decoration: underline; border-bottom-width: 0px; font-weight: 400; padding-bottom: 0px; margin-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0px; border-left-width: 0px; border-right-width: 0px; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; padding-right: 0px; color: rgb(0, 0, 255); font-size: inherit; font-variant: inherit; margin-right: 0px; padding-top: 0px; border-left-style: none; vertical-align: baseline; font-style: inherit" href="http://www.gardeningknowhow.com/ornamental/flowers/cosmos/growing-cosmos.htm"><u>Cosmos</u></a></font>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_385984502" CREATED="1434127501846" MODIFIED="1434127501846" LINK="http://www.gardeningknowhow.com/ornamental/flowers/hollyhock/tips-on-hollyhocks-growing-hollyhocks-successfully.htm"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul style="background-color: rgb(255, 255, 255); border-right-style: none; margin-left: 0px; border-bottom-width: 0px; font-weight: normal; word-spacing: 0px; margin-bottom: 0; padding-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0; border-left-width: 0px; text-indent: 0px; list-style: disc; border-right-width: 0px; letter-spacing: normal; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; color: rgb(51, 51, 51); padding-right: 0px; font-size: 1.1em; font-variant: normal; margin-right: 0; text-transform: none; white-space: normal; padding-top: 0px; border-left-style: none; text-align: start; vertical-align: baseline; font-style: normal" charset="utf-8">
+      <li style="border-right-style: none; margin-left: 0px; border-bottom-width: 0px; font-weight: normal; margin-bottom: 0px; padding-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0px; border-left-width: 0px; border-right-width: 0px; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; padding-right: 0px; font-size: 1.1em; font-variant: inherit; margin-right: 0px; padding-top: 0px; border-left-style: none; vertical-align: baseline; font-style: inherit">
+        <font color="rgb(0, 0, 255)" face="Oxygen, sans-serif, Arial, Helvetica" size="inherit"><a style="border-right-style: none; margin-left: 0px; text-decoration: underline; border-bottom-width: 0px; font-weight: 400; padding-bottom: 0px; margin-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0px; border-left-width: 0px; border-right-width: 0px; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; padding-right: 0px; color: rgb(0, 0, 255); font-size: inherit; font-variant: inherit; margin-right: 0px; padding-top: 0px; border-left-style: none; vertical-align: baseline; font-style: inherit" href="http://www.gardeningknowhow.com/ornamental/flowers/hollyhock/tips-on-hollyhocks-growing-hollyhocks-successfully.htm"><u>Hollyhock</u></a></font>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_740988323" CREATED="1434127501854" MODIFIED="1434127501854" LINK="http://www.gardeningknowhow.com/ornamental/flowers/larkspur/growing-annual-larkspur-plants.htm"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul style="background-color: rgb(255, 255, 255); border-right-style: none; margin-left: 0px; border-bottom-width: 0px; font-weight: normal; word-spacing: 0px; margin-bottom: 0; padding-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0; border-left-width: 0px; text-indent: 0px; list-style: disc; border-right-width: 0px; letter-spacing: normal; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; color: rgb(51, 51, 51); padding-right: 0px; font-size: 1.1em; font-variant: normal; margin-right: 0; text-transform: none; white-space: normal; padding-top: 0px; border-left-style: none; text-align: start; vertical-align: baseline; font-style: normal" charset="utf-8">
+      <li style="border-right-style: none; margin-left: 0px; border-bottom-width: 0px; font-weight: normal; margin-bottom: 0px; padding-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0px; border-left-width: 0px; border-right-width: 0px; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; padding-right: 0px; font-size: 1.1em; font-variant: inherit; margin-right: 0px; padding-top: 0px; border-left-style: none; vertical-align: baseline; font-style: inherit">
+        <font color="rgb(0, 0, 255)" face="Oxygen, sans-serif, Arial, Helvetica" size="inherit"><a style="border-right-style: none; margin-left: 0px; text-decoration: underline; border-bottom-width: 0px; font-weight: 400; padding-bottom: 0px; margin-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0px; border-left-width: 0px; border-right-width: 0px; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; padding-right: 0px; color: rgb(0, 0, 255); font-size: inherit; font-variant: inherit; margin-right: 0px; padding-top: 0px; border-left-style: none; vertical-align: baseline; font-style: inherit" href="http://www.gardeningknowhow.com/ornamental/flowers/larkspur/growing-annual-larkspur-plants.htm"><u>Larkspur</u></a></font>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1725982316" CREATED="1434127501863" MODIFIED="1434127501863" LINK="http://www.gardeningknowhow.com/ornamental/flowers/begonia/growing-begonias-from-corms.htm"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul style="background-color: rgb(255, 255, 255); border-right-style: none; margin-left: 0px; border-bottom-width: 0px; font-weight: normal; word-spacing: 0px; margin-bottom: 0; padding-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0; border-left-width: 0px; text-indent: 0px; list-style: disc; border-right-width: 0px; letter-spacing: normal; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; color: rgb(51, 51, 51); padding-right: 0px; font-size: 1.1em; font-variant: normal; margin-right: 0; text-transform: none; white-space: normal; padding-top: 0px; border-left-style: none; text-align: start; vertical-align: baseline; font-style: normal" charset="utf-8">
+      <li style="border-right-style: none; margin-left: 0px; border-bottom-width: 0px; font-weight: normal; margin-bottom: 0px; padding-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0px; border-left-width: 0px; border-right-width: 0px; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; padding-right: 0px; font-size: 1.1em; font-variant: inherit; margin-right: 0px; padding-top: 0px; border-left-style: none; vertical-align: baseline; font-style: inherit">
+        <font color="rgb(0, 0, 255)" face="Oxygen, sans-serif, Arial, Helvetica" size="inherit"><a style="border-right-style: none; margin-left: 0px; text-decoration: underline; border-bottom-width: 0px; font-weight: 400; padding-bottom: 0px; margin-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0px; border-left-width: 0px; border-right-width: 0px; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; padding-right: 0px; color: rgb(0, 0, 255); font-size: inherit; font-variant: inherit; margin-right: 0px; padding-top: 0px; border-left-style: none; vertical-align: baseline; font-style: inherit" href="http://www.gardeningknowhow.com/ornamental/flowers/begonia/growing-begonias-from-corms.htm"><u>Tuberous begonia</u></a></font>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_570645441" CREATED="1434127501871" MODIFIED="1434127501871" LINK="http://www.gardeningknowhow.com/ornamental/flowers/turtlehead/turtlehead-flower-information.htm"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul style="background-color: rgb(255, 255, 255); border-right-style: none; margin-left: 0px; border-bottom-width: 0px; font-weight: normal; word-spacing: 0px; margin-bottom: 0; padding-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0; border-left-width: 0px; text-indent: 0px; list-style: disc; border-right-width: 0px; letter-spacing: normal; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; color: rgb(51, 51, 51); padding-right: 0px; font-size: 1.1em; font-variant: normal; margin-right: 0; text-transform: none; white-space: normal; padding-top: 0px; border-left-style: none; text-align: start; vertical-align: baseline; font-style: normal" charset="utf-8">
+      <li style="border-right-style: none; margin-left: 0px; border-bottom-width: 0px; font-weight: normal; margin-bottom: 0px; padding-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0px; border-left-width: 0px; border-right-width: 0px; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; padding-right: 0px; font-size: 1.1em; font-variant: inherit; margin-right: 0px; padding-top: 0px; border-left-style: none; vertical-align: baseline; font-style: inherit">
+        <font color="rgb(0, 0, 255)" face="Oxygen, sans-serif, Arial, Helvetica" size="inherit"><a style="border-right-style: none; margin-left: 0px; text-decoration: underline; border-bottom-width: 0px; font-weight: 400; padding-bottom: 0px; margin-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0px; border-left-width: 0px; border-right-width: 0px; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; padding-right: 0px; color: rgb(0, 0, 255); font-size: inherit; font-variant: inherit; margin-right: 0px; padding-top: 0px; border-left-style: none; vertical-align: baseline; font-style: inherit" href="http://www.gardeningknowhow.com/ornamental/flowers/turtlehead/turtlehead-flower-information.htm"><u>Verbena</u></a></font>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_668633504" CREATED="1434127501903" MODIFIED="1434127501903" LINK="http://www.gardeningknowhow.com/ornamental/flowers/dahlia/tips-dahlia-planting.htm"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul style="background-color: rgb(255, 255, 255); border-right-style: none; margin-left: 0px; border-bottom-width: 0px; font-weight: normal; word-spacing: 0px; margin-bottom: 0; padding-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0; border-left-width: 0px; text-indent: 0px; list-style: disc; border-right-width: 0px; letter-spacing: normal; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; color: rgb(51, 51, 51); padding-right: 0px; font-size: 1.1em; font-variant: normal; margin-right: 0; text-transform: none; white-space: normal; padding-top: 0px; border-left-style: none; text-align: start; vertical-align: baseline; font-style: normal" charset="utf-8">
+      <li style="border-right-style: none; margin-left: 0px; border-bottom-width: 0px; font-weight: normal; margin-bottom: 0px; padding-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0px; border-left-width: 0px; border-right-width: 0px; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; padding-right: 0px; font-size: 1.1em; font-variant: inherit; margin-right: 0px; padding-top: 0px; border-left-style: none; vertical-align: baseline; font-style: inherit">
+        <font color="rgb(0, 0, 255)" face="Oxygen, sans-serif, Arial, Helvetica" size="inherit"><a style="border-right-style: none; margin-left: 0px; text-decoration: underline; border-bottom-width: 0px; font-weight: 400; padding-bottom: 0px; margin-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0px; border-left-width: 0px; border-right-width: 0px; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; padding-right: 0px; color: rgb(0, 0, 255); font-size: inherit; font-variant: inherit; margin-right: 0px; padding-top: 0px; border-left-style: none; vertical-align: baseline; font-style: inherit" href="http://www.gardeningknowhow.com/ornamental/flowers/dahlia/tips-dahlia-planting.htm"><u>Dahlia</u></a></font>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1657045692" CREATED="1434127501913" MODIFIED="1434127501913" LINK="http://www.gardeningknowhow.com/ornamental/flowers/zinnia/growing-zinnia-flowers.htm"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul style="background-color: rgb(255, 255, 255); border-right-style: none; margin-left: 0px; border-bottom-width: 0px; font-weight: normal; word-spacing: 0px; margin-bottom: 0; padding-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0; border-left-width: 0px; text-indent: 0px; list-style: disc; border-right-width: 0px; letter-spacing: normal; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; color: rgb(51, 51, 51); padding-right: 0px; font-size: 1.1em; font-variant: normal; margin-right: 0; text-transform: none; white-space: normal; padding-top: 0px; border-left-style: none; text-align: start; vertical-align: baseline; font-style: normal" charset="utf-8">
+      <li style="border-right-style: none; margin-left: 0px; border-bottom-width: 0px; font-weight: normal; margin-bottom: 0px; padding-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0px; border-left-width: 0px; border-right-width: 0px; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; padding-right: 0px; font-size: 1.1em; font-variant: inherit; margin-right: 0px; padding-top: 0px; border-left-style: none; vertical-align: baseline; font-style: inherit">
+        <font color="rgb(0, 0, 255)" face="Oxygen, sans-serif, Arial, Helvetica" size="inherit"><a style="border-right-style: none; margin-left: 0px; text-decoration: underline; border-bottom-width: 0px; font-weight: 400; padding-bottom: 0px; margin-bottom: 0px; margin-top: 0px; border-bottom-style: none; padding-left: 0px; border-left-width: 0px; border-right-width: 0px; border-top-style: none; line-height: inherit; font-family: Oxygen, sans-serif, Arial, Helvetica; border-top-width: 0px; padding-right: 0px; color: rgb(0, 0, 255); font-size: inherit; font-variant: inherit; margin-right: 0px; padding-top: 0px; border-left-style: none; vertical-align: baseline; font-style: inherit" href="http://www.gardeningknowhow.com/ornamental/flowers/zinnia/growing-zinnia-flowers.htm"><u>Zinnia</u></a></font>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Ladybugs: fennel, Dill, Cosmos, Coreopsis, Tansy, Yarrow, Fennel, and even Dandelion...&#xa;&#xa;Parasitic Wasps and Hoverflies: Sweet Alyssum, Monarda, Bugleweed (Ajuga),Thyme, Lavender,&#xa;&#xa;Lacewings: Sunflower, Tansy, Cosmos, Dill, Yarrow" ID="ID_1455790027" CREATED="1434127852696" MODIFIED="1434127854709"/>
+<node TEXT="i use neem oil. 1/2 tsp to 1qt water" ID="ID_867867908" CREATED="1434128007824" MODIFIED="1434128009338"/>
+<node TEXT="Soap note, it must be the old fashioned dish soap, baby or horse shampoo, not to exceed 1 tbsp of soap perf gal of water.&#xa;&#xa;Anti Bactererial, PT 409, any concetrated formula will make your plants sick.&#xa;&#xa;If the bugs are an off white, they might be whiteflies. Dishsoap is not enough to kill them&#xa;&#xa;Aphids and whiteflies are an every week to 10 day chore of killing them from the time the frost is out of the ground until the ground is frozen again.&#xa;&#xa;Aphids can fly 120 ft on a windless day, carried many miles in a 5 mph breeze, every born prego female produces 200 more every 2 weeks." ID="ID_627338578" CREATED="1434128087097" MODIFIED="1434130160650"/>
+</node>
+</node>
+</node>
+<node TEXT="Pests" ID="ID_658232606" CREATED="1433792163185" MODIFIED="1433792169493">
+<font SIZE="17" BOLD="true"/>
+<node TEXT="Olive Fly&#xa;(Bactrocera Oleae)&#xa;(Lasioptera berlesiana Paoli) ??" ID="ID_363045857" CREATED="1433873511711" MODIFIED="1433915674945">
+<font SIZE="16" BOLD="true"/>
+<node TEXT="Taxonomy" ID="ID_972097679" CREATED="1433874017596" MODIFIED="1433874021326">
+<font BOLD="true"/>
+<node ID="ID_1811581652" CREATED="1433874027027" MODIFIED="1433874045223"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      
+    </p>
+    <table height="206" cellpadding="4" cellspacing="1" bordercolordark="#FFFFFF" width="563" bordercolor="#008000" border="0" bordercolorlight="#FFFFFF">
+      <tr>
+        <td height="15" width="200" valign="top" align="left">
+          <b>Animal</b>
+        </td>
+        <td height="15" width="350" align="left">
+          &#160;&#160;&#160;&#160;&#160;&#160;
+        </td>
+      </tr>
+      <tr>
+        <td height="21" width="200" valign="top" align="left">
+          <b>&#160;&#160;Arthropoda</b>
+        </td>
+        <td height="21" width="350" valign="top" align="left">
+          Millipedes, centipedes, spiders, scorpions, crustaceans and insects
+        </td>
+      </tr>
+      <tr>
+        <td height="21" width="200" valign="top" align="left">
+          <b>&#160;&#160;&#160;&#160;Hexapoda</b>
+        </td>
+        <td height="21" width="350" valign="top" align="left">
+          While crustaceans are the dominant group of arthropods in marine environments, hexapods, including insects, rule the land
+        </td>
+      </tr>
+      <tr>
+        <td height="1" width="200" valign="top" align="left">
+          <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Insecta</b>
+        </td>
+        <td height="1" width="350" valign="top" align="left">
+          insect
+        </td>
+      </tr>
+      <tr>
+        <td height="21" width="200" valign="top" align="left">
+          <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Pterygota</b>
+        </td>
+        <td height="21" width="350" valign="top" align="left">
+          veined wings on the second (meso-) and third (meta-) thoracic segment
+        </td>
+      </tr>
+      <tr>
+        <td height="21" width="200" valign="top" align="left">
+          <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Neoptera</b>
+        </td>
+        <td height="21" width="350" valign="top" align="left">
+          have the ability to fold the wings back over their abdomen
+        </td>
+      </tr>
+      <tr>
+        <td height="21" width="200" valign="top" align="left">
+          <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Endopterygota</b>
+        </td>
+        <td height="21" width="350" valign="top" align="left">
+          insects with complete metamorphosis Four of the five largest orders of insects belong to this group (Coleoptera, Hymenoptera, Lepidoptera, and Diptera).
+        </td>
+      </tr>
+      <tr>
+        <td height="21" width="200" valign="top" align="left">
+          <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Diptera</b>
+        </td>
+        <td height="21" width="350" valign="top" align="left">
+          true flies with two wings
+        </td>
+      </tr>
+      <tr>
+        <td height="21" width="200" valign="top" align="left">
+          <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Tephritidae</b>
+        </td>
+        <td height="21" width="350" valign="top" align="left">
+          fruit flies, the most agriculturally important family of flies
+        </td>
+      </tr>
+      <tr>
+        <td height="21" width="200" valign="top" align="left">
+          <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Dacinae</b>
+        </td>
+        <td height="21" width="350" valign="top" align="left">
+          subfamily
+        </td>
+      </tr>
+      <tr>
+        <td height="21" width="200" valign="top" align="left">
+          <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Dacini</b>
+        </td>
+        <td height="21" width="350" valign="top" align="left">
+          tribe
+        </td>
+      </tr>
+      <tr>
+        <td height="21" width="200" valign="top" align="left">
+          <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Bactrocera</b>
+        </td>
+        <td height="21" width="350" valign="top" align="left">
+          Genus
+        </td>
+      </tr>
+      <tr>
+        <td height="21" width="200" valign="top" align="left">
+          <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Oleae</b>
+        </td>
+        <td height="21" width="350" valign="top" align="left">
+          Species - the olive fly
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Treatment" ID="ID_1725884955" CREATED="1433874584361" MODIFIED="1433874599809" LINK="#ID_1824990568">
+<font BOLD="true"/>
+</node>
+<node TEXT="Now back to the parasites and their habitats. Since it seems like all resources point to them as a starting point of biological pest control.&#xa;Utetes Africanus&#xa;Bracon Celer&#xa;Psyttalia Concolor&#xa;Psyttalia lounsburyi&#xa;Fopius Arisanus&#xa;&#xa;Apparently Mr. Concolor seems to have high effectiveness in some trials in California. Anyone know anything about any of these beneficials and their habits, habitats, and what plants attract them? Perhaps offer alternative food sources? Overwintering/summering locations? Etc etc." ID="ID_1641077156" CREATED="1433875013046" MODIFIED="1433875524071"/>
+<node TEXT="In California" ID="ID_410844197" CREATED="1433876167048" MODIFIED="1433915980322">
+<font BOLD="true"/>
+<node TEXT="http://cesonoma.ucdavis.edu/files/27487.pdf" ID="ID_1768179160" CREATED="1433876172674" MODIFIED="1433876172674" LINK="http://cesonoma.ucdavis.edu/files/27487.pdf"/>
+</node>
+</node>
+<node TEXT=" Spider mites (Two-spotted spider mite)" ID="ID_915859341" CREATED="1433956384683" MODIFIED="1433956394577">
+<font SIZE="16" BOLD="true"/>
+<node ID="ID_791103689" CREATED="1433956302745" MODIFIED="1433956363935"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="padding-bottom: 30px" id="diseases">
+      <h4>
+        Spider mites (Two-spotted spider mite)<br/><i>Tetranychus urticae</i>
+      </h4>
+      <h5>
+        Symptoms
+      </h5>
+      <div class="symptoms">
+        Leaves stippled with yellow; leaves may appear bronzed; webbing covering leaves; mites may be visible as tiny moving dots on the webs or underside of leaves, best viewed using a hand lens; usually not spotted until there are visible symptoms on the plant; leaves turn yellow and may drop from plant
+      </div>
+      <h5>
+        Cause
+      </h5>
+      <div class="cause">
+        Arachnid
+      </div>
+      <h5>
+        Comments
+      </h5>
+      <div class="comments">
+        Spider mites thrive in dusty conditions; water-stressed plants are more susceptible to attack
+      </div>
+      <div class="management">
+        <h5>
+          Management
+        </h5>
+        In the home garden, spraying plants with a strong jet of water can help reduce buildup of spider mite populations; if mites become problematic apply insecticidal soap to plants; certain chemical insecticides may actually increase mite populations by killing off natural enemies and promoting mite reproduction
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Artichoke plume moth" ID="ID_1747421008" CREATED="1433956468125" MODIFIED="1433956471964">
+<font SIZE="16" BOLD="true"/>
+<node ID="ID_428763579" CREATED="1433956257309" MODIFIED="1433956466422"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="padding-bottom: 30px" id="diseases">
+      <h4>
+        Artichoke plume moth<br/><i>Platyptilia carduidactyla</i>
+      </h4>
+      <div id="links-disease-30">
+        <div class="medium-images">
+          <div style="display: inline-block">
+            <a href="http://s3.amazonaws.com/plantvillage/images/pics/000/000/583/large/Artichoke_plume_moth.jpg?1369423365" target="_blank" data-description="
+by Mark Dreiling, Bugwood.org
+Licensed by Creative Commons
+Attribution 3.0
+http://www.forestryimages.org/browse/detail.cfm?imgnum=5462154" title="Artichoke plume moth" data-gallery="#blueimp-gallery-disease-30"><img src="http://s3.amazonaws.com/plantvillage/images/pics/000/000/583/medium/Artichoke_plume_moth.jpg?1369423365" alt="Artichoke_plume_moth.jpg" class="img-rounded"/>
+            </a><br/>
+            
+
+            <div class="image_caption">
+              Artichoke plume moth
+            </div>
+          </div>
+        </div>
+        <div class="medium-images">
+          
+        </div>
+        <div class="medium-images">
+          
+        </div>
+      </div>
+      <div id="blueimp-gallery-disease-30" class="blueimp-gallery">
+        <div class="slides">
+          
+        </div>
+        <h3 class="title">
+          
+        </h3>
+        <p class="description">
+          
+        </p>
+        <a class="prev">&#8249;</a>&#160;<a class="next">&#8250;</a>&#160;<a class="close">&#215;</a>&#160;<a class="play-pause">
+</a>
+        <ol class="indicator">
+          
+        </ol>
+      </div>
+      <h5>
+        Symptoms
+      </h5>
+      <div class="symptoms">
+        Holes in leaves and stems which are discolored black and filled with frass (insect excrement)
+      </div>
+      <h5>
+        Cause
+      </h5>
+      <div class="cause">
+        Insect
+      </div>
+      <h5>
+        Comments
+      </h5>
+      <div class="comments">
+        More of a problem when growing artichoke as a perennial
+      </div>
+      <div class="management">
+        <h5>
+          Management
+        </h5>
+        Pick all infested buds at harvest and destroy; cut plant stems above ground, shred plants and incorporate into soil; apply <i>Bacillus thuringiensis</i>&#160;or insecticide
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Armyworms (Beet armyworm, Yellow striped armyworm)" ID="ID_1420497422" CREATED="1433956486620" MODIFIED="1433956489974">
+<font SIZE="16" BOLD="true"/>
+<node ID="ID_1143576096" CREATED="1433956271879" MODIFIED="1433956485059"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="padding-bottom: 30px" id="diseases">
+      <h4>
+        Armyworms (Beet armyworm, Yellow striped armyworm)<br/><i>Spodoptera exigua<br/>Spodoptera ornithogalli</i>
+      </h4>
+      <div id="links-disease-1407">
+        <div class="medium-images">
+          <div style="display: inline-block">
+            <a href="http://s3.amazonaws.com/plantvillage/images/pics/000/001/463/large/Beet_armyworm_1.jpg?1379080797" target="_blank" data-description="John C. French Sr., Retired, Universities:Auburn, GA, Clemson and U of MO, Bugwood.org
+Licensed by Creative Commons
+Attribution-NonCommercial 3.0
+http://www.ipmimages.org/browse/detail.cfm?imgnum=1599774" title="Beet armyworm larva" data-gallery="#blueimp-gallery-disease-1407"><img src="http://s3.amazonaws.com/plantvillage/images/pics/000/001/463/medium/Beet_armyworm_1.jpg?1379080797" alt="Beet_armyworm_1.jpg" class="img-rounded"/>
+            </a><br/>
+            
+
+            <div class="image_caption">
+              Beet armyworm larva
+            </div>
+          </div>
+        </div>
+        <div class="medium-images">
+          
+        </div>
+        <div class="medium-images">
+          
+        </div>
+      </div>
+      <div id="blueimp-gallery-disease-1407" class="blueimp-gallery">
+        <div class="slides">
+          
+        </div>
+        <h3 class="title">
+          
+        </h3>
+        <p class="description">
+          
+        </p>
+        <a class="prev">&#8249;</a>&#160;<a class="next">&#8250;</a>&#160;<a class="close">&#215;</a>&#160;<a class="play-pause">
+</a>
+        <ol class="indicator">
+          
+        </ol>
+      </div>
+      <h5>
+        Symptoms
+      </h5>
+      <div class="symptoms">
+        Singular, or closely grouped circular to irregularly shaped holes in foliage; heavy feeding by young larvae leads to skeletonized leaves; shallow, dry wounds on fruit; egg clusters of 50-150 eggs may be present on the leaves; egg clusters are covered in a whitish scale which gives the cluster a cottony or fuzzy appearance; young larvae are pale green to yellow in color while older larvae are generally darker green with a dark and light line running along the side of their body and a pink or yellow underside
+      </div>
+      <h5>
+        Cause
+      </h5>
+      <div class="cause">
+        Insect
+      </div>
+      <h5>
+        Comments
+      </h5>
+      <div class="comments">
+        Insect can go through 3&#8211;5 generations a year
+      </div>
+      <div class="management">
+        <h5>
+          Management
+        </h5>
+        Organic methods of controlling armyworms include biological control by natural enemies which parasitize the larvae and the application of <i>Bacillus thuringiensis</i>; there are chemicals available for commercial control but many that are available for the home garden do not provide adequate control of the larvae
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Loopers (Cabbage looper, Alfalfa looper)" ID="ID_1011249881" CREATED="1433956506254" MODIFIED="1433956511930">
+<font SIZE="16" BOLD="true"/>
+<node ID="ID_1852172151" CREATED="1433956283663" MODIFIED="1433956505464"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="padding-bottom: 30px" id="diseases">
+      <h4>
+        Loopers (Cabbage looper, Alfalfa looper)<br/><i>Trichoplusia ni</i><br/>Autographa californica
+      </h4>
+      <div id="links-disease-1408">
+        <div class="medium-images">
+          <div style="display: inline-block">
+            <a href="http://s3.amazonaws.com/plantvillage/images/pics/000/001/464/large/Cabbage_looper.JPG?1379081056" target="_blank" data-description="R.J. Reynolds Tobacco Company Slide Set, R.J. Reynolds Tobacco Company, Bugwood.org
+Licensed by Creative Commons
+Attribution 3.0
+http://www.ipmimages.org/browse/detail.cfm?imgnum=1402128" title="Cabbage looper" data-gallery="#blueimp-gallery-disease-1408"><img src="http://s3.amazonaws.com/plantvillage/images/pics/000/001/464/medium/Cabbage_looper.JPG?1379081056" alt="Cabbage_looper.JPG" class="img-rounded"/>
+            </a><br/>
+            
+
+            <div class="image_caption">
+              Cabbage looper
+            </div>
+          </div>
+        </div>
+        <div class="medium-images">
+          
+        </div>
+        <div class="medium-images">
+          
+        </div>
+      </div>
+      <div id="blueimp-gallery-disease-1408" class="blueimp-gallery">
+        <div class="slides">
+          
+        </div>
+        <h3 class="title">
+          
+        </h3>
+        <p class="description">
+          
+        </p>
+        <a class="prev">&#8249;</a>&#160;<a class="next">&#8250;</a>&#160;<a class="close">&#215;</a>&#160;<a class="play-pause">
+</a>
+        <ol class="indicator">
+          
+        </ol>
+      </div>
+      <h5>
+        Symptoms
+      </h5>
+      <div class="symptoms">
+        Large or small holes in leaves; damage often extensive; caterpillars are pale green with a white lines running down either side of their body; caterpillars are easily distinguished by the way they arch their body when moving; eggs are laid singly, usually on the lower leaf surface close to the leaf margin, and are white or pale green in color
+      </div>
+      <h5>
+        Cause
+      </h5>
+      <div class="cause">
+        Insect
+      </div>
+      <h5>
+        Comments
+      </h5>
+      <div class="comments">
+        Insects overwinter as pupae in crop debris in soil; adult insect id a dark colored moth; caterpillars have a wide host range
+      </div>
+      <div class="management">
+        <h5>
+          Management
+        </h5>
+        Looper populations are usually held in check by natural enemies; if they do become problematic larvae can be hand-picked from the plants; an organically acceptable control method is the application of <i>Bacillus thuringiensis</i>&#160;which effectively kills younger larvae; chemical sprays may damage populations of natural enemies and should and should be selected carefully
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Flea beetle (Palestriped flea beetle)" ID="ID_1110644100" CREATED="1433956524162" MODIFIED="1433956529303">
+<font SIZE="16" BOLD="true"/>
+<node ID="ID_1210689749" CREATED="1433956294342" MODIFIED="1433956523637"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="padding-bottom: 30px" id="diseases">
+      <h4>
+        Flea beetle (Palestriped flea beetle)<br/><i>Systena blanda</i>
+      </h4>
+      <div id="links-disease-1409">
+        <div class="medium-images">
+          <div style="display: inline-block">
+            <a href="http://s3.amazonaws.com/plantvillage/images/pics/000/001/465/large/1475013-SMPT.jpg?1379081330" target="_blank" data-description="Whitney Cranshaw, Colorado State University, Bugwood.org 
+Licensed by Creative Commons
+Attribution 3.0
+http://www.forestryimages.org/browse/detail.cfm?imgnum=1475013" title="Palestriped flea beetle" data-gallery="#blueimp-gallery-disease-1409"><img src="http://s3.amazonaws.com/plantvillage/images/pics/000/001/465/medium/1475013-SMPT.jpg?1379081330" alt="1475013-SMPT.jpg" class="img-rounded"/>
+            </a><br/>
+            
+
+            <div class="image_caption">
+              Palestriped flea beetle
+            </div>
+          </div>
+        </div>
+        <div class="medium-images">
+          
+        </div>
+        <div class="medium-images">
+          
+        </div>
+      </div>
+      <div id="blueimp-gallery-disease-1409" class="blueimp-gallery">
+        <div class="slides">
+          
+        </div>
+        <h3 class="title">
+          
+        </h3>
+        <p class="description">
+          
+        </p>
+        <a class="prev">&#8249;</a>&#160;<a class="next">&#8250;</a>&#160;<a class="close">&#215;</a>&#160;<a class="play-pause">
+</a>
+        <ol class="indicator">
+          
+        </ol>
+      </div>
+      <h5>
+        Symptoms
+      </h5>
+      <div class="symptoms">
+        Small holes or pits in leaves that give the foliage a characteristic &#8220;shothole&#8221; appearance; young plants and seedlings are particularly susceptible; plant growth may be reduced; if damage is severe the plant may be killed; the pest responsible for the damage is a small (1.5&#8211;3.0 mm) dark colored beetle which jumps when disturbed; the beetles are often shiny in appearance
+      </div>
+      <h5>
+        Cause
+      </h5>
+      <div class="cause">
+        Insects
+      </div>
+      <h5>
+        Comments
+      </h5>
+      <div class="comments">
+        Younger plants are more susceptible to flea beetle damage than older ones; older plants can tolerate infestation; flea beetles may overwinter on nearby weed species, in plant debris or in the soil; insects may go through a second or third generation in one year
+      </div>
+      <div class="management">
+        <h5>
+          Management
+        </h5>
+        In areas where flea beetles are a problem, floating row covers may have to be used prior to the emergence of the beetles to provide a physical barrier to protect young plants; plant seeds early to allow establishment before the beetles become a problem - mature plants are less susceptible to damage; trap crops may provide a measure of control - cruciferous plants are best; application of a thick layer of mulch may help prevent beetles reaching surface; application on diamotecoeus earth or oils such as neem oil are effective control methods for organic growers; application of insecticides containing carbaryl, spinosad, bifenthrin and permethrin can provide adequate control of beetles for up to a week but will need reapplied
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Artichoke aphid" ID="ID_1538305351" CREATED="1433956582836" MODIFIED="1433956586103">
+<font SIZE="16" BOLD="true"/>
+<node ID="ID_253250484" CREATED="1433956242702" MODIFIED="1433956581604"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="padding-bottom: 30px" id="diseases">
+      <h4>
+        Artichoke aphid<br/><i>Capitophorous elaeagni</i><br/>
+      </h4>
+      <div id="links-disease-28">
+        <div class="medium-images">
+          <div style="display: inline-block">
+            <a href="http://s3.amazonaws.com/plantvillage/images/pics/000/000/581/large/Artichoke_aphids.jpg?1369423145" target="_blank" data-description="Paul Sullivan 
+Licensed by Creative Commons
+Attribution-NoDerivs 2.0
+http://www.flickr.com/photos/pfsullivan_1056/6370759995/" title="Artichoke aphid colony" data-gallery="#blueimp-gallery-disease-28"><img src="http://s3.amazonaws.com/plantvillage/images/pics/000/000/581/medium/Artichoke_aphids.jpg?1369423145" alt="Artichoke_aphids.jpg" class="img-rounded"/>
+            </a><br/>
+            
+
+            <div class="image_caption">
+              Artichoke aphid colony
+            </div>
+          </div>
+        </div>
+        <div class="medium-images">
+          
+        </div>
+        <div class="medium-images">
+          
+        </div>
+      </div>
+      <div id="blueimp-gallery-disease-28" class="blueimp-gallery">
+        <div class="slides">
+          
+        </div>
+        <h3 class="title">
+          
+        </h3>
+        <p class="description">
+          
+        </p>
+        <a class="prev">&#8249;</a>&#160;<a class="next">&#8250;</a>&#160;<a class="close">&#215;</a>&#160;<a class="play-pause">
+</a>
+        <ol class="indicator">
+          
+        </ol>
+      </div>
+      <h5>
+        Symptoms
+      </h5>
+      <div class="symptoms">
+        Leaves curling and turning yellow; reduced plant growth; small, deformed buds; stalks cannot support weight of buds and droop; sooty mold growing on plants due to honeydew deposits secreted by insect; insect is small, soft-bodied and pale green to yellowish green in color
+      </div>
+      <h5>
+        Cause
+      </h5>
+      <div class="cause">
+        Insect
+      </div>
+      <h5>
+        Comments
+      </h5>
+      <div class="comments">
+        Symptoms occur when aphid numbers are large; insects should be visible on underside of leaves; become more problematic in high temperatures and humidity<br/>
+      </div>
+      <div class="management">
+        <h5>
+          Management
+        </h5>
+        Destroy plant immediately after harvest to prevent population spread; wash aphids from plants with a strong stream of water; insecticidal soaps or oils such as neem or canola oil are effective organically acceptable methods of control
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Aphid" ID="ID_647213917" CREATED="1434127189931" MODIFIED="1434127204454">
+<font SIZE="16" BOLD="true"/>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="Biology/Botany" POSITION="left" ID="ID_136757392" CREATED="1429683468503" MODIFIED="1431177112249">
@@ -27839,25 +38088,29 @@
 <font BOLD="true"/>
 </node>
 </node>
-<node TEXT="Personal Candidates For Applications" LOCALIZED_STYLE_REF="styles.topic" POSITION="left" ID="ID_1710041667" CREATED="1431161762194" MODIFIED="1431161864942">
-<font SIZE="15"/>
+<node TEXT="Personal Candidates For Applications" LOCALIZED_STYLE_REF="styles.topic" POSITION="left" ID="ID_1710041667" CREATED="1431161762194" MODIFIED="1433617401667">
+<font SIZE="15" BOLD="true"/>
 <node TEXT="Shrub to Shade and Wind-block the water catchment" ID="ID_117777135" CREATED="1431161870583" MODIFIED="1431161908207">
 <font BOLD="true"/>
 <node TEXT="Loquat, Nispero&#xa;(Eriobotrya japonica)" ID="ID_1220334509" CREATED="1431162944724" MODIFIED="1431162952549" LINK="#ID_1826590538"/>
-<node TEXT="Catchment 2 (promenade level)" ID="ID_456332340" CREATED="1431175027783" MODIFIED="1431175045729">
-<font BOLD="true"/>
-<node TEXT="Loquat, Nispero&#xa;(Eriobotrya japonica)" ID="ID_21868059" CREATED="1431162944724" MODIFIED="1431162952549" LINK="#ID_1826590538"/>
-</node>
-<node TEXT="Catchment 1 (cherry trees)" ID="ID_347116524" CREATED="1431199427842" MODIFIED="1431199442281">
+<node TEXT="Catchment 1 (cherry trees/road terrace)" ID="ID_347116524" CREATED="1431199427842" MODIFIED="1432884538312">
 <font BOLD="true"/>
 <node TEXT="Shepards Cherry&#xa;(Arbutus unedo)" ID="ID_1858325347" CREATED="1431161919975" MODIFIED="1431162336389" LINK="#ID_1819847406"/>
 <node TEXT="Blueberries&#xa;(Vaccinium corymbosum)" ID="ID_1225870925" CREATED="1431162308477" MODIFIED="1431162319231" LINK="#ID_1970690252"/>
 <node TEXT="Cassava, Brazilian Arrowroot, Manioc, Tapioca&#xa;(Manihot esculenta)" ID="ID_714051789" CREATED="1431162727023" MODIFIED="1431162737425" LINK="#ID_1288518246"/>
 </node>
+<node TEXT="Catchment 2 (upper promenade level)" ID="ID_456332340" CREATED="1431175027783" MODIFIED="1432884546173">
+<font BOLD="true"/>
+<node TEXT="Loquat, Nispero&#xa;(Eriobotrya japonica)" ID="ID_21868059" CREATED="1431162944724" MODIFIED="1431162952549" LINK="#ID_1826590538"/>
+</node>
+<node TEXT="Catchment 3 (upper garden terrace)" ID="ID_446883437" CREATED="1432884547425" MODIFIED="1432884570613">
+<font BOLD="true"/>
+<node TEXT="Loquat, Nispero&#xa;(Eriobotrya japonica)" ID="ID_144667189" CREATED="1431162944724" MODIFIED="1431162952549" LINK="#ID_1826590538"/>
+</node>
 <node TEXT="Shade the chicken coop" ID="ID_952387505" CREATED="1431199481615" MODIFIED="1431199510345">
 <font BOLD="true"/>
 </node>
-<node TEXT="Shrub to separate the lpation and wok zone" ID="ID_763640949" CREATED="1431199512198" MODIFIED="1431199531344">
+<node TEXT="Shrub to separate the patio and work zone" ID="ID_763640949" CREATED="1431199512198" MODIFIED="1432884659989">
 <font BOLD="true"/>
 </node>
 </node>
@@ -27881,10 +38134,21 @@
 </node>
 </node>
 </node>
-<node TEXT="lfg;ajdhfg;ahjgf" POSITION="left" ID="ID_1607616093" CREATED="1432652373597" MODIFIED="1432652378360"/>
+<node TEXT="Ones to Investigate" POSITION="left" ID="ID_57684703" CREATED="1433617372729" MODIFIED="1433617396426">
+<font SIZE="15" BOLD="true"/>
+<node TEXT="Solanum khasianum (Indischer Nachtschatten)" ID="ID_1388120608" CREATED="1433617415507" MODIFIED="1433655216194">
+<font BOLD="true"/>
+<node TEXT="thorny, shruib" ID="ID_1263237418" CREATED="1433617436881" MODIFIED="1433617457611"/>
+<node TEXT="http://www.kraeuter-und-duftpflanzen.de/Nach-Verwendung/Pflanzen-fuer-den-Wintergarten/Pflanzen-fuer-den-Wintergarten-lauwarm-150C/Indischer-Nachtschatten-Saatgut?c=200" ID="ID_559931047" CREATED="1433655193803" MODIFIED="1433655193803" LINK="http://www.kraeuter-und-duftpflanzen.de/Nach-Verwendung/Pflanzen-fuer-den-Wintergarten/Pflanzen-fuer-den-Wintergarten-lauwarm-150C/Indischer-Nachtschatten-Saatgut?c=200"/>
+</node>
+<node TEXT="Erythrina crista-galli (Cockspur Coral Tree) growing south of the greenhouses at Cal Poly, San Luis Obispo, CA&#xa; &#xa;7May14 BushPhoto&#xa; &#xa;Fabaceae&#xa;Faboideae" ID="ID_1338531393" CREATED="1433485083868" MODIFIED="1433485091474">
+<node TEXT="beautiful flowers" ID="ID_1283889494" CREATED="1433617469792" MODIFIED="1433617476843"/>
+</node>
+</node>
 <node TEXT="TODO" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_988492698" CREATED="1429863654113" MODIFIED="1432574401654" HGAP="170" VSHIFT="-565">
 <font BOLD="true"/>
 <node TEXT="Figure out how to best record companion plantings. How to retrieve the nodes that are marked as compatable (or incompatible) to the selected one&#xa;&#xa;Sometimes there exists genus&apos;s that encompass a collection of species that all share the same attribute values (see Lavender, Rosemary). So the genus should have the attribute. Maybe a tag on genus the genus nodes that establish the presence of attributes that can be &apos;tuned up&apos; with t a script pimarily for genus recursively.&#xa;&#xa;Script to decrease or increase the font size recursively on a node and it&apos;s children except for leaf nodes&#xa;&#xa;Edit script for adding attributes to check for children int the config.&#xa;If a child exists then the first one is the default value given to the new att.&#xa;&#xa;Add a sort to the node details language labels on a species node setup&#xa;&#xa;Create a plugin that will display the notes of a node if it has a certain style. The styles that are valid are set in the config section. All styles under the config section will be included" ID="ID_1066845340" CREATED="1432574358772" MODIFIED="1432575173231"/>
 </node>
+<node TEXT="To add an Attribute, just click Alt+F9 and a box will open underneath the node." POSITION="right" ID="ID_43700150" CREATED="1434006083977" MODIFIED="1434006086789"/>
 </node>
 </map>
